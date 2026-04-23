@@ -1,0 +1,20 @@
+{
+  "name": "wp-migration-poc",
+  "version": "1.0.0",
+  "description": "WordPress content migration POC (plain Node.js)",
+  "private": true,
+  "scripts": {
+    "extract": "node scripts/extract.js",
+    "transform": "node scripts/transform.js",
+    "generate": "node scripts/generate.js",
+    "publish": "node scripts/publish.js",
+    "pipeline": "node scripts/extract.js && node scripts/transform.js && node scripts/generate.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "fs-extra": "^11.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "source": {
+    "baseUrl": "http://localhost/fsi_prudential_redesign_wp/",
+    "username": "test1user",
+    "applicationPassword": ""
+  },
+  "destination": {
+    "baseUrl": "http://iquanti-live.local",
+    "username": "admin",
+    "applicationPassword": "XmAl DvTX Ybsa xVOO nJaF Y0qm"
+  },
+  "extract": {
+    "endpoint": "/wp-json/wp/v2/posts",
+    "perPage": 20
+  }
+}
