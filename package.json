@@ -8,9 +8,11 @@
     "transform": "node scripts/transform.js",
     "generate": "node scripts/generate.js",
     "publish": "node scripts/publish.js",
-    "pipeline": "node scripts/extract.js && node scripts/transform.js && node scripts/generate.js"
+    "pipeline": "node scripts/extract.js && node scripts/transform.js && node scripts/generate.js",
+    "build:aem-package": "node scripts/build-aem-package.js"
   },
   "dependencies": {
+    "archiver": "^7.0.1",
     "axios": "^1.7.9",
     "fs-extra": "^11.2.0"
   },

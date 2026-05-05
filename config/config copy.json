@@ -1,6 +1,6 @@
 {
   "source": {
-    "baseUrl": "http://http://my-kts.local/",
+    "baseUrl": "http://localhost/fsi_prudential_redesign_wp/",
     "username": "test1user",
     "applicationPassword": ""
   },
