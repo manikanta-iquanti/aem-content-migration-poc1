@@ -14,7 +14,8 @@
   "dependencies": {
     "archiver": "^7.0.1",
     "axios": "^1.7.9",
-    "fs-extra": "^11.2.0"
+    "fs-extra": "^11.2.0",
+    "node-html-parser": "^7.1.0"
   },
   "engines": {
     "node": ">=18"

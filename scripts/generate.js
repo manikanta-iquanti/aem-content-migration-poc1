@@ -24,6 +24,7 @@ async function main() {
       title: p.title,
       status: "draft",
       content: p.contentHtml,
+      aemBlocks: p.aemBlocks,
       excerpt: p.excerpt,
     })),
   };

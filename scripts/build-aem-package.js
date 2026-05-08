@@ -4,18 +4,19 @@ const path = require("path");
 const fs = require("fs-extra");
 const archiver = require("archiver");
 
+const { wpHtmlToAemBlocks } = require("./lib/wp-html-to-aem-blocks");
+
 const ROOT = path.join(__dirname, "..");
 const CONFIG_PATH = path.join(ROOT, "config", "config.json");
 
 /**
- * Must match the exported blueprint at
+ * Must match the exported blueprint page title at
  * data/aem-node-context/jcr_root/.../article/.content.xml
- * Re-export the page and update these if the sample title/body change.
  */
 const BLUEPRINT_PAGE_JCR_TITLE = "article 1";
-const BLUEPRINT_COMPONENT_TITLE = "This is my 1st page title";
-const BLUEPRINT_TEXT_ATTR =
-  'text="&lt;p>Here is a sample text for my 1st page&lt;/p>&#xa;"';
+
+const WP_BODY_MARKER_START = "<!-- WP_MIGRATION_BODY_START -->";
+const WP_BODY_MARKER_END = "<!-- WP_MIGRATION_BODY_END -->";
 
 function escapeXmlAttr(value) {
   return String(value)
@@ -89,22 +90,161 @@ function loadAemConfig(config) {
   };
 }
 
-function pageXmlFromBlueprint(blueprintXml, title, html) {
-  let xml = blueprintXml;
-  const pageTitleEsc = escapeXmlAttr(title.trim());
-  const compTitleEsc = escapeXmlAttr(title.trim());
-  const bodyEsc = escapeXmlAttr(html ?? "");
+function extractSiteKeyFromBlueprint(blueprintXml) {
+  const m = blueprintXml.match(/sling:resourceType="([^/]+)\/components\/page"/);
+  return m ? m[1] : "my-aem-site53";
+}
 
+function renderTextComponent(siteKey, nodeName, html, escape) {
+  const esc = escape(html ?? "");
+  return `                    <${nodeName}
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="${siteKey}/components/text"
+                        text="${esc}"
+                        textIsRich="true"/>`;
+}
+
+function renderImageComponent(siteKey, nodeName, block, escape) {
+  const alt = escape(block.alt ?? "");
+  const src = escape(block.src ?? "");
+  const decorative =
+    !(block.alt && String(block.alt).trim()) ? "true" : "false";
+  return `                    <${nodeName}
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="${siteKey}/components/image"
+                        alt="${alt}"
+                        altValueFromDAM="false"
+                        displayPopupTitle="true"
+                        fileReference="${src}"
+                        imageFromPageImage="false"
+                        isDecorative="${decorative}"
+                        linkTarget="_self"
+                        titleValueFromDAM="true"/>`;
+}
+
+function renderAccordionComponent(siteKey, nodeName, panels, escape) {
+  const itemsXml = panels
+    .map((p, i) => {
+      const n = i + 1;
+      const titleEsc = escape(p.panelTitle || `Item ${n}`);
+      const bodyEsc = escape(
+        p.bodyHtml && String(p.bodyHtml).trim()
+          ? p.bodyHtml
+          : "<p></p>"
+      );
+      return `                        <item_${n}
+                            cq:panelTitle="${titleEsc}"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="${titleEsc}"
+                            sling:resourceType="${siteKey}/components/container"
+                            layout="responsiveGrid">
+                            <text
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="${siteKey}/components/text"
+                                text="${bodyEsc}"
+                                textIsRich="true"/>
+                        </item_${n}>`;
+    })
+    .join("\n");
+  return `                    <${nodeName}
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="${siteKey}/components/accordion"
+                        singleExpansion="false">
+${itemsXml}
+                    </${nodeName}>`;
+}
+
+/**
+ * @param {string} siteKey
+ * @param {Array<object>} blocks
+ * @param {(s: string) => string} escape
+ */
+function renderBodyXml(siteKey, blocks, escape) {
+  let textCount = 0;
+  let imageCount = 0;
+  let accordionCount = 0;
+  const parts = [];
+
+  for (const block of blocks) {
+    if (!block || typeof block !== "object") continue;
+    if (block.type === "text") {
+      textCount += 1;
+      const name = textCount === 1 ? "text" : `text_${textCount - 1}`;
+      parts.push(renderTextComponent(siteKey, name, block.html, escape));
+      continue;
+    }
+    if (block.type === "image") {
+      imageCount += 1;
+      const name =
+        imageCount === 1 ? "image" : `image_${imageCount - 1}`;
+      parts.push(renderImageComponent(siteKey, name, block, escape));
+      continue;
+    }
+    if (block.type === "accordion") {
+      const panels = Array.isArray(block.panels) ? block.panels : [];
+      if (panels.length === 0) continue;
+      accordionCount += 1;
+      const name =
+        accordionCount === 1
+          ? "accordion"
+          : `accordion_${accordionCount - 1}`;
+      parts.push(
+        renderAccordionComponent(siteKey, name, panels, escape)
+      );
+    }
+  }
+
+  if (parts.length === 0) {
+    parts.push(
+      renderTextComponent(
+        siteKey,
+        "text",
+        "<p></p>",
+        escape
+      )
+    );
+  }
+
+  return parts.join("\n");
+}
+
+function resolveBlocks(item) {
+  if (Array.isArray(item.aemBlocks) && item.aemBlocks.length > 0) {
+    return item.aemBlocks;
+  }
+  return wpHtmlToAemBlocks(item.content ?? "");
+}
+
+function pageXmlFromBlueprint(blueprintXml, title, blocks) {
+  let xml = blueprintXml;
+  const siteKey = extractSiteKeyFromBlueprint(blueprintXml);
+  const pageTitleEsc = escapeXmlAttr(title.trim());
   xml = xml.replace(
     `jcr:title="${BLUEPRINT_PAGE_JCR_TITLE}"`,
     `jcr:title="${pageTitleEsc}"`
   );
+
+  if (!xml.includes(WP_BODY_MARKER_START) || !xml.includes(WP_BODY_MARKER_END)) {
+    throw new Error(
+      `Blueprint must contain ${WP_BODY_MARKER_START} and ${WP_BODY_MARKER_END} around the main content container.`
+    );
+  }
+
+  const bodyXml = renderBodyXml(siteKey, blocks, escapeXmlAttr);
   xml = xml.replace(
-    `jcr:title="${BLUEPRINT_COMPONENT_TITLE}"`,
-    `jcr:title="${compTitleEsc}"`
+    new RegExp(
+      `(${escapeRegex(WP_BODY_MARKER_START)})\\s*[\\s\\S]*?\\s*(${escapeRegex(
+        WP_BODY_MARKER_END
+      )})`,
+      "m"
+    ),
+    `$1\n${bodyXml}\n                    $2`
   );
-  xml = xml.replace(BLUEPRINT_TEXT_ATTR, `text="${bodyEsc}"`);
   return xml;
+}
+
+function escapeRegex(s) {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 function workspaceFilterXml(parentJcrPath) {
@@ -219,10 +359,11 @@ async function main() {
       }
       seen.set(pageName, true);
 
+      const blocks = resolveBlocks(item);
       const xml = pageXmlFromBlueprint(
         blueprintXml,
         item.title || pageName,
-        item.content ?? ""
+        blocks
       );
       const pageDir = path.join(staging, jcrRootRel, pageName);
       await fs.ensureDir(pageDir);

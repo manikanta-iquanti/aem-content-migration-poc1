@@ -3,6 +3,8 @@
 const path = require("path");
 const fs = require("fs-extra");
 
+const { wpHtmlToAemBlocks } = require("./lib/wp-html-to-aem-blocks");
+
 const ROOT = path.join(__dirname, "..");
 const RAW_FILE = path.join(ROOT, "data", "raw", "posts.json");
 const OUT_DIR = path.join(ROOT, "data", "transformed");
@@ -30,6 +32,7 @@ async function main() {
       ? stripHtml(post.excerpt.rendered)
       : "",
     contentHtml: post.content?.rendered ?? "",
+    aemBlocks: wpHtmlToAemBlocks(post.content?.rendered ?? ""),
     link: post.link ?? "",
   }));
 
