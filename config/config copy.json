@@ -10,8 +10,14 @@
     "applicationPassword": "XmAl DvTX Ybsa xVOO nJaF Y0qm"
   },
   "extract": {
+    "mode": "wp-api",
     "endpoint": "/wp-json/wp/v2/posts",
-    "perPage": 20
+    "perPage": 20,
+    "scrape": {
+      "urls": [],
+      "contentSelector": "",
+      "timeoutMs": 20000
+    }
   },
   "aem": {
     "authorUrl": "http://localhost:8080",

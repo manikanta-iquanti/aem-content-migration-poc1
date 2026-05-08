@@ -1,14 +1,18 @@
 {
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\build-aem-package.js": {
-    "mtime": 1777982680.2726986,
+    "mtime": 1778239286.479205,
     "hash": "d49cc7a01ebe48d40a1043639afb5bcb"
   },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\extract-scrape.js": {
+    "mtime": 1778239801.9393687,
+    "hash": "cffeb8467d2b8ae8c3c66cf8ccf6cfaf"
+  },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\extract.js": {
-    "mtime": 1776148902.9959812,
-    "hash": "1663acdda5a2a941a93e38d3eb12a8f0"
+    "mtime": 1778239796.1703694,
+    "hash": "0b61dc5aaa7da269dc0cb55a05d28293"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\generate.js": {
-    "mtime": 1777982597.539256,
+    "mtime": 1778239286.478202,
     "hash": "3c4e8ee005189b549f0c1827b890a052"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\publish.js": {
@@ -16,16 +20,20 @@
     "hash": "a01510747a4f85685beb4867483335e7"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\transform.js": {
-    "mtime": 1777982599.3702712,
+    "mtime": 1778239286.4837265,
     "hash": "5a96928a00458a5c40ea14d335ba186f"
   },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\scrape-pages.js": {
+    "mtime": 1778239847.7777264,
+    "hash": "b06e39abe3afd80666c818983b333323"
+  },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\wp-html-to-aem-blocks.js": {
-    "mtime": 1777982594.773325,
+    "mtime": 1778239286.4837265,
     "hash": "eb22664e5592de6ccffa04860aadd95a"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\README.md": {
-    "mtime": 1777977921.6300967,
-    "hash": "7dd84b959716f300d9506b6ac7959334"
+    "mtime": 1778239711.2730463,
+    "hash": "90c726e64cae1176aaa50ecbdc5f8426"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\MyDocs\\dev-steps.md": {
     "mtime": 1777979813.224741,

@@ -10,8 +10,12 @@
     "applicationPassword": "XmAl DvTX Ybsa xVOO nJaF Y0qm"
   },
   "extract": {
-    "endpoint": "/wp-json/wp/v2/posts",
-    "perPage": 20
+    "mode": "scrape",
+    "scrape": {
+      "urls": ["http://192.168.186.1:8080/articles/santorini-blue-hour"],
+      "contentSelector": "",
+      "timeoutMs": 20000
+    }
   },
   "aem": {
     "authorUrl": "http://localhost:8080",

@@ -9,7 +9,7 @@
       "source_file": "build-aem-package.js",
       "source_location": "L1",
       "id": "build_aem_package_js",
-      "community": 0,
+      "community": 2,
       "norm_label": "build-aem-package.js"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "build-aem-package.js",
       "source_location": "L21",
       "id": "scripts_build_aem_package_escapexmlattr",
-      "community": 2,
+      "community": 4,
       "norm_label": "escapexmlattr()"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "build-aem-package.js",
       "source_location": "L30",
       "id": "scripts_build_aem_package_jcrpagename",
-      "community": 0,
+      "community": 2,
       "norm_label": "jcrpagename()"
     },
     {
@@ -36,7 +36,7 @@
       "source_file": "build-aem-package.js",
       "source_location": "L40",
       "id": "scripts_build_aem_package_loadaemconfig",
-      "community": 0,
+      "community": 2,
       "norm_label": "loadaemconfig()"
     },
     {
@@ -45,7 +45,7 @@
       "source_file": "build-aem-package.js",
       "source_location": "L93",
       "id": "scripts_build_aem_package_extractsitekeyfromblueprint",
-      "community": 2,
+      "community": 4,
       "norm_label": "extractsitekeyfromblueprint()"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "build-aem-package.js",
       "source_location": "L211",
       "id": "scripts_build_aem_package_resolveblocks",
-      "community": 0,
+      "community": 2,
       "norm_label": "resolveblocks()"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "build-aem-package.js",
       "source_location": "L218",
       "id": "scripts_build_aem_package_pagexmlfromblueprint",
-      "community": 2,
+      "community": 4,
       "norm_label": "pagexmlfromblueprint()"
     },
     {
@@ -108,7 +108,7 @@
       "source_file": "build-aem-package.js",
       "source_location": "L246",
       "id": "scripts_build_aem_package_escaperegex",
-      "community": 2,
+      "community": 4,
       "norm_label": "escaperegex()"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "build-aem-package.js",
       "source_location": "L250",
       "id": "scripts_build_aem_package_workspacefilterxml",
-      "community": 0,
+      "community": 2,
       "norm_label": "workspacefilterxml()"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "build-aem-package.js",
       "source_location": "L258",
       "id": "scripts_build_aem_package_packagepropertiesxml",
-      "community": 0,
+      "community": 2,
       "norm_label": "packagepropertiesxml()"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "build-aem-package.js",
       "source_location": "L277",
       "id": "scripts_build_aem_package_manifestmf",
-      "community": 0,
+      "community": 2,
       "norm_label": "manifestmf()"
     },
     {
@@ -144,7 +144,43 @@
       "source_file": "build-aem-package.js",
       "source_location": "L287",
       "id": "scripts_build_aem_package_main",
-      "community": 0,
+      "community": 2,
+      "norm_label": "main()"
+    },
+    {
+      "label": "extract-scrape.js",
+      "file_type": "code",
+      "source_file": "extract-scrape.js",
+      "source_location": "L1",
+      "id": "extract_scrape_js",
+      "community": 5,
+      "norm_label": "extract-scrape.js"
+    },
+    {
+      "label": "readArg()",
+      "file_type": "code",
+      "source_file": "extract-scrape.js",
+      "source_location": "L12",
+      "id": "scripts_extract_scrape_readarg",
+      "community": 5,
+      "norm_label": "readarg()"
+    },
+    {
+      "label": "collectArgs()",
+      "file_type": "code",
+      "source_file": "extract-scrape.js",
+      "source_location": "L18",
+      "id": "scripts_extract_scrape_collectargs",
+      "community": 5,
+      "norm_label": "collectargs()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "extract-scrape.js",
+      "source_location": "L29",
+      "id": "scripts_extract_scrape_main",
+      "community": 5,
       "norm_label": "main()"
     },
     {
@@ -157,10 +193,19 @@
       "norm_label": "extract.js"
     },
     {
+      "label": "extractFromWpApi()",
+      "file_type": "code",
+      "source_file": "extract.js",
+      "source_location": "L13",
+      "id": "scripts_extract_extractfromwpapi",
+      "community": 6,
+      "norm_label": "extractfromwpapi()"
+    },
+    {
       "label": "main()",
       "file_type": "code",
       "source_file": "extract.js",
-      "source_location": "L12",
+      "source_location": "L38",
       "id": "scripts_extract_main",
       "community": 6,
       "norm_label": "main()"
@@ -171,7 +216,7 @@
       "source_file": "generate.js",
       "source_location": "L1",
       "id": "generate_js",
-      "community": 7,
+      "community": 8,
       "norm_label": "generate.js"
     },
     {
@@ -180,7 +225,7 @@
       "source_file": "generate.js",
       "source_location": "L11",
       "id": "scripts_generate_main",
-      "community": 7,
+      "community": 8,
       "norm_label": "main()"
     },
     {
@@ -189,7 +234,7 @@
       "source_file": "publish.js",
       "source_location": "L1",
       "id": "publish_js",
-      "community": 8,
+      "community": 9,
       "norm_label": "publish.js"
     },
     {
@@ -198,7 +243,7 @@
       "source_file": "publish.js",
       "source_location": "L11",
       "id": "scripts_publish_main",
-      "community": 8,
+      "community": 9,
       "norm_label": "main()"
     },
     {
@@ -207,7 +252,7 @@
       "source_file": "transform.js",
       "source_location": "L1",
       "id": "transform_js",
-      "community": 4,
+      "community": 7,
       "norm_label": "transform.js"
     },
     {
@@ -216,7 +261,7 @@
       "source_file": "transform.js",
       "source_location": "L13",
       "id": "scripts_transform_striphtml",
-      "community": 4,
+      "community": 7,
       "norm_label": "striphtml()"
     },
     {
@@ -225,8 +270,107 @@
       "source_file": "transform.js",
       "source_location": "L18",
       "id": "scripts_transform_main",
-      "community": 4,
+      "community": 7,
       "norm_label": "main()"
+    },
+    {
+      "label": "scrape-pages.js",
+      "file_type": "code",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L1",
+      "id": "lib_scrape_pages_js",
+      "community": 0,
+      "norm_label": "scrape-pages.js"
+    },
+    {
+      "label": "normalizeBaseUrl()",
+      "file_type": "code",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L10",
+      "id": "lib_scrape_pages_normalizebaseurl",
+      "community": 0,
+      "norm_label": "normalizebaseurl()"
+    },
+    {
+      "label": "toAbsoluteUrl()",
+      "file_type": "code",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L15",
+      "id": "lib_scrape_pages_toabsoluteurl",
+      "community": 0,
+      "norm_label": "toabsoluteurl()"
+    },
+    {
+      "label": "textOnly()",
+      "file_type": "code",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L29",
+      "id": "lib_scrape_pages_textonly",
+      "community": 0,
+      "norm_label": "textonly()"
+    },
+    {
+      "label": "getMeta()",
+      "file_type": "code",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L36",
+      "id": "lib_scrape_pages_getmeta",
+      "community": 0,
+      "norm_label": "getmeta()"
+    },
+    {
+      "label": "deriveSlug()",
+      "file_type": "code",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L44",
+      "id": "lib_scrape_pages_deriveslug",
+      "community": 0,
+      "norm_label": "deriveslug()"
+    },
+    {
+      "label": "deriveNumericId()",
+      "file_type": "code",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L57",
+      "id": "lib_scrape_pages_derivenumericid",
+      "community": 0,
+      "norm_label": "derivenumericid()"
+    },
+    {
+      "label": "selectContentRoot()",
+      "file_type": "code",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L67",
+      "id": "lib_scrape_pages_selectcontentroot",
+      "community": 0,
+      "norm_label": "selectcontentroot()"
+    },
+    {
+      "label": "cleanupContent()",
+      "file_type": "code",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L91",
+      "id": "lib_scrape_pages_cleanupcontent",
+      "community": 0,
+      "norm_label": "cleanupcontent()"
+    },
+    {
+      "label": "extractPageData()",
+      "file_type": "code",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L109",
+      "id": "lib_scrape_pages_extractpagedata",
+      "community": 0,
+      "norm_label": "extractpagedata()"
+    },
+    {
+      "label": "scrapePagesToWpShape()",
+      "file_type": "code",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L143",
+      "id": "lib_scrape_pages_scrapepagestowpshape",
+      "community": 0,
+      "norm_label": "scrapepagestowpshape()"
     },
     {
       "label": "wp-html-to-aem-blocks.js",
@@ -243,7 +387,7 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L10",
       "id": "lib_wp_html_to_aem_blocks_iselement",
-      "community": 9,
+      "community": 1,
       "norm_label": "iselement()"
     },
     {
@@ -261,7 +405,7 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L18",
       "id": "lib_wp_html_to_aem_blocks_trimouter",
-      "community": 5,
+      "community": 1,
       "norm_label": "trimouter()"
     },
     {
@@ -279,7 +423,7 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L27",
       "id": "lib_wp_html_to_aem_blocks_firstimg",
-      "community": 9,
+      "community": 1,
       "norm_label": "firstimg()"
     },
     {
@@ -288,7 +432,7 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L34",
       "id": "lib_wp_html_to_aem_blocks_parsedetails",
-      "community": 5,
+      "community": 1,
       "norm_label": "parsedetails()"
     },
     {
@@ -297,7 +441,7 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L47",
       "id": "lib_wp_html_to_aem_blocks_classifyfigure",
-      "community": 5,
+      "community": 1,
       "norm_label": "classifyfigure()"
     },
     {
@@ -335,9 +479,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "build_aem_package_js",
-      "target": "scripts_build_aem_package_escapexmlattr",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_escapexmlattr"
     },
     {
       "relation": "contains",
@@ -345,9 +489,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "build_aem_package_js",
-      "target": "scripts_build_aem_package_jcrpagename",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_jcrpagename"
     },
     {
       "relation": "contains",
@@ -355,9 +499,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "build_aem_package_js",
-      "target": "scripts_build_aem_package_loadaemconfig",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_loadaemconfig"
     },
     {
       "relation": "contains",
@@ -365,9 +509,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L93",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "build_aem_package_js",
-      "target": "scripts_build_aem_package_extractsitekeyfromblueprint",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_extractsitekeyfromblueprint"
     },
     {
       "relation": "contains",
@@ -375,9 +519,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "build_aem_package_js",
-      "target": "scripts_build_aem_package_rendertextcomponent",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_rendertextcomponent"
     },
     {
       "relation": "contains",
@@ -385,9 +529,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L107",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "build_aem_package_js",
-      "target": "scripts_build_aem_package_renderimagecomponent",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_renderimagecomponent"
     },
     {
       "relation": "contains",
@@ -395,9 +539,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L125",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "build_aem_package_js",
-      "target": "scripts_build_aem_package_renderaccordioncomponent",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_renderaccordioncomponent"
     },
     {
       "relation": "contains",
@@ -405,9 +549,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L162",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "build_aem_package_js",
-      "target": "scripts_build_aem_package_renderbodyxml",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_renderbodyxml"
     },
     {
       "relation": "contains",
@@ -415,9 +559,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L211",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "build_aem_package_js",
-      "target": "scripts_build_aem_package_resolveblocks",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_resolveblocks"
     },
     {
       "relation": "contains",
@@ -425,9 +569,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L218",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "build_aem_package_js",
-      "target": "scripts_build_aem_package_pagexmlfromblueprint",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_pagexmlfromblueprint"
     },
     {
       "relation": "contains",
@@ -435,9 +579,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L246",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "build_aem_package_js",
-      "target": "scripts_build_aem_package_escaperegex",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_escaperegex"
     },
     {
       "relation": "contains",
@@ -445,9 +589,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L250",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "build_aem_package_js",
-      "target": "scripts_build_aem_package_workspacefilterxml",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_workspacefilterxml"
     },
     {
       "relation": "contains",
@@ -455,9 +599,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L258",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "build_aem_package_js",
-      "target": "scripts_build_aem_package_packagepropertiesxml",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_packagepropertiesxml"
     },
     {
       "relation": "contains",
@@ -465,9 +609,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L277",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "build_aem_package_js",
-      "target": "scripts_build_aem_package_manifestmf",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_manifestmf"
     },
     {
       "relation": "contains",
@@ -475,9 +619,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L287",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "build_aem_package_js",
-      "target": "scripts_build_aem_package_main",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_main"
     },
     {
       "relation": "calls",
@@ -486,9 +630,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L221",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_pagexmlfromblueprint",
-      "target": "scripts_build_aem_package_escapexmlattr",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_escapexmlattr"
     },
     {
       "relation": "calls",
@@ -497,9 +641,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L355",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_main",
-      "target": "scripts_build_aem_package_jcrpagename",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_jcrpagename"
     },
     {
       "relation": "calls",
@@ -508,9 +652,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L289",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_main",
-      "target": "scripts_build_aem_package_loadaemconfig",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_loadaemconfig"
     },
     {
       "relation": "calls",
@@ -519,9 +663,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L220",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_pagexmlfromblueprint",
-      "target": "scripts_build_aem_package_extractsitekeyfromblueprint",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_extractsitekeyfromblueprint"
     },
     {
       "relation": "calls",
@@ -530,9 +674,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L173",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_renderbodyxml",
-      "target": "scripts_build_aem_package_rendertextcomponent",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_rendertextcomponent"
     },
     {
       "relation": "calls",
@@ -541,9 +685,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L180",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_renderbodyxml",
-      "target": "scripts_build_aem_package_renderimagecomponent",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_renderimagecomponent"
     },
     {
       "relation": "calls",
@@ -552,9 +696,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L192",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_renderbodyxml",
-      "target": "scripts_build_aem_package_renderaccordioncomponent",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_renderaccordioncomponent"
     },
     {
       "relation": "calls",
@@ -563,9 +707,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L233",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_pagexmlfromblueprint",
-      "target": "scripts_build_aem_package_renderbodyxml",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_renderbodyxml"
     },
     {
       "relation": "calls",
@@ -574,9 +718,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L362",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_main",
-      "target": "scripts_build_aem_package_resolveblocks",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_resolveblocks"
     },
     {
       "relation": "calls",
@@ -596,9 +740,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L236",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_pagexmlfromblueprint",
-      "target": "scripts_build_aem_package_escaperegex",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_escaperegex"
     },
     {
       "relation": "calls",
@@ -607,9 +751,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L363",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_main",
-      "target": "scripts_build_aem_package_pagexmlfromblueprint",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_pagexmlfromblueprint"
     },
     {
       "relation": "calls",
@@ -618,9 +762,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L315",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_main",
-      "target": "scripts_build_aem_package_workspacefilterxml",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_workspacefilterxml"
     },
     {
       "relation": "calls",
@@ -629,9 +773,9 @@
       "source_file": "build-aem-package.js",
       "source_location": "L320",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_main",
-      "target": "scripts_build_aem_package_packagepropertiesxml",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_packagepropertiesxml"
     },
     {
       "relation": "calls",
@@ -640,8 +784,81 @@
       "source_file": "build-aem-package.js",
       "source_location": "L343",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_main",
-      "target": "scripts_build_aem_package_manifestmf",
+      "target": "scripts_build_aem_package_manifestmf"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "extract-scrape.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "extract_scrape_js",
+      "target": "scripts_extract_scrape_readarg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "extract-scrape.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "extract_scrape_js",
+      "target": "scripts_extract_scrape_collectargs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "extract-scrape.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "extract_scrape_js",
+      "target": "scripts_extract_scrape_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "extract-scrape.js",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "scripts_extract_scrape_main",
+      "target": "scripts_extract_scrape_readarg",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "extract-scrape.js",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "scripts_extract_scrape_main",
+      "target": "scripts_extract_scrape_collectargs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "extract-scrape.js",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "scripts_extract_scrape_main",
+      "target": "lib_scrape_pages_scrapepagestowpshape"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "extract.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "extract_js",
+      "target": "scripts_extract_extractfromwpapi",
       "confidence_score": 1.0
     },
     {
@@ -650,9 +867,31 @@
       "source_file": "extract.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "extract_js",
-      "target": "scripts_extract_main",
+      "target": "scripts_extract_main"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "extract.js",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "scripts_extract_main",
+      "target": "scripts_extract_extractfromwpapi",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "extract.js",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "scripts_extract_main",
+      "target": "lib_scrape_pages_scrapepagestowpshape"
     },
     {
       "relation": "contains",
@@ -660,9 +899,9 @@
       "source_file": "generate.js",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "generate_js",
-      "target": "scripts_generate_main",
-      "confidence_score": 1.0
+      "target": "scripts_generate_main"
     },
     {
       "relation": "contains",
@@ -670,9 +909,9 @@
       "source_file": "publish.js",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "publish_js",
-      "target": "scripts_publish_main",
-      "confidence_score": 1.0
+      "target": "scripts_publish_main"
     },
     {
       "relation": "contains",
@@ -680,9 +919,9 @@
       "source_file": "transform.js",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "transform_js",
-      "target": "scripts_transform_striphtml",
-      "confidence_score": 1.0
+      "target": "scripts_transform_striphtml"
     },
     {
       "relation": "contains",
@@ -690,8 +929,207 @@
       "source_file": "transform.js",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "transform_js",
-      "target": "scripts_transform_main",
+      "target": "scripts_transform_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_js",
+      "target": "lib_scrape_pages_normalizebaseurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_js",
+      "target": "lib_scrape_pages_toabsoluteurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_js",
+      "target": "lib_scrape_pages_textonly",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_js",
+      "target": "lib_scrape_pages_getmeta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_js",
+      "target": "lib_scrape_pages_deriveslug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_js",
+      "target": "lib_scrape_pages_derivenumericid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_js",
+      "target": "lib_scrape_pages_selectcontentroot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L91",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_js",
+      "target": "lib_scrape_pages_cleanupcontent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_js",
+      "target": "lib_scrape_pages_extractpagedata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_js",
+      "target": "lib_scrape_pages_scrapepagestowpshape",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_toabsoluteurl",
+      "target": "lib_scrape_pages_normalizebaseurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L158",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_scrapepagestowpshape",
+      "target": "lib_scrape_pages_toabsoluteurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_extractpagedata",
+      "target": "lib_scrape_pages_textonly",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_extractpagedata",
+      "target": "lib_scrape_pages_getmeta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_extractpagedata",
+      "target": "lib_scrape_pages_deriveslug",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_extractpagedata",
+      "target": "lib_scrape_pages_derivenumericid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_extractpagedata",
+      "target": "lib_scrape_pages_selectcontentroot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_extractpagedata",
+      "target": "lib_scrape_pages_cleanupcontent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L172",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_scrapepagestowpshape",
+      "target": "lib_scrape_pages_extractpagedata",
       "confidence_score": 1.0
     },
     {
@@ -700,9 +1138,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_iselement",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_iselement"
     },
     {
       "relation": "contains",
@@ -710,9 +1148,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_meaningfultext",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_meaningfultext"
     },
     {
       "relation": "contains",
@@ -720,9 +1158,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_trimouter",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_trimouter"
     },
     {
       "relation": "contains",
@@ -730,9 +1168,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_childelements",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_childelements"
     },
     {
       "relation": "contains",
@@ -740,9 +1178,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_firstimg",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_firstimg"
     },
     {
       "relation": "contains",
@@ -750,9 +1188,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_parsedetails",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_parsedetails"
     },
     {
       "relation": "contains",
@@ -760,9 +1198,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_classifyfigure",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_classifyfigure"
     },
     {
       "relation": "contains",
@@ -770,9 +1208,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_flushparagraphbuffer",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_flushparagraphbuffer"
     },
     {
       "relation": "contains",
@@ -780,9 +1218,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_escapehtml",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_escapehtml"
     },
     {
       "relation": "contains",
@@ -790,9 +1228,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L86",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks"
     },
     {
       "relation": "calls",
@@ -801,9 +1239,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_firstimg",
-      "target": "lib_wp_html_to_aem_blocks_iselement",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_iselement"
     },
     {
       "relation": "calls",
@@ -812,9 +1250,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L114",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks",
-      "target": "lib_wp_html_to_aem_blocks_iselement",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_iselement"
     },
     {
       "relation": "calls",
@@ -823,9 +1261,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks",
-      "target": "lib_wp_html_to_aem_blocks_meaningfultext",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_meaningfultext"
     },
     {
       "relation": "calls",
@@ -834,9 +1272,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_parsedetails",
-      "target": "lib_wp_html_to_aem_blocks_trimouter",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_trimouter"
     },
     {
       "relation": "calls",
@@ -845,9 +1283,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_classifyfigure",
-      "target": "lib_wp_html_to_aem_blocks_trimouter",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_trimouter"
     },
     {
       "relation": "calls",
@@ -856,9 +1294,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L102",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks",
-      "target": "lib_wp_html_to_aem_blocks_trimouter",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_trimouter"
     },
     {
       "relation": "calls",
@@ -867,9 +1305,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L97",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks",
-      "target": "lib_wp_html_to_aem_blocks_childelements",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_childelements"
     },
     {
       "relation": "calls",
@@ -878,9 +1316,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L48",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_classifyfigure",
-      "target": "lib_wp_html_to_aem_blocks_firstimg",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_firstimg"
     },
     {
       "relation": "calls",
@@ -889,9 +1327,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L180",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks",
-      "target": "lib_wp_html_to_aem_blocks_firstimg",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_firstimg"
     },
     {
       "relation": "calls",
@@ -900,9 +1338,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L134",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks",
-      "target": "lib_wp_html_to_aem_blocks_parsedetails",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_parsedetails"
     },
     {
       "relation": "calls",
@@ -911,9 +1349,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L165",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks",
-      "target": "lib_wp_html_to_aem_blocks_classifyfigure",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_classifyfigure"
     },
     {
       "relation": "calls",
@@ -922,9 +1360,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_flushparagraphbuffer",
-      "target": "lib_wp_html_to_aem_blocks_escapehtml",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_escapehtml"
     },
     {
       "relation": "calls",
@@ -933,9 +1371,9 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L129",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks",
-      "target": "lib_wp_html_to_aem_blocks_flushparagraphbuffer",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_flushparagraphbuffer"
     },
     {
       "relation": "calls",
@@ -944,11 +1382,11 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L102",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks",
-      "target": "lib_wp_html_to_aem_blocks_escapehtml",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_escapehtml"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "df6335790d822cd872d9c6d7f235317bab21310e"
+  "built_at_commit": "3acf6d86e70a6e4a51bdd84003edfe415aabdbca"
 }

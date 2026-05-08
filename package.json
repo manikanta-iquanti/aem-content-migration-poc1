@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "extract": "node scripts/extract.js",
+    "extract:scrape": "node scripts/extract-scrape.js",
     "transform": "node scripts/transform.js",
     "generate": "node scripts/generate.js",
     "publish": "node scripts/publish.js",

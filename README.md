@@ -2,7 +2,7 @@
 
 ## What this project does
 
-Pulls posts from a **source WordPress** site via the REST API, normalizes them to JSON, and builds `migration-bundle.json`. From that bundle you can:
+Pulls content from a source site (WordPress REST API **or scraped page URLs**), normalizes it to JSON, and builds `migration-bundle.json`. From that bundle you can:
 
 - **Migrate to another WordPress** (REST publish), or  
 - **Build an AEM content package** (no HTTP call to AEM; you install the zip yourself).
@@ -27,7 +27,21 @@ Or one shot:
 npm run pipeline
 ```
 
-**Setup once:** `npm install` (Node.js 18+). Edit `config/config.json` for the **source** WordPress (`source.baseUrl`, and `source.username` / `source.applicationPassword` if the site is not public).
+**Setup once:** `npm install` (Node.js 18+). Edit `config/config.json` for the source:
+- **WordPress API mode** (default): set `extract.mode` to `"wp-api"` and configure `source.baseUrl`, `source.username`, `source.applicationPassword` (if private).
+- **Scrape mode**: set `extract.mode` to `"scrape"` and set `extract.scrape.urls` to one or more URLs (supports `https://...` and localhost URLs like `http://aaa.local/page` or `http://localhost:8080/page`).
+
+For ad-hoc scraping without changing config, use:
+
+```bash
+npm run extract:scrape -- --url https://example.com/post-a --url http://localhost:8080/post-b
+```
+
+Optional selector override:
+
+```bash
+npm run extract:scrape -- --url https://example.com/post-a --selector ".entry-content"
+```
 
 ---
 
@@ -108,7 +122,8 @@ scripts/build-aem-package.js    # AEM zip only
 
 | Script | Purpose |
 |--------|---------|
-| **extract.js** | Calls the source `wp-json` posts endpoint → `data/raw/posts.json`. |
+| **extract.js** | Uses `extract.mode`: `wp-api` (REST posts endpoint) or `scrape` (URL scraping) → `data/raw/posts.json`. |
+| **extract-scrape.js** | Scrapes URLs passed via `--url` (or config fallback) into WP-like raw post JSON. |
 | **transform.js** | Normalizes fields → `data/transformed/posts.json`. |
 | **generate.js** | Builds `migration-bundle.json`. |
 | **publish.js** | Posts each item to **destination WordPress** REST API (or dry-run without credentials). |
