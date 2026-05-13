@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Content-Package-Id: my_packages:p2
+Content-Package-Roots: /content/my-aem-site53/us/en/article
+Content-Package-Type: content
+
