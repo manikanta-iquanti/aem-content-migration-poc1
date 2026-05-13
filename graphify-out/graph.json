@@ -9,7 +9,7 @@
       "source_file": "build-aem-package.js",
       "source_location": "L1",
       "id": "build_aem_package_js",
-      "community": 2,
+      "community": 3,
       "norm_label": "build-aem-package.js"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "build-aem-package.js",
       "source_location": "L21",
       "id": "scripts_build_aem_package_escapexmlattr",
-      "community": 4,
+      "community": 6,
       "norm_label": "escapexmlattr()"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "build-aem-package.js",
       "source_location": "L30",
       "id": "scripts_build_aem_package_jcrpagename",
-      "community": 2,
+      "community": 4,
       "norm_label": "jcrpagename()"
     },
     {
@@ -36,115 +36,232 @@
       "source_file": "build-aem-package.js",
       "source_location": "L40",
       "id": "scripts_build_aem_package_loadaemconfig",
-      "community": 2,
+      "community": 4,
       "norm_label": "loadaemconfig()"
     },
     {
       "label": "extractSiteKeyFromBlueprint()",
       "file_type": "code",
       "source_file": "build-aem-package.js",
-      "source_location": "L93",
+      "source_location": "L94",
       "id": "scripts_build_aem_package_extractsitekeyfromblueprint",
-      "community": 4,
+      "community": 6,
       "norm_label": "extractsitekeyfromblueprint()"
+    },
+    {
+      "label": "extractBlueprintJcrTitle()",
+      "file_type": "code",
+      "source_file": "build-aem-package.js",
+      "source_location": "L99",
+      "id": "scripts_build_aem_package_extractblueprintjcrtitle",
+      "community": 6,
+      "norm_label": "extractblueprintjcrtitle()"
+    },
+    {
+      "label": "escapeHtmlInner()",
+      "file_type": "code",
+      "source_file": "build-aem-package.js",
+      "source_location": "L106",
+      "id": "scripts_build_aem_package_escapehtmlinner",
+      "community": 5,
+      "norm_label": "escapehtmlinner()"
+    },
+    {
+      "label": "accordionPanelsToRichHtml()",
+      "file_type": "code",
+      "source_file": "build-aem-package.js",
+      "source_location": "L114",
+      "id": "scripts_build_aem_package_accordionpanelstorichhtml",
+      "community": 3,
+      "norm_label": "accordionpanelstorichhtml()"
     },
     {
       "label": "renderTextComponent()",
       "file_type": "code",
       "source_file": "build-aem-package.js",
-      "source_location": "L98",
+      "source_location": "L124",
       "id": "scripts_build_aem_package_rendertextcomponent",
-      "community": 3,
+      "community": 5,
       "norm_label": "rendertextcomponent()"
     },
     {
       "label": "renderImageComponent()",
       "file_type": "code",
       "source_file": "build-aem-package.js",
-      "source_location": "L107",
+      "source_location": "L133",
       "id": "scripts_build_aem_package_renderimagecomponent",
-      "community": 3,
+      "community": 5,
       "norm_label": "renderimagecomponent()"
     },
     {
       "label": "renderAccordionComponent()",
       "file_type": "code",
       "source_file": "build-aem-package.js",
-      "source_location": "L125",
+      "source_location": "L151",
       "id": "scripts_build_aem_package_renderaccordioncomponent",
-      "community": 3,
+      "community": 5,
       "norm_label": "renderaccordioncomponent()"
+    },
+    {
+      "label": "renderMeridianHero()",
+      "file_type": "code",
+      "source_file": "build-aem-package.js",
+      "source_location": "L183",
+      "id": "scripts_build_aem_package_rendermeridianhero",
+      "community": 3,
+      "norm_label": "rendermeridianhero()"
+    },
+    {
+      "label": "renderMeridianJumpLinks()",
+      "file_type": "code",
+      "source_file": "build-aem-package.js",
+      "source_location": "L197",
+      "id": "scripts_build_aem_package_rendermeridianjumplinks",
+      "community": 3,
+      "norm_label": "rendermeridianjumplinks()"
+    },
+    {
+      "label": "renderMeridianParagraph()",
+      "file_type": "code",
+      "source_file": "build-aem-package.js",
+      "source_location": "L219",
+      "id": "scripts_build_aem_package_rendermeridianparagraph",
+      "community": 3,
+      "norm_label": "rendermeridianparagraph()"
+    },
+    {
+      "label": "renderMeridianHeading()",
+      "file_type": "code",
+      "source_file": "build-aem-package.js",
+      "source_location": "L228",
+      "id": "scripts_build_aem_package_rendermeridianheading",
+      "community": 3,
+      "norm_label": "rendermeridianheading()"
+    },
+    {
+      "label": "renderMeridianQuote()",
+      "file_type": "code",
+      "source_file": "build-aem-package.js",
+      "source_location": "L240",
+      "id": "scripts_build_aem_package_rendermeridianquote",
+      "community": 3,
+      "norm_label": "rendermeridianquote()"
+    },
+    {
+      "label": "renderMeridianList()",
+      "file_type": "code",
+      "source_file": "build-aem-package.js",
+      "source_location": "L247",
+      "id": "scripts_build_aem_package_rendermeridianlist",
+      "community": 3,
+      "norm_label": "rendermeridianlist()"
+    },
+    {
+      "label": "renderMeridianCallout()",
+      "file_type": "code",
+      "source_file": "build-aem-package.js",
+      "source_location": "L267",
+      "id": "scripts_build_aem_package_rendermeridiancallout",
+      "community": 3,
+      "norm_label": "rendermeridiancallout()"
+    },
+    {
+      "label": "renderMeridianTags()",
+      "file_type": "code",
+      "source_file": "build-aem-package.js",
+      "source_location": "L280",
+      "id": "scripts_build_aem_package_rendermeridiantags",
+      "community": 3,
+      "norm_label": "rendermeridiantags()"
+    },
+    {
+      "label": "renderMeridianAuthor()",
+      "file_type": "code",
+      "source_file": "build-aem-package.js",
+      "source_location": "L298",
+      "id": "scripts_build_aem_package_rendermeridianauthor",
+      "community": 3,
+      "norm_label": "rendermeridianauthor()"
+    },
+    {
+      "label": "renderMeridianSliceXml()",
+      "file_type": "code",
+      "source_file": "build-aem-package.js",
+      "source_location": "L316",
+      "id": "scripts_build_aem_package_rendermeridianslicexml",
+      "community": 3,
+      "norm_label": "rendermeridianslicexml()"
     },
     {
       "label": "renderBodyXml()",
       "file_type": "code",
       "source_file": "build-aem-package.js",
-      "source_location": "L162",
+      "source_location": "L456",
       "id": "scripts_build_aem_package_renderbodyxml",
-      "community": 3,
+      "community": 5,
       "norm_label": "renderbodyxml()"
     },
     {
       "label": "resolveBlocks()",
       "file_type": "code",
       "source_file": "build-aem-package.js",
-      "source_location": "L211",
+      "source_location": "L534",
       "id": "scripts_build_aem_package_resolveblocks",
-      "community": 2,
+      "community": 4,
       "norm_label": "resolveblocks()"
     },
     {
       "label": "pageXmlFromBlueprint()",
       "file_type": "code",
       "source_file": "build-aem-package.js",
-      "source_location": "L218",
+      "source_location": "L541",
       "id": "scripts_build_aem_package_pagexmlfromblueprint",
-      "community": 4,
+      "community": 6,
       "norm_label": "pagexmlfromblueprint()"
     },
     {
       "label": "escapeRegex()",
       "file_type": "code",
       "source_file": "build-aem-package.js",
-      "source_location": "L246",
+      "source_location": "L574",
       "id": "scripts_build_aem_package_escaperegex",
-      "community": 4,
+      "community": 6,
       "norm_label": "escaperegex()"
     },
     {
       "label": "workspaceFilterXml()",
       "file_type": "code",
       "source_file": "build-aem-package.js",
-      "source_location": "L250",
+      "source_location": "L578",
       "id": "scripts_build_aem_package_workspacefilterxml",
-      "community": 2,
+      "community": 4,
       "norm_label": "workspacefilterxml()"
     },
     {
       "label": "packagePropertiesXml()",
       "file_type": "code",
       "source_file": "build-aem-package.js",
-      "source_location": "L258",
+      "source_location": "L586",
       "id": "scripts_build_aem_package_packagepropertiesxml",
-      "community": 2,
+      "community": 4,
       "norm_label": "packagepropertiesxml()"
     },
     {
       "label": "manifestMf()",
       "file_type": "code",
       "source_file": "build-aem-package.js",
-      "source_location": "L277",
+      "source_location": "L605",
       "id": "scripts_build_aem_package_manifestmf",
-      "community": 2,
+      "community": 4,
       "norm_label": "manifestmf()"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "build-aem-package.js",
-      "source_location": "L287",
+      "source_location": "L615",
       "id": "scripts_build_aem_package_main",
-      "community": 2,
+      "community": 4,
       "norm_label": "main()"
     },
     {
@@ -153,7 +270,7 @@
       "source_file": "extract-scrape.js",
       "source_location": "L1",
       "id": "extract_scrape_js",
-      "community": 5,
+      "community": 7,
       "norm_label": "extract-scrape.js"
     },
     {
@@ -162,7 +279,7 @@
       "source_file": "extract-scrape.js",
       "source_location": "L12",
       "id": "scripts_extract_scrape_readarg",
-      "community": 5,
+      "community": 7,
       "norm_label": "readarg()"
     },
     {
@@ -171,7 +288,7 @@
       "source_file": "extract-scrape.js",
       "source_location": "L18",
       "id": "scripts_extract_scrape_collectargs",
-      "community": 5,
+      "community": 7,
       "norm_label": "collectargs()"
     },
     {
@@ -180,7 +297,7 @@
       "source_file": "extract-scrape.js",
       "source_location": "L29",
       "id": "scripts_extract_scrape_main",
-      "community": 5,
+      "community": 7,
       "norm_label": "main()"
     },
     {
@@ -189,7 +306,7 @@
       "source_file": "extract.js",
       "source_location": "L1",
       "id": "extract_js",
-      "community": 6,
+      "community": 1,
       "norm_label": "extract.js"
     },
     {
@@ -198,7 +315,7 @@
       "source_file": "extract.js",
       "source_location": "L13",
       "id": "scripts_extract_extractfromwpapi",
-      "community": 6,
+      "community": 1,
       "norm_label": "extractfromwpapi()"
     },
     {
@@ -207,7 +324,7 @@
       "source_file": "extract.js",
       "source_location": "L38",
       "id": "scripts_extract_main",
-      "community": 6,
+      "community": 1,
       "norm_label": "main()"
     },
     {
@@ -216,7 +333,7 @@
       "source_file": "generate.js",
       "source_location": "L1",
       "id": "generate_js",
-      "community": 8,
+      "community": 9,
       "norm_label": "generate.js"
     },
     {
@@ -225,7 +342,7 @@
       "source_file": "generate.js",
       "source_location": "L11",
       "id": "scripts_generate_main",
-      "community": 8,
+      "community": 9,
       "norm_label": "main()"
     },
     {
@@ -234,7 +351,7 @@
       "source_file": "publish.js",
       "source_location": "L1",
       "id": "publish_js",
-      "community": 9,
+      "community": 10,
       "norm_label": "publish.js"
     },
     {
@@ -243,7 +360,7 @@
       "source_file": "publish.js",
       "source_location": "L11",
       "id": "scripts_publish_main",
-      "community": 9,
+      "community": 10,
       "norm_label": "main()"
     },
     {
@@ -252,7 +369,7 @@
       "source_file": "transform.js",
       "source_location": "L1",
       "id": "transform_js",
-      "community": 7,
+      "community": 8,
       "norm_label": "transform.js"
     },
     {
@@ -261,7 +378,7 @@
       "source_file": "transform.js",
       "source_location": "L13",
       "id": "scripts_transform_striphtml",
-      "community": 7,
+      "community": 8,
       "norm_label": "striphtml()"
     },
     {
@@ -270,8 +387,125 @@
       "source_file": "transform.js",
       "source_location": "L18",
       "id": "scripts_transform_main",
-      "community": 7,
+      "community": 8,
       "norm_label": "main()"
+    },
+    {
+      "label": "meridian-static-extract.js",
+      "file_type": "code",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L1",
+      "id": "lib_meridian_static_extract_js",
+      "community": 2,
+      "norm_label": "meridian-static-extract.js"
+    },
+    {
+      "label": "isElement()",
+      "file_type": "code",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L5",
+      "id": "lib_meridian_static_extract_iselement",
+      "community": 2,
+      "norm_label": "iselement()"
+    },
+    {
+      "label": "trimText()",
+      "file_type": "code",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L9",
+      "id": "lib_meridian_static_extract_trimtext",
+      "community": 2,
+      "norm_label": "trimtext()"
+    },
+    {
+      "label": "absUrl()",
+      "file_type": "code",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L15",
+      "id": "lib_meridian_static_extract_absurl",
+      "community": 2,
+      "norm_label": "absurl()"
+    },
+    {
+      "label": "pickHeroHeader()",
+      "file_type": "code",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L27",
+      "id": "lib_meridian_static_extract_pickheroheader",
+      "community": 2,
+      "norm_label": "pickheroheader()"
+    },
+    {
+      "label": "pickHeroImage()",
+      "file_type": "code",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L36",
+      "id": "lib_meridian_static_extract_pickheroimage",
+      "community": 2,
+      "norm_label": "pickheroimage()"
+    },
+    {
+      "label": "parseByline()",
+      "file_type": "code",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L43",
+      "id": "lib_meridian_static_extract_parsebyline",
+      "community": 2,
+      "norm_label": "parsebyline()"
+    },
+    {
+      "label": "isTagsDiv()",
+      "file_type": "code",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L50",
+      "id": "lib_meridian_static_extract_istagsdiv",
+      "community": 2,
+      "norm_label": "istagsdiv()"
+    },
+    {
+      "label": "isAuthorDiv()",
+      "file_type": "code",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L56",
+      "id": "lib_meridian_static_extract_isauthordiv",
+      "community": 2,
+      "norm_label": "isauthordiv()"
+    },
+    {
+      "label": "extractTagsFromDiv()",
+      "file_type": "code",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L62",
+      "id": "lib_meridian_static_extract_extracttagsfromdiv",
+      "community": 2,
+      "norm_label": "extracttagsfromdiv()"
+    },
+    {
+      "label": "extractAuthorFromDiv()",
+      "file_type": "code",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L72",
+      "id": "lib_meridian_static_extract_extractauthorfromdiv",
+      "community": 2,
+      "norm_label": "extractauthorfromdiv()"
+    },
+    {
+      "label": "extractJumpLinks()",
+      "file_type": "code",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L82",
+      "id": "lib_meridian_static_extract_extractjumplinks",
+      "community": 2,
+      "norm_label": "extractjumplinks()"
+    },
+    {
+      "label": "extractMeridianStaticPage()",
+      "file_type": "code",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L106",
+      "id": "lib_meridian_static_extract_extractmeridianstaticpage",
+      "community": 2,
+      "norm_label": "extractmeridianstaticpage()"
     },
     {
       "label": "scrape-pages.js",
@@ -279,97 +513,97 @@
       "source_file": "lib/scrape-pages.js",
       "source_location": "L1",
       "id": "lib_scrape_pages_js",
-      "community": 0,
+      "community": 1,
       "norm_label": "scrape-pages.js"
     },
     {
       "label": "normalizeBaseUrl()",
       "file_type": "code",
       "source_file": "lib/scrape-pages.js",
-      "source_location": "L10",
+      "source_location": "L11",
       "id": "lib_scrape_pages_normalizebaseurl",
-      "community": 0,
+      "community": 1,
       "norm_label": "normalizebaseurl()"
     },
     {
       "label": "toAbsoluteUrl()",
       "file_type": "code",
       "source_file": "lib/scrape-pages.js",
-      "source_location": "L15",
+      "source_location": "L16",
       "id": "lib_scrape_pages_toabsoluteurl",
-      "community": 0,
+      "community": 1,
       "norm_label": "toabsoluteurl()"
     },
     {
       "label": "textOnly()",
       "file_type": "code",
       "source_file": "lib/scrape-pages.js",
-      "source_location": "L29",
+      "source_location": "L30",
       "id": "lib_scrape_pages_textonly",
-      "community": 0,
+      "community": 1,
       "norm_label": "textonly()"
     },
     {
       "label": "getMeta()",
       "file_type": "code",
       "source_file": "lib/scrape-pages.js",
-      "source_location": "L36",
+      "source_location": "L37",
       "id": "lib_scrape_pages_getmeta",
-      "community": 0,
+      "community": 1,
       "norm_label": "getmeta()"
     },
     {
       "label": "deriveSlug()",
       "file_type": "code",
       "source_file": "lib/scrape-pages.js",
-      "source_location": "L44",
+      "source_location": "L45",
       "id": "lib_scrape_pages_deriveslug",
-      "community": 0,
+      "community": 1,
       "norm_label": "deriveslug()"
     },
     {
       "label": "deriveNumericId()",
       "file_type": "code",
       "source_file": "lib/scrape-pages.js",
-      "source_location": "L57",
+      "source_location": "L58",
       "id": "lib_scrape_pages_derivenumericid",
-      "community": 0,
+      "community": 1,
       "norm_label": "derivenumericid()"
     },
     {
       "label": "selectContentRoot()",
       "file_type": "code",
       "source_file": "lib/scrape-pages.js",
-      "source_location": "L67",
+      "source_location": "L68",
       "id": "lib_scrape_pages_selectcontentroot",
-      "community": 0,
+      "community": 1,
       "norm_label": "selectcontentroot()"
     },
     {
       "label": "cleanupContent()",
       "file_type": "code",
       "source_file": "lib/scrape-pages.js",
-      "source_location": "L91",
+      "source_location": "L92",
       "id": "lib_scrape_pages_cleanupcontent",
-      "community": 0,
+      "community": 1,
       "norm_label": "cleanupcontent()"
     },
     {
       "label": "extractPageData()",
       "file_type": "code",
       "source_file": "lib/scrape-pages.js",
-      "source_location": "L109",
+      "source_location": "L110",
       "id": "lib_scrape_pages_extractpagedata",
-      "community": 0,
+      "community": 1,
       "norm_label": "extractpagedata()"
     },
     {
       "label": "scrapePagesToWpShape()",
       "file_type": "code",
       "source_file": "lib/scrape-pages.js",
-      "source_location": "L143",
+      "source_location": "L165",
       "id": "lib_scrape_pages_scrapepagestowpshape",
-      "community": 0,
+      "community": 1,
       "norm_label": "scrapepagestowpshape()"
     },
     {
@@ -378,7 +612,7 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L1",
       "id": "lib_wp_html_to_aem_blocks_js",
-      "community": 1,
+      "community": 0,
       "norm_label": "wp-html-to-aem-blocks.js"
     },
     {
@@ -387,7 +621,7 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L10",
       "id": "lib_wp_html_to_aem_blocks_iselement",
-      "community": 1,
+      "community": 0,
       "norm_label": "iselement()"
     },
     {
@@ -396,7 +630,7 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L14",
       "id": "lib_wp_html_to_aem_blocks_meaningfultext",
-      "community": 1,
+      "community": 0,
       "norm_label": "meaningfultext()"
     },
     {
@@ -405,7 +639,7 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L18",
       "id": "lib_wp_html_to_aem_blocks_trimouter",
-      "community": 1,
+      "community": 0,
       "norm_label": "trimouter()"
     },
     {
@@ -414,7 +648,7 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L22",
       "id": "lib_wp_html_to_aem_blocks_childelements",
-      "community": 1,
+      "community": 0,
       "norm_label": "childelements()"
     },
     {
@@ -423,7 +657,7 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L27",
       "id": "lib_wp_html_to_aem_blocks_firstimg",
-      "community": 1,
+      "community": 0,
       "norm_label": "firstimg()"
     },
     {
@@ -432,7 +666,7 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L34",
       "id": "lib_wp_html_to_aem_blocks_parsedetails",
-      "community": 1,
+      "community": 0,
       "norm_label": "parsedetails()"
     },
     {
@@ -441,7 +675,7 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L47",
       "id": "lib_wp_html_to_aem_blocks_classifyfigure",
-      "community": 1,
+      "community": 0,
       "norm_label": "classifyfigure()"
     },
     {
@@ -450,7 +684,7 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L62",
       "id": "lib_wp_html_to_aem_blocks_flushparagraphbuffer",
-      "community": 1,
+      "community": 0,
       "norm_label": "flushparagraphbuffer()"
     },
     {
@@ -459,16 +693,52 @@
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L74",
       "id": "lib_wp_html_to_aem_blocks_escapehtml",
-      "community": 1,
+      "community": 0,
       "norm_label": "escapehtml()"
+    },
+    {
+      "label": "stripTagsToText()",
+      "file_type": "code",
+      "source_file": "lib/wp-html-to-aem-blocks.js",
+      "source_location": "L82",
+      "id": "lib_wp_html_to_aem_blocks_striptagstotext",
+      "community": 0,
+      "norm_label": "striptagstotext()"
+    },
+    {
+      "label": "isCalloutAside()",
+      "file_type": "code",
+      "source_file": "lib/wp-html-to-aem-blocks.js",
+      "source_location": "L89",
+      "id": "lib_wp_html_to_aem_blocks_iscalloutaside",
+      "community": 0,
+      "norm_label": "iscalloutaside()"
+    },
+    {
+      "label": "parseCalloutAside()",
+      "file_type": "code",
+      "source_file": "lib/wp-html-to-aem-blocks.js",
+      "source_location": "L95",
+      "id": "lib_wp_html_to_aem_blocks_parsecalloutaside",
+      "community": 0,
+      "norm_label": "parsecalloutaside()"
+    },
+    {
+      "label": "parseListItems()",
+      "file_type": "code",
+      "source_file": "lib/wp-html-to-aem-blocks.js",
+      "source_location": "L123",
+      "id": "lib_wp_html_to_aem_blocks_parselistitems",
+      "community": 0,
+      "norm_label": "parselistitems()"
     },
     {
       "label": "wpHtmlToAemBlocks()",
       "file_type": "code",
       "source_file": "lib/wp-html-to-aem-blocks.js",
-      "source_location": "L86",
+      "source_location": "L137",
       "id": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks",
-      "community": 1,
+      "community": 0,
       "norm_label": "wphtmltoaemblocks()"
     }
   ],
@@ -517,6 +787,36 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "build-aem-package.js",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "build_aem_package_js",
+      "target": "scripts_build_aem_package_extractblueprintjcrtitle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "build_aem_package_js",
+      "target": "scripts_build_aem_package_escapehtmlinner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "build_aem_package_js",
+      "target": "scripts_build_aem_package_accordionpanelstorichhtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
       "source_location": "L98",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -542,6 +842,106 @@
       "confidence_score": 1.0,
       "source": "build_aem_package_js",
       "target": "scripts_build_aem_package_renderaccordioncomponent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "build_aem_package_js",
+      "target": "scripts_build_aem_package_rendermeridianhero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L197",
+      "weight": 1.0,
+      "source": "build_aem_package_js",
+      "target": "scripts_build_aem_package_rendermeridianjumplinks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L219",
+      "weight": 1.0,
+      "source": "build_aem_package_js",
+      "target": "scripts_build_aem_package_rendermeridianparagraph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L228",
+      "weight": 1.0,
+      "source": "build_aem_package_js",
+      "target": "scripts_build_aem_package_rendermeridianheading",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L240",
+      "weight": 1.0,
+      "source": "build_aem_package_js",
+      "target": "scripts_build_aem_package_rendermeridianquote",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L247",
+      "weight": 1.0,
+      "source": "build_aem_package_js",
+      "target": "scripts_build_aem_package_rendermeridianlist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L267",
+      "weight": 1.0,
+      "source": "build_aem_package_js",
+      "target": "scripts_build_aem_package_rendermeridiancallout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L280",
+      "weight": 1.0,
+      "source": "build_aem_package_js",
+      "target": "scripts_build_aem_package_rendermeridiantags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L298",
+      "weight": 1.0,
+      "source": "build_aem_package_js",
+      "target": "scripts_build_aem_package_rendermeridianauthor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L316",
+      "weight": 1.0,
+      "source": "build_aem_package_js",
+      "target": "scripts_build_aem_package_rendermeridianslicexml",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -672,11 +1072,55 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "build-aem-package.js",
+      "source_location": "L544",
+      "weight": 1.0,
+      "source": "scripts_build_aem_package_pagexmlfromblueprint",
+      "target": "scripts_build_aem_package_extractblueprintjcrtitle",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L479",
+      "weight": 1.0,
+      "source": "scripts_build_aem_package_renderbodyxml",
+      "target": "scripts_build_aem_package_escapehtmlinner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L424",
+      "weight": 1.0,
+      "source": "scripts_build_aem_package_rendermeridianslicexml",
+      "target": "scripts_build_aem_package_accordionpanelstorichhtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
       "source_location": "L173",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "scripts_build_aem_package_renderbodyxml",
       "target": "scripts_build_aem_package_rendertextcomponent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L409",
+      "weight": 1.0,
+      "source": "scripts_build_aem_package_rendermeridianslicexml",
+      "target": "scripts_build_aem_package_renderimagecomponent",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -699,6 +1143,116 @@
       "confidence_score": 1.0,
       "source": "scripts_build_aem_package_renderbodyxml",
       "target": "scripts_build_aem_package_renderaccordioncomponent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L329",
+      "weight": 1.0,
+      "source": "scripts_build_aem_package_rendermeridianslicexml",
+      "target": "scripts_build_aem_package_rendermeridianhero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L330",
+      "weight": 1.0,
+      "source": "scripts_build_aem_package_rendermeridianslicexml",
+      "target": "scripts_build_aem_package_rendermeridianjumplinks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L350",
+      "weight": 1.0,
+      "source": "scripts_build_aem_package_rendermeridianslicexml",
+      "target": "scripts_build_aem_package_rendermeridianparagraph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L377",
+      "weight": 1.0,
+      "source": "scripts_build_aem_package_rendermeridianslicexml",
+      "target": "scripts_build_aem_package_rendermeridianheading",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L385",
+      "weight": 1.0,
+      "source": "scripts_build_aem_package_rendermeridianslicexml",
+      "target": "scripts_build_aem_package_rendermeridianquote",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L393",
+      "weight": 1.0,
+      "source": "scripts_build_aem_package_rendermeridianslicexml",
+      "target": "scripts_build_aem_package_rendermeridianlist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L401",
+      "weight": 1.0,
+      "source": "scripts_build_aem_package_rendermeridianslicexml",
+      "target": "scripts_build_aem_package_rendermeridiancallout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L445",
+      "weight": 1.0,
+      "source": "scripts_build_aem_package_rendermeridianslicexml",
+      "target": "scripts_build_aem_package_rendermeridiantags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L446",
+      "weight": 1.0,
+      "source": "scripts_build_aem_package_rendermeridianslicexml",
+      "target": "scripts_build_aem_package_rendermeridianauthor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L559",
+      "weight": 1.0,
+      "source": "scripts_build_aem_package_pagexmlfromblueprint",
+      "target": "scripts_build_aem_package_rendermeridianslicexml",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -794,9 +1348,9 @@
       "source_file": "extract-scrape.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "extract_scrape_js",
-      "target": "scripts_extract_scrape_readarg",
-      "confidence_score": 1.0
+      "target": "scripts_extract_scrape_readarg"
     },
     {
       "relation": "contains",
@@ -804,9 +1358,9 @@
       "source_file": "extract-scrape.js",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "extract_scrape_js",
-      "target": "scripts_extract_scrape_collectargs",
-      "confidence_score": 1.0
+      "target": "scripts_extract_scrape_collectargs"
     },
     {
       "relation": "contains",
@@ -814,9 +1368,9 @@
       "source_file": "extract-scrape.js",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "extract_scrape_js",
-      "target": "scripts_extract_scrape_main",
-      "confidence_score": 1.0
+      "target": "scripts_extract_scrape_main"
     },
     {
       "relation": "calls",
@@ -825,9 +1379,9 @@
       "source_file": "extract-scrape.js",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_extract_scrape_main",
-      "target": "scripts_extract_scrape_readarg",
-      "confidence_score": 1.0
+      "target": "scripts_extract_scrape_readarg"
     },
     {
       "relation": "calls",
@@ -836,9 +1390,9 @@
       "source_file": "extract-scrape.js",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_extract_scrape_main",
-      "target": "scripts_extract_scrape_collectargs",
-      "confidence_score": 1.0
+      "target": "scripts_extract_scrape_collectargs"
     },
     {
       "relation": "calls",
@@ -857,9 +1411,9 @@
       "source_file": "extract.js",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "extract_js",
-      "target": "scripts_extract_extractfromwpapi",
-      "confidence_score": 1.0
+      "target": "scripts_extract_extractfromwpapi"
     },
     {
       "relation": "contains",
@@ -878,9 +1432,9 @@
       "source_file": "extract.js",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_extract_main",
-      "target": "scripts_extract_extractfromwpapi",
-      "confidence_score": 1.0
+      "target": "scripts_extract_extractfromwpapi"
     },
     {
       "relation": "calls",
@@ -936,12 +1490,330 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_js",
+      "target": "lib_meridian_static_extract_iselement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_js",
+      "target": "lib_meridian_static_extract_trimtext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_js",
+      "target": "lib_meridian_static_extract_absurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_js",
+      "target": "lib_meridian_static_extract_pickheroheader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_js",
+      "target": "lib_meridian_static_extract_pickheroimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_js",
+      "target": "lib_meridian_static_extract_parsebyline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_js",
+      "target": "lib_meridian_static_extract_istagsdiv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_js",
+      "target": "lib_meridian_static_extract_isauthordiv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_js",
+      "target": "lib_meridian_static_extract_extracttagsfromdiv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_js",
+      "target": "lib_meridian_static_extract_extractauthorfromdiv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_js",
+      "target": "lib_meridian_static_extract_extractjumplinks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L106",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_js",
+      "target": "lib_meridian_static_extract_extractmeridianstaticpage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_istagsdiv",
+      "target": "lib_meridian_static_extract_iselement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_isauthordiv",
+      "target": "lib_meridian_static_extract_iselement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L155",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_extractmeridianstaticpage",
+      "target": "lib_meridian_static_extract_iselement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_parsebyline",
+      "target": "lib_meridian_static_extract_trimtext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_extracttagsfromdiv",
+      "target": "lib_meridian_static_extract_trimtext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_extractauthorfromdiv",
+      "target": "lib_meridian_static_extract_trimtext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_extractjumplinks",
+      "target": "lib_meridian_static_extract_trimtext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_extractmeridianstaticpage",
+      "target": "lib_meridian_static_extract_trimtext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L144",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_extractmeridianstaticpage",
+      "target": "lib_meridian_static_extract_absurl",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_extractmeridianstaticpage",
+      "target": "lib_meridian_static_extract_pickheroheader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_extractmeridianstaticpage",
+      "target": "lib_meridian_static_extract_pickheroimage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_extractmeridianstaticpage",
+      "target": "lib_meridian_static_extract_parsebyline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L156",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_extractmeridianstaticpage",
+      "target": "lib_meridian_static_extract_istagsdiv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_extractmeridianstaticpage",
+      "target": "lib_meridian_static_extract_isauthordiv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L157",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_extractmeridianstaticpage",
+      "target": "lib_meridian_static_extract_extracttagsfromdiv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L161",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_extractmeridianstaticpage",
+      "target": "lib_meridian_static_extract_extractauthorfromdiv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/meridian-static-extract.js",
+      "source_location": "L170",
+      "weight": 1.0,
+      "source": "lib_meridian_static_extract_extractmeridianstaticpage",
+      "target": "lib_meridian_static_extract_extractjumplinks",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "lib/scrape-pages.js",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "lib_scrape_pages_extractpagedata",
+      "target": "lib_meridian_static_extract_extractmeridianstaticpage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "lib/scrape-pages.js",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_scrape_pages_js",
-      "target": "lib_scrape_pages_normalizebaseurl",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_normalizebaseurl"
     },
     {
       "relation": "contains",
@@ -949,9 +1821,9 @@
       "source_file": "lib/scrape-pages.js",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_scrape_pages_js",
-      "target": "lib_scrape_pages_toabsoluteurl",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_toabsoluteurl"
     },
     {
       "relation": "contains",
@@ -959,9 +1831,9 @@
       "source_file": "lib/scrape-pages.js",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_scrape_pages_js",
-      "target": "lib_scrape_pages_textonly",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_textonly"
     },
     {
       "relation": "contains",
@@ -969,9 +1841,9 @@
       "source_file": "lib/scrape-pages.js",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_scrape_pages_js",
-      "target": "lib_scrape_pages_getmeta",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_getmeta"
     },
     {
       "relation": "contains",
@@ -979,9 +1851,9 @@
       "source_file": "lib/scrape-pages.js",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_scrape_pages_js",
-      "target": "lib_scrape_pages_deriveslug",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_deriveslug"
     },
     {
       "relation": "contains",
@@ -989,9 +1861,9 @@
       "source_file": "lib/scrape-pages.js",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_scrape_pages_js",
-      "target": "lib_scrape_pages_derivenumericid",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_derivenumericid"
     },
     {
       "relation": "contains",
@@ -999,9 +1871,9 @@
       "source_file": "lib/scrape-pages.js",
       "source_location": "L67",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_scrape_pages_js",
-      "target": "lib_scrape_pages_selectcontentroot",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_selectcontentroot"
     },
     {
       "relation": "contains",
@@ -1009,9 +1881,9 @@
       "source_file": "lib/scrape-pages.js",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_scrape_pages_js",
-      "target": "lib_scrape_pages_cleanupcontent",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_cleanupcontent"
     },
     {
       "relation": "contains",
@@ -1019,9 +1891,9 @@
       "source_file": "lib/scrape-pages.js",
       "source_location": "L109",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_scrape_pages_js",
-      "target": "lib_scrape_pages_extractpagedata",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_extractpagedata"
     },
     {
       "relation": "contains",
@@ -1029,9 +1901,9 @@
       "source_file": "lib/scrape-pages.js",
       "source_location": "L143",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_scrape_pages_js",
-      "target": "lib_scrape_pages_scrapepagestowpshape",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_scrapepagestowpshape"
     },
     {
       "relation": "calls",
@@ -1040,9 +1912,9 @@
       "source_file": "lib/scrape-pages.js",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_scrape_pages_toabsoluteurl",
-      "target": "lib_scrape_pages_normalizebaseurl",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_normalizebaseurl"
     },
     {
       "relation": "calls",
@@ -1051,9 +1923,9 @@
       "source_file": "lib/scrape-pages.js",
       "source_location": "L158",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_scrape_pages_scrapepagestowpshape",
-      "target": "lib_scrape_pages_toabsoluteurl",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_toabsoluteurl"
     },
     {
       "relation": "calls",
@@ -1062,9 +1934,9 @@
       "source_file": "lib/scrape-pages.js",
       "source_location": "L125",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_scrape_pages_extractpagedata",
-      "target": "lib_scrape_pages_textonly",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_textonly"
     },
     {
       "relation": "calls",
@@ -1073,9 +1945,9 @@
       "source_file": "lib/scrape-pages.js",
       "source_location": "L115",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_scrape_pages_extractpagedata",
-      "target": "lib_scrape_pages_getmeta",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_getmeta"
     },
     {
       "relation": "calls",
@@ -1084,9 +1956,9 @@
       "source_file": "lib/scrape-pages.js",
       "source_location": "L120",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_scrape_pages_extractpagedata",
-      "target": "lib_scrape_pages_deriveslug",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_deriveslug"
     },
     {
       "relation": "calls",
@@ -1095,9 +1967,9 @@
       "source_file": "lib/scrape-pages.js",
       "source_location": "L131",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_scrape_pages_extractpagedata",
-      "target": "lib_scrape_pages_derivenumericid",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_derivenumericid"
     },
     {
       "relation": "calls",
@@ -1106,9 +1978,9 @@
       "source_file": "lib/scrape-pages.js",
       "source_location": "L111",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_scrape_pages_extractpagedata",
-      "target": "lib_scrape_pages_selectcontentroot",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_selectcontentroot"
     },
     {
       "relation": "calls",
@@ -1117,9 +1989,9 @@
       "source_file": "lib/scrape-pages.js",
       "source_location": "L112",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_scrape_pages_extractpagedata",
-      "target": "lib_scrape_pages_cleanupcontent",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_cleanupcontent"
     },
     {
       "relation": "calls",
@@ -1128,9 +2000,9 @@
       "source_file": "lib/scrape-pages.js",
       "source_location": "L172",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_scrape_pages_scrapepagestowpshape",
-      "target": "lib_scrape_pages_extractpagedata",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_extractpagedata"
     },
     {
       "relation": "contains",
@@ -1226,6 +2098,46 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib/wp-html-to-aem-blocks.js",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "lib_wp_html_to_aem_blocks_js",
+      "target": "lib_wp_html_to_aem_blocks_striptagstotext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/wp-html-to-aem-blocks.js",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "lib_wp_html_to_aem_blocks_js",
+      "target": "lib_wp_html_to_aem_blocks_iscalloutaside",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/wp-html-to-aem-blocks.js",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "lib_wp_html_to_aem_blocks_js",
+      "target": "lib_wp_html_to_aem_blocks_parsecalloutaside",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/wp-html-to-aem-blocks.js",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "lib_wp_html_to_aem_blocks_js",
+      "target": "lib_wp_html_to_aem_blocks_parselistitems",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L86",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -1242,6 +2154,17 @@
       "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_firstimg",
       "target": "lib_wp_html_to_aem_blocks_iselement"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/wp-html-to-aem-blocks.js",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "lib_wp_html_to_aem_blocks_iscalloutaside",
+      "target": "lib_wp_html_to_aem_blocks_iselement",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -1292,11 +2215,33 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "lib/wp-html-to-aem-blocks.js",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "lib_wp_html_to_aem_blocks_parsecalloutaside",
+      "target": "lib_wp_html_to_aem_blocks_trimouter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L102",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks",
       "target": "lib_wp_html_to_aem_blocks_trimouter"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/wp-html-to-aem-blocks.js",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "lib_wp_html_to_aem_blocks_parsecalloutaside",
+      "target": "lib_wp_html_to_aem_blocks_childelements",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -1385,8 +2330,74 @@
       "confidence_score": 1.0,
       "source": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks",
       "target": "lib_wp_html_to_aem_blocks_escapehtml"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/wp-html-to-aem-blocks.js",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "lib_wp_html_to_aem_blocks_parsecalloutaside",
+      "target": "lib_wp_html_to_aem_blocks_striptagstotext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/wp-html-to-aem-blocks.js",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "lib_wp_html_to_aem_blocks_parselistitems",
+      "target": "lib_wp_html_to_aem_blocks_striptagstotext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/wp-html-to-aem-blocks.js",
+      "source_location": "L193",
+      "weight": 1.0,
+      "source": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks",
+      "target": "lib_wp_html_to_aem_blocks_striptagstotext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/wp-html-to-aem-blocks.js",
+      "source_location": "L201",
+      "weight": 1.0,
+      "source": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks",
+      "target": "lib_wp_html_to_aem_blocks_iscalloutaside",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/wp-html-to-aem-blocks.js",
+      "source_location": "L202",
+      "weight": 1.0,
+      "source": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks",
+      "target": "lib_wp_html_to_aem_blocks_parsecalloutaside",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/wp-html-to-aem-blocks.js",
+      "source_location": "L214",
+      "weight": 1.0,
+      "source": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks",
+      "target": "lib_wp_html_to_aem_blocks_parselistitems",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "3acf6d86e70a6e4a51bdd84003edfe415aabdbca"
+  "built_at_commit": "8b67652ad5b0d7e44a7b6c4ea377b617bbf627c0"
 }

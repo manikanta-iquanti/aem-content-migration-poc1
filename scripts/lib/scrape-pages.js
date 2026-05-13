@@ -2,6 +2,7 @@
 
 const axios = require("axios");
 const { parse } = require("node-html-parser");
+const { extractMeridianStaticPage } = require("./meridian-static-extract");
 
 const DEFAULT_TIMEOUT_MS = 20000;
 const DEFAULT_USER_AGENT =
@@ -107,6 +108,27 @@ function cleanupContent(node) {
 }
 
 function extractPageData(html, pageUrl, index, options = {}) {
+  const layout = options.layout || "generic";
+
+  if (layout === "meridian-static") {
+    const m = extractMeridianStaticPage(html, pageUrl);
+    const date = m.publishedTime || new Date().toISOString();
+
+    return {
+      id: deriveNumericId(pageUrl, index),
+      slug: deriveSlug(pageUrl, index),
+      status: "publish",
+      date,
+      title: { rendered: m.title || deriveSlug(pageUrl, index) },
+      excerpt: { rendered: m.excerpt || "" },
+      content: { rendered: m.articleBodyHtml || "<p></p>" },
+      link: pageUrl,
+      sourceType: "scrape",
+      scrapeLayout: "meridian-static",
+      meridian: m.meridian,
+    };
+  }
+
   const root = parse(html, { script: true, style: true });
   const contentNode = selectContentRoot(root, options.contentSelector);
   cleanupContent(contentNode);
@@ -171,6 +193,7 @@ async function scrapePagesToWpShape(config) {
     output.push(
       extractPageData(res.data, absoluteUrl, i, {
         contentSelector: scrapeCfg.contentSelector || "",
+        layout: scrapeCfg.layout || "generic",
       })
     );
   }

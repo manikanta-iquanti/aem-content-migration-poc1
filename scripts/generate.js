@@ -26,6 +26,7 @@ async function main() {
       content: p.contentHtml,
       aemBlocks: p.aemBlocks,
       excerpt: p.excerpt,
+      meridian: p.meridian,
     })),
   };
 

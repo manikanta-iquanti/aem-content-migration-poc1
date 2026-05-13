@@ -28,20 +28,30 @@ npm run pipeline
 ```
 
 **Setup once:** `npm install` (Node.js 18+). Edit `config/config.json` for the source:
-- **WordPress API mode** (default): set `extract.mode` to `"wp-api"` and configure `source.baseUrl`, `source.username`, `source.applicationPassword` (if private).
-- **Scrape mode**: set `extract.mode` to `"scrape"` and set `extract.scrape.urls` to one or more URLs (supports `https://...` and localhost URLs like `http://aaa.local/page` or `http://localhost:8080/page`).
 
-For ad-hoc scraping without changing config, use:
+- **WordPress API mode** (default): set `extract.mode` to `"wp-api"` and configure `source.baseUrl`, `source.username`, `source.applicationPassword` (if private).
+- **Scrape mode**: set `extract.mode` to `"scrape"` and set `extract.scrape.urls` to one or more URLs (supports `https://...` and localhost URLs like `http://aaa.local/page` or `http://localhost:8081/page`).
+
+**Scrape layouts** (`extract.scrape.layout`):
+
+| Value | When to use |
+|--------|-------------|
+| `generic` (default) | Any HTML page: picks `article` / `main` / `.entry-content` (or your `contentSelector`) and stores that HTML for block parsing. |
+| `meridian-static` | Pages built like the Meridian article preview: hero (eyebrow, title, dek, byline, hero image), `article.prose-article` body, “In this article” jump links, tags, author card. Fills `meridian` metadata on the raw post for AEM package build. |
+
+For ad-hoc scraping without changing config URLs, use:
 
 ```bash
 npm run extract:scrape -- --url https://example.com/post-a --url http://localhost:8080/post-b
 ```
 
-Optional selector override:
+Optional selector override (generic layout):
 
 ```bash
 npm run extract:scrape -- --url https://example.com/post-a --selector ".entry-content"
 ```
+
+`extract:scrape` still reads `extract.scrape.layout` from config when you do not pass extra flags.
 
 ---
 
@@ -83,56 +93,78 @@ This POC does **not** upload media or rewrite internal links automatically.
 
 Runs only **after** the shared pipeline. Nothing in this step calls your AEM server.
 
+### AEM config (`config.json` → `aem`)
+
+| Key | Purpose |
+|-----|--------|
+| `blueprintPath` | Repo-relative path to the **sample page** `.content.xml` to clone (layout + header/footer chrome you keep outside the migration markers). |
+| `parentJcrPath` | Vault filter root and folder under which new pages are written (e.g. `/content/my-aem-site53/us/en/articles`). |
+| `bodyRenderer` | `"legacy"` — core **text** / **image** / **accordion** components between markers. `"meridian"` — Meridian article components (hero, jump links, paragraph, heading, pull quote, list, callout, image, tags, author) between markers. |
+| `bundleFile`, `outputZip`, `contextDir`, `packageGroup`, `packageName`, `packageVersion`, `authorUrl` | As before: bundle input, zip output, FileVault context, package metadata, author URL hint. |
+
 ### What you do by hand (manual)
 
-**One-time blueprint (when you change your AEM page structure)**
+**One-time blueprint**
 
-1. On **AEM Author**, create or pick the page whose layout should be copied for every migrated post (same template/components as your export).
-2. Export that page (or install your dev package) so the repo contains `data/aem-node-context/` with `jcr_root/.../article/.content.xml` (or whatever path you configure).
-3. If you change the sample title or body text in that blueprint file, update the constants at the top of **`scripts/build-aem-package.js`** so they match the strings in the XML (`BLUEPRINT_*`).
+1. On **AEM Author**, create or export the page that defines the layout for generated pages (template + components).
+2. Copy it under `data/aem-node-context/` and set **`aem.blueprintPath`** to that page’s `.content.xml`.
+3. In the blueprint’s main container, add **exactly one pair** of HTML comments so the build can inject content:
+
+   `<!-- WP_MIGRATION_BODY_START -->`  
+   `<!-- WP_MIGRATION_BODY_END -->`
+
+   Everything between these markers is **replaced** on each build with the rendered body (legacy text blocks or Meridian components, depending on `bodyRenderer`).
+
+4. The package step sets **`jcr:title`** on the page by replacing the title string already present on the blueprint’s `cq:PageContent` node (no hard-coded title constant in code).
 
 **Before each package build**
 
-4. Optionally adjust the **`aem`** section in **`config/config.json`** (`parentJcrPath`, `blueprintPath`, `outputZip`, etc.).
+5. Align **`parentJcrPath`** with where new slugs should appear under your site (e.g. language root vs `articles` folder).
+6. For **Meridian static → Meridian AEM**, set `extract.scrape.layout` to `meridian-static` and `aem.bodyRenderer` to `meridian`, and scrape URLs that match the same front-end article shape.
 
 **On AEM Author (outside this repo)**
 
-5. Open **Tools → Deployment → Packages** (or `/crx/packmgr` on your author).
-6. **Upload** `data/transformed/wp-to-aem-migration.zip`, then **Install** it.
-7. Open **Sites** and browse to the language root you configured (e.g. `/content/my-aem-site53/us/en`). New pages appear as **sibling** folders named by slug.
-8. Open pages in the editor to verify; fix **text policies / RTE** if HTML is stripped, fix **links** if they still point at WordPress, and handle **images** separately (DAM migration is not part of this POC).
+7. Open **Tools → Deployment → Packages** (or `/crx/packmgr` on your author).
+8. **Upload** `data/transformed/wp-to-aem-migration.zip`, then **Install** it.
+9. Open **Sites** under the configured parent (e.g. `/content/my-aem-site53/us/en/articles`). New pages appear as **sibling** folders named by slug.
+10. Verify in the editor; map **images** to DAM or public URLs if they still point at localhost or WordPress. Adjust RTE policies if needed.
 
 ---
 
 ## Project structure
 
 ```
-config/config.json              # Source WP, destination WP, optional aem {}
-data/raw/posts.json             # Raw REST responses (extract)
-data/transformed/               # Normalized posts + migration-bundle.json + AEM zip output
-data/aem-node-context/          # Exported AEM blueprint (not generated)
+config/config.json              # Source, destination, extract, aem {}
+data/raw/posts.json             # Raw extract output
+data/transformed/               # Normalized posts + migration-bundle.json + AEM zip
+data/aem-node-context/          # Exported AEM blueprint (Vault tree; not generated)
 scripts/extract.js
+scripts/extract-scrape.js
 scripts/transform.js
 scripts/generate.js
 scripts/publish.js              # Destination WordPress only
 scripts/build-aem-package.js    # AEM zip only
+scripts/lib/wp-html-to-aem-blocks.js   # HTML → ordered blocks (paragraph, heading, quote, list, …)
+scripts/lib/scrape-pages.js            # HTTP fetch + generic or meridian-static extract
+scripts/lib/meridian-static-extract.js # Meridian-shaped static HTML → fields + article body
 ```
 
 ## Scripts reference
 
 | Script | Purpose |
 |--------|---------|
-| **extract.js** | Uses `extract.mode`: `wp-api` (REST posts endpoint) or `scrape` (URL scraping) → `data/raw/posts.json`. |
-| **extract-scrape.js** | Scrapes URLs passed via `--url` (or config fallback) into WP-like raw post JSON. |
-| **transform.js** | Normalizes fields → `data/transformed/posts.json`. |
-| **generate.js** | Builds `migration-bundle.json`. |
+| **extract.js** | `extract.mode`: `wp-api` or `scrape` → `data/raw/posts.json`. |
+| **extract-scrape.js** | `npm run extract:scrape` — URLs via `--url`; uses `extract.scrape` from config (including `layout`). |
+| **transform.js** | Normalizes fields and `aemBlocks`; passes through **`meridian`** when present. |
+| **generate.js** | Builds `migration-bundle.json` (includes `meridian` on items when scraped). |
 | **publish.js** | Posts each item to **destination WordPress** REST API (or dry-run without credentials). |
-| **build-aem-package.js** | Builds **AEM** FileVault ZIP from blueprint + bundle. |
+| **build-aem-package.js** | Builds FileVault ZIP from blueprint + bundle; **`aem.bodyRenderer`** selects legacy vs Meridian XML. |
 
 ## Known limitations
 
-- **Pagination**: Extract requests a single page (`extract.perPage` in config); large sites need pagination added.
-- **Content model**: Posts only in this POC; pages, media, taxonomies, and ACF are not handled end-to-end.
+- **Pagination**: WP API extract requests a single page (`extract.perPage`); large sites need pagination.
+- **Content model**: WP path is posts-oriented; scrape path is URL-list oriented. Pages, media, taxonomies, and ACF are not handled end-to-end.
 - **Gutenberg → WP**: Body is HTML; complex block markup is not recreated as serialized blocks.
-- **Gutenberg → AEM**: Same HTML goes into your Text component; styling depends on AEM policies and CSS.
-- **Auth / errors**: WordPress publish requires Application Password REST access; AEM path only requires a valid blueprint and manual package install.
+- **AEM legacy renderer**: Rich HTML is mostly core **text** components; policies and CSS decide what survives in RTE.
+- **AEM Meridian renderer**: Maps structured blocks to Meridian components; hero images and inline images often still need **DAM** or absolute public URLs (localhost paths will not work on Author).
+- **Auth / errors**: WordPress publish requires Application Password REST access; AEM path only needs a valid blueprint and manual package install.

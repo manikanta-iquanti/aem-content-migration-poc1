@@ -3,7 +3,7 @@
 const { parse } = require("node-html-parser");
 
 /**
- * Maps WordPress post HTML into ordered AEM-friendly blocks for package generation.
+ * Maps post HTML into ordered AEM-friendly blocks for package generation.
  * Unknown / wrapper-heavy markup falls back to a single rich-text fragment (text component).
  */
 
@@ -63,7 +63,7 @@ function flushParagraphBuffer(buf, out) {
   if (!buf.length) return;
   const inner = buf.join("");
   out.push({
-    type: "text",
+    type: "paragraph",
     html: inner.includes("<")
       ? inner
       : `<p>${escapeHtml(inner)}</p>`,
@@ -79,6 +79,57 @@ function escapeHtml(s) {
     .replace(/"/g, "&quot;");
 }
 
+function stripTagsToText(html) {
+  return String(html || "")
+    .replaceAll(/<[^>]+>/g, " ")
+    .replaceAll(/\s+/g, " ")
+    .trim();
+}
+
+function isCalloutAside(node) {
+  if (!isElement(node) || node.tagName !== "ASIDE") return false;
+  const cls = node.getAttribute("class") || "";
+  return cls.includes("border-l") || cls.includes("border-accent");
+}
+
+function parseCalloutAside(aside) {
+  const directPs = childElements(aside).filter((c) => c.tagName === "P");
+  let eyebrow = "";
+  let bodyHtml = "<p></p>";
+  if (directPs.length >= 2) {
+    const e0 = directPs[0].getAttribute("class") || "";
+    if (e0.includes("uppercase") || e0.includes("tracking")) {
+      eyebrow = stripTagsToText(directPs[0].innerHTML);
+      bodyHtml = directPs
+        .slice(1)
+        .map((p) => trimOuter(p.outerHTML))
+        .join("") || "<p></p>";
+    } else {
+      bodyHtml = directPs.map((p) => trimOuter(p.outerHTML)).join("");
+    }
+  } else if (directPs.length === 1) {
+    bodyHtml = trimOuter(directPs[0].outerHTML);
+  } else {
+    bodyHtml = trimOuter(aside.innerHTML) || "<p></p>";
+  }
+  const initialSource = eyebrow || stripTagsToText(bodyHtml);
+  const initial =
+    initialSource && initialSource.length
+      ? initialSource.charAt(0).toUpperCase()
+      : "N";
+  return { eyebrow, bodyHtml, initial };
+}
+
+function parseListItems(listEl) {
+  const items = [];
+  const lis = listEl.querySelectorAll?.("li") || [];
+  for (const li of lis) {
+    const t = stripTagsToText(li.innerHTML);
+    if (t) items.push(t);
+  }
+  return items;
+}
+
 /**
  * @param {string} html
  * @returns {Array<{ type: string, [key: string]: unknown }>}
@@ -87,7 +138,7 @@ function wpHtmlToAemBlocks(html) {
   if (!html || typeof html !== "string") {
     return [
       {
-        type: "text",
+        type: "paragraph",
         html: "<p></p>",
       },
     ];
@@ -98,7 +149,7 @@ function wpHtmlToAemBlocks(html) {
   if (top.length === 0 && meaningfulText(root.text)) {
     return [
       {
-        type: "text",
+        type: "paragraph",
         html: `<p>${escapeHtml(trimOuter(root.text))}</p>`,
       },
     ];
@@ -138,11 +189,33 @@ function wpHtmlToAemBlocks(html) {
       continue;
     }
 
-    if (tag === "UL" || tag === "OL") {
+    if (tag === "BLOCKQUOTE") {
+      const quoteText = stripTagsToText(node.innerHTML) || stripTagsToText(node.text);
+      if (quoteText) {
+        out.push({ type: "quote", text: quoteText });
+      }
+      i++;
+      continue;
+    }
+
+    if (tag === "ASIDE" && isCalloutAside(node)) {
+      const c = parseCalloutAside(node);
       out.push({
-        type: "text",
-        html: trimOuter(node.outerHTML),
-        sourceTag: tag.toLowerCase(),
+        type: "callout",
+        eyebrow: c.eyebrow,
+        bodyHtml: c.bodyHtml,
+        initial: c.initial,
+      });
+      i++;
+      continue;
+    }
+
+    if (tag === "UL" || tag === "OL") {
+      const items = parseListItems(node);
+      out.push({
+        type: "list",
+        ordered: tag === "OL",
+        items,
       });
       i++;
       continue;
@@ -169,9 +242,22 @@ function wpHtmlToAemBlocks(html) {
     }
 
     if (/^H[1-6]$/.test(tag)) {
+      const level = tag.toLowerCase();
+      const idFromDom = (node.getAttribute("id") || "").trim();
+      let slug = stripTagsToText(node.innerHTML)
+        .toLowerCase()
+        .replaceAll(/[^a-z0-9]+/g, "-");
+      slug = slug.replace(/^-+/, "").replace(/-+$/, "");
+      const anchorId =
+        idFromDom ||
+        slug ||
+        `heading-${out.length + 1}`;
+      const text = stripTagsToText(node.innerHTML) || stripTagsToText(node.text);
       out.push({
-        type: "text",
-        html: trimOuter(node.outerHTML),
+        type: "heading",
+        level,
+        text,
+        anchorId,
       });
       i++;
       continue;
@@ -202,7 +288,7 @@ function wpHtmlToAemBlocks(html) {
 
   if (out.length === 0) {
     out.push({
-      type: "text",
+      type: "paragraph",
       html: "<p></p>",
     });
   }

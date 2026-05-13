@@ -16,13 +16,15 @@
     "scrape": {
       "urls": [],
       "contentSelector": "",
-      "timeoutMs": 20000
+      "timeoutMs": 20000,
+      "layout": "generic"
     }
   },
   "aem": {
     "authorUrl": "http://localhost:8080",
     "blueprintPath": "data/aem-node-context/jcr_root/content/my-aem-site53/us/en/article/.content.xml",
     "parentJcrPath": "/content/my-aem-site53/us/en",
+    "bodyRenderer": "legacy",
     "packageGroup": "wp_migration",
     "packageName": "wp-to-aem-pages",
     "packageVersion": "1.0.0",

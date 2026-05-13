@@ -2,8 +2,7 @@
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content/>
-    <test1/>
-    <article/>
-    <median-page-1/>
-    <articles/>
+    <marrakech-souks/>
+    <ar2/>
+    <The-Blue-Hour-in-Santorini/>
 </jcr:root>

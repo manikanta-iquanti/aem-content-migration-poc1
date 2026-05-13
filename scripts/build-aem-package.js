@@ -87,12 +87,38 @@ function loadAemConfig(config) {
         ? aem.contextDir
         : path.join(ROOT, aem.contextDir)
       : defaults.contextDir,
+    bodyRenderer: aem.bodyRenderer === "meridian" ? "meridian" : "legacy",
   };
 }
 
 function extractSiteKeyFromBlueprint(blueprintXml) {
   const m = blueprintXml.match(/sling:resourceType="([^/]+)\/components\/page"/);
   return m ? m[1] : "my-aem-site53";
+}
+
+function extractBlueprintJcrTitle(blueprintXml) {
+  const m = blueprintXml.match(
+    /jcr:primaryType="cq:PageContent"[\s\S]{0,2500}?jcr:title="([^"]*)"/
+  );
+  return m ? m[1] : BLUEPRINT_PAGE_JCR_TITLE;
+}
+
+function escapeHtmlInner(value) {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function accordionPanelsToRichHtml(panels) {
+  return panels
+    .map((p) => {
+      const t = escapeHtmlInner(p.panelTitle || "");
+      const b = p.bodyHtml && String(p.bodyHtml).trim() ? p.bodyHtml : "<p></p>";
+      return `<p><strong>${t}</strong></p>${b}`;
+    })
+    .join("");
 }
 
 function renderTextComponent(siteKey, nodeName, html, escape) {
@@ -154,6 +180,274 @@ ${itemsXml}
                     </${nodeName}>`;
 }
 
+function renderMeridianHero(siteKey, escape, hero) {
+  return `                <mig_hero
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="${siteKey}/components/meridian-article-hero"
+                        authorName="${escape(hero.authorName ?? "")}"
+                        dek="${escape(hero.dek ?? "")}"
+                        eyebrow="${escape(hero.eyebrow ?? "")}"
+                        image="${escape(hero.image ?? "")}"
+                        imageAlt="${escape(hero.imageAlt ?? "")}"
+                        publishDateText="${escape(hero.publishDateText ?? "")}"
+                        readTime="${escape(hero.readTime ?? "")}"
+                        title="${escape(hero.title ?? "")}"/>`;
+}
+
+function renderMeridianJumpLinks(siteKey, escape, links) {
+  if (!Array.isArray(links) || links.length === 0) return "";
+  const itemsXml = links
+    .map((l, i) => {
+      const hrefRaw = String(l.href || "").replace(/^#/, "");
+      const href = escape(hrefRaw);
+      const text = escape(l.text || "");
+      return `                        <item${i}
+                            jcr:primaryType="nt:unstructured"
+                            href="${href}"
+                            text="${text}"/>`;
+    })
+    .join("\n");
+  return `                <mig_jump
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="${siteKey}/components/meridian-article-jump-links">
+                        <links jcr:primaryType="nt:unstructured">
+${itemsXml}
+                        </links>
+                    </mig_jump>`;
+}
+
+function renderMeridianParagraph(siteKey, escape, nodeName, html, dropCap) {
+  return `                <${nodeName}
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="${siteKey}/components/meridian-article-paragraph"
+                        body="${escape(html ?? "")}"
+                        dropCap="${dropCap ? "true" : "false"}"
+                        textIsRich="true"/>`;
+}
+
+function renderMeridianHeading(siteKey, escape, nodeName, block) {
+  const level = String(block.level || "h2").toLowerCase();
+  const anchor = escape(String(block.anchorId || ""));
+  const text = escape(String(block.text || ""));
+  return `                <${nodeName}
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="${siteKey}/components/meridian-article-heading"
+                        anchorId="${anchor}"
+                        level="${level}"
+                        text="${text}"/>`;
+}
+
+function renderMeridianQuote(siteKey, escape, nodeName, text) {
+  return `                <${nodeName}
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="${siteKey}/components/meridian-pull-quote"
+                        quote="${escape(text ?? "")}"/>`;
+}
+
+function renderMeridianList(siteKey, escape, nodeName, block) {
+  const listType = block.ordered ? "ordered" : "unordered";
+  const items = Array.isArray(block.items) ? block.items : [];
+  const itemsXml = items
+    .map((t, i) => {
+      return `                        <item${i}
+                            jcr:primaryType="nt:unstructured"
+                            text="${escape(String(t))}"/>`;
+    })
+    .join("\n");
+  return `                <${nodeName}
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="${siteKey}/components/meridian-article-list"
+                        listType="${listType}">
+                        <items jcr:primaryType="nt:unstructured">
+${itemsXml}
+                        </items>
+                    </${nodeName}>`;
+}
+
+function renderMeridianCallout(siteKey, escape, nodeName, block) {
+  const eyebrow = escape(String(block.eyebrow ?? ""));
+  const initial = escape(String(block.initial ?? "N"));
+  const body = escape(String(block.bodyHtml ?? "<p></p>"));
+  return `                <${nodeName}
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="${siteKey}/components/meridian-article-callout"
+                        body="${body}"
+                        eyebrow="${eyebrow}"
+                        initial="${initial}"
+                        textIsRich="true"/>`;
+}
+
+function renderMeridianTags(siteKey, escape, tags) {
+  if (!Array.isArray(tags) || tags.length === 0) return "";
+  const itemsXml = tags
+    .map((t, i) => {
+      return `                        <item${i}
+                            jcr:primaryType="nt:unstructured"
+                            text="${escape(String(t))}"/>`;
+    })
+    .join("\n");
+  return `                <mig_tags
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="${siteKey}/components/meridian-article-tags">
+                        <tags jcr:primaryType="nt:unstructured">
+${itemsXml}
+                        </tags>
+                    </mig_tags>`;
+}
+
+function renderMeridianAuthor(siteKey, escape, m) {
+  const card = m?.authorCard || {};
+  const authorName = String(
+    card.authorName || m?.authorName || ""
+  ).trim();
+  const initials = String(card.initials || "").trim() || authorName.slice(0, 2).toUpperCase();
+  const dropInitial = String(
+    card.dropInitial || (authorName ? authorName.charAt(0).toUpperCase() : "A")
+  );
+  return `                <mig_author
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="${siteKey}/components/meridian-author-card"
+                        authorName="${escape(authorName)}"
+                        dropInitial="${escape(dropInitial)}"
+                        initials="${escape(initials)}"
+                        label="Written by"/>`;
+}
+
+function renderMeridianSliceXml(siteKey, item, blocks, escape) {
+  const m = item.meridian && typeof item.meridian === "object" ? item.meridian : {};
+  const hero = {
+    title: item.title || "",
+    dek: m.dek || "",
+    eyebrow: m.eyebrow || "",
+    authorName: m.authorName || "",
+    image: m.image || "",
+    imageAlt: m.imageAlt || "",
+    publishDateText: m.publishDateText || "",
+    readTime: m.readTime || "",
+  };
+
+  const parts = [renderMeridianHero(siteKey, escape, hero)];
+  const jumpXml = renderMeridianJumpLinks(siteKey, escape, m.jumpLinks);
+  if (jumpXml) parts.push(jumpXml);
+
+  let parIdx = 0;
+  let headIdx = 0;
+  let quoteIdx = 0;
+  let listIdx = 0;
+  let callIdx = 0;
+  let firstParagraph = true;
+  let anyBody = false;
+  let imgIdx = 0;
+
+  for (const block of blocks) {
+    if (!block || typeof block !== "object") continue;
+
+    if (block.type === "paragraph") {
+      anyBody = true;
+      parIdx += 1;
+      const name = parIdx === 1 ? "mig_par" : `mig_par_${parIdx}`;
+      parts.push(
+        renderMeridianParagraph(
+          siteKey,
+          escape,
+          name,
+          block.html,
+          firstParagraph
+        )
+      );
+      firstParagraph = false;
+      continue;
+    }
+
+    if (block.type === "text") {
+      anyBody = true;
+      parIdx += 1;
+      const name = parIdx === 1 ? "mig_par" : `mig_par_${parIdx}`;
+      parts.push(
+        renderMeridianParagraph(siteKey, escape, name, block.html, firstParagraph)
+      );
+      firstParagraph = false;
+      continue;
+    }
+
+    if (block.type === "heading") {
+      anyBody = true;
+      headIdx += 1;
+      const name = headIdx === 1 ? "mig_head" : `mig_head_${headIdx}`;
+      parts.push(renderMeridianHeading(siteKey, escape, name, block));
+      continue;
+    }
+
+    if (block.type === "quote") {
+      anyBody = true;
+      quoteIdx += 1;
+      const name = quoteIdx === 1 ? "mig_quote" : `mig_quote_${quoteIdx}`;
+      parts.push(renderMeridianQuote(siteKey, escape, name, block.text));
+      continue;
+    }
+
+    if (block.type === "list") {
+      anyBody = true;
+      listIdx += 1;
+      const name = listIdx === 1 ? "mig_list" : `mig_list_${listIdx}`;
+      parts.push(renderMeridianList(siteKey, escape, name, block));
+      continue;
+    }
+
+    if (block.type === "callout") {
+      anyBody = true;
+      callIdx += 1;
+      const name = callIdx === 1 ? "mig_callout" : `mig_callout_${callIdx}`;
+      parts.push(renderMeridianCallout(siteKey, escape, name, block));
+      continue;
+    }
+
+    if (block.type === "image") {
+      anyBody = true;
+      imgIdx += 1;
+      const name = imgIdx === 1 ? "mig_image" : `mig_image_${imgIdx}`;
+      parts.push(renderImageComponent(siteKey, name, block, escape));
+      continue;
+    }
+
+    if (block.type === "accordion") {
+      const panels = Array.isArray(block.panels) ? block.panels : [];
+      if (panels.length === 0) continue;
+      anyBody = true;
+      parIdx += 1;
+      const name = parIdx === 1 ? "mig_par" : `mig_par_${parIdx}`;
+      parts.push(
+        renderMeridianParagraph(
+          siteKey,
+          escape,
+          name,
+          accordionPanelsToRichHtml(panels),
+          firstParagraph
+        )
+      );
+      firstParagraph = false;
+      continue;
+    }
+  }
+
+  if (!anyBody) {
+    parts.push(
+      renderMeridianParagraph(
+        siteKey,
+        escape,
+        "mig_par",
+        "<p></p>",
+        false
+      )
+    );
+  }
+
+  parts.push(renderMeridianTags(siteKey, escape, m.tags));
+  parts.push(renderMeridianAuthor(siteKey, escape, m));
+
+  return parts.join("\n");
+}
+
 /**
  * @param {string} siteKey
  * @param {Array<object>} blocks
@@ -165,44 +459,73 @@ function renderBodyXml(siteKey, blocks, escape) {
   let accordionCount = 0;
   const parts = [];
 
+  function pushTextHtml(html) {
+    textCount += 1;
+    const name = textCount === 1 ? "text" : `text_${textCount - 1}`;
+    parts.push(renderTextComponent(siteKey, name, html, escape));
+  }
+
   for (const block of blocks) {
     if (!block || typeof block !== "object") continue;
-    if (block.type === "text") {
-      textCount += 1;
-      const name = textCount === 1 ? "text" : `text_${textCount - 1}`;
-      parts.push(renderTextComponent(siteKey, name, block.html, escape));
+
+    if (block.type === "text" || block.type === "paragraph") {
+      pushTextHtml(block.html ?? "<p></p>");
       continue;
     }
+
+    if (block.type === "heading") {
+      const lvl = String(block.level || "h2").toLowerCase();
+      const id = String(block.anchorId || "").replace(/"/g, "");
+      const inner = escapeHtmlInner(String(block.text || ""));
+      pushTextHtml(`<${lvl} id="${escapeHtmlInner(id)}">${inner}</${lvl}>`);
+      continue;
+    }
+
+    if (block.type === "quote") {
+      const inner = escapeHtmlInner(String(block.text || ""));
+      pushTextHtml(`<blockquote><p>${inner}</p></blockquote>`);
+      continue;
+    }
+
+    if (block.type === "list") {
+      const tag = block.ordered ? "ol" : "ul";
+      const items = Array.isArray(block.items) ? block.items : [];
+      const lis = items
+        .map((t) => `<li>${escapeHtmlInner(String(t))}</li>`)
+        .join("");
+      pushTextHtml(`<${tag}>${lis}</${tag}>`);
+      continue;
+    }
+
+    if (block.type === "callout") {
+      const ey = escapeHtmlInner(String(block.eyebrow || ""));
+      const body = String(block.bodyHtml || "<p></p>");
+      pushTextHtml(
+        `<aside><p class="eyebrow">${ey}</p>${body}</aside>`
+      );
+      continue;
+    }
+
     if (block.type === "image") {
       imageCount += 1;
-      const name =
-        imageCount === 1 ? "image" : `image_${imageCount - 1}`;
+      const name = imageCount === 1 ? "image" : `image_${imageCount - 1}`;
       parts.push(renderImageComponent(siteKey, name, block, escape));
       continue;
     }
+
     if (block.type === "accordion") {
       const panels = Array.isArray(block.panels) ? block.panels : [];
       if (panels.length === 0) continue;
       accordionCount += 1;
       const name =
-        accordionCount === 1
-          ? "accordion"
-          : `accordion_${accordionCount - 1}`;
-      parts.push(
-        renderAccordionComponent(siteKey, name, panels, escape)
-      );
+        accordionCount === 1 ? "accordion" : `accordion_${accordionCount - 1}`;
+      parts.push(renderAccordionComponent(siteKey, name, panels, escape));
+      continue;
     }
   }
 
   if (parts.length === 0) {
-    parts.push(
-      renderTextComponent(
-        siteKey,
-        "text",
-        "<p></p>",
-        escape
-      )
-    );
+    parts.push(renderTextComponent(siteKey, "text", "<p></p>", escape));
   }
 
   return parts.join("\n");
@@ -215,12 +538,13 @@ function resolveBlocks(item) {
   return wpHtmlToAemBlocks(item.content ?? "");
 }
 
-function pageXmlFromBlueprint(blueprintXml, title, blocks) {
+function pageXmlFromBlueprint(blueprintXml, item, blocks, aem) {
   let xml = blueprintXml;
   const siteKey = extractSiteKeyFromBlueprint(blueprintXml);
-  const pageTitleEsc = escapeXmlAttr(title.trim());
+  const blueprintTitle = extractBlueprintJcrTitle(xml);
+  const pageTitleEsc = escapeXmlAttr(String(item.title || "").trim());
   xml = xml.replace(
-    `jcr:title="${BLUEPRINT_PAGE_JCR_TITLE}"`,
+    `jcr:title="${blueprintTitle}"`,
     `jcr:title="${pageTitleEsc}"`
   );
 
@@ -230,7 +554,11 @@ function pageXmlFromBlueprint(blueprintXml, title, blocks) {
     );
   }
 
-  const bodyXml = renderBodyXml(siteKey, blocks, escapeXmlAttr);
+  const bodyXml =
+    aem.bodyRenderer === "meridian"
+      ? renderMeridianSliceXml(siteKey, item, blocks, escapeXmlAttr)
+      : renderBodyXml(siteKey, blocks, escapeXmlAttr);
+
   xml = xml.replace(
     new RegExp(
       `(${escapeRegex(WP_BODY_MARKER_START)})\\s*[\\s\\S]*?\\s*(${escapeRegex(
@@ -360,11 +688,7 @@ async function main() {
       seen.set(pageName, true);
 
       const blocks = resolveBlocks(item);
-      const xml = pageXmlFromBlueprint(
-        blueprintXml,
-        item.title || pageName,
-        blocks
-      );
+      const xml = pageXmlFromBlueprint(blueprintXml, item, blocks, aem);
       const pageDir = path.join(staging, jcrRootRel, pageName);
       await fs.ensureDir(pageDir);
       await fs.writeFile(path.join(pageDir, ".content.xml"), xml, "utf8");

@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1.287091590113436e+75,
+    "slug": "kyoto-in-the-rain",
+    "status": "publish",
+    "date": "2026-05-13T07:29:36.301Z",
+    "title": "Kyoto in the Rain",
+    "excerpt": "Wet stone, paper umbrellas, and the particular hush of a temple garden when the tour buses give up and go home.",
+    "contentHtml": "<p>It rained the entire week I spent in Kyoto, and I cannot recommend it highly enough. The city is built for weather — the deep eaves of the wooden machiya houses, the moss that drinks light off the stones at Saiho-ji, the steam curling off bowls of udon in basement noodle bars where the windows fog from the inside.</p>\n<h2 id=\"fushimi-inari-at-dawn\" class=\"font-display text-foreground scroll-mt-28\">Fushimi Inari at dawn</h2>\n<p>I climbed through the vermilion gates at five in the morning, alone except for a single shrine cat who watched me with the polite suspicion of a customs officer. The torii recede uphill into mist, each one inscribed with the name of a donor, each one a small act of faith stacked on top of the last.</p>\n<blockquote>A garden in Kyoto is a sentence. The rain is the punctuation.</blockquote>\n<h2 id=\"what-to-pack-for-a-wet-week\" class=\"font-display text-foreground scroll-mt-28\">What to pack for a wet week</h2>\n<ul class=\"my-6 ml-6 space-y-2 text-foreground list-disc marker:text-primary\"><li class=\"pl-2\">A genuinely waterproof jacket — not &#x27;water resistant&#x27;, not &#x27;showerproof&#x27;.</li><li class=\"pl-2\">Two pairs of shoes, so one can dry while the other works.</li><li class=\"pl-2\">A small folding umbrella; the convenience-store ones snap by Tuesday.</li><li class=\"pl-2\">A notebook with a hard cover. Soft covers warp.</li></ul>\n<h2 id=\"the-kissaten-on-a-side-street\" class=\"font-display text-foreground scroll-mt-28\">The kissaten on a side street</h2>\n<p>Find the old coffee shops. Not the third-wave ones with the V60s and the Aesop hand soap, but the kissaten — dim, wood-panelled rooms where a man in a bow tie has been making the same siphon coffee since 1974 and where the cheesecake comes on a doily. Sit by the window. Watch the rain. Don&#x27;t look at your phone.</p>\n<aside class=\"my-10 border-l-4 border-accent bg-accent/5 px-6 py-5 font-sans text-base\"><p class=\"text-[11px] uppercase tracking-[0.25em] text-accent mb-2\">Etiquette note</p><p class=\"text-foreground leading-relaxed m-0\">Slurp the noodles. Don&#x27;t tip. Take your shoes off when the floor changes level. When in doubt, do what the person next to you is doing.</p></aside>\n<h2 id=\"a-loose-itinerary\" class=\"font-display text-foreground scroll-mt-28\">A loose itinerary</h2>\n<ol class=\"my-6 ml-6 space-y-2 text-foreground list-decimal marker:text-primary marker:font-display\"><li class=\"pl-2\">Day 1 — Arrive, eat tonkatsu, sleep early.</li><li class=\"pl-2\">Day 2 — Fushimi Inari at dawn, Tofukuji in the afternoon.</li><li class=\"pl-2\">Day 3 — Philosopher&#x27;s Path, end at Honen-in.</li><li class=\"pl-2\">Day 4 — Day trip to Uji for the matcha and the tea museum.</li><li class=\"pl-2\">Day 5 — Nishiki Market, then a long evening in a kissaten.</li></ol>\n<h2 id=\"leaving\" class=\"font-display text-foreground scroll-mt-28\">Leaving</h2>\n<p>I left Kyoto on the bullet train with damp shoes and the strong sense that I had only seen a tenth of it. That, I think, is the correct way to leave.</p>",
+    "aemBlocks": [
+      {
+        "type": "paragraph",
+        "html": "<p>It rained the entire week I spent in Kyoto, and I cannot recommend it highly enough. The city is built for weather — the deep eaves of the wooden machiya houses, the moss that drinks light off the stones at Saiho-ji, the steam curling off bowls of udon in basement noodle bars where the windows fog from the inside.</p>"
+      },
+      {
+        "type": "heading",
+        "level": "h2",
+        "text": "Fushimi Inari at dawn",
+        "anchorId": "fushimi-inari-at-dawn"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>I climbed through the vermilion gates at five in the morning, alone except for a single shrine cat who watched me with the polite suspicion of a customs officer. The torii recede uphill into mist, each one inscribed with the name of a donor, each one a small act of faith stacked on top of the last.</p>"
+      },
+      {
+        "type": "quote",
+        "text": "A garden in Kyoto is a sentence. The rain is the punctuation."
+      },
+      {
+        "type": "heading",
+        "level": "h2",
+        "text": "What to pack for a wet week",
+        "anchorId": "what-to-pack-for-a-wet-week"
+      },
+      {
+        "type": "list",
+        "ordered": false,
+        "items": [
+          "A genuinely waterproof jacket — not &#x27;water resistant&#x27;, not &#x27;showerproof&#x27;.",
+          "Two pairs of shoes, so one can dry while the other works.",
+          "A small folding umbrella; the convenience-store ones snap by Tuesday.",
+          "A notebook with a hard cover. Soft covers warp."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": "h2",
+        "text": "The kissaten on a side street",
+        "anchorId": "the-kissaten-on-a-side-street"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>Find the old coffee shops. Not the third-wave ones with the V60s and the Aesop hand soap, but the kissaten — dim, wood-panelled rooms where a man in a bow tie has been making the same siphon coffee since 1974 and where the cheesecake comes on a doily. Sit by the window. Watch the rain. Don&#x27;t look at your phone.</p>"
+      },
+      {
+        "type": "callout",
+        "eyebrow": "Etiquette note",
+        "bodyHtml": "<p class=\"text-foreground leading-relaxed m-0\">Slurp the noodles. Don&#x27;t tip. Take your shoes off when the floor changes level. When in doubt, do what the person next to you is doing.</p>",
+        "initial": "E"
+      },
+      {
+        "type": "heading",
+        "level": "h2",
+        "text": "A loose itinerary",
+        "anchorId": "a-loose-itinerary"
+      },
+      {
+        "type": "list",
+        "ordered": true,
+        "items": [
+          "Day 1 — Arrive, eat tonkatsu, sleep early.",
+          "Day 2 — Fushimi Inari at dawn, Tofukuji in the afternoon.",
+          "Day 3 — Philosopher&#x27;s Path, end at Honen-in.",
+          "Day 4 — Day trip to Uji for the matcha and the tea museum.",
+          "Day 5 — Nishiki Market, then a long evening in a kissaten."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": "h2",
+        "text": "Leaving",
+        "anchorId": "leaving"
+      },
+      {
+        "type": "paragraph",
+        "html": "<p>I left Kyoto on the bullet train with damp shoes and the strong sense that I had only seen a tenth of it. That, I think, is the correct way to leave.</p>"
+      }
+    ],
+    "link": "http://localhost:8081/articles/kyoto-in-the-rain",
+    "meridian": {
+      "eyebrow": "Culture · Kyoto, Japan",
+      "dek": "Wet stone, paper umbrellas, and the particular hush of a temple garden when the tour buses give up and go home.",
+      "authorName": "Theo Nakamura",
+      "publishDateText": "March 28, 2026",
+      "readTime": "9 min read",
+      "image": "http://localhost:8081/src/assets/kyoto.jpg",
+      "imageAlt": "Kyoto in the Rain",
+      "jumpLinks": [
+        {
+          "href": "#fushimi-inari-at-dawn",
+          "text": "Fushimi Inari at dawn"
+        },
+        {
+          "href": "#what-to-pack-for-a-wet-week",
+          "text": "What to pack for a wet week"
+        },
+        {
+          "href": "#the-kissaten-on-a-side-street",
+          "text": "The kissaten on a side street"
+        },
+        {
+          "href": "#a-loose-itinerary",
+          "text": "A loose itinerary"
+        },
+        {
+          "href": "#leaving",
+          "text": "Leaving"
+        }
+      ],
+      "tags": [
+        "Temples",
+        "Tea",
+        "Rain travel",
+        "Kissaten"
+      ],
+      "authorCard": {
+        "authorName": "Theo Nakamura",
+        "initials": "TN",
+        "dropInitial": "T"
+      }
+    }
+  }
+]

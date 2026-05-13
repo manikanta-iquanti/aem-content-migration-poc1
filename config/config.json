@@ -12,15 +12,17 @@
   "extract": {
     "mode": "scrape",
     "scrape": {
-      "urls": ["http://192.168.186.1:8080/articles/santorini-blue-hour"],
+      "urls": ["http://localhost:8081/articles/kyoto-in-the-rain","http://localhost:8081/articles/marrakech-souks","http://localhost:8081/articles/patagonia-end-of-the-world"],
       "contentSelector": "",
-      "timeoutMs": 20000
+      "timeoutMs": 20000,
+      "layout": "meridian-static"
     }
   },
   "aem": {
     "authorUrl": "http://localhost:8080",
-    "blueprintPath": "data/aem-node-context/jcr_root/content/my-aem-site53/us/en/article/.content.xml",
-    "parentJcrPath": "/content/my-aem-site53/us/en",
+    "blueprintPath": "data/aem-node-context/jcr_root/content/my-aem-site53/us/en/articles/The-Blue-Hour-in-Santorini/.content.xml",
+    "parentJcrPath": "/content/my-aem-site53/us/en/articles",
+    "bodyRenderer": "meridian",
     "packageGroup": "wp_migration",
     "packageName": "wp-to-aem-pages",
     "packageVersion": "1.0.0",

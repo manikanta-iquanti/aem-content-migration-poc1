@@ -34,6 +34,7 @@ async function main() {
     contentHtml: post.content?.rendered ?? "",
     aemBlocks: wpHtmlToAemBlocks(post.content?.rendered ?? ""),
     link: post.link ?? "",
+    meridian: post.meridian,
   }));
 
   await fs.ensureDir(OUT_DIR);
