@@ -3,6 +3,10 @@
 const axios = require("axios");
 const { parse } = require("node-html-parser");
 const { extractMeridianStaticPage } = require("./meridian-static-extract");
+const {
+  discoverArticleUrlsFromIndex,
+  defaultPathnameMatch,
+} = require("./discover-article-urls");
 
 const DEFAULT_TIMEOUT_MS = 20000;
 const DEFAULT_USER_AGENT =
@@ -162,22 +166,111 @@ function extractPageData(html, pageUrl, index, options = {}) {
   };
 }
 
-async function scrapePagesToWpShape(config) {
+/**
+ * Merges explicit `extract.scrape.urls` with URLs discovered from `discoverIndexUrl`
+ * (same-origin links whose pathname matches `/articles/:slug` by default).
+ * @returns {Promise<string[]>} absolute URLs, deduped, explicit first
+ */
+async function resolveScrapeUrls(config) {
   const scrapeCfg = config?.extract?.scrape || {};
+  const explicit = Array.isArray(scrapeCfg.urls) ? scrapeCfg.urls : [];
+  const discoverIndexUrl = String(scrapeCfg.discoverIndexUrl || "").trim();
   const sourceBase = scrapeCfg.baseUrl || config?.source?.baseUrl || "";
-  const urls = Array.isArray(scrapeCfg.urls) ? scrapeCfg.urls : [];
-  const timeoutMs = Number(scrapeCfg.timeoutMs) || DEFAULT_TIMEOUT_MS;
-  const userAgent = scrapeCfg.userAgent || DEFAULT_USER_AGENT;
+  const resolveBase =
+    sourceBase ||
+    (discoverIndexUrl ? new URL(discoverIndexUrl).origin : "");
 
-  if (urls.length === 0) {
-    throw new Error(
-      "extract.scrape.urls is empty. Add one or more page URLs to scrape."
+  let pathnameMatchFn = defaultPathnameMatch;
+  if (scrapeCfg.discoverPathnameRegex) {
+    try {
+      const re = new RegExp(scrapeCfg.discoverPathnameRegex);
+      pathnameMatchFn = (pathname) => {
+        let p = pathname || "/";
+        if (p.length > 1 && p.endsWith("/")) p = p.slice(0, -1);
+        return re.test(p);
+      };
+    } catch {
+      throw new TypeError(
+        `Invalid extract.scrape.discoverPathnameRegex: ${String(scrapeCfg.discoverPathnameRegex)}`
+      );
+    }
+  }
+
+  let discovered = [];
+  if (discoverIndexUrl) {
+    discovered = await discoverArticleUrlsFromIndex(discoverIndexUrl, {
+      timeoutMs: Number(scrapeCfg.timeoutMs) || DEFAULT_TIMEOUT_MS,
+      userAgent: scrapeCfg.userAgent || DEFAULT_USER_AGENT,
+      pathnameMatch: pathnameMatchFn,
+      maxUrls: Number(scrapeCfg.maxDiscoverUrls) || 500,
+    });
+    console.log(
+      `Discovered ${discovered.length} URL(s) from discoverIndexUrl ${discoverIndexUrl}`
     );
   }
 
+  const merged = [
+    ...explicit.map((u) => String(u).trim()).filter(Boolean),
+    ...discovered,
+  ];
+
+  const needsBase = merged.some((u) => !/^https?:\/\//i.test(String(u)));
+  if (needsBase && !resolveBase) {
+    throw new Error(
+      "Relative scrape URLs need source.baseUrl, extract.scrape.baseUrl, or extract.scrape.discoverIndexUrl (for origin)."
+    );
+  }
+
+  const baseForRelative = resolveBase ? normalizeBaseUrl(resolveBase) : "";
+  const deduped = [];
+  const seen = new Set();
+
+  for (const u of merged) {
+    let abs;
+    try {
+      abs = /^https?:\/\//i.test(u)
+        ? u
+        : toAbsoluteUrl(u, baseForRelative);
+    } catch {
+      continue;
+    }
+
+    let key;
+    try {
+      const parsed = new URL(abs);
+      parsed.hash = "";
+      let path = parsed.pathname;
+      if (path.length > 1 && path.endsWith("/")) path = path.slice(0, -1);
+      parsed.pathname = path;
+      key = parsed.href;
+    } catch {
+      key = abs;
+    }
+
+    if (seen.has(key)) continue;
+    seen.add(key);
+    deduped.push(abs);
+  }
+
+  if (deduped.length === 0) {
+    throw new Error(
+      "No scrape URLs after merge. Set extract.scrape.urls and/or extract.scrape.discoverIndexUrl (listing page that links to article URLs)."
+    );
+  }
+
+  return deduped;
+}
+
+async function scrapePagesToWpShape(config) {
+  const scrapeCfg = config?.extract?.scrape || {};
+  const urls = await resolveScrapeUrls(config);
+  console.log(`Scraping ${urls.length} page(s)`);
+  const timeoutMs = Number(scrapeCfg.timeoutMs) || DEFAULT_TIMEOUT_MS;
+  const userAgent = scrapeCfg.userAgent || DEFAULT_USER_AGENT;
+
   const output = [];
   for (let i = 0; i < urls.length; i++) {
-    const absoluteUrl = toAbsoluteUrl(urls[i], sourceBase);
+    const absoluteUrl = urls[i];
     const res = await axios.get(absoluteUrl, {
       timeout: timeoutMs,
       headers: { "User-Agent": userAgent },

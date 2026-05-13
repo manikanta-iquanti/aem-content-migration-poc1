@@ -1,7 +1,133 @@
 {
-  "generatedAt": "2026-05-13T08:18:11.241Z",
-  "count": 3,
+  "generatedAt": "2026-05-13T09:36:16.717Z",
+  "count": 14,
   "items": [
+    {
+      "sourceId": 1.2368950180990118e+78,
+      "slug": "santorini-blue-hour",
+      "title": "The Blue Hour in Santorini",
+      "status": "draft",
+      "content": "<p>Santorini doesn&#x27;t reveal itself all at once. The ferry rounds a black volcanic headland and suddenly the cliffs are there — chalk-white villages spilling over the caldera like sugar over the rim of a cup. I had read the warnings: too many cruise ships, too many influencers, too many sunsets photographed too many times. And yet, standing on the cobbled lip of Oia at half past seven, I forgot all of it.</p>\n<h2 id=\"mornings-before-the-crowds\" class=\"font-display text-foreground scroll-mt-28\">Mornings before the crowds</h2>\n<p>The trick, as anyone who has lived on a tourist island will tell you, is to wake up before the boats do. By six the alleys belong to the bakers and the cats. I bought a bougatsa wrapped in waxed paper and ate it sitting on a low wall while the Aegean turned from slate to silver to that impossible cobalt that the postcards never quite get right.</p>\n<blockquote>Some places are loved into cliché. Santorini, somehow, survives the love.<footer class=\"mt-3 text-sm not-italic font-sans text-muted-foreground\">— field notebook, day three</footer></blockquote>\n<h2 id=\"where-to-actually-eat\" class=\"font-display text-foreground scroll-mt-28\">Where to actually eat</h2>\n<p>Skip the caldera-view restaurants with the laminated menus. Walk fifteen minutes inland and you&#x27;ll find tavernas where the tomatoes taste like they were grown in a different decade — sweeter, denser, almost candied by the volcanic soil.</p>\n<ul class=\"my-6 ml-6 space-y-2 text-foreground list-disc marker:text-primary\"><li class=\"pl-2\">Metaxi Mas in Exo Gonia — book a week ahead, sit on the terrace.</li><li class=\"pl-2\">To Psaraki down in Vlychada for whatever was caught that morning.</li><li class=\"pl-2\">Lolita&#x27;s Gelato in Oia for the salted pistachio, full stop.</li><li class=\"pl-2\">Any bakery whose front window has a tray of melitinia at 7am.</li></ul>\n<h2 id=\"a-walk-worth-the-blisters\" class=\"font-display text-foreground scroll-mt-28\">A walk worth the blisters</h2>\n<p>The cliff-top path from Fira to Oia is ten kilometres of caldera, donkey bells, and the occasional chapel painted so blue it hurts. Start before nine, carry more water than feels reasonable, and don&#x27;t trust the shade.</p>\n<aside class=\"my-10 border-l-4 border-accent bg-accent/5 px-6 py-5 font-sans text-base\"><p class=\"text-[11px] uppercase tracking-[0.25em] text-accent mb-2\">Logistics tip</p><p class=\"text-foreground leading-relaxed m-0\">The ferry from Athens is eight hours and beautiful for the first two. Fly in, ferry out — you&#x27;ll thank yourself.</p></aside>\n<h2 id=\"by-the-numbers\" class=\"font-display text-foreground scroll-mt-28\">By the numbers</h2>\n<div class=\"my-10 grid grid-cols-2 md:grid-cols-4 gap-px bg-border border border-border font-sans\"><div class=\"bg-card p-5\"><div class=\"font-display text-3xl text-primary leading-none\">9</div><div class=\"mt-2 text-xs uppercase tracking-[0.2em] text-muted-foreground\">Days on the island</div></div><div class=\"bg-card p-5\"><div class=\"font-display text-3xl text-primary leading-none\">7</div><div class=\"mt-2 text-xs uppercase tracking-[0.2em] text-muted-foreground\">Sunsets watched</div></div><div class=\"bg-card p-5\"><div class=\"font-display text-3xl text-primary leading-none\">many</div><div class=\"mt-2 text-xs uppercase tracking-[0.2em] text-muted-foreground\">Glasses of Assyrtiko</div></div><div class=\"bg-card p-5\"><div class=\"font-display text-3xl text-primary leading-none\">11</div><div class=\"mt-2 text-xs uppercase tracking-[0.2em] text-muted-foreground\">Donkeys photographed</div></div></div>\n<h2 id=\"leaving\" class=\"font-display text-foreground scroll-mt-28\">Leaving</h2>\n<p>I left on the late ferry, sunburnt across the bridge of my nose, my notebook smelling faintly of retsina. Santorini had been everything the brochures promised and, quietly, a great deal more.</p>",
+      "aemBlocks": [
+        {
+          "type": "paragraph",
+          "html": "<p>Santorini doesn&#x27;t reveal itself all at once. The ferry rounds a black volcanic headland and suddenly the cliffs are there — chalk-white villages spilling over the caldera like sugar over the rim of a cup. I had read the warnings: too many cruise ships, too many influencers, too many sunsets photographed too many times. And yet, standing on the cobbled lip of Oia at half past seven, I forgot all of it.</p>"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Mornings before the crowds",
+          "anchorId": "mornings-before-the-crowds"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The trick, as anyone who has lived on a tourist island will tell you, is to wake up before the boats do. By six the alleys belong to the bakers and the cats. I bought a bougatsa wrapped in waxed paper and ate it sitting on a low wall while the Aegean turned from slate to silver to that impossible cobalt that the postcards never quite get right.</p>"
+        },
+        {
+          "type": "quote",
+          "text": "Some places are loved into cliché. Santorini, somehow, survives the love. — field notebook, day three"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Where to actually eat",
+          "anchorId": "where-to-actually-eat"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Skip the caldera-view restaurants with the laminated menus. Walk fifteen minutes inland and you&#x27;ll find tavernas where the tomatoes taste like they were grown in a different decade — sweeter, denser, almost candied by the volcanic soil.</p>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Metaxi Mas in Exo Gonia — book a week ahead, sit on the terrace.",
+            "To Psaraki down in Vlychada for whatever was caught that morning.",
+            "Lolita&#x27;s Gelato in Oia for the salted pistachio, full stop.",
+            "Any bakery whose front window has a tray of melitinia at 7am."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "A walk worth the blisters",
+          "anchorId": "a-walk-worth-the-blisters"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The cliff-top path from Fira to Oia is ten kilometres of caldera, donkey bells, and the occasional chapel painted so blue it hurts. Start before nine, carry more water than feels reasonable, and don&#x27;t trust the shade.</p>"
+        },
+        {
+          "type": "callout",
+          "eyebrow": "Logistics tip",
+          "bodyHtml": "<p class=\"text-foreground leading-relaxed m-0\">The ferry from Athens is eight hours and beautiful for the first two. Fly in, ferry out — you&#x27;ll thank yourself.</p>",
+          "initial": "L"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "By the numbers",
+          "anchorId": "by-the-numbers"
+        },
+        {
+          "type": "text",
+          "html": "<div class=\"my-10 grid grid-cols-2 md:grid-cols-4 gap-px bg-border border border-border font-sans\"><div class=\"bg-card p-5\"><div class=\"font-display text-3xl text-primary leading-none\">9</div><div class=\"mt-2 text-xs uppercase tracking-[0.2em] text-muted-foreground\">Days on the island</div></div><div class=\"bg-card p-5\"><div class=\"font-display text-3xl text-primary leading-none\">7</div><div class=\"mt-2 text-xs uppercase tracking-[0.2em] text-muted-foreground\">Sunsets watched</div></div><div class=\"bg-card p-5\"><div class=\"font-display text-3xl text-primary leading-none\">many</div><div class=\"mt-2 text-xs uppercase tracking-[0.2em] text-muted-foreground\">Glasses of Assyrtiko</div></div><div class=\"bg-card p-5\"><div class=\"font-display text-3xl text-primary leading-none\">11</div><div class=\"mt-2 text-xs uppercase tracking-[0.2em] text-muted-foreground\">Donkeys photographed</div></div></div>"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Leaving",
+          "anchorId": "leaving"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>I left on the late ferry, sunburnt across the bridge of my nose, my notebook smelling faintly of retsina. Santorini had been everything the brochures promised and, quietly, a great deal more.</p>"
+        }
+      ],
+      "excerpt": "Chasing whitewashed cliffs, sleepy donkeys, and a sunset that everyone warned would be too crowded to love.",
+      "meridian": {
+        "eyebrow": "Coastal · Santorini, Greece",
+        "dek": "Chasing whitewashed cliffs, sleepy donkeys, and a sunset that everyone warned would be too crowded to love.",
+        "authorName": "Mira Halsey",
+        "publishDateText": "April 12, 2026",
+        "readTime": "7 min read",
+        "image": "http://localhost:8081/src/assets/santorini.jpg",
+        "imageAlt": "The Blue Hour in Santorini",
+        "jumpLinks": [
+          {
+            "href": "#mornings-before-the-crowds",
+            "text": "Mornings before the crowds"
+          },
+          {
+            "href": "#where-to-actually-eat",
+            "text": "Where to actually eat"
+          },
+          {
+            "href": "#a-walk-worth-the-blisters",
+            "text": "A walk worth the blisters"
+          },
+          {
+            "href": "#by-the-numbers",
+            "text": "By the numbers"
+          },
+          {
+            "href": "#leaving",
+            "text": "Leaving"
+          }
+        ],
+        "tags": [
+          "Islands",
+          "Greek food",
+          "Slow travel",
+          "Photography"
+        ],
+        "authorCard": {
+          "authorName": "Mira Halsey",
+          "initials": "MH",
+          "dropInitial": "M"
+        }
+      }
+    },
     {
       "sourceId": 1.287091590113436e+75,
       "slug": "kyoto-in-the-rain",
@@ -354,6 +480,973 @@
           "authorName": "Cal Mendoza",
           "initials": "CM",
           "dropInitial": "C"
+        }
+      }
+    },
+    {
+      "sourceId": 1.287091590113436e+75,
+      "slug": "tokyo-neon-nights",
+      "title": "Tokyo After Dark: Neon Dreams & Late-Night Ramen",
+      "status": "draft",
+      "content": "<p>Tokyo transforms after midnight. The salarymen emerge from underground stations like ghosts clocking out of a dream, and the alleyways of Shinjuku begin their second life. Golden yakitori skewers glow on charcoal grills, and the sound of ice being crushed for highballs fills the humid air.</p>\n<h2 id=\"the-golden-gai\" class=\"font-display text-foreground scroll-mt-28\">The黄金時代 — Golden Gai</h2>\n<p>Six tiny bars squeezed into a space the size of a walk-in closet, each with seating for no more than five. The yakitori here is not a meal; it&#x27;s a ritual. Chicken liver on a willow skewer, charred at the edges, served with a cold Asahi and the quiet company of strangers who may or may not speak English.</p>\n<blockquote>In Tokyo, you are never alone. Even in the smallest bar, someone has saved you a seat.</blockquote>\n<h2 id=\"ramen-at-3am\" class=\"font-display text-foreground scroll-mt-28\">Ramen at 3AM</h2>\n<p>The best bowl of my life was not at a famous shop. It was in a window-less room in Kabukicho, where a man with no visible arms served tonkotsu from a cart. The broth was the colour of clouds at sunset, thick enough to cling to the noodles, and the chashu fell apart at the touch of chopsticks.</p>\n<ul class=\"my-6 ml-6 space-y-2 text-foreground list-disc marker:text-primary\"><li class=\"pl-2\">Ichiran — individual booths, perfect for solo eaters.</li><li class=\"pl-2\">Gyukaku — all-you-can-eat yakiniku, with ramen for dessert.</li><li class=\"pl-2\">Any standing bar in Omoide Yokocho — just point and smile.</li></ul>\n<aside class=\"my-10 border-l-4 border-accent bg-accent/5 px-6 py-5 font-sans text-base\"><p class=\"text-[11px] uppercase tracking-[0.25em] text-accent mb-2\">Navigation tip</p><p class=\"text-foreground leading-relaxed m-0\">When lost in Shinjuku, follow the neon. The red lanterns of Omoide Yokocho appear when you need them most.</p></aside>\n<h2 id=\"leaving\" class=\"font-display text-foreground scroll-mt-28\">Leaving</h2>\n<p>I took the last train home at 4AM, sat in a nearly empty carriage, and watched the city lights blur past. Tokyo had shown me its secrets, and all it asked in return was that I return.</p>",
+      "aemBlocks": [
+        {
+          "type": "paragraph",
+          "html": "<p>Tokyo transforms after midnight. The salarymen emerge from underground stations like ghosts clocking out of a dream, and the alleyways of Shinjuku begin their second life. Golden yakitori skewers glow on charcoal grills, and the sound of ice being crushed for highballs fills the humid air.</p>"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "The黄金時代 — Golden Gai",
+          "anchorId": "the-golden-gai"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Six tiny bars squeezed into a space the size of a walk-in closet, each with seating for no more than five. The yakitori here is not a meal; it&#x27;s a ritual. Chicken liver on a willow skewer, charred at the edges, served with a cold Asahi and the quiet company of strangers who may or may not speak English.</p>"
+        },
+        {
+          "type": "quote",
+          "text": "In Tokyo, you are never alone. Even in the smallest bar, someone has saved you a seat."
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Ramen at 3AM",
+          "anchorId": "ramen-at-3am"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The best bowl of my life was not at a famous shop. It was in a window-less room in Kabukicho, where a man with no visible arms served tonkotsu from a cart. The broth was the colour of clouds at sunset, thick enough to cling to the noodles, and the chashu fell apart at the touch of chopsticks.</p>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ichiran — individual booths, perfect for solo eaters.",
+            "Gyukaku — all-you-can-eat yakiniku, with ramen for dessert.",
+            "Any standing bar in Omoide Yokocho — just point and smile."
+          ]
+        },
+        {
+          "type": "callout",
+          "eyebrow": "Navigation tip",
+          "bodyHtml": "<p class=\"text-foreground leading-relaxed m-0\">When lost in Shinjuku, follow the neon. The red lanterns of Omoide Yokocho appear when you need them most.</p>",
+          "initial": "N"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Leaving",
+          "anchorId": "leaving"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>I took the last train home at 4AM, sat in a nearly empty carriage, and watched the city lights blur past. Tokyo had shown me its secrets, and all it asked in return was that I return.</p>"
+        }
+      ],
+      "excerpt": "Shinjuku alleyways, 3AM yakitori, and the electric hum of a city that never quite sleeps.",
+      "meridian": {
+        "eyebrow": "City · Tokyo, Japan",
+        "dek": "Shinjuku alleyways, 3AM yakitori, and the electric hum of a city that never quite sleeps.",
+        "authorName": "Theo Nakamura",
+        "publishDateText": "May 10, 2026",
+        "readTime": "8 min read",
+        "image": "http://localhost:8081/src/assets/Tokiyo.jpg",
+        "imageAlt": "Tokyo After Dark: Neon Dreams & Late-Night Ramen",
+        "jumpLinks": [
+          {
+            "href": "#the-golden-gai",
+            "text": "The黄金時代 — Golden Gai"
+          },
+          {
+            "href": "#ramen-at-3am",
+            "text": "Ramen at 3AM"
+          },
+          {
+            "href": "#leaving",
+            "text": "Leaving"
+          }
+        ],
+        "tags": [
+          "Nightlife",
+          "Food",
+          "Urban",
+          "Ramen"
+        ],
+        "authorCard": {
+          "authorName": "Theo Nakamura",
+          "initials": "TN",
+          "dropInitial": "T"
+        }
+      }
+    },
+    {
+      "sourceId": 1.287091590113436e+75,
+      "slug": "iceland-ring-road",
+      "title": "Iceland's Ring Road: Chasing Waterfalls in a Land That Forgot to Sleep",
+      "status": "draft",
+      "content": "<p>The Ring Road is not a journey. It&#x27;s a loop of obsession — 1,332 kilometres of geology performing for an audience of one. You drive for hours and see no one, then suddenly a waterfall appears on the horizon like a mirage made of thunder.</p>\n<h2 id=\"seljalandsfoss-the-secret-cave\" class=\"font-display text-foreground scroll-mt-28\">Seljalandsfoss &amp; the secret cave</h2>\n<p>The famous waterfall everyone photographs is just the curtain. Walk around behind it — carefully, it&#x27;s slippery — and you enter a hidden cave where the light turns green through the water. It&#x27;s the kind of place that makes you believe in small magic.</p>\n<blockquote>Iceland doesn&#x27;t have weather. It has mood swings.</blockquote>\n<h2 id=\"the-black-sand\" class=\"font-display text-foreground scroll-mt-28\">The black sand</h2>\n<p>Reynisfjara beach near Vik is otherworldly — columns of basalt stacked like a giant&#x27;s organ, black sand that squeaks under your feet, and waves that hit the shore with the force of a freight train. Don&#x27;t turn your back on them. The sneaker waves here have killed tourists who didn&#x27;t respect the water.</p>\n<ul class=\"my-6 ml-6 space-y-2 text-foreground list-disc marker:text-primary\"><li class=\"pl-2\">Skógafoss — climb the stairs for the aerial view.</li><li class=\"pl-2\">Dyrhólaey — the arch rock and the lighthouse.</li><li class=\"pl-2\">Jökulsárlón — icebergs floating like floating funeral homes.</li></ul>\n<aside class=\"my-10 border-l-4 border-accent bg-accent/5 px-6 py-5 font-sans text-base\"><p class=\"text-[11px] uppercase tracking-[0.25em] text-accent mb-2\">Camping hack</p><p class=\"text-foreground leading-relaxed m-0\">Wild camping is technically illegal. But with a camper van and a parked permission, the entire country becomes yours.</p></aside>\n<h2 id=\"the-midnight-sun\" class=\"font-display text-foreground scroll-mt-28\">The midnight sun</h2>\n<p>At 2AM, the sky was still streaked with pink. I sat on a lava field with my jacket pulled to my chin and watched the sun hover on the horizon like a tired guest who couldn&#x27;t quite leave the party.</p>",
+      "aemBlocks": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Ring Road is not a journey. It&#x27;s a loop of obsession — 1,332 kilometres of geology performing for an audience of one. You drive for hours and see no one, then suddenly a waterfall appears on the horizon like a mirage made of thunder.</p>"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Seljalandsfoss &amp; the secret cave",
+          "anchorId": "seljalandsfoss-the-secret-cave"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The famous waterfall everyone photographs is just the curtain. Walk around behind it — carefully, it&#x27;s slippery — and you enter a hidden cave where the light turns green through the water. It&#x27;s the kind of place that makes you believe in small magic.</p>"
+        },
+        {
+          "type": "quote",
+          "text": "Iceland doesn&#x27;t have weather. It has mood swings."
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "The black sand",
+          "anchorId": "the-black-sand"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Reynisfjara beach near Vik is otherworldly — columns of basalt stacked like a giant&#x27;s organ, black sand that squeaks under your feet, and waves that hit the shore with the force of a freight train. Don&#x27;t turn your back on them. The sneaker waves here have killed tourists who didn&#x27;t respect the water.</p>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Skógafoss — climb the stairs for the aerial view.",
+            "Dyrhólaey — the arch rock and the lighthouse.",
+            "Jökulsárlón — icebergs floating like floating funeral homes."
+          ]
+        },
+        {
+          "type": "callout",
+          "eyebrow": "Camping hack",
+          "bodyHtml": "<p class=\"text-foreground leading-relaxed m-0\">Wild camping is technically illegal. But with a camper van and a parked permission, the entire country becomes yours.</p>",
+          "initial": "C"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "The midnight sun",
+          "anchorId": "the-midnight-sun"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>At 2AM, the sky was still streaked with pink. I sat on a lava field with my jacket pulled to my chin and watched the sun hover on the horizon like a tired guest who couldn&#x27;t quite leave the party.</p>"
+        }
+      ],
+      "excerpt": "Black sand beaches, thundering cataracts, and the particular silence of a midnight sun that refuses to set.",
+      "meridian": {
+        "eyebrow": "Wilderness · Vik, Iceland",
+        "dek": "Black sand beaches, thundering cataracts, and the particular silence of a midnight sun that refuses to set.",
+        "authorName": "Cal Mendoza",
+        "publishDateText": "May 8, 2026",
+        "readTime": "10 min read",
+        "image": "http://localhost:8081/src/assets/Iceland.jpg",
+        "imageAlt": "Iceland's Ring Road: Chasing Waterfalls in a Land That Forgot to Sleep",
+        "jumpLinks": [
+          {
+            "href": "#seljalandsfoss-the-secret-cave",
+            "text": "Seljalandsfoss & the secret cave"
+          },
+          {
+            "href": "#the-black-sand",
+            "text": "The black sand"
+          },
+          {
+            "href": "#the-midnight-sun",
+            "text": "The midnight sun"
+          }
+        ],
+        "tags": [
+          "Road trip",
+          "Waterfalls",
+          "Northern lights",
+          "Geology"
+        ],
+        "authorCard": {
+          "authorName": "Cal Mendoza",
+          "initials": "CM",
+          "dropInitial": "C"
+        }
+      }
+    },
+    {
+      "sourceId": 4.3204041157176194e+70,
+      "slug": "lisbon-tram-28",
+      "title": "Lisbon: Riding Tram 28 Into the Heart of the Alfama",
+      "status": "draft",
+      "content": "<p>Tram 28 is a moving museum that happens to also take you somewhere useful. It rattles up the hill from Martim Moniz, through the Baixa, and into the Alfama, passing everything worth seeing in Lisbon along the way. Mind your pockets — the pickpockets are as local as the tram drivers.</p>\n<h2 id=\"the-alfama-at-dusk\" class=\"font-display text-foreground scroll-mt-28\">The Alfama at dusk</h2>\n<p>Leave the tram at the Graça stop and walk down. The light here hits the tiled facades at a low angle that makes everything look like a painting. Every doorway promises a view, a cat, a washing line. The fado starts around eight, leaking from restaurant windows like a secret.</p>\n<blockquote>Lisbon is a city that forgives you for being tired. Everything waits.</blockquote>\n<h2 id=\"where-the-locals-eat\" class=\"font-display text-foreground scroll-mt-28\">Where the locals eat</h2>\n<ul class=\"my-6 ml-6 space-y-2 text-foreground list-disc marker:text-primary\"><li class=\"pl-2\">Casa de Bacalhau — the cod is salted, dried, and perfect.</li><li class=\"pl-2\">Mosteiro — under the Santa Luzia church, incredible views.</li><li class=\"pl-2\">Mercado da Ribeira — the Time Out market, every cuisine represented.</li></ul>\n<aside class=\"my-10 border-l-4 border-accent bg-accent/5 px-6 py-5 font-sans text-base\"><p class=\"text-[11px] uppercase tracking-[0.25em] text-accent mb-2\">Pastéis tip</p><p class=\"text-foreground leading-relaxed m-0\">The famous shop in Belém has a queue. The one in the airport, past security, has the same pasteis and zero wait.</p></aside>\n<h2 id=\"leaving\" class=\"font-display text-foreground scroll-mt-28\">Leaving</h2>\n<p>I left Lisbon with tile dust on my shoes and a pastel de nata sticky on my fingers. The tram bell still rings in my ears.</p>",
+      "aemBlocks": [
+        {
+          "type": "paragraph",
+          "html": "<p>Tram 28 is a moving museum that happens to also take you somewhere useful. It rattles up the hill from Martim Moniz, through the Baixa, and into the Alfama, passing everything worth seeing in Lisbon along the way. Mind your pockets — the pickpockets are as local as the tram drivers.</p>"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "The Alfama at dusk",
+          "anchorId": "the-alfama-at-dusk"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Leave the tram at the Graça stop and walk down. The light here hits the tiled facades at a low angle that makes everything look like a painting. Every doorway promises a view, a cat, a washing line. The fado starts around eight, leaking from restaurant windows like a secret.</p>"
+        },
+        {
+          "type": "quote",
+          "text": "Lisbon is a city that forgives you for being tired. Everything waits."
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Where the locals eat",
+          "anchorId": "where-the-locals-eat"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Casa de Bacalhau — the cod is salted, dried, and perfect.",
+            "Mosteiro — under the Santa Luzia church, incredible views.",
+            "Mercado da Ribeira — the Time Out market, every cuisine represented."
+          ]
+        },
+        {
+          "type": "callout",
+          "eyebrow": "Pastéis tip",
+          "bodyHtml": "<p class=\"text-foreground leading-relaxed m-0\">The famous shop in Belém has a queue. The one in the airport, past security, has the same pasteis and zero wait.</p>",
+          "initial": "P"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Leaving",
+          "anchorId": "leaving"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>I left Lisbon with tile dust on my shoes and a pastel de nata sticky on my fingers. The tram bell still rings in my ears.</p>"
+        }
+      ],
+      "excerpt": "Yellow trams, tiled facades, and the sound of fado drifting from a window you just passed.",
+      "meridian": {
+        "eyebrow": "City · Lisbon, Portugal",
+        "dek": "Yellow trams, tiled facades, and the sound of fado drifting from a window you just passed.",
+        "authorName": "Mira Halsey",
+        "publishDateText": "May 5, 2026",
+        "readTime": "6 min read",
+        "image": "http://localhost:8081/src/assets/Lisbon.jpg",
+        "imageAlt": "Lisbon: Riding Tram 28 Into the Heart of the Alfama",
+        "jumpLinks": [
+          {
+            "href": "#the-alfama-at-dusk",
+            "text": "The Alfama at dusk"
+          },
+          {
+            "href": "#where-the-locals-eat",
+            "text": "Where the locals eat"
+          },
+          {
+            "href": "#leaving",
+            "text": "Leaving"
+          }
+        ],
+        "tags": [
+          "Trams",
+          "Fado",
+          "Tiles",
+          "Pastéis de nata"
+        ],
+        "authorCard": {
+          "authorName": "Mira Halsey",
+          "initials": "MH",
+          "dropInitial": "M"
+        }
+      }
+    },
+    {
+      "sourceId": 4.4957378935667215e+67,
+      "slug": "bali-temples",
+      "title": "Bali: Temple Days & Rice Terrace Haze",
+      "status": "draft",
+      "content": "<p>Bali doesn&#x27;t wait for you to be ready. The offerings appear at dawn — little woven baskets of flowers and rice placed on doorsteps, at shrines, on the sidewalk outside your villa. The island breathes ritual like other places breathe air.</p>\n<h2 id=\"tirta-empul\" class=\"font-display text-foreground scroll-mt-28\">Tirta Empul</h2>\n<p>The holy water temple where Balinese Hindus come to bathe. You join the queue, receive a sarong, and move through thirty fountains, each with its own purpose. Blessing. Purification. Release. The water is cold enough to make you gasp, and warm enough to make you stay.</p>\n<blockquote>In Bali, the sacred and the daily share the same address.</blockquote>\n<h2 id=\"tegallalang-at-dawn\" class=\"font-display text-foreground scroll-mt-28\">Tegallalang at dawn</h2>\n<p>The rice terraces are a tourist trap by noon — rented swings, photographers, traffic. But at six in the morning, they&#x27;re something else entirely. Mist clings to the terraces, the farmers are already working, and the green is so vivid it hurts your eyes in the best way.</p>\n<ul class=\"my-6 ml-6 space-y-2 text-foreground list-disc marker:text-primary\"><li class=\"pl-2\">Sacred Monkey Forest — don&#x27;t wear anything shiny.</li><li class=\"pl-2\">Goa Gajah — the elephant cave, carved into a cliff.</li><li class=\"pl-2\">Tanah Lot — sunset, crowds, but worth it anyway.</li></ul>\n<aside class=\"my-10 border-l-4 border-accent bg-accent/5 px-6 py-5 font-sans text-base\"><p class=\"text-[11px] uppercase tracking-[0.25em] text-accent mb-2\">Sarbung</p><p class=\"text-foreground leading-relaxed m-0\">Wrap a sarong around your waist before entering any temple. They rent them at the entrance for a few thousand rupiah.</p></aside>\n<h2 id=\"leaving\" class=\"font-display text-foreground scroll-mt-28\">Leaving</h2>\n<p>I left Ubud with a small bronze bell from a workshop near the palace and the smell of frangipani still in my hair.</p>",
+      "aemBlocks": [
+        {
+          "type": "paragraph",
+          "html": "<p>Bali doesn&#x27;t wait for you to be ready. The offerings appear at dawn — little woven baskets of flowers and rice placed on doorsteps, at shrines, on the sidewalk outside your villa. The island breathes ritual like other places breathe air.</p>"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Tirta Empul",
+          "anchorId": "tirta-empul"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The holy water temple where Balinese Hindus come to bathe. You join the queue, receive a sarong, and move through thirty fountains, each with its own purpose. Blessing. Purification. Release. The water is cold enough to make you gasp, and warm enough to make you stay.</p>"
+        },
+        {
+          "type": "quote",
+          "text": "In Bali, the sacred and the daily share the same address."
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Tegallalang at dawn",
+          "anchorId": "tegallalang-at-dawn"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The rice terraces are a tourist trap by noon — rented swings, photographers, traffic. But at six in the morning, they&#x27;re something else entirely. Mist clings to the terraces, the farmers are already working, and the green is so vivid it hurts your eyes in the best way.</p>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Sacred Monkey Forest — don&#x27;t wear anything shiny.",
+            "Goa Gajah — the elephant cave, carved into a cliff.",
+            "Tanah Lot — sunset, crowds, but worth it anyway."
+          ]
+        },
+        {
+          "type": "callout",
+          "eyebrow": "Sarbung",
+          "bodyHtml": "<p class=\"text-foreground leading-relaxed m-0\">Wrap a sarong around your waist before entering any temple. They rent them at the entrance for a few thousand rupiah.</p>",
+          "initial": "S"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Leaving",
+          "anchorId": "leaving"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>I left Ubud with a small bronze bell from a workshop near the palace and the smell of frangipani still in my hair.</p>"
+        }
+      ],
+      "excerpt": "Offerings on the sidewalk, Sacred Monkey Forest, and the particular green of a terraced hillside at dawn.",
+      "meridian": {
+        "eyebrow": "Culture · Ubud, Indonesia",
+        "dek": "Offerings on the sidewalk, Sacred Monkey Forest, and the particular green of a terraced hillside at dawn.",
+        "authorName": "Yasmine Aït",
+        "publishDateText": "May 3, 2026",
+        "readTime": "7 min read",
+        "image": "http://localhost:8081/src/assets/Bali.jpg",
+        "imageAlt": "Bali: Temple Days & Rice Terrace Haze",
+        "jumpLinks": [
+          {
+            "href": "#tirta-empul",
+            "text": "Tirta Empul"
+          },
+          {
+            "href": "#tegallalang-at-dawn",
+            "text": "Tegallalang at dawn"
+          },
+          {
+            "href": "#leaving",
+            "text": "Leaving"
+          }
+        ],
+        "tags": [
+          "Temples",
+          "Yoga",
+          "Rice terraces",
+          "Spirituality"
+        ],
+        "authorCard": {
+          "authorName": "Yasmine Aït",
+          "initials": "YA",
+          "dropInitial": "Y"
+        }
+      }
+    },
+    {
+      "sourceId": 1.339325275872462e+72,
+      "slug": "dolomites-peaks",
+      "title": "The Dolomites: Via Ferrata Above the Clouds",
+      "status": "draft",
+      "content": "<p>The Dolomites are not like the Alps. They are pale, almost phosphorescent, rising out of the mist like a city made of bone. The via ferratas here are serious — cables bolted to vertical limestone, iron rungs cemented into the rock, and a harness that you&#x27;ll either love or hate.</p>\n<h2 id=\"lagazuoi-and-the-tunnel-war\" class=\"font-display text-foreground scroll-mt-28\">Lagazuoi and the tunnel war</h2>\n<p>You can take a cable car up to 2,700 metres and then walk through a First World War tunnel that soldiers carved into the mountain. The graffiti they left behind is more honest than any museum.</p>\n<blockquote>The Dolomites don&#x27;t invite you. They demand you.</blockquote>\n<h2 id=\"the-food-at-the-rifugio\" class=\"font-display text-foreground scroll-mt-28\">The food at the rifugio</h2>\n<p>Every mountain hut serves the same three things: pasta e fagioli, speck with bread, and apple strudel. It sounds simple until you&#x27;ve earned it. Until you&#x27;ve climbed for four hours and the strudel arrives warm, with cream, and the entire valley is below you.</p>\n<ul class=\"my-6 ml-6 space-y-2 text-foreground list-disc marker:text-primary\"><li class=\"pl-2\">Cinque Torri — easiest via ferrata, incredible views.</li><li class=\"pl-2\">Tofana di Rozes — harder, more exposed, unforgettable.</li><li class=\"pl-2\">Sass de Stria — easy access, historical significance.</li></ul>\n<aside class=\"my-10 border-l-4 border-accent bg-accent/5 px-6 py-5 font-sans text-base\"><p class=\"text-[11px] uppercase tracking-[0.25em] text-accent mb-2\">Gear check</p><p class=\"text-foreground leading-relaxed m-0\">Harness and via ferrata kit are non-negotiable. Rent in Cortina — the shops are well-stocked and the staff know the routes.</p></aside>\n<h2 id=\"leaving\" class=\"font-display text-foreground scroll-mt-28\">Leaving</h2>\n<p>I left Cortina with mud on my knees, a bruise on my shoulder from the harness, and the absolute certainty that I would return.</p>",
+      "aemBlocks": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Dolomites are not like the Alps. They are pale, almost phosphorescent, rising out of the mist like a city made of bone. The via ferratas here are serious — cables bolted to vertical limestone, iron rungs cemented into the rock, and a harness that you&#x27;ll either love or hate.</p>"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Lagazuoi and the tunnel war",
+          "anchorId": "lagazuoi-and-the-tunnel-war"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>You can take a cable car up to 2,700 metres and then walk through a First World War tunnel that soldiers carved into the mountain. The graffiti they left behind is more honest than any museum.</p>"
+        },
+        {
+          "type": "quote",
+          "text": "The Dolomites don&#x27;t invite you. They demand you."
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "The food at the rifugio",
+          "anchorId": "the-food-at-the-rifugio"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Every mountain hut serves the same three things: pasta e fagioli, speck with bread, and apple strudel. It sounds simple until you&#x27;ve earned it. Until you&#x27;ve climbed for four hours and the strudel arrives warm, with cream, and the entire valley is below you.</p>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Cinque Torri — easiest via ferrata, incredible views.",
+            "Tofana di Rozes — harder, more exposed, unforgettable.",
+            "Sass de Stria — easy access, historical significance."
+          ]
+        },
+        {
+          "type": "callout",
+          "eyebrow": "Gear check",
+          "bodyHtml": "<p class=\"text-foreground leading-relaxed m-0\">Harness and via ferrata kit are non-negotiable. Rent in Cortina — the shops are well-stocked and the staff know the routes.</p>",
+          "initial": "G"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Leaving",
+          "anchorId": "leaving"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>I left Cortina with mud on my knees, a bruise on my shoulder from the harness, and the absolute certainty that I would return.</p>"
+        }
+      ],
+      "excerpt": "Iron rungs, via ferratas, and a lunch of speck and apples eaten on a ledge 3,000 metres up.",
+      "meridian": {
+        "eyebrow": "Wilderness · Cortina d'Ampezzo, Italy",
+        "dek": "Iron rungs, via ferratas, and a lunch of speck and apples eaten on a ledge 3,000 metres up.",
+        "authorName": "Cal Mendoza",
+        "publishDateText": "April 28, 2026",
+        "readTime": "9 min read",
+        "image": "http://localhost:8081/src/assets/Dolomites.jpg",
+        "imageAlt": "The Dolomites: Via Ferrata Above the Clouds",
+        "jumpLinks": [
+          {
+            "href": "#lagazuoi-and-the-tunnel-war",
+            "text": "Lagazuoi and the tunnel war"
+          },
+          {
+            "href": "#the-food-at-the-rifugio",
+            "text": "The food at the rifugio"
+          },
+          {
+            "href": "#leaving",
+            "text": "Leaving"
+          }
+        ],
+        "tags": [
+          "Mountaineering",
+          "Via ferrata",
+          "Italian Alps",
+          "Hiking"
+        ],
+        "authorCard": {
+          "authorName": "Cal Mendoza",
+          "initials": "CM",
+          "dropInitial": "C"
+        }
+      }
+    },
+    {
+      "sourceId": 1.287091590113436e+75,
+      "slug": "hanoi-street-food",
+      "title": "Hanoi: A Street Food Tour Through the Old Quarter",
+      "status": "draft",
+      "content": "<p>Hanoi is a city that eats standing up. There is no seated restaurant experience here — there are plastic stools on sidewalks, women stirring pots over charcoal, and the constant, beautiful noise of a city that has been feeding itself on the street for a thousand years.</p>\n<h2 id=\"the-bun-cha-run\" class=\"font-display text-foreground scroll-mt-28\">The bun cha run</h2>\n<p>Bun cha is the dish. Rice noodles, grilled pork, herbs, broth. The famous shop near Hoan Kiem Lake has a line that moves fast. You sit, you eat, you leave. The bill is about thirty thousand dong. The taste is about ten thousand times that.</p>\n<blockquote>In Hanoi, a meal is measured in minutes, not dollars.</blockquote>\n<h2 id=\"egg-coffee\" class=\"font-display text-foreground scroll-mt-28\">Egg coffee</h2>\n<p>Cà phê trứng — beaten egg yolk and condensed coffee, layered in a glass. It sounds wrong. It is spectacular. The original shop in the Old Quarter is hidden down an alley so narrow you have to turn sideways to find it.</p>\n<ul class=\"my-6 ml-6 space-y-2 text-foreground list-disc marker:text-primary\"><li class=\"pl-2\">Phở 10 Ly — twenty-four-hour pho, legendary.</li><li class=\"pl-2\">Banh da cua — crab dumpling soup, blue-shell building.</li><li class=\"pl-2\">Cha ca — grilled fish with dill, the dish that defined a street.</li></ul>\n<aside class=\"my-10 border-l-4 border-accent bg-accent/5 px-6 py-5 font-sans text-base\"><p class=\"text-[11px] uppercase tracking-[0.25em] text-accent mb-2\">Crossing the street</p><p class=\"text-foreground leading-relaxed m-0\">Don&#x27;t wait for a gap. Walk slowly and steadily. The scooters will go around you. They&#x27;re more afraid of you than you are of them.</p></aside>\n<h2 id=\"leaving\" class=\"font-display text-foreground scroll-mt-28\">Leaving</h2>\n<p>I left Hanoi with coffee grounds on my shirt and the taste of fish sauce on my fingers. It was perfect.</p>",
+      "aemBlocks": [
+        {
+          "type": "paragraph",
+          "html": "<p>Hanoi is a city that eats standing up. There is no seated restaurant experience here — there are plastic stools on sidewalks, women stirring pots over charcoal, and the constant, beautiful noise of a city that has been feeding itself on the street for a thousand years.</p>"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "The bun cha run",
+          "anchorId": "the-bun-cha-run"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Bun cha is the dish. Rice noodles, grilled pork, herbs, broth. The famous shop near Hoan Kiem Lake has a line that moves fast. You sit, you eat, you leave. The bill is about thirty thousand dong. The taste is about ten thousand times that.</p>"
+        },
+        {
+          "type": "quote",
+          "text": "In Hanoi, a meal is measured in minutes, not dollars."
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Egg coffee",
+          "anchorId": "egg-coffee"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Cà phê trứng — beaten egg yolk and condensed coffee, layered in a glass. It sounds wrong. It is spectacular. The original shop in the Old Quarter is hidden down an alley so narrow you have to turn sideways to find it.</p>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Phở 10 Ly — twenty-four-hour pho, legendary.",
+            "Banh da cua — crab dumpling soup, blue-shell building.",
+            "Cha ca — grilled fish with dill, the dish that defined a street."
+          ]
+        },
+        {
+          "type": "callout",
+          "eyebrow": "Crossing the street",
+          "bodyHtml": "<p class=\"text-foreground leading-relaxed m-0\">Don&#x27;t wait for a gap. Walk slowly and steadily. The scooters will go around you. They&#x27;re more afraid of you than you are of them.</p>",
+          "initial": "C"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Leaving",
+          "anchorId": "leaving"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>I left Hanoi with coffee grounds on my shirt and the taste of fish sauce on my fingers. It was perfect.</p>"
+        }
+      ],
+      "excerpt": "Bun cha at a plastic table, egg coffee in a hidden café, and the chaos of scooters filling every gap.",
+      "meridian": {
+        "eyebrow": "Food · Hanoi, Vietnam",
+        "dek": "Bun cha at a plastic table, egg coffee in a hidden café, and the chaos of scooters filling every gap.",
+        "authorName": "Theo Nakamura",
+        "publishDateText": "April 22, 2026",
+        "readTime": "7 min read",
+        "image": "http://localhost:8081/src/assets/Hanoi.jpg",
+        "imageAlt": "Hanoi: A Street Food Tour Through the Old Quarter",
+        "jumpLinks": [
+          {
+            "href": "#the-bun-cha-run",
+            "text": "The bun cha run"
+          },
+          {
+            "href": "#egg-coffee",
+            "text": "Egg coffee"
+          },
+          {
+            "href": "#leaving",
+            "text": "Leaving"
+          }
+        ],
+        "tags": [
+          "Food",
+          "Coffee",
+          "Motorbikes",
+          "Markets"
+        ],
+        "authorCard": {
+          "authorName": "Theo Nakamura",
+          "initials": "TN",
+          "dropInitial": "T"
+        }
+      }
+    },
+    {
+      "sourceId": 1.339325275872462e+72,
+      "slug": "petra-by-night",
+      "title": "Petra by Night: Candles, Rose City, and Silence",
+      "status": "draft",
+      "content": "<p>Petra by night is not a tour. It&#x27;s a ritual. You walk eight hundred metres through the Siq — the narrow canyon that serves as the city&#x27;s entrance — by the light of a thousand candles stuck into the sandstone walls. You don&#x27;t talk. Nobody does.</p>\n<h2 id=\"the-treasury-appears\" class=\"font-display text-foreground scroll-mt-28\">The Treasury appears</h2>\n<p>You emerge from the Siq and the Treasury is there, carved into the rose-red cliff face, lit from below by candles that make it glow like something from a dream. Someone plays a flute. Someone else offers tea. You sit on the ground and watch the candles flicker.</p>\n<blockquote>Petra doesn&#x27;t reveal itself. It remembers itself, and lets you witness.</blockquote>\n<h2 id=\"the-day-after\" class=\"font-display text-foreground scroll-mt-28\">The day after</h2>\n<p>Return at sunrise. The Siq in daylight is a completely different place — colours in the rock you couldn&#x27;t see at night, vendors setting up their stalls, the first Bedouin with a donkey walking past. The Monastery is worth the climb — eight hundred steps, but the view from the top is the real Petra.</p>\n<ul class=\"my-6 ml-6 space-y-2 text-foreground list-disc marker:text-primary\"><li class=\"pl-2\">The Treasury — go early morning or late afternoon.</li><li class=\"pl-2\">The Monastery — same, harder climb.</li><li class=\"pl-2\">The High Place of Sacrifice — the best sunset spot.</li></ul>\n<aside class=\"my-10 border-l-4 border-accent bg-accent/5 px-6 py-5 font-sans text-base\"><p class=\"text-[11px] uppercase tracking-[0.25em] text-accent mb-2\">Book ahead</p><p class=\"text-foreground leading-relaxed m-0\">Petra by Night only runs on Monday, Wednesday, and Thursday. Book at the visitor centre or your hotel.</p></aside>\n<h2 id=\"leaving\" class=\"font-display text-foreground scroll-mt-28\">Leaving</h2>\n<p>I left Petra with sand in my shoes and candle wax on my fingers, and I understood why the Nabataeans chose this place.</p>",
+      "aemBlocks": [
+        {
+          "type": "paragraph",
+          "html": "<p>Petra by night is not a tour. It&#x27;s a ritual. You walk eight hundred metres through the Siq — the narrow canyon that serves as the city&#x27;s entrance — by the light of a thousand candles stuck into the sandstone walls. You don&#x27;t talk. Nobody does.</p>"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "The Treasury appears",
+          "anchorId": "the-treasury-appears"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>You emerge from the Siq and the Treasury is there, carved into the rose-red cliff face, lit from below by candles that make it glow like something from a dream. Someone plays a flute. Someone else offers tea. You sit on the ground and watch the candles flicker.</p>"
+        },
+        {
+          "type": "quote",
+          "text": "Petra doesn&#x27;t reveal itself. It remembers itself, and lets you witness."
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "The day after",
+          "anchorId": "the-day-after"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Return at sunrise. The Siq in daylight is a completely different place — colours in the rock you couldn&#x27;t see at night, vendors setting up their stalls, the first Bedouin with a donkey walking past. The Monastery is worth the climb — eight hundred steps, but the view from the top is the real Petra.</p>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "The Treasury — go early morning or late afternoon.",
+            "The Monastery — same, harder climb.",
+            "The High Place of Sacrifice — the best sunset spot."
+          ]
+        },
+        {
+          "type": "callout",
+          "eyebrow": "Book ahead",
+          "bodyHtml": "<p class=\"text-foreground leading-relaxed m-0\">Petra by Night only runs on Monday, Wednesday, and Thursday. Book at the visitor centre or your hotel.</p>",
+          "initial": "B"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Leaving",
+          "anchorId": "leaving"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>I left Petra with sand in my shoes and candle wax on my fingers, and I understood why the Nabataeans chose this place.</p>"
+        }
+      ],
+      "excerpt": "Walking through the Siq by candlelight to see the Treasury glowing in the dark.",
+      "meridian": {
+        "eyebrow": "Culture · Petra, Jordan",
+        "dek": "Walking through the Siq by candlelight to see the Treasury glowing in the dark.",
+        "authorName": "Yasmine Aït",
+        "publishDateText": "April 18, 2026",
+        "readTime": "8 min read",
+        "image": "http://localhost:8081/src/assets/Petra.jpg",
+        "imageAlt": "Petra by Night: Candles, Rose City, and Silence",
+        "jumpLinks": [
+          {
+            "href": "#the-treasury-appears",
+            "text": "The Treasury appears"
+          },
+          {
+            "href": "#the-day-after",
+            "text": "The day after"
+          },
+          {
+            "href": "#leaving",
+            "text": "Leaving"
+          }
+        ],
+        "tags": [
+          "Archaeology",
+          "Candlelight",
+          "Desert",
+          "Bedouin"
+        ],
+        "authorCard": {
+          "authorName": "Yasmine Aït",
+          "initials": "YA",
+          "dropInitial": "Y"
+        }
+      }
+    },
+    {
+      "sourceId": 1.3936787470056836e+69,
+      "slug": "machu-picchu",
+      "title": "Machu Picchu: Above the Clouds, Below the Sun",
+      "status": "draft",
+      "content": "<p>You can take the train to Machu Picchu. Everyone does. But if you want to understand the place, you should walk the Inca Trail — four days of altitude, Inca steps, and a final dawn that will make you forget every step was hard.</p>\n<h2 id=\"the-sun-gate\" class=\"font-display text-foreground scroll-mt-28\">The Sun Gate</h2>\n<p>Inti Punku, the Sun Gate, is where you see Machu Picchu for the first time. You arrive at dawn, exhausted, cold, and then the mist shifts and there&#x27;s the citadel, sitting on its ridge like it grew there. It did, more or less.</p>\n<blockquote>The Incas didn&#x27;t build below the clouds. They built where the clouds lived.</blockquote>\n<h2 id=\"the-trail\" class=\"font-display text-foreground scroll-mt-28\">The trail</h2>\n<p>The four-day trek is not easy. Altitude sickness is real. The highest pass is 4,215 metres. The stairs are carved from stone and they do not care about your knees. But the camps are beautiful, the guides are incredible, and the final morning makes every step worth it.</p>\n<ul class=\"my-6 ml-6 space-y-2 text-foreground list-disc marker:text-primary\"><li class=\"pl-2\">Day 1 — Cusco to Wayllabamba, easy.</li><li class=\"pl-2\">Day 2 — Dead Woman&#x27;s Pass, the hardest day.</li><li class=\"pl-2\">Day 3 — Ruinari and the Cloud Forest.</li><li class=\"pl-2\">Day 4 — Sunrise at Inti Punku, the citadel.</li></ul>\n<aside class=\"my-10 border-l-4 border-accent bg-accent/5 px-6 py-5 font-sans text-base\"><p class=\"text-[11px] uppercase tracking-[0.25em] text-accent mb-2\">Book now</p><p class=\"text-foreground leading-relaxed m-0\">The Inca Trail permits are limited and sell out months ahead. Book through a licensed operator.</p></aside>\n<h2 id=\"leaving\" class=\"font-display text-foreground scroll-mt-28\">Leaving</h2>\n<p>I left Machu Picchu on the train back to Cusco, watching the mountains disappear into cloud, already planning my return.</p>",
+      "aemBlocks": [
+        {
+          "type": "paragraph",
+          "html": "<p>You can take the train to Machu Picchu. Everyone does. But if you want to understand the place, you should walk the Inca Trail — four days of altitude, Inca steps, and a final dawn that will make you forget every step was hard.</p>"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "The Sun Gate",
+          "anchorId": "the-sun-gate"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Inti Punku, the Sun Gate, is where you see Machu Picchu for the first time. You arrive at dawn, exhausted, cold, and then the mist shifts and there&#x27;s the citadel, sitting on its ridge like it grew there. It did, more or less.</p>"
+        },
+        {
+          "type": "quote",
+          "text": "The Incas didn&#x27;t build below the clouds. They built where the clouds lived."
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "The trail",
+          "anchorId": "the-trail"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The four-day trek is not easy. Altitude sickness is real. The highest pass is 4,215 metres. The stairs are carved from stone and they do not care about your knees. But the camps are beautiful, the guides are incredible, and the final morning makes every step worth it.</p>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Day 1 — Cusco to Wayllabamba, easy.",
+            "Day 2 — Dead Woman&#x27;s Pass, the hardest day.",
+            "Day 3 — Ruinari and the Cloud Forest.",
+            "Day 4 — Sunrise at Inti Punku, the citadel."
+          ]
+        },
+        {
+          "type": "callout",
+          "eyebrow": "Book now",
+          "bodyHtml": "<p class=\"text-foreground leading-relaxed m-0\">The Inca Trail permits are limited and sell out months ahead. Book through a licensed operator.</p>",
+          "initial": "B"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Leaving",
+          "anchorId": "leaving"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>I left Machu Picchu on the train back to Cusco, watching the mountains disappear into cloud, already planning my return.</p>"
+        }
+      ],
+      "excerpt": "Inca ruins, altitude headaches, and the moment the mist parts to reveal the citadel.",
+      "meridian": {
+        "eyebrow": "Wilderness · Machu Picchu, Peru",
+        "dek": "Inca ruins, altitude headaches, and the moment the mist parts to reveal the citadel.",
+        "authorName": "Cal Mendoza",
+        "publishDateText": "April 12, 2026",
+        "readTime": "10 min read",
+        "image": "http://localhost:8081/src/assets/MachuPichu.jpg",
+        "imageAlt": "Machu Picchu: Above the Clouds, Below the Sun",
+        "jumpLinks": [
+          {
+            "href": "#the-sun-gate",
+            "text": "The Sun Gate"
+          },
+          {
+            "href": "#the-trail",
+            "text": "The trail"
+          },
+          {
+            "href": "#leaving",
+            "text": "Leaving"
+          }
+        ],
+        "tags": [
+          "Inca",
+          "Hiking",
+          "Archaeology",
+          "Andes"
+        ],
+        "authorCard": {
+          "authorName": "Cal Mendoza",
+          "initials": "CM",
+          "dropInitial": "C"
+        }
+      }
+    },
+    {
+      "sourceId": 1.3936787470056836e+69,
+      "slug": "amalfi-coast",
+      "title": "The Amalfi Coast: Lemon Groves and Curves in the Road",
+      "status": "draft",
+      "content": "<p>The Amalfi Coast is a road — technically the SS163 — that was carved into cliffs by someone who clearly thought the Italians needed a reason to make the drive every day. It&#x27;s narrow, there are tunnels that seem to go on forever, and the views are so relentless you&#x27;ll forget to watch the road.</p>\n<h2 id=\"ravello\" class=\"font-display text-foreground scroll-mt-28\">Ravello</h2>\n<p>Above the chaos of Amalfi town, Ravello is quiet. The Villa Cimbrone gardens have a viewpoint called the Terrace of the Infinity, and it&#x27;s not hyperbole. The sea stretches out so far it becomes the sky.</p>\n<blockquote>The Amalfi Coast isn&#x27;t a destination. It&#x27;s a state of looking.</blockquote>\n<h2 id=\"the-lemons\" class=\"font-display text-foreground scroll-mt-28\">The lemons</h2>\n<p>Everything here is made with lemons. Limoncello, lemon cake, lemon pasta, lemon gelato. The groves cling to the cliffs like stubborn thoughts. The best limoncello is the one made by someone&#x27;s grandmother — you won&#x27;t find it in a shop.</p>\n<ul class=\"my-6 ml-6 space-y-2 text-foreground list-disc marker:text-primary\"><li class=\"pl-2\">Da Adolfo — beach access, the best lunch.</li><li class=\"pl-2\">Il Ritrovo — in Montepertuso, incredible pasta.</li><li class=\"pl-2\">La Sponda — in Positano, wine by the candle.</li></ul>\n<aside class=\"my-10 border-l-4 border-accent bg-accent/5 px-6 py-5 font-sans text-base\"><p class=\"text-[11px] uppercase tracking-[0.25em] text-accent mb-2\">Driving</p><p class=\"text-foreground leading-relaxed m-0\">If you can, avoid August. And if someone honks at you, it&#x27;s not road rage. It&#x27;s just how they say &#x27;good morning&#x27; here.</p></aside>\n<h2 id=\"leaving\" class=\"font-display text-foreground scroll-mt-28\">Leaving</h2>\n<p>I left Positano with lemon oil on my hands and a head full of impossible blues.</p>",
+      "aemBlocks": [
+        {
+          "type": "paragraph",
+          "html": "<p>The Amalfi Coast is a road — technically the SS163 — that was carved into cliffs by someone who clearly thought the Italians needed a reason to make the drive every day. It&#x27;s narrow, there are tunnels that seem to go on forever, and the views are so relentless you&#x27;ll forget to watch the road.</p>"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Ravello",
+          "anchorId": "ravello"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Above the chaos of Amalfi town, Ravello is quiet. The Villa Cimbrone gardens have a viewpoint called the Terrace of the Infinity, and it&#x27;s not hyperbole. The sea stretches out so far it becomes the sky.</p>"
+        },
+        {
+          "type": "quote",
+          "text": "The Amalfi Coast isn&#x27;t a destination. It&#x27;s a state of looking."
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "The lemons",
+          "anchorId": "the-lemons"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>Everything here is made with lemons. Limoncello, lemon cake, lemon pasta, lemon gelato. The groves cling to the cliffs like stubborn thoughts. The best limoncello is the one made by someone&#x27;s grandmother — you won&#x27;t find it in a shop.</p>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Da Adolfo — beach access, the best lunch.",
+            "Il Ritrovo — in Montepertuso, incredible pasta.",
+            "La Sponda — in Positano, wine by the candle."
+          ]
+        },
+        {
+          "type": "callout",
+          "eyebrow": "Driving",
+          "bodyHtml": "<p class=\"text-foreground leading-relaxed m-0\">If you can, avoid August. And if someone honks at you, it&#x27;s not road rage. It&#x27;s just how they say &#x27;good morning&#x27; here.</p>",
+          "initial": "D"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Leaving",
+          "anchorId": "leaving"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>I left Positano with lemon oil on my hands and a head full of impossible blues.</p>"
+        }
+      ],
+      "excerpt": "Cliffside towns, driving the SS163, and the particular blue of the Tyrrhenian Sea.",
+      "meridian": {
+        "eyebrow": "Coastal · Positano, Italy",
+        "dek": "Cliffside towns, driving the SS163, and the particular blue of the Tyrrhenian Sea.",
+        "authorName": "Mira Halsey",
+        "publishDateText": "April 5, 2026",
+        "readTime": "7 min read",
+        "image": "http://localhost:8081/src/assets/AmalfiCoast.jpg",
+        "imageAlt": "The Amalfi Coast: Lemon Groves and Curves in the Road",
+        "jumpLinks": [
+          {
+            "href": "#ravello",
+            "text": "Ravello"
+          },
+          {
+            "href": "#the-lemons",
+            "text": "The lemons"
+          },
+          {
+            "href": "#leaving",
+            "text": "Leaving"
+          }
+        ],
+        "tags": [
+          "Driving",
+          "Lemon groves",
+          "Coastal",
+          "Italian food"
+        ],
+        "authorCard": {
+          "authorName": "Mira Halsey",
+          "initials": "MH",
+          "dropInitial": "M"
+        }
+      }
+    },
+    {
+      "sourceId": 3.834374556106937e+79,
+      "slug": "cappadocia-balloons",
+      "title": "Cappadocia at Sunrise: Balloons Over the Fairy Chimneys",
+      "status": "draft",
+      "content": "<p>You wake up at four in the morning because that&#x27;s what this place demands. You&#x27;re not a tourist in Cappadocia — you&#x27;re a pilgrim. The balloons don&#x27;t just fly; they rise, one by one, like thoughts floating up from the earth.</p>\n<h2 id=\"the-balloon-ride\" class=\"font-display text-foreground scroll-mt-28\">The balloon ride</h2>\n<p>One hour in the air, over the fairy chimneys — those towering volcanic cones that look like something Dr. Seuss designed after a nightmare. The pilots are experts, finding thermal currents that keep you aloft without burning too much fuel. You land in a field, drink champagne, and become someone who has seen the sunrise from above.</p>\n<blockquote>Cappadocia is the kind of place that makes you believe in geology as poetry.</blockquote>\n<h2 id=\"underground-cities\" class=\"font-display text-foreground scroll-mt-28\">Underground cities</h2>\n<p>The region is riddled with underground cities — Derinkuyu, Kaymakli — where early Christians hid from Roman armies. You go down eight levels, through narrow tunnels, and emerge hours later with a new appreciation for underground living.</p>\n<ul class=\"my-6 ml-6 space-y-2 text-foreground list-disc marker:text-primary\"><li class=\"pl-2\">Hot air balloon — book the premium companies.</li><li class=\"pl-2\">Derinkuyu — the deepest underground city.</li><li class=\"pl-2\">Sunrise hike in Göreme — free, equally magical.</li></ul>\n<aside class=\"my-10 border-l-4 border-accent bg-accent/5 px-6 py-5 font-sans text-base\"><p class=\"text-[11px] uppercase tracking-[0.25em] text-accent mb-2\">Timing</p><p class=\"text-foreground leading-relaxed m-0\">March and November have fewer balloons in the sky but better hotel prices and fewer crowds.</p></aside>\n<h2 id=\"leaving\" class=\"font-display text-foreground scroll-mt-28\">Leaving</h2>\n<p>I left Cappadocia with a pocket full of travertine dust and a memory card full of balloons.</p>",
+      "aemBlocks": [
+        {
+          "type": "paragraph",
+          "html": "<p>You wake up at four in the morning because that&#x27;s what this place demands. You&#x27;re not a tourist in Cappadocia — you&#x27;re a pilgrim. The balloons don&#x27;t just fly; they rise, one by one, like thoughts floating up from the earth.</p>"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "The balloon ride",
+          "anchorId": "the-balloon-ride"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>One hour in the air, over the fairy chimneys — those towering volcanic cones that look like something Dr. Seuss designed after a nightmare. The pilots are experts, finding thermal currents that keep you aloft without burning too much fuel. You land in a field, drink champagne, and become someone who has seen the sunrise from above.</p>"
+        },
+        {
+          "type": "quote",
+          "text": "Cappadocia is the kind of place that makes you believe in geology as poetry."
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Underground cities",
+          "anchorId": "underground-cities"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>The region is riddled with underground cities — Derinkuyu, Kaymakli — where early Christians hid from Roman armies. You go down eight levels, through narrow tunnels, and emerge hours later with a new appreciation for underground living.</p>"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Hot air balloon — book the premium companies.",
+            "Derinkuyu — the deepest underground city.",
+            "Sunrise hike in Göreme — free, equally magical."
+          ]
+        },
+        {
+          "type": "callout",
+          "eyebrow": "Timing",
+          "bodyHtml": "<p class=\"text-foreground leading-relaxed m-0\">March and November have fewer balloons in the sky but better hotel prices and fewer crowds.</p>",
+          "initial": "T"
+        },
+        {
+          "type": "heading",
+          "level": "h2",
+          "text": "Leaving",
+          "anchorId": "leaving"
+        },
+        {
+          "type": "paragraph",
+          "html": "<p>I left Cappadocia with a pocket full of travertine dust and a memory card full of balloons.</p>"
+        }
+      ],
+      "excerpt": "Hot air balloons at dawn, cave hotels, and the strange landscape that looks like Mars but feels like home.",
+      "meridian": {
+        "eyebrow": "Adventure · Cappadocia, Turkey",
+        "dek": "Hot air balloons at dawn, cave hotels, and the strange landscape that looks like Mars but feels like home.",
+        "authorName": "Yasmine Aït",
+        "publishDateText": "March 28, 2026",
+        "readTime": "8 min read",
+        "image": "http://localhost:8081/src/assets/Cappadocia.jpg",
+        "imageAlt": "Cappadocia at Sunrise: Balloons Over the Fairy Chimneys",
+        "jumpLinks": [
+          {
+            "href": "#the-balloon-ride",
+            "text": "The balloon ride"
+          },
+          {
+            "href": "#underground-cities",
+            "text": "Underground cities"
+          },
+          {
+            "href": "#leaving",
+            "text": "Leaving"
+          }
+        ],
+        "tags": [
+          "Balloons",
+          "Caves",
+          "Sunrise",
+          "Geology"
+        ],
+        "authorCard": {
+          "authorName": "Yasmine Aït",
+          "initials": "YA",
+          "dropInitial": "Y"
         }
       }
     }

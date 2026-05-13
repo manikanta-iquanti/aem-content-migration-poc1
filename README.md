@@ -30,7 +30,18 @@ npm run pipeline
 **Setup once:** `npm install` (Node.js 18+). Edit `config/config.json` for the source:
 
 - **WordPress API mode** (default): set `extract.mode` to `"wp-api"` and configure `source.baseUrl`, `source.username`, `source.applicationPassword` (if private).
-- **Scrape mode**: set `extract.mode` to `"scrape"` and set `extract.scrape.urls` to one or more URLs (supports `https://...` and localhost URLs like `http://aaa.local/page` or `http://localhost:8081/page`).
+- **Scrape mode**: set `extract.mode` to `"scrape"`. Provide URLs in one or both ways below (supports `https://...` and localhost).
+
+**Scrape URL sources** (merged and deduped; explicit `urls` keep first in order):
+
+| Config key | Purpose |
+|------------|--------|
+| `extract.scrape.urls` | Explicit list of article URLs (optional). |
+| `extract.scrape.discoverIndexUrl` | One **listing** page URL to fetch (e.g. `http://localhost:8081/articles`). Same-origin `<a href>` links whose pathname looks like `/articles/your-slug` are collected automatically (Next `[slug]` style). |
+| `extract.scrape.discoverPathnameRegex` | Optional. Override the path filter (string passed to `RegExp`, tested against the pathname without trailing slash). Default matches `/articles/:slug` only (not the bare `/articles` index). |
+| `extract.scrape.maxDiscoverUrls` | Optional cap (default `500`). |
+
+Discovery needs the listing HTML to contain normal `<a href="/articles/...">` links (typical for SSR or static export). Pure client-only pages with no links in the first response may return zero matches; in that case add a **sitemap** or **JSON index API** later, or keep using explicit `urls`.
 
 **Scrape layouts** (`extract.scrape.layout`):
 
@@ -43,6 +54,12 @@ For ad-hoc scraping without changing config URLs, use:
 
 ```bash
 npm run extract:scrape -- --url https://example.com/post-a --url http://localhost:8080/post-b
+```
+
+Discover from a listing page for one run (still uses `layout` from config):
+
+```bash
+npm run extract:scrape -- --discover http://localhost:8081/articles
 ```
 
 Optional selector override (generic layout):
@@ -147,6 +164,7 @@ scripts/build-aem-package.js    # AEM zip only
 scripts/lib/wp-html-to-aem-blocks.js   # HTML → ordered blocks (paragraph, heading, quote, list, …)
 scripts/lib/scrape-pages.js            # HTTP fetch + generic or meridian-static extract
 scripts/lib/meridian-static-extract.js # Meridian-shaped static HTML → fields + article body
+scripts/lib/discover-article-urls.js   # Collect article URLs from a listing page HTML
 ```
 
 ## Scripts reference
@@ -154,7 +172,7 @@ scripts/lib/meridian-static-extract.js # Meridian-shaped static HTML → fields 
 | Script | Purpose |
 |--------|---------|
 | **extract.js** | `extract.mode`: `wp-api` or `scrape` → `data/raw/posts.json`. |
-| **extract-scrape.js** | `npm run extract:scrape` — URLs via `--url`; uses `extract.scrape` from config (including `layout`). |
+| **extract-scrape.js** | `npm run extract:scrape` — `--url` (repeatable), `--discover <listingUrl>`, or config `urls` / `discoverIndexUrl`; uses `extract.scrape` (including `layout`). |
 | **transform.js** | Normalizes fields and `aemBlocks`; passes through **`meridian`** when present. |
 | **generate.js** | Builds `migration-bundle.json` (includes `meridian` on items when scraped). |
 | **publish.js** | Posts each item to **destination WordPress** REST API (or dry-run without credentials). |

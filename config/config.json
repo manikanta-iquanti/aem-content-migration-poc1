@@ -12,7 +12,8 @@
   "extract": {
     "mode": "scrape",
     "scrape": {
-      "urls": ["http://localhost:8081/articles/kyoto-in-the-rain","http://localhost:8081/articles/marrakech-souks","http://localhost:8081/articles/patagonia-end-of-the-world"],
+      "urls": [],
+      "discoverIndexUrl": "http://localhost:8081/articles",
       "contentSelector": "",
       "timeoutMs": 20000,
       "layout": "meridian-static"

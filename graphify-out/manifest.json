@@ -4,8 +4,8 @@
     "hash": "85e3a00e8d06c78486b3b806ba04d164"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\extract-scrape.js": {
-    "mtime": 1778239801.9393687,
-    "hash": "cffeb8467d2b8ae8c3c66cf8ccf6cfaf"
+    "mtime": 1778664740.2972555,
+    "hash": "1d2b0e467cbbaf05345044caad43d608"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\extract.js": {
     "mtime": 1778239796.1703694,
@@ -23,21 +23,25 @@
     "mtime": 1778657341.358103,
     "hash": "73d1c6f3276f999b5ce34e10317aaba2"
   },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\discover-article-urls.js": {
+    "mtime": 1778664725.3747165,
+    "hash": "e3acf480959e02005ab36ac68043c5d3"
+  },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\meridian-static-extract.js": {
     "mtime": 1778656977.6037383,
     "hash": "c84ff215daebc8ea9602877c9f50f1db"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\scrape-pages.js": {
-    "mtime": 1778656993.3471663,
-    "hash": "d701245588ce531b6eca886e45a6c10a"
+    "mtime": 1778664693.4822574,
+    "hash": "9daccee7fc62de2dbd1e5c75ff0ea1cc"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\wp-html-to-aem-blocks.js": {
     "mtime": 1778657315.3093593,
     "hash": "0556ffcde3c26498ae01210bc90eda1c"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\README.md": {
-    "mtime": 1778239711.2730463,
-    "hash": "90c726e64cae1176aaa50ecbdc5f8426"
+    "mtime": 1778664780.6836865,
+    "hash": "62336d45e2d1c14f84c90e1776dc021f"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\MyDocs\\dev-steps.md": {
     "mtime": 1777979813.224741,

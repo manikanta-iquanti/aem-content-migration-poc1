@@ -30,6 +30,7 @@ async function main() {
   const cliArgs = process.argv.slice(2);
   const cliUrls = collectArgs("--url", cliArgs);
   const contentSelector = readArg("--selector", cliArgs);
+  const discoverFromCli = readArg("--discover", cliArgs);
 
   const config = await fs.readJson(CONFIG_PATH);
   const cfgUrls =
@@ -38,9 +39,12 @@ async function main() {
       : [];
 
   const urls = cliUrls.length ? cliUrls : cfgUrls;
-  if (!urls.length) {
+  const discoverIndexUrl =
+    discoverFromCli || String(config?.extract?.scrape?.discoverIndexUrl || "").trim();
+
+  if (!urls.length && !discoverIndexUrl) {
     throw new Error(
-      "No scrape URLs provided. Pass --url <url> (repeatable), or set extract.scrape.urls in config."
+      "No scrape URLs. Pass --url (repeatable), or --discover <indexUrl>, or set extract.scrape.urls / extract.scrape.discoverIndexUrl in config."
     );
   }
 
@@ -52,6 +56,7 @@ async function main() {
       scrape: {
         ...config.extract?.scrape,
         urls,
+        discoverIndexUrl,
         contentSelector: contentSelector || config.extract?.scrape?.contentSelector || "",
       },
     },
