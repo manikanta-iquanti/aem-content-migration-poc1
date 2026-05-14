@@ -4,6 +4,10 @@
   "description": "WordPress content migration POC (plain Node.js)",
   "private": true,
   "scripts": {
+    "install:ui": "npm install --prefix server && npm install --prefix web",
+    "dev:ui": "npm run dev:all --prefix server",
+    "build:ui": "npm run build --prefix web",
+    "start:ui": "npm start --prefix server",
     "extract": "node scripts/extract.js",
     "extract:scrape": "node scripts/extract-scrape.js",
     "transform": "node scripts/transform.js",

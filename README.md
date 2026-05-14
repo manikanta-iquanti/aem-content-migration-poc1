@@ -9,6 +9,11 @@ Pulls content from a source site (WordPress REST API **or scraped page URLs**), 
 
 Both paths share the same first three steps (extract → transform → generate).
 
+**Ways to run this repo**
+
+- **Terminal only (default):** `npm install` at the repo root, then use the `npm run …` commands below. No UI dependencies.
+- **Optional browser UI:** install UI packages once with `npm run install:ui`, then start the stack with `npm run dev:ui`. Open the URL Vite prints (the API stays on `127.0.0.1:3847`). For a built UI served by the same process, run `npm run build:ui` then `npm run start:ui`. How the UI is structured and how to add more operations is documented in [`CONTROL_UI_PLAN.md`](CONTROL_UI_PLAN.md).
+
 ---
 
 ## Shared pipeline (always run this first)
@@ -177,6 +182,15 @@ scripts/lib/discover-article-urls.js   # Collect article URLs from a listing pag
 | **generate.js** | Builds `migration-bundle.json` (includes `meridian` on items when scraped). |
 | **publish.js** | Posts each item to **destination WordPress** REST API (or dry-run without credentials). |
 | **build-aem-package.js** | Builds FileVault ZIP from blueprint + bundle; **`aem.bodyRenderer`** selects legacy vs Meridian XML. |
+
+### Optional UI (root `package.json` only)
+
+| Script | Purpose |
+|--------|---------|
+| `install:ui` | Installs dependencies under `server/` and `web/` (does not add UI deps to the root install). |
+| `dev:ui` | Starts the control API and Vite dev server; open the URL Vite prints in the terminal. |
+| `build:ui` | Builds the web app to `web/dist`. |
+| `start:ui` | Runs the API in production mode and serves `web/dist` when present (run `build:ui` first). |
 
 ## Known limitations
 

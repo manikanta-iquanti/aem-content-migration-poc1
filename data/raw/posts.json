@@ -3,7 +3,7 @@
     "id": 1.2368950180990118e+78,
     "slug": "santorini-blue-hour",
     "status": "publish",
-    "date": "2026-05-13T09:36:15.023Z",
+    "date": "2026-05-13T12:28:09.989Z",
     "title": {
       "rendered": "The Blue Hour in Santorini"
     },
@@ -63,7 +63,7 @@
     "id": 1.287091590113436e+75,
     "slug": "kyoto-in-the-rain",
     "status": "publish",
-    "date": "2026-05-13T09:36:15.072Z",
+    "date": "2026-05-13T12:28:10.065Z",
     "title": {
       "rendered": "Kyoto in the Rain"
     },
@@ -79,7 +79,7 @@
     "meridian": {
       "eyebrow": "Culture · Kyoto, Japan",
       "dek": "Wet stone, paper umbrellas, and the particular hush of a temple garden when the tour buses give up and go home.",
-      "authorName": "Theo Nakamura",
+      "authorName": "Emi Tanaka",
       "publishDateText": "March 28, 2026",
       "readTime": "9 min read",
       "image": "http://localhost:8081/src/assets/kyoto.jpg",
@@ -113,9 +113,9 @@
         "Kissaten"
       ],
       "authorCard": {
-        "authorName": "Theo Nakamura",
-        "initials": "TN",
-        "dropInitial": "T"
+        "authorName": "Emi Tanaka",
+        "initials": "ET",
+        "dropInitial": "E"
       }
     }
   },
@@ -123,7 +123,7 @@
     "id": 1.339325275872462e+72,
     "slug": "marrakech-souks",
     "status": "publish",
-    "date": "2026-05-13T09:36:15.113Z",
+    "date": "2026-05-13T12:28:10.126Z",
     "title": {
       "rendered": "Lost on Purpose in the Marrakech Souks"
     },
@@ -179,7 +179,7 @@
     "id": 3.403021532877648e+88,
     "slug": "patagonia-end-of-the-world",
     "status": "publish",
-    "date": "2026-05-13T09:36:15.159Z",
+    "date": "2026-05-13T12:28:10.194Z",
     "title": {
       "rendered": "Patagonia: Notes from the End of the World"
     },
@@ -235,7 +235,7 @@
     "id": 1.287091590113436e+75,
     "slug": "tokyo-neon-nights",
     "status": "publish",
-    "date": "2026-05-13T09:36:15.211Z",
+    "date": "2026-05-13T12:28:10.286Z",
     "title": {
       "rendered": "Tokyo After Dark: Neon Dreams & Late-Night Ramen"
     },
@@ -251,7 +251,7 @@
     "meridian": {
       "eyebrow": "City · Tokyo, Japan",
       "dek": "Shinjuku alleyways, 3AM yakitori, and the electric hum of a city that never quite sleeps.",
-      "authorName": "Theo Nakamura",
+      "authorName": "Kenji Sato",
       "publishDateText": "May 10, 2026",
       "readTime": "8 min read",
       "image": "http://localhost:8081/src/assets/Tokiyo.jpg",
@@ -277,9 +277,9 @@
         "Ramen"
       ],
       "authorCard": {
-        "authorName": "Theo Nakamura",
-        "initials": "TN",
-        "dropInitial": "T"
+        "authorName": "Kenji Sato",
+        "initials": "KS",
+        "dropInitial": "K"
       }
     }
   },
@@ -287,7 +287,7 @@
     "id": 1.287091590113436e+75,
     "slug": "iceland-ring-road",
     "status": "publish",
-    "date": "2026-05-13T09:36:15.265Z",
+    "date": "2026-05-13T12:28:10.355Z",
     "title": {
       "rendered": "Iceland's Ring Road: Chasing Waterfalls in a Land That Forgot to Sleep"
     },
@@ -303,7 +303,7 @@
     "meridian": {
       "eyebrow": "Wilderness · Vik, Iceland",
       "dek": "Black sand beaches, thundering cataracts, and the particular silence of a midnight sun that refuses to set.",
-      "authorName": "Cal Mendoza",
+      "authorName": "Astrid Björk",
       "publishDateText": "May 8, 2026",
       "readTime": "10 min read",
       "image": "http://localhost:8081/src/assets/Iceland.jpg",
@@ -329,9 +329,9 @@
         "Geology"
       ],
       "authorCard": {
-        "authorName": "Cal Mendoza",
-        "initials": "CM",
-        "dropInitial": "C"
+        "authorName": "Astrid Björk",
+        "initials": "AB",
+        "dropInitial": "A"
       }
     }
   },
@@ -339,7 +339,7 @@
     "id": 4.3204041157176194e+70,
     "slug": "lisbon-tram-28",
     "status": "publish",
-    "date": "2026-05-13T09:36:15.317Z",
+    "date": "2026-05-13T12:28:10.413Z",
     "title": {
       "rendered": "Lisbon: Riding Tram 28 Into the Heart of the Alfama"
     },
@@ -355,7 +355,7 @@
     "meridian": {
       "eyebrow": "City · Lisbon, Portugal",
       "dek": "Yellow trams, tiled facades, and the sound of fado drifting from a window you just passed.",
-      "authorName": "Mira Halsey",
+      "authorName": "Pedro Almeida",
       "publishDateText": "May 5, 2026",
       "readTime": "6 min read",
       "image": "http://localhost:8081/src/assets/Lisbon.jpg",
@@ -381,9 +381,9 @@
         "Pastéis de nata"
       ],
       "authorCard": {
-        "authorName": "Mira Halsey",
-        "initials": "MH",
-        "dropInitial": "M"
+        "authorName": "Pedro Almeida",
+        "initials": "PA",
+        "dropInitial": "P"
       }
     }
   },
@@ -391,7 +391,7 @@
     "id": 4.4957378935667215e+67,
     "slug": "bali-temples",
     "status": "publish",
-    "date": "2026-05-13T09:36:15.359Z",
+    "date": "2026-05-13T12:28:10.478Z",
     "title": {
       "rendered": "Bali: Temple Days & Rice Terrace Haze"
     },
@@ -407,7 +407,7 @@
     "meridian": {
       "eyebrow": "Culture · Ubud, Indonesia",
       "dek": "Offerings on the sidewalk, Sacred Monkey Forest, and the particular green of a terraced hillside at dawn.",
-      "authorName": "Yasmine Aït",
+      "authorName": "Wayan Putra",
       "publishDateText": "May 3, 2026",
       "readTime": "7 min read",
       "image": "http://localhost:8081/src/assets/Bali.jpg",
@@ -433,9 +433,9 @@
         "Spirituality"
       ],
       "authorCard": {
-        "authorName": "Yasmine Aït",
-        "initials": "YA",
-        "dropInitial": "Y"
+        "authorName": "Wayan Putra",
+        "initials": "WP",
+        "dropInitial": "W"
       }
     }
   },
@@ -443,7 +443,7 @@
     "id": 1.339325275872462e+72,
     "slug": "dolomites-peaks",
     "status": "publish",
-    "date": "2026-05-13T09:36:15.398Z",
+    "date": "2026-05-13T12:28:10.545Z",
     "title": {
       "rendered": "The Dolomites: Via Ferrata Above the Clouds"
     },
@@ -459,7 +459,7 @@
     "meridian": {
       "eyebrow": "Wilderness · Cortina d'Ampezzo, Italy",
       "dek": "Iron rungs, via ferratas, and a lunch of speck and apples eaten on a ledge 3,000 metres up.",
-      "authorName": "Cal Mendoza",
+      "authorName": "Marco Bianchi",
       "publishDateText": "April 28, 2026",
       "readTime": "9 min read",
       "image": "http://localhost:8081/src/assets/Dolomites.jpg",
@@ -485,9 +485,9 @@
         "Hiking"
       ],
       "authorCard": {
-        "authorName": "Cal Mendoza",
-        "initials": "CM",
-        "dropInitial": "C"
+        "authorName": "Marco Bianchi",
+        "initials": "MB",
+        "dropInitial": "M"
       }
     }
   },
@@ -495,7 +495,7 @@
     "id": 1.287091590113436e+75,
     "slug": "hanoi-street-food",
     "status": "publish",
-    "date": "2026-05-13T09:36:15.439Z",
+    "date": "2026-05-13T12:28:10.618Z",
     "title": {
       "rendered": "Hanoi: A Street Food Tour Through the Old Quarter"
     },
@@ -511,7 +511,7 @@
     "meridian": {
       "eyebrow": "Food · Hanoi, Vietnam",
       "dek": "Bun cha at a plastic table, egg coffee in a hidden café, and the chaos of scooters filling every gap.",
-      "authorName": "Theo Nakamura",
+      "authorName": "Linh Nguyen",
       "publishDateText": "April 22, 2026",
       "readTime": "7 min read",
       "image": "http://localhost:8081/src/assets/Hanoi.jpg",
@@ -537,9 +537,9 @@
         "Markets"
       ],
       "authorCard": {
-        "authorName": "Theo Nakamura",
-        "initials": "TN",
-        "dropInitial": "T"
+        "authorName": "Linh Nguyen",
+        "initials": "LN",
+        "dropInitial": "L"
       }
     }
   },
@@ -547,7 +547,7 @@
     "id": 1.339325275872462e+72,
     "slug": "petra-by-night",
     "status": "publish",
-    "date": "2026-05-13T09:36:15.483Z",
+    "date": "2026-05-13T12:28:10.681Z",
     "title": {
       "rendered": "Petra by Night: Candles, Rose City, and Silence"
     },
@@ -563,7 +563,7 @@
     "meridian": {
       "eyebrow": "Culture · Petra, Jordan",
       "dek": "Walking through the Siq by candlelight to see the Treasury glowing in the dark.",
-      "authorName": "Yasmine Aït",
+      "authorName": "Rami Hassan",
       "publishDateText": "April 18, 2026",
       "readTime": "8 min read",
       "image": "http://localhost:8081/src/assets/Petra.jpg",
@@ -589,9 +589,9 @@
         "Bedouin"
       ],
       "authorCard": {
-        "authorName": "Yasmine Aït",
-        "initials": "YA",
-        "dropInitial": "Y"
+        "authorName": "Rami Hassan",
+        "initials": "RH",
+        "dropInitial": "R"
       }
     }
   },
@@ -599,7 +599,7 @@
     "id": 1.3936787470056836e+69,
     "slug": "machu-picchu",
     "status": "publish",
-    "date": "2026-05-13T09:36:15.522Z",
+    "date": "2026-05-13T12:28:10.747Z",
     "title": {
       "rendered": "Machu Picchu: Above the Clouds, Below the Sun"
     },
@@ -615,7 +615,7 @@
     "meridian": {
       "eyebrow": "Wilderness · Machu Picchu, Peru",
       "dek": "Inca ruins, altitude headaches, and the moment the mist parts to reveal the citadel.",
-      "authorName": "Cal Mendoza",
+      "authorName": "Sofia Quispe",
       "publishDateText": "April 12, 2026",
       "readTime": "10 min read",
       "image": "http://localhost:8081/src/assets/MachuPichu.jpg",
@@ -641,9 +641,9 @@
         "Andes"
       ],
       "authorCard": {
-        "authorName": "Cal Mendoza",
-        "initials": "CM",
-        "dropInitial": "C"
+        "authorName": "Sofia Quispe",
+        "initials": "SQ",
+        "dropInitial": "S"
       }
     }
   },
@@ -651,7 +651,7 @@
     "id": 1.3936787470056836e+69,
     "slug": "amalfi-coast",
     "status": "publish",
-    "date": "2026-05-13T09:36:15.562Z",
+    "date": "2026-05-13T12:28:10.817Z",
     "title": {
       "rendered": "The Amalfi Coast: Lemon Groves and Curves in the Road"
     },
@@ -667,7 +667,7 @@
     "meridian": {
       "eyebrow": "Coastal · Positano, Italy",
       "dek": "Cliffside towns, driving the SS163, and the particular blue of the Tyrrhenian Sea.",
-      "authorName": "Mira Halsey",
+      "authorName": "Giulia Rossi",
       "publishDateText": "April 5, 2026",
       "readTime": "7 min read",
       "image": "http://localhost:8081/src/assets/AmalfiCoast.jpg",
@@ -693,9 +693,9 @@
         "Italian food"
       ],
       "authorCard": {
-        "authorName": "Mira Halsey",
-        "initials": "MH",
-        "dropInitial": "M"
+        "authorName": "Giulia Rossi",
+        "initials": "GR",
+        "dropInitial": "G"
       }
     }
   },
@@ -703,7 +703,7 @@
     "id": 3.834374556106937e+79,
     "slug": "cappadocia-balloons",
     "status": "publish",
-    "date": "2026-05-13T09:36:15.601Z",
+    "date": "2026-05-13T12:28:10.897Z",
     "title": {
       "rendered": "Cappadocia at Sunrise: Balloons Over the Fairy Chimneys"
     },
@@ -719,7 +719,7 @@
     "meridian": {
       "eyebrow": "Adventure · Cappadocia, Turkey",
       "dek": "Hot air balloons at dawn, cave hotels, and the strange landscape that looks like Mars but feels like home.",
-      "authorName": "Yasmine Aït",
+      "authorName": "Deniz Yılmaz",
       "publishDateText": "March 28, 2026",
       "readTime": "8 min read",
       "image": "http://localhost:8081/src/assets/Cappadocia.jpg",
@@ -745,9 +745,9 @@
         "Geology"
       ],
       "authorCard": {
-        "authorName": "Yasmine Aït",
-        "initials": "YA",
-        "dropInitial": "Y"
+        "authorName": "Deniz Yılmaz",
+        "initials": "DY",
+        "dropInitial": "D"
       }
     }
   }
