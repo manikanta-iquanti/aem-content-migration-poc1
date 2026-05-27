@@ -294,4 +294,8 @@ async function scrapePagesToWpShape(config) {
   return output;
 }
 
-module.exports = { scrapePagesToWpShape };
+module.exports = {
+  scrapePagesToWpShape,
+  deriveNumericId,
+  deriveSlug,
+};

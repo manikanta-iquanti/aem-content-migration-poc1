@@ -13,10 +13,17 @@
     "mode": "scrape",
     "scrape": {
       "urls": [],
-      "discoverIndexUrl": "http://localhost:8081/articles",
+      "discoverIndexUrl": "http://localhost:8081/articles/",
       "contentSelector": "",
       "timeoutMs": 20000,
       "layout": "meridian-static"
+    },
+    "documents": {
+      "globs": [
+        "data/sample-documents/**/*.docx",
+        "data/sample-documents/**/*.pdf"
+      ],
+      "linkBaseUrl": "http://localhost:8081"
     }
   },
   "aem": {

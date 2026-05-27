@@ -36,13 +36,45 @@ function buildScrapeArgv(payload) {
   return argv;
 }
 
+/** @param {Record<string, unknown>} payload */
+function buildDocumentArgv(payload) {
+  let globs = [];
+  if (Array.isArray(payload.globs)) {
+    globs = payload.globs.map((g) => String(g).trim()).filter(Boolean);
+  } else if (typeof payload.globsText === "string") {
+    globs = payload.globsText
+      .split(/\n/)
+      .map((s) => s.trim())
+      .filter(Boolean);
+  }
+
+  let files = [];
+  if (Array.isArray(payload.files)) {
+    files = payload.files.map((f) => String(f).trim()).filter(Boolean);
+  } else if (typeof payload.filesText === "string") {
+    files = payload.filesText
+      .split(/\n/)
+      .map((s) => s.trim())
+      .filter(Boolean);
+  }
+
+  const linkBase =
+    typeof payload.linkBase === "string" ? payload.linkBase.trim() : "";
+
+  const argv = [];
+  for (const g of globs) argv.push("--glob", g);
+  for (const f of files) argv.push("--file", f);
+  if (linkBase) argv.push("--link-base", linkBase);
+  return argv;
+}
+
 /** @type {(ScriptOperation | SequenceOperation)[]} */
 const OPERATIONS = [
   {
     id: "extract",
     label: "Extract",
     description:
-      "Step 1: Pull raw content from the source (WordPress API or scrape mode per config). Writes data/raw/posts.json.",
+      "Step 1: Pull raw content from the source (WordPress API, scrape, or documents per config.extract.mode). Writes data/raw/posts.json.",
     kind: "script",
     script: "scripts/extract.js",
   },
@@ -54,6 +86,16 @@ const OPERATIONS = [
     kind: "script",
     script: "scripts/extract-scrape.js",
     buildArgv: buildScrapeArgv,
+    ui: { customForm: true },
+  },
+  {
+    id: "extract-documents",
+    label: "Extract (documents)",
+    description:
+      "Import .docx / .pdf from extract.documents.globs (or optional glob/file overrides). Writes data/raw/posts.json in Meridian shape.",
+    kind: "script",
+    script: "scripts/extract-documents.js",
+    buildArgv: buildDocumentArgv,
     ui: { customForm: true },
   },
   {

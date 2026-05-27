@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { fetchOperations } from "./api/client.js";
 import { useJobStream } from "./hooks/useJobStream.js";
 import { OperationPanel } from "./features/operations/OperationPanel.jsx";
+import { ExtractModeBanner } from "./features/operations/ExtractModeBanner.jsx";
 import { ConfigEditor } from "./features/config/ConfigEditor.jsx";
 import { ArtifactLinks } from "./features/artifacts/ArtifactLinks.jsx";
 import { LogPanel } from "./features/logs/LogPanel.jsx";
@@ -80,10 +81,13 @@ export default function App() {
 
         {tab === "operations" ? (
           <>
+            <ExtractModeBanner />
             <p style={layout.lead}>
               Start with <strong>Full pipeline</strong> unless you are debugging a single step.
-              Use <strong>Extract (scrape only)</strong> when you want ad-hoc URLs without editing
-              config.
+              The banner shows which <strong>extract.mode</strong> that pipeline uses (set on the
+              Configuration tab). <strong>Extract (scrape only)</strong> and{" "}
+              <strong>Extract (documents)</strong> override URLs or globs for a single run without
+              changing <code style={layout.code}>extract.mode</code>.
             </p>
             <OperationPanel operations={operations} onRun={run} busy={busy} />
           </>

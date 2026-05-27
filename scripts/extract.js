@@ -4,6 +4,7 @@ const path = require("node:path");
 const axios = require("axios");
 const fs = require("fs-extra");
 const { scrapePagesToWpShape } = require("./lib/scrape-pages");
+const { importDocumentsToWpShape } = require("./lib/document-import");
 
 const ROOT = path.join(__dirname, "..");
 const CONFIG_PATH = path.join(ROOT, "config", "config.json");
@@ -44,9 +45,11 @@ async function main() {
     data = await extractFromWpApi(config);
   } else if (mode === "scrape") {
     data = await scrapePagesToWpShape(config);
+  } else if (mode === "documents") {
+    data = await importDocumentsToWpShape(config);
   } else {
     throw new Error(
-      `Unsupported extract.mode "${mode}". Use "wp-api" or "scrape".`
+      `Unsupported extract.mode "${mode}". Use "wp-api", "scrape", or "documents".`
     );
   }
 

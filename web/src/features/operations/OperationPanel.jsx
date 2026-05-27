@@ -1,8 +1,34 @@
 import { ScrapeExtractForm } from "./ScrapeExtractForm.jsx";
+import { DocumentExtractForm } from "./DocumentExtractForm.jsx";
 
 /**
  * @typedef {{ id: string, label: string, description: string, kind: string, customForm?: boolean }} OpMeta
  */
+
+/**
+ * @param {OpMeta} op
+ * @param {boolean} busy
+ * @param {(id: string, payload?: Record<string, unknown>) => void} onRun
+ */
+function renderOperationAction(op, busy, onRun) {
+  if (op.customForm && op.id === "extract-scrape") {
+    return <ScrapeExtractForm disabled={busy} onRun={(payload) => onRun(op.id, payload)} />;
+  }
+  if (op.customForm && op.id === "extract-documents") {
+    return <DocumentExtractForm disabled={busy} onRun={(payload) => onRun(op.id, payload)} />;
+  }
+  return (
+    <button
+      type="button"
+      style={btn}
+      disabled={busy}
+      onClick={() => onRun(op.id, {})}
+      aria-busy={busy}
+    >
+      Run
+    </button>
+  );
+}
 
 /**
  * @param {{ operations: OpMeta[], onRun: (id: string, payload?: Record<string, unknown>) => void, busy: boolean }} props
@@ -19,22 +45,7 @@ export function OperationPanel({ operations, onRun, busy }) {
             ) : null}
           </div>
           <p style={desc}>{op.description}</p>
-          {op.customForm && op.id === "extract-scrape" ? (
-            <ScrapeExtractForm
-              disabled={busy}
-              onRun={(payload) => onRun(op.id, payload)}
-            />
-          ) : (
-            <button
-              type="button"
-              style={btn}
-              disabled={busy}
-              onClick={() => onRun(op.id, {})}
-              aria-busy={busy}
-            >
-              Run
-            </button>
-          )}
+          {renderOperationAction(op, busy, onRun)}
         </article>
       ))}
     </div>

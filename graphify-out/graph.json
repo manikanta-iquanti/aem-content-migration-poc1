@@ -9,7 +9,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L1",
       "id": "scripts_build_aem_package_js",
-      "community": 0,
+      "community": 1,
       "norm_label": "build-aem-package.js"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L21",
       "id": "scripts_build_aem_package_escapexmlattr",
-      "community": 0,
+      "community": 1,
       "norm_label": "escapexmlattr()"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L30",
       "id": "scripts_build_aem_package_jcrpagename",
-      "community": 0,
+      "community": 1,
       "norm_label": "jcrpagename()"
     },
     {
@@ -36,7 +36,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L40",
       "id": "scripts_build_aem_package_loadaemconfig",
-      "community": 0,
+      "community": 1,
       "norm_label": "loadaemconfig()"
     },
     {
@@ -45,7 +45,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L94",
       "id": "scripts_build_aem_package_extractsitekeyfromblueprint",
-      "community": 0,
+      "community": 1,
       "norm_label": "extractsitekeyfromblueprint()"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L99",
       "id": "scripts_build_aem_package_extractblueprintjcrtitle",
-      "community": 0,
+      "community": 1,
       "norm_label": "extractblueprintjcrtitle()"
     },
     {
@@ -63,7 +63,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L106",
       "id": "scripts_build_aem_package_escapehtmlinner",
-      "community": 0,
+      "community": 1,
       "norm_label": "escapehtmlinner()"
     },
     {
@@ -72,7 +72,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L114",
       "id": "scripts_build_aem_package_accordionpanelstorichhtml",
-      "community": 0,
+      "community": 1,
       "norm_label": "accordionpanelstorichhtml()"
     },
     {
@@ -81,7 +81,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L124",
       "id": "scripts_build_aem_package_rendertextcomponent",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendertextcomponent()"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L133",
       "id": "scripts_build_aem_package_renderimagecomponent",
-      "community": 0,
+      "community": 1,
       "norm_label": "renderimagecomponent()"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L151",
       "id": "scripts_build_aem_package_renderaccordioncomponent",
-      "community": 0,
+      "community": 1,
       "norm_label": "renderaccordioncomponent()"
     },
     {
@@ -108,7 +108,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L183",
       "id": "scripts_build_aem_package_rendermeridianhero",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridianhero()"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L197",
       "id": "scripts_build_aem_package_rendermeridianjumplinks",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridianjumplinks()"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L219",
       "id": "scripts_build_aem_package_rendermeridianparagraph",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridianparagraph()"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L228",
       "id": "scripts_build_aem_package_rendermeridianheading",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridianheading()"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L240",
       "id": "scripts_build_aem_package_rendermeridianquote",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridianquote()"
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L247",
       "id": "scripts_build_aem_package_rendermeridianlist",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridianlist()"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L267",
       "id": "scripts_build_aem_package_rendermeridiancallout",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridiancallout()"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L280",
       "id": "scripts_build_aem_package_rendermeridiantags",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridiantags()"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L298",
       "id": "scripts_build_aem_package_rendermeridianauthor",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridianauthor()"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L316",
       "id": "scripts_build_aem_package_rendermeridianslicexml",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridianslicexml()"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L456",
       "id": "scripts_build_aem_package_renderbodyxml",
-      "community": 0,
+      "community": 1,
       "norm_label": "renderbodyxml()"
     },
     {
@@ -207,7 +207,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L534",
       "id": "scripts_build_aem_package_resolveblocks",
-      "community": 0,
+      "community": 1,
       "norm_label": "resolveblocks()"
     },
     {
@@ -216,7 +216,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L541",
       "id": "scripts_build_aem_package_pagexmlfromblueprint",
-      "community": 0,
+      "community": 1,
       "norm_label": "pagexmlfromblueprint()"
     },
     {
@@ -225,7 +225,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L574",
       "id": "scripts_build_aem_package_escaperegex",
-      "community": 0,
+      "community": 1,
       "norm_label": "escaperegex()"
     },
     {
@@ -234,7 +234,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L578",
       "id": "scripts_build_aem_package_workspacefilterxml",
-      "community": 0,
+      "community": 1,
       "norm_label": "workspacefilterxml()"
     },
     {
@@ -243,7 +243,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L586",
       "id": "scripts_build_aem_package_packagepropertiesxml",
-      "community": 0,
+      "community": 1,
       "norm_label": "packagepropertiesxml()"
     },
     {
@@ -252,7 +252,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L605",
       "id": "scripts_build_aem_package_manifestmf",
-      "community": 0,
+      "community": 1,
       "norm_label": "manifestmf()"
     },
     {
@@ -261,6 +261,96 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L615",
       "id": "scripts_build_aem_package_main",
+      "community": 1,
+      "norm_label": "main()"
+    },
+    {
+      "label": "build-sample-documents.js",
+      "file_type": "code",
+      "source_file": "scripts/build-sample-documents.js",
+      "source_location": "L1",
+      "id": "scripts_build_sample_documents_js",
+      "community": 8,
+      "norm_label": "build-sample-documents.js"
+    },
+    {
+      "label": "metaTable()",
+      "file_type": "code",
+      "source_file": "scripts/build-sample-documents.js",
+      "source_location": "L27",
+      "id": "scripts_build_sample_documents_metatable",
+      "community": 8,
+      "norm_label": "metatable()"
+    },
+    {
+      "label": "lisbonDoc()",
+      "file_type": "code",
+      "source_file": "scripts/build-sample-documents.js",
+      "source_location": "L48",
+      "id": "scripts_build_sample_documents_lisbondoc",
+      "community": 8,
+      "norm_label": "lisbondoc()"
+    },
+    {
+      "label": "vietnamDoc()",
+      "file_type": "code",
+      "source_file": "scripts/build-sample-documents.js",
+      "source_location": "L176",
+      "id": "scripts_build_sample_documents_vietnamdoc",
+      "community": 8,
+      "norm_label": "vietnamdoc()"
+    },
+    {
+      "label": "writePdfSample()",
+      "file_type": "code",
+      "source_file": "scripts/build-sample-documents.js",
+      "source_location": "L302",
+      "id": "scripts_build_sample_documents_writepdfsample",
+      "community": 8,
+      "norm_label": "writepdfsample()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/build-sample-documents.js",
+      "source_location": "L374",
+      "id": "scripts_build_sample_documents_main",
+      "community": 8,
+      "norm_label": "main()"
+    },
+    {
+      "label": "extract-documents.js",
+      "file_type": "code",
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L1",
+      "id": "scripts_extract_documents_js",
+      "community": 0,
+      "norm_label": "extract-documents.js"
+    },
+    {
+      "label": "readArg()",
+      "file_type": "code",
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L12",
+      "id": "scripts_extract_documents_readarg",
+      "community": 0,
+      "norm_label": "readarg()"
+    },
+    {
+      "label": "collectArgs()",
+      "file_type": "code",
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L18",
+      "id": "scripts_extract_documents_collectargs",
+      "community": 0,
+      "norm_label": "collectargs()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L29",
+      "id": "scripts_extract_documents_main",
       "community": 0,
       "norm_label": "main()"
     },
@@ -270,7 +360,7 @@
       "source_file": "scripts/extract-scrape.js",
       "source_location": "L1",
       "id": "scripts_extract_scrape_js",
-      "community": 6,
+      "community": 9,
       "norm_label": "extract-scrape.js"
     },
     {
@@ -279,7 +369,7 @@
       "source_file": "scripts/extract-scrape.js",
       "source_location": "L12",
       "id": "scripts_extract_scrape_readarg",
-      "community": 6,
+      "community": 9,
       "norm_label": "readarg()"
     },
     {
@@ -288,7 +378,7 @@
       "source_file": "scripts/extract-scrape.js",
       "source_location": "L18",
       "id": "scripts_extract_scrape_collectargs",
-      "community": 6,
+      "community": 9,
       "norm_label": "collectargs()"
     },
     {
@@ -297,7 +387,7 @@
       "source_file": "scripts/extract-scrape.js",
       "source_location": "L29",
       "id": "scripts_extract_scrape_main",
-      "community": 6,
+      "community": 9,
       "norm_label": "main()"
     },
     {
@@ -306,25 +396,25 @@
       "source_file": "scripts/extract.js",
       "source_location": "L1",
       "id": "scripts_extract_js",
-      "community": 7,
+      "community": 0,
       "norm_label": "extract.js"
     },
     {
       "label": "extractFromWpApi()",
       "file_type": "code",
       "source_file": "scripts/extract.js",
-      "source_location": "L13",
+      "source_location": "L14",
       "id": "scripts_extract_extractfromwpapi",
-      "community": 7,
+      "community": 0,
       "norm_label": "extractfromwpapi()"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "scripts/extract.js",
-      "source_location": "L38",
+      "source_location": "L39",
       "id": "scripts_extract_main",
-      "community": 7,
+      "community": 0,
       "norm_label": "main()"
     },
     {
@@ -333,7 +423,7 @@
       "source_file": "scripts/generate.js",
       "source_location": "L1",
       "id": "scripts_generate_js",
-      "community": 12,
+      "community": 13,
       "norm_label": "generate.js"
     },
     {
@@ -342,7 +432,7 @@
       "source_file": "scripts/generate.js",
       "source_location": "L11",
       "id": "scripts_generate_main",
-      "community": 12,
+      "community": 13,
       "norm_label": "main()"
     },
     {
@@ -351,7 +441,7 @@
       "source_file": "scripts/publish.js",
       "source_location": "L1",
       "id": "scripts_publish_js",
-      "community": 13,
+      "community": 14,
       "norm_label": "publish.js"
     },
     {
@@ -360,7 +450,7 @@
       "source_file": "scripts/publish.js",
       "source_location": "L11",
       "id": "scripts_publish_main",
-      "community": 13,
+      "community": 14,
       "norm_label": "main()"
     },
     {
@@ -396,7 +486,7 @@
       "source_file": "scripts/lib/discover-article-urls.js",
       "source_location": "L1",
       "id": "scripts_lib_discover_article_urls_js",
-      "community": 8,
+      "community": 3,
       "norm_label": "discover-article-urls.js"
     },
     {
@@ -405,7 +495,7 @@
       "source_file": "scripts/lib/discover-article-urls.js",
       "source_location": "L14",
       "id": "lib_discover_article_urls_defaultpathnamematch",
-      "community": 8,
+      "community": 3,
       "norm_label": "defaultpathnamematch()"
     },
     {
@@ -414,7 +504,7 @@
       "source_file": "scripts/lib/discover-article-urls.js",
       "source_location": "L29",
       "id": "lib_discover_article_urls_discoverarticleurlsfromindex",
-      "community": 8,
+      "community": 3,
       "norm_label": "discoverarticleurlsfromindex()"
     },
     {
@@ -423,7 +513,7 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L1",
       "id": "scripts_lib_meridian_static_extract_js",
-      "community": 3,
+      "community": 5,
       "norm_label": "meridian-static-extract.js"
     },
     {
@@ -432,7 +522,7 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L5",
       "id": "lib_meridian_static_extract_iselement",
-      "community": 3,
+      "community": 5,
       "norm_label": "iselement()"
     },
     {
@@ -441,7 +531,7 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L9",
       "id": "lib_meridian_static_extract_trimtext",
-      "community": 3,
+      "community": 5,
       "norm_label": "trimtext()"
     },
     {
@@ -450,7 +540,7 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L15",
       "id": "lib_meridian_static_extract_absurl",
-      "community": 3,
+      "community": 5,
       "norm_label": "absurl()"
     },
     {
@@ -459,7 +549,7 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L27",
       "id": "lib_meridian_static_extract_pickheroheader",
-      "community": 3,
+      "community": 5,
       "norm_label": "pickheroheader()"
     },
     {
@@ -468,7 +558,7 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L36",
       "id": "lib_meridian_static_extract_pickheroimage",
-      "community": 3,
+      "community": 5,
       "norm_label": "pickheroimage()"
     },
     {
@@ -477,7 +567,7 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L43",
       "id": "lib_meridian_static_extract_parsebyline",
-      "community": 3,
+      "community": 5,
       "norm_label": "parsebyline()"
     },
     {
@@ -486,7 +576,7 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L50",
       "id": "lib_meridian_static_extract_istagsdiv",
-      "community": 3,
+      "community": 5,
       "norm_label": "istagsdiv()"
     },
     {
@@ -495,7 +585,7 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L56",
       "id": "lib_meridian_static_extract_isauthordiv",
-      "community": 3,
+      "community": 5,
       "norm_label": "isauthordiv()"
     },
     {
@@ -504,7 +594,7 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L62",
       "id": "lib_meridian_static_extract_extracttagsfromdiv",
-      "community": 3,
+      "community": 5,
       "norm_label": "extracttagsfromdiv()"
     },
     {
@@ -513,7 +603,7 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L72",
       "id": "lib_meridian_static_extract_extractauthorfromdiv",
-      "community": 3,
+      "community": 5,
       "norm_label": "extractauthorfromdiv()"
     },
     {
@@ -522,7 +612,7 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L82",
       "id": "lib_meridian_static_extract_extractjumplinks",
-      "community": 3,
+      "community": 5,
       "norm_label": "extractjumplinks()"
     },
     {
@@ -531,7 +621,7 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L106",
       "id": "lib_meridian_static_extract_extractmeridianstaticpage",
-      "community": 3,
+      "community": 5,
       "norm_label": "extractmeridianstaticpage()"
     },
     {
@@ -540,7 +630,7 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L1",
       "id": "scripts_lib_scrape_pages_js",
-      "community": 4,
+      "community": 3,
       "norm_label": "scrape-pages.js"
     },
     {
@@ -549,7 +639,7 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L15",
       "id": "lib_scrape_pages_normalizebaseurl",
-      "community": 4,
+      "community": 3,
       "norm_label": "normalizebaseurl()"
     },
     {
@@ -558,7 +648,7 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L20",
       "id": "lib_scrape_pages_toabsoluteurl",
-      "community": 4,
+      "community": 3,
       "norm_label": "toabsoluteurl()"
     },
     {
@@ -567,7 +657,7 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L34",
       "id": "lib_scrape_pages_textonly",
-      "community": 4,
+      "community": 3,
       "norm_label": "textonly()"
     },
     {
@@ -576,7 +666,7 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L41",
       "id": "lib_scrape_pages_getmeta",
-      "community": 4,
+      "community": 3,
       "norm_label": "getmeta()"
     },
     {
@@ -585,7 +675,7 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L49",
       "id": "lib_scrape_pages_deriveslug",
-      "community": 4,
+      "community": 3,
       "norm_label": "deriveslug()"
     },
     {
@@ -594,7 +684,7 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L62",
       "id": "lib_scrape_pages_derivenumericid",
-      "community": 4,
+      "community": 3,
       "norm_label": "derivenumericid()"
     },
     {
@@ -603,7 +693,7 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L72",
       "id": "lib_scrape_pages_selectcontentroot",
-      "community": 4,
+      "community": 3,
       "norm_label": "selectcontentroot()"
     },
     {
@@ -612,7 +702,7 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L96",
       "id": "lib_scrape_pages_cleanupcontent",
-      "community": 4,
+      "community": 3,
       "norm_label": "cleanupcontent()"
     },
     {
@@ -621,7 +711,7 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L114",
       "id": "lib_scrape_pages_extractpagedata",
-      "community": 4,
+      "community": 3,
       "norm_label": "extractpagedata()"
     },
     {
@@ -630,7 +720,7 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L174",
       "id": "lib_scrape_pages_resolvescrapeurls",
-      "community": 4,
+      "community": 3,
       "norm_label": "resolvescrapeurls()"
     },
     {
@@ -639,7 +729,7 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L264",
       "id": "lib_scrape_pages_scrapepagestowpshape",
-      "community": 4,
+      "community": 3,
       "norm_label": "scrapepagestowpshape()"
     },
     {
@@ -648,7 +738,7 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L1",
       "id": "scripts_lib_wp_html_to_aem_blocks_js",
-      "community": 2,
+      "community": 4,
       "norm_label": "wp-html-to-aem-blocks.js"
     },
     {
@@ -657,7 +747,7 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L10",
       "id": "lib_wp_html_to_aem_blocks_iselement",
-      "community": 2,
+      "community": 4,
       "norm_label": "iselement()"
     },
     {
@@ -666,7 +756,7 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L14",
       "id": "lib_wp_html_to_aem_blocks_meaningfultext",
-      "community": 2,
+      "community": 4,
       "norm_label": "meaningfultext()"
     },
     {
@@ -675,7 +765,7 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L18",
       "id": "lib_wp_html_to_aem_blocks_trimouter",
-      "community": 2,
+      "community": 4,
       "norm_label": "trimouter()"
     },
     {
@@ -684,7 +774,7 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L22",
       "id": "lib_wp_html_to_aem_blocks_childelements",
-      "community": 2,
+      "community": 4,
       "norm_label": "childelements()"
     },
     {
@@ -693,7 +783,7 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L27",
       "id": "lib_wp_html_to_aem_blocks_firstimg",
-      "community": 2,
+      "community": 4,
       "norm_label": "firstimg()"
     },
     {
@@ -702,7 +792,7 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L34",
       "id": "lib_wp_html_to_aem_blocks_parsedetails",
-      "community": 2,
+      "community": 4,
       "norm_label": "parsedetails()"
     },
     {
@@ -711,7 +801,7 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L47",
       "id": "lib_wp_html_to_aem_blocks_classifyfigure",
-      "community": 2,
+      "community": 4,
       "norm_label": "classifyfigure()"
     },
     {
@@ -720,7 +810,7 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L62",
       "id": "lib_wp_html_to_aem_blocks_flushparagraphbuffer",
-      "community": 2,
+      "community": 4,
       "norm_label": "flushparagraphbuffer()"
     },
     {
@@ -729,7 +819,7 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L74",
       "id": "lib_wp_html_to_aem_blocks_escapehtml",
-      "community": 2,
+      "community": 4,
       "norm_label": "escapehtml()"
     },
     {
@@ -738,7 +828,7 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L82",
       "id": "lib_wp_html_to_aem_blocks_striptagstotext",
-      "community": 2,
+      "community": 4,
       "norm_label": "striptagstotext()"
     },
     {
@@ -747,7 +837,7 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L89",
       "id": "lib_wp_html_to_aem_blocks_iscalloutaside",
-      "community": 2,
+      "community": 4,
       "norm_label": "iscalloutaside()"
     },
     {
@@ -756,7 +846,7 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L95",
       "id": "lib_wp_html_to_aem_blocks_parsecalloutaside",
-      "community": 2,
+      "community": 4,
       "norm_label": "parsecalloutaside()"
     },
     {
@@ -765,7 +855,7 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L123",
       "id": "lib_wp_html_to_aem_blocks_parselistitems",
-      "community": 2,
+      "community": 4,
       "norm_label": "parselistitems()"
     },
     {
@@ -774,8 +864,251 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L137",
       "id": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks",
-      "community": 2,
+      "community": 4,
       "norm_label": "wphtmltoaemblocks()"
+    },
+    {
+      "label": "assemble-wp-post.js",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/assemble-wp-post.js",
+      "source_location": "L1",
+      "id": "scripts_lib_document_import_assemble_wp_post_js",
+      "community": 0,
+      "norm_label": "assemble-wp-post.js"
+    },
+    {
+      "label": "parseTags()",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/assemble-wp-post.js",
+      "source_location": "L5",
+      "id": "document_import_assemble_wp_post_parsetags",
+      "community": 0,
+      "norm_label": "parsetags()"
+    },
+    {
+      "label": "buildAuthorCard()",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/assemble-wp-post.js",
+      "source_location": "L12",
+      "id": "document_import_assemble_wp_post_buildauthorcard",
+      "community": 0,
+      "norm_label": "buildauthorcard()"
+    },
+    {
+      "label": "assembleDocumentPost()",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/assemble-wp-post.js",
+      "source_location": "L37",
+      "id": "document_import_assemble_wp_post_assembledocumentpost",
+      "community": 0,
+      "norm_label": "assembledocumentpost()"
+    },
+    {
+      "label": "constants.js",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/constants.js",
+      "source_location": "L1",
+      "id": "scripts_lib_document_import_constants_js",
+      "community": 0,
+      "norm_label": "constants.js"
+    },
+    {
+      "label": "normalizeLabel()",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/constants.js",
+      "source_location": "L41",
+      "id": "document_import_constants_normalizelabel",
+      "community": 0,
+      "norm_label": "normalizelabel()"
+    },
+    {
+      "label": "labelToCanonicalKey()",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/constants.js",
+      "source_location": "L70",
+      "id": "document_import_constants_labeltocanonicalkey",
+      "community": 0,
+      "norm_label": "labeltocanonicalkey()"
+    },
+    {
+      "label": "docx-to-post.js",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/docx-to-post.js",
+      "source_location": "L1",
+      "id": "scripts_lib_document_import_docx_to_post_js",
+      "community": 0,
+      "norm_label": "docx-to-post.js"
+    },
+    {
+      "label": "docxBufferToPost()",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/docx-to-post.js",
+      "source_location": "L14",
+      "id": "document_import_docx_to_post_docxbuffertopost",
+      "community": 0,
+      "norm_label": "docxbuffertopost()"
+    },
+    {
+      "label": "enrich-meridian-html.js",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/enrich-meridian-html.js",
+      "source_location": "L1",
+      "id": "scripts_lib_document_import_enrich_meridian_html_js",
+      "community": 0,
+      "norm_label": "enrich-meridian-html.js"
+    },
+    {
+      "label": "stripTagsToText()",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/enrich-meridian-html.js",
+      "source_location": "L5",
+      "id": "document_import_enrich_meridian_html_striptagstotext",
+      "community": 0,
+      "norm_label": "striptagstotext()"
+    },
+    {
+      "label": "slugifyHeading()",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/enrich-meridian-html.js",
+      "source_location": "L12",
+      "id": "document_import_enrich_meridian_html_slugifyheading",
+      "community": 0,
+      "norm_label": "slugifyheading()"
+    },
+    {
+      "label": "escapeXmlish()",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/enrich-meridian-html.js",
+      "source_location": "L20",
+      "id": "document_import_enrich_meridian_html_escapexmlish",
+      "community": 0,
+      "norm_label": "escapexmlish()"
+    },
+    {
+      "label": "enrichMeridianDocumentHtml()",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/enrich-meridian-html.js",
+      "source_location": "L36",
+      "id": "document_import_enrich_meridian_html_enrichmeridiandocumenthtml",
+      "community": 0,
+      "norm_label": "enrichmeridiandocumenthtml()"
+    },
+    {
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/index.js",
+      "source_location": "L1",
+      "id": "scripts_lib_document_import_index_js",
+      "community": 0,
+      "norm_label": "index.js"
+    },
+    {
+      "label": "importDocumentsToWpShape()",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/index.js",
+      "source_location": "L21",
+      "id": "document_import_index_importdocumentstowpshape",
+      "community": 0,
+      "norm_label": "importdocumentstowpshape()"
+    },
+    {
+      "label": "parse-metadata-table.js",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/parse-metadata-table.js",
+      "source_location": "L1",
+      "id": "scripts_lib_document_import_parse_metadata_table_js",
+      "community": 0,
+      "norm_label": "parse-metadata-table.js"
+    },
+    {
+      "label": "parseMetadataTable()",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/parse-metadata-table.js",
+      "source_location": "L12",
+      "id": "document_import_parse_metadata_table_parsemetadatatable",
+      "community": 0,
+      "norm_label": "parsemetadatatable()"
+    },
+    {
+      "label": "pdf-to-post.js",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L1",
+      "id": "scripts_lib_document_import_pdf_to_post_js",
+      "community": 0,
+      "norm_label": "pdf-to-post.js"
+    },
+    {
+      "label": "escapeHtml()",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L21",
+      "id": "document_import_pdf_to_post_escapehtml",
+      "community": 0,
+      "norm_label": "escapehtml()"
+    },
+    {
+      "label": "reflowPdfTextForParsing()",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L35",
+      "id": "document_import_pdf_to_post_reflowpdftextforparsing",
+      "community": 0,
+      "norm_label": "reflowpdftextforparsing()"
+    },
+    {
+      "label": "extractPdfText()",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L65",
+      "id": "document_import_pdf_to_post_extractpdftext",
+      "community": 0,
+      "norm_label": "extractpdftext()"
+    },
+    {
+      "label": "parsePdfHeaderSmart()",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L91",
+      "id": "document_import_pdf_to_post_parsepdfheadersmart",
+      "community": 0,
+      "norm_label": "parsepdfheadersmart()"
+    },
+    {
+      "label": "pdfPlainLinesToHtml()",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L144",
+      "id": "document_import_pdf_to_post_pdfplainlinestohtml",
+      "community": 0,
+      "norm_label": "pdfplainlinestohtml()"
+    },
+    {
+      "label": "pdfBufferToPost()",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L227",
+      "id": "document_import_pdf_to_post_pdfbuffertopost",
+      "community": 0,
+      "norm_label": "pdfbuffertopost()"
+    },
+    {
+      "label": "split-pdf-heading-lines.js",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/split-pdf-heading-lines.js",
+      "source_location": "L1",
+      "id": "scripts_lib_document_import_split_pdf_heading_lines_js",
+      "community": 15,
+      "norm_label": "split-pdf-heading-lines.js"
+    },
+    {
+      "label": "splitMergedHeadingLine()",
+      "file_type": "code",
+      "source_file": "scripts/lib/document-import/split-pdf-heading-lines.js",
+      "source_location": "L10",
+      "id": "document_import_split_pdf_heading_lines_splitmergedheadingline",
+      "community": 15,
+      "norm_label": "splitmergedheadingline()"
     },
     {
       "label": "index.js",
@@ -783,7 +1116,7 @@
       "source_file": "server/index.js",
       "source_location": "L1",
       "id": "server_index_js",
-      "community": 16,
+      "community": 18,
       "norm_label": "index.js"
     },
     {
@@ -792,7 +1125,7 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L1",
       "id": "server_lib_job_runner_js",
-      "community": 5,
+      "community": 6,
       "norm_label": "job-runner.js"
     },
     {
@@ -801,7 +1134,7 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L15",
       "id": "lib_job_runner_ssewrite",
-      "community": 5,
+      "community": 6,
       "norm_label": "ssewrite()"
     },
     {
@@ -810,7 +1143,7 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L22",
       "id": "lib_job_runner_broadcast",
-      "community": 5,
+      "community": 6,
       "norm_label": "broadcast()"
     },
     {
@@ -819,7 +1152,7 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L32",
       "id": "lib_job_runner_appendlog",
-      "community": 5,
+      "community": 6,
       "norm_label": "appendlog()"
     },
     {
@@ -828,7 +1161,7 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L39",
       "id": "lib_job_runner_attachsubscriber",
-      "community": 5,
+      "community": 6,
       "norm_label": "attachsubscriber()"
     },
     {
@@ -837,7 +1170,7 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L63",
       "id": "lib_job_runner_reqonclose",
-      "community": 5,
+      "community": 6,
       "norm_label": "reqonclose()"
     },
     {
@@ -846,7 +1179,7 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L73",
       "id": "lib_job_runner_runscriptprocess",
-      "community": 5,
+      "community": 6,
       "norm_label": "runscriptprocess()"
     },
     {
@@ -855,7 +1188,7 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L105",
       "id": "lib_job_runner_executeoperationwithlogging",
-      "community": 5,
+      "community": 6,
       "norm_label": "executeoperationwithlogging()"
     },
     {
@@ -864,7 +1197,7 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L129",
       "id": "lib_job_runner_isbusy",
-      "community": 5,
+      "community": 6,
       "norm_label": "isbusy()"
     },
     {
@@ -873,7 +1206,7 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L138",
       "id": "lib_job_runner_startjob",
-      "community": 5,
+      "community": 6,
       "norm_label": "startjob()"
     },
     {
@@ -882,7 +1215,7 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L195",
       "id": "lib_job_runner_streamjob",
-      "community": 5,
+      "community": 6,
       "norm_label": "streamjob()"
     },
     {
@@ -891,7 +1224,7 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L204",
       "id": "lib_job_runner_getjob",
-      "community": 5,
+      "community": 6,
       "norm_label": "getjob()"
     },
     {
@@ -900,7 +1233,7 @@
       "source_file": "server/operations/registry.js",
       "source_location": "L1",
       "id": "server_operations_registry_js",
-      "community": 9,
+      "community": 10,
       "norm_label": "registry.js"
     },
     {
@@ -909,25 +1242,34 @@
       "source_file": "server/operations/registry.js",
       "source_location": "L11",
       "id": "operations_registry_buildscrapeargv",
-      "community": 9,
+      "community": 10,
       "norm_label": "buildscrapeargv()"
+    },
+    {
+      "label": "buildDocumentArgv()",
+      "file_type": "code",
+      "source_file": "server/operations/registry.js",
+      "source_location": "L40",
+      "id": "operations_registry_builddocumentargv",
+      "community": 10,
+      "norm_label": "builddocumentargv()"
     },
     {
       "label": "listOperationsPublic()",
       "file_type": "code",
       "source_file": "server/operations/registry.js",
-      "source_location": "L105",
+      "source_location": "L147",
       "id": "operations_registry_listoperationspublic",
-      "community": 9,
+      "community": 10,
       "norm_label": "listoperationspublic()"
     },
     {
       "label": "getOperation()",
       "file_type": "code",
       "source_file": "server/operations/registry.js",
-      "source_location": "L116",
+      "source_location": "L158",
       "id": "operations_registry_getoperation",
-      "community": 9,
+      "community": 10,
       "norm_label": "getoperation()"
     },
     {
@@ -936,7 +1278,7 @@
       "source_file": "server/routes/artifacts.js",
       "source_location": "L1",
       "id": "server_routes_artifacts_js",
-      "community": 14,
+      "community": 16,
       "norm_label": "artifacts.js"
     },
     {
@@ -945,7 +1287,7 @@
       "source_file": "server/routes/artifacts.js",
       "source_location": "L17",
       "id": "routes_artifacts_createartifactsrouter",
-      "community": 14,
+      "community": 16,
       "norm_label": "createartifactsrouter()"
     },
     {
@@ -954,7 +1296,7 @@
       "source_file": "server/routes/config.js",
       "source_location": "L1",
       "id": "server_routes_config_js",
-      "community": 10,
+      "community": 12,
       "norm_label": "config.js"
     },
     {
@@ -963,7 +1305,7 @@
       "source_file": "server/routes/config.js",
       "source_location": "L12",
       "id": "routes_config_mergepasswordfield",
-      "community": 10,
+      "community": 12,
       "norm_label": "mergepasswordfield()"
     },
     {
@@ -972,7 +1314,7 @@
       "source_file": "server/routes/config.js",
       "source_location": "L21",
       "id": "routes_config_mergeconfigpreservingpasswords",
-      "community": 10,
+      "community": 12,
       "norm_label": "mergeconfigpreservingpasswords()"
     },
     {
@@ -981,7 +1323,7 @@
       "source_file": "server/routes/config.js",
       "source_location": "L60",
       "id": "routes_config_createconfigrouter",
-      "community": 10,
+      "community": 12,
       "norm_label": "createconfigrouter()"
     },
     {
@@ -990,7 +1332,7 @@
       "source_file": "server/routes/jobs.js",
       "source_location": "L1",
       "id": "server_routes_jobs_js",
-      "community": 15,
+      "community": 17,
       "norm_label": "jobs.js"
     },
     {
@@ -999,7 +1341,7 @@
       "source_file": "server/routes/jobs.js",
       "source_location": "L10",
       "id": "routes_jobs_createjobsrouter",
-      "community": 15,
+      "community": 17,
       "norm_label": "createjobsrouter()"
     },
     {
@@ -1008,7 +1350,7 @@
       "source_file": "web/vite.config.js",
       "source_location": "L1",
       "id": "web_vite_config_js",
-      "community": 17,
+      "community": 19,
       "norm_label": "vite.config.js"
     },
     {
@@ -1017,16 +1359,16 @@
       "source_file": "web/src/App.jsx",
       "source_location": "L1",
       "id": "web_src_app_jsx",
-      "community": 1,
+      "community": 2,
       "norm_label": "app.jsx"
     },
     {
       "label": "App()",
       "file_type": "code",
       "source_file": "web/src/App.jsx",
-      "source_location": "L15",
+      "source_location": "L16",
       "id": "src_app_app",
-      "community": 1,
+      "community": 2,
       "norm_label": "app()"
     },
     {
@@ -1035,7 +1377,7 @@
       "source_file": "web/src/main.jsx",
       "source_location": "L1",
       "id": "web_src_main_jsx",
-      "community": 18,
+      "community": 20,
       "norm_label": "main.jsx"
     },
     {
@@ -1044,7 +1386,7 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L1",
       "id": "web_src_api_client_js",
-      "community": 1,
+      "community": 2,
       "norm_label": "client.js"
     },
     {
@@ -1053,7 +1395,7 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L3",
       "id": "api_client_parseerror",
-      "community": 1,
+      "community": 2,
       "norm_label": "parseerror()"
     },
     {
@@ -1062,7 +1404,7 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L14",
       "id": "api_client_fetchoperations",
-      "community": 1,
+      "community": 2,
       "norm_label": "fetchoperations()"
     },
     {
@@ -1071,7 +1413,7 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L20",
       "id": "api_client_fetchconfig",
-      "community": 1,
+      "community": 2,
       "norm_label": "fetchconfig()"
     },
     {
@@ -1080,7 +1422,7 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L26",
       "id": "api_client_saveconfig",
-      "community": 1,
+      "community": 2,
       "norm_label": "saveconfig()"
     },
     {
@@ -1089,7 +1431,7 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L36",
       "id": "api_client_startjob",
-      "community": 1,
+      "community": 2,
       "norm_label": "startjob()"
     },
     {
@@ -1098,7 +1440,7 @@
       "source_file": "web/src/features/artifacts/ArtifactLinks.jsx",
       "source_location": "L1",
       "id": "web_src_features_artifacts_artifactlinks_jsx",
-      "community": 1,
+      "community": 2,
       "norm_label": "artifactlinks.jsx"
     },
     {
@@ -1107,7 +1449,7 @@
       "source_file": "web/src/features/artifacts/ArtifactLinks.jsx",
       "source_location": "L19",
       "id": "artifacts_artifactlinks_artifactlinks",
-      "community": 1,
+      "community": 2,
       "norm_label": "artifactlinks()"
     },
     {
@@ -1116,16 +1458,34 @@
       "source_file": "web/src/features/config/ConfigEditor.jsx",
       "source_location": "L1",
       "id": "web_src_features_config_configeditor_jsx",
-      "community": 1,
+      "community": 2,
       "norm_label": "configeditor.jsx"
+    },
+    {
+      "label": "safeParse()",
+      "file_type": "code",
+      "source_file": "web/src/features/config/ConfigEditor.jsx",
+      "source_location": "L22",
+      "id": "config_configeditor_safeparse",
+      "community": 2,
+      "norm_label": "safeparse()"
+    },
+    {
+      "label": "dispatchConfigUpdated()",
+      "file_type": "code",
+      "source_file": "web/src/features/config/ConfigEditor.jsx",
+      "source_location": "L30",
+      "id": "config_configeditor_dispatchconfigupdated",
+      "community": 2,
+      "norm_label": "dispatchconfigupdated()"
     },
     {
       "label": "ConfigEditor()",
       "file_type": "code",
       "source_file": "web/src/features/config/ConfigEditor.jsx",
-      "source_location": "L4",
+      "source_location": "L34",
       "id": "config_configeditor_configeditor",
-      "community": 1,
+      "community": 2,
       "norm_label": "configeditor()"
     },
     {
@@ -1134,7 +1494,7 @@
       "source_file": "web/src/features/logs/LogPanel.jsx",
       "source_location": "L1",
       "id": "web_src_features_logs_logpanel_jsx",
-      "community": 1,
+      "community": 2,
       "norm_label": "logpanel.jsx"
     },
     {
@@ -1143,8 +1503,53 @@
       "source_file": "web/src/features/logs/LogPanel.jsx",
       "source_location": "L3",
       "id": "logs_logpanel_logpanel",
-      "community": 1,
+      "community": 2,
       "norm_label": "logpanel()"
+    },
+    {
+      "label": "DocumentExtractForm.jsx",
+      "file_type": "code",
+      "source_file": "web/src/features/operations/DocumentExtractForm.jsx",
+      "source_location": "L1",
+      "id": "web_src_features_operations_documentextractform_jsx",
+      "community": 7,
+      "norm_label": "documentextractform.jsx"
+    },
+    {
+      "label": "DocumentExtractForm()",
+      "file_type": "code",
+      "source_file": "web/src/features/operations/DocumentExtractForm.jsx",
+      "source_location": "L3",
+      "id": "operations_documentextractform_documentextractform",
+      "community": 7,
+      "norm_label": "documentextractform()"
+    },
+    {
+      "label": "ExtractModeBanner.jsx",
+      "file_type": "code",
+      "source_file": "web/src/features/operations/ExtractModeBanner.jsx",
+      "source_location": "L1",
+      "id": "web_src_features_operations_extractmodebanner_jsx",
+      "community": 2,
+      "norm_label": "extractmodebanner.jsx"
+    },
+    {
+      "label": "modeFromConfig()",
+      "file_type": "code",
+      "source_file": "web/src/features/operations/ExtractModeBanner.jsx",
+      "source_location": "L10",
+      "id": "operations_extractmodebanner_modefromconfig",
+      "community": 2,
+      "norm_label": "modefromconfig()"
+    },
+    {
+      "label": "ExtractModeBanner()",
+      "file_type": "code",
+      "source_file": "web/src/features/operations/ExtractModeBanner.jsx",
+      "source_location": "L19",
+      "id": "operations_extractmodebanner_extractmodebanner",
+      "community": 2,
+      "norm_label": "extractmodebanner()"
     },
     {
       "label": "OperationPanel.jsx",
@@ -1152,16 +1557,25 @@
       "source_file": "web/src/features/operations/OperationPanel.jsx",
       "source_location": "L1",
       "id": "web_src_features_operations_operationpanel_jsx",
-      "community": 1,
+      "community": 7,
       "norm_label": "operationpanel.jsx"
+    },
+    {
+      "label": "renderOperationAction()",
+      "file_type": "code",
+      "source_file": "web/src/features/operations/OperationPanel.jsx",
+      "source_location": "L13",
+      "id": "operations_operationpanel_renderoperationaction",
+      "community": 7,
+      "norm_label": "renderoperationaction()"
     },
     {
       "label": "OperationPanel()",
       "file_type": "code",
       "source_file": "web/src/features/operations/OperationPanel.jsx",
-      "source_location": "L10",
+      "source_location": "L36",
       "id": "operations_operationpanel_operationpanel",
-      "community": 1,
+      "community": 7,
       "norm_label": "operationpanel()"
     },
     {
@@ -1170,7 +1584,7 @@
       "source_file": "web/src/features/operations/ScrapeExtractForm.jsx",
       "source_location": "L1",
       "id": "web_src_features_operations_scrapeextractform_jsx",
-      "community": 1,
+      "community": 7,
       "norm_label": "scrapeextractform.jsx"
     },
     {
@@ -1179,7 +1593,7 @@
       "source_file": "web/src/features/operations/ScrapeExtractForm.jsx",
       "source_location": "L3",
       "id": "operations_scrapeextractform_scrapeextractform",
-      "community": 1,
+      "community": 7,
       "norm_label": "scrapeextractform()"
     },
     {
@@ -1188,7 +1602,7 @@
       "source_file": "web/src/hooks/useJobStream.js",
       "source_location": "L1",
       "id": "web_src_hooks_usejobstream_js",
-      "community": 1,
+      "community": 2,
       "norm_label": "usejobstream.js"
     },
     {
@@ -1197,7 +1611,7 @@
       "source_file": "web/src/hooks/useJobStream.js",
       "source_location": "L8",
       "id": "hooks_usejobstream_usejobstream",
-      "community": 1,
+      "community": 2,
       "norm_label": "usejobstream()"
     },
     {
@@ -1205,7 +1619,7 @@
       "file_type": "code",
       "source_file": "build-aem-package.js",
       "source_location": "L1",
-      "community": 0,
+      "community": 1,
       "norm_label": "build-aem-package.js",
       "id": "build_aem_package_js"
     },
@@ -1214,7 +1628,7 @@
       "file_type": "code",
       "source_file": "extract-scrape.js",
       "source_location": "L1",
-      "community": 6,
+      "community": 9,
       "norm_label": "extract-scrape.js",
       "id": "extract_scrape_js"
     },
@@ -1223,7 +1637,7 @@
       "file_type": "code",
       "source_file": "extract.js",
       "source_location": "L1",
-      "community": 7,
+      "community": 0,
       "norm_label": "extract.js",
       "id": "extract_js"
     },
@@ -1232,7 +1646,7 @@
       "file_type": "code",
       "source_file": "generate.js",
       "source_location": "L1",
-      "community": 12,
+      "community": 13,
       "norm_label": "generate.js",
       "id": "generate_js"
     },
@@ -1241,7 +1655,7 @@
       "file_type": "code",
       "source_file": "publish.js",
       "source_location": "L1",
-      "community": 13,
+      "community": 14,
       "norm_label": "publish.js",
       "id": "publish_js"
     },
@@ -1259,7 +1673,7 @@
       "file_type": "code",
       "source_file": "lib/discover-article-urls.js",
       "source_location": "L1",
-      "community": 8,
+      "community": 3,
       "norm_label": "discover-article-urls.js",
       "id": "lib_discover_article_urls_js"
     },
@@ -1268,7 +1682,7 @@
       "file_type": "code",
       "source_file": "lib/meridian-static-extract.js",
       "source_location": "L1",
-      "community": 3,
+      "community": 5,
       "norm_label": "meridian-static-extract.js",
       "id": "lib_meridian_static_extract_js"
     },
@@ -1277,7 +1691,7 @@
       "file_type": "code",
       "source_file": "lib/scrape-pages.js",
       "source_location": "L1",
-      "community": 4,
+      "community": 3,
       "norm_label": "scrape-pages.js",
       "id": "lib_scrape_pages_js"
     },
@@ -1286,7 +1700,7 @@
       "file_type": "code",
       "source_file": "lib/wp-html-to-aem-blocks.js",
       "source_location": "L1",
-      "community": 2,
+      "community": 4,
       "norm_label": "wp-html-to-aem-blocks.js",
       "id": "lib_wp_html_to_aem_blocks_js"
     }
@@ -1298,9 +1712,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_escapexmlattr",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_escapexmlattr"
     },
     {
       "relation": "contains",
@@ -1308,9 +1722,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_jcrpagename",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_jcrpagename"
     },
     {
       "relation": "contains",
@@ -1318,9 +1732,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_loadaemconfig",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_loadaemconfig"
     },
     {
       "relation": "contains",
@@ -1328,9 +1742,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_extractsitekeyfromblueprint",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_extractsitekeyfromblueprint"
     },
     {
       "relation": "contains",
@@ -1338,9 +1752,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_extractblueprintjcrtitle",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_extractblueprintjcrtitle"
     },
     {
       "relation": "contains",
@@ -1348,9 +1762,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L106",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_escapehtmlinner",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_escapehtmlinner"
     },
     {
       "relation": "contains",
@@ -1358,9 +1772,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L114",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_accordionpanelstorichhtml",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_accordionpanelstorichhtml"
     },
     {
       "relation": "contains",
@@ -1368,9 +1782,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L124",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_rendertextcomponent",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_rendertextcomponent"
     },
     {
       "relation": "contains",
@@ -1378,9 +1792,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L133",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_renderimagecomponent",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_renderimagecomponent"
     },
     {
       "relation": "contains",
@@ -1388,9 +1802,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L151",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_renderaccordioncomponent",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_renderaccordioncomponent"
     },
     {
       "relation": "contains",
@@ -1398,9 +1812,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L183",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_rendermeridianhero",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_rendermeridianhero"
     },
     {
       "relation": "contains",
@@ -1408,9 +1822,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L197",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_rendermeridianjumplinks",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_rendermeridianjumplinks"
     },
     {
       "relation": "contains",
@@ -1418,9 +1832,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L219",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_rendermeridianparagraph",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_rendermeridianparagraph"
     },
     {
       "relation": "contains",
@@ -1428,9 +1842,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L228",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_rendermeridianheading",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_rendermeridianheading"
     },
     {
       "relation": "contains",
@@ -1438,9 +1852,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L240",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_rendermeridianquote",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_rendermeridianquote"
     },
     {
       "relation": "contains",
@@ -1448,9 +1862,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L247",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_rendermeridianlist",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_rendermeridianlist"
     },
     {
       "relation": "contains",
@@ -1458,9 +1872,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L267",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_rendermeridiancallout",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_rendermeridiancallout"
     },
     {
       "relation": "contains",
@@ -1468,9 +1882,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L280",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_rendermeridiantags",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_rendermeridiantags"
     },
     {
       "relation": "contains",
@@ -1478,9 +1892,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L298",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_rendermeridianauthor",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_rendermeridianauthor"
     },
     {
       "relation": "contains",
@@ -1488,9 +1902,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L316",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_rendermeridianslicexml",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_rendermeridianslicexml"
     },
     {
       "relation": "contains",
@@ -1498,9 +1912,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L456",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_renderbodyxml",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_renderbodyxml"
     },
     {
       "relation": "contains",
@@ -1508,9 +1922,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L534",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_resolveblocks",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_resolveblocks"
     },
     {
       "relation": "contains",
@@ -1518,9 +1932,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L541",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_pagexmlfromblueprint",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_pagexmlfromblueprint"
     },
     {
       "relation": "contains",
@@ -1528,9 +1942,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L574",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_escaperegex",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_escaperegex"
     },
     {
       "relation": "contains",
@@ -1538,9 +1952,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L578",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_workspacefilterxml",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_workspacefilterxml"
     },
     {
       "relation": "contains",
@@ -1548,9 +1962,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L586",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_packagepropertiesxml",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_packagepropertiesxml"
     },
     {
       "relation": "contains",
@@ -1558,9 +1972,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L605",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_manifestmf",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_manifestmf"
     },
     {
       "relation": "contains",
@@ -1568,9 +1982,9 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L615",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
-      "target": "scripts_build_aem_package_main",
-      "confidence_score": 1.0
+      "target": "scripts_build_aem_package_main"
     },
     {
       "relation": "calls",
@@ -2174,12 +2588,180 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "scripts/build-sample-documents.js",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_build_sample_documents_js",
+      "target": "scripts_build_sample_documents_metatable"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build-sample-documents.js",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_build_sample_documents_js",
+      "target": "scripts_build_sample_documents_lisbondoc"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build-sample-documents.js",
+      "source_location": "L176",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_build_sample_documents_js",
+      "target": "scripts_build_sample_documents_vietnamdoc"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build-sample-documents.js",
+      "source_location": "L302",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_build_sample_documents_js",
+      "target": "scripts_build_sample_documents_writepdfsample"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build-sample-documents.js",
+      "source_location": "L374",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_build_sample_documents_js",
+      "target": "scripts_build_sample_documents_main"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build-sample-documents.js",
+      "source_location": "L172",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_build_sample_documents_lisbondoc",
+      "target": "scripts_build_sample_documents_metatable"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build-sample-documents.js",
+      "source_location": "L298",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_build_sample_documents_vietnamdoc",
+      "target": "scripts_build_sample_documents_metatable"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build-sample-documents.js",
+      "source_location": "L376",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_build_sample_documents_main",
+      "target": "scripts_build_sample_documents_lisbondoc"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build-sample-documents.js",
+      "source_location": "L377",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_build_sample_documents_main",
+      "target": "scripts_build_sample_documents_vietnamdoc"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build-sample-documents.js",
+      "source_location": "L386",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_build_sample_documents_main",
+      "target": "scripts_build_sample_documents_writepdfsample"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_extract_documents_js",
+      "target": "scripts_extract_documents_readarg"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_extract_documents_js",
+      "target": "scripts_extract_documents_collectargs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_extract_documents_js",
+      "target": "scripts_extract_documents_main"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_extract_documents_main",
+      "target": "scripts_extract_documents_readarg"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_extract_documents_main",
+      "target": "scripts_extract_documents_collectargs"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "scripts_extract_documents_main",
+      "target": "document_import_index_importdocumentstowpshape"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "scripts/extract-scrape.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_extract_scrape_js",
-      "target": "scripts_extract_scrape_readarg",
-      "confidence_score": 1.0
+      "target": "scripts_extract_scrape_readarg"
     },
     {
       "relation": "contains",
@@ -2187,9 +2769,9 @@
       "source_file": "scripts/extract-scrape.js",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_extract_scrape_js",
-      "target": "scripts_extract_scrape_collectargs",
-      "confidence_score": 1.0
+      "target": "scripts_extract_scrape_collectargs"
     },
     {
       "relation": "contains",
@@ -2197,9 +2779,9 @@
       "source_file": "scripts/extract-scrape.js",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_extract_scrape_js",
-      "target": "scripts_extract_scrape_main",
-      "confidence_score": 1.0
+      "target": "scripts_extract_scrape_main"
     },
     {
       "relation": "calls",
@@ -2270,9 +2852,9 @@
       "source_file": "scripts/extract.js",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_extract_js",
-      "target": "scripts_extract_extractfromwpapi",
-      "confidence_score": 1.0
+      "target": "scripts_extract_extractfromwpapi"
     },
     {
       "relation": "contains",
@@ -2280,9 +2862,9 @@
       "source_file": "scripts/extract.js",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_extract_js",
-      "target": "scripts_extract_main",
-      "confidence_score": 1.0
+      "target": "scripts_extract_main"
     },
     {
       "relation": "calls",
@@ -2317,6 +2899,17 @@
       "target": "lib_scrape_pages_scrapepagestowpshape"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/extract.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "scripts_extract_main",
+      "target": "document_import_index_importdocumentstowpshape"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "extract.js",
@@ -2332,9 +2925,9 @@
       "source_file": "scripts/generate.js",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_generate_js",
-      "target": "scripts_generate_main",
-      "confidence_score": 1.0
+      "target": "scripts_generate_main"
     },
     {
       "relation": "contains",
@@ -2352,9 +2945,9 @@
       "source_file": "scripts/publish.js",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_publish_js",
-      "target": "scripts_publish_main",
-      "confidence_score": 1.0
+      "target": "scripts_publish_main"
     },
     {
       "relation": "contains",
@@ -2372,9 +2965,9 @@
       "source_file": "scripts/transform.js",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_transform_js",
-      "target": "scripts_transform_striphtml",
-      "confidence_score": 1.0
+      "target": "scripts_transform_striphtml"
     },
     {
       "relation": "contains",
@@ -2382,9 +2975,9 @@
       "source_file": "scripts/transform.js",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_transform_js",
-      "target": "scripts_transform_main",
-      "confidence_score": 1.0
+      "target": "scripts_transform_main"
     },
     {
       "relation": "contains",
@@ -2412,9 +3005,9 @@
       "source_file": "scripts/lib/discover-article-urls.js",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_discover_article_urls_js",
-      "target": "lib_discover_article_urls_defaultpathnamematch",
-      "confidence_score": 1.0
+      "target": "lib_discover_article_urls_defaultpathnamematch"
     },
     {
       "relation": "contains",
@@ -2422,9 +3015,9 @@
       "source_file": "scripts/lib/discover-article-urls.js",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_discover_article_urls_js",
-      "target": "lib_discover_article_urls_discoverarticleurlsfromindex",
-      "confidence_score": 1.0
+      "target": "lib_discover_article_urls_discoverarticleurlsfromindex"
     },
     {
       "relation": "contains",
@@ -2463,9 +3056,9 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_meridian_static_extract_js",
-      "target": "lib_meridian_static_extract_iselement",
-      "confidence_score": 1.0
+      "target": "lib_meridian_static_extract_iselement"
     },
     {
       "relation": "contains",
@@ -2473,9 +3066,9 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_meridian_static_extract_js",
-      "target": "lib_meridian_static_extract_trimtext",
-      "confidence_score": 1.0
+      "target": "lib_meridian_static_extract_trimtext"
     },
     {
       "relation": "contains",
@@ -2483,9 +3076,9 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_meridian_static_extract_js",
-      "target": "lib_meridian_static_extract_absurl",
-      "confidence_score": 1.0
+      "target": "lib_meridian_static_extract_absurl"
     },
     {
       "relation": "contains",
@@ -2493,9 +3086,9 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_meridian_static_extract_js",
-      "target": "lib_meridian_static_extract_pickheroheader",
-      "confidence_score": 1.0
+      "target": "lib_meridian_static_extract_pickheroheader"
     },
     {
       "relation": "contains",
@@ -2503,9 +3096,9 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_meridian_static_extract_js",
-      "target": "lib_meridian_static_extract_pickheroimage",
-      "confidence_score": 1.0
+      "target": "lib_meridian_static_extract_pickheroimage"
     },
     {
       "relation": "contains",
@@ -2513,9 +3106,9 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_meridian_static_extract_js",
-      "target": "lib_meridian_static_extract_parsebyline",
-      "confidence_score": 1.0
+      "target": "lib_meridian_static_extract_parsebyline"
     },
     {
       "relation": "contains",
@@ -2523,9 +3116,9 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_meridian_static_extract_js",
-      "target": "lib_meridian_static_extract_istagsdiv",
-      "confidence_score": 1.0
+      "target": "lib_meridian_static_extract_istagsdiv"
     },
     {
       "relation": "contains",
@@ -2533,9 +3126,9 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_meridian_static_extract_js",
-      "target": "lib_meridian_static_extract_isauthordiv",
-      "confidence_score": 1.0
+      "target": "lib_meridian_static_extract_isauthordiv"
     },
     {
       "relation": "contains",
@@ -2543,9 +3136,9 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_meridian_static_extract_js",
-      "target": "lib_meridian_static_extract_extracttagsfromdiv",
-      "confidence_score": 1.0
+      "target": "lib_meridian_static_extract_extracttagsfromdiv"
     },
     {
       "relation": "contains",
@@ -2553,9 +3146,9 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_meridian_static_extract_js",
-      "target": "lib_meridian_static_extract_extractauthorfromdiv",
-      "confidence_score": 1.0
+      "target": "lib_meridian_static_extract_extractauthorfromdiv"
     },
     {
       "relation": "contains",
@@ -2563,9 +3156,9 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_meridian_static_extract_js",
-      "target": "lib_meridian_static_extract_extractjumplinks",
-      "confidence_score": 1.0
+      "target": "lib_meridian_static_extract_extractjumplinks"
     },
     {
       "relation": "contains",
@@ -2573,9 +3166,9 @@
       "source_file": "scripts/lib/meridian-static-extract.js",
       "source_location": "L106",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_meridian_static_extract_js",
-      "target": "lib_meridian_static_extract_extractmeridianstaticpage",
-      "confidence_score": 1.0
+      "target": "lib_meridian_static_extract_extractmeridianstaticpage"
     },
     {
       "relation": "calls",
@@ -2901,9 +3494,9 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_scrape_pages_js",
-      "target": "lib_scrape_pages_normalizebaseurl",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_normalizebaseurl"
     },
     {
       "relation": "contains",
@@ -2911,9 +3504,9 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_scrape_pages_js",
-      "target": "lib_scrape_pages_toabsoluteurl",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_toabsoluteurl"
     },
     {
       "relation": "contains",
@@ -2921,9 +3514,9 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_scrape_pages_js",
-      "target": "lib_scrape_pages_textonly",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_textonly"
     },
     {
       "relation": "contains",
@@ -2931,9 +3524,9 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_scrape_pages_js",
-      "target": "lib_scrape_pages_getmeta",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_getmeta"
     },
     {
       "relation": "contains",
@@ -2941,9 +3534,9 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_scrape_pages_js",
-      "target": "lib_scrape_pages_deriveslug",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_deriveslug"
     },
     {
       "relation": "contains",
@@ -2951,9 +3544,9 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_scrape_pages_js",
-      "target": "lib_scrape_pages_derivenumericid",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_derivenumericid"
     },
     {
       "relation": "contains",
@@ -2961,9 +3554,9 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L72",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_scrape_pages_js",
-      "target": "lib_scrape_pages_selectcontentroot",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_selectcontentroot"
     },
     {
       "relation": "contains",
@@ -2971,9 +3564,9 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L96",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_scrape_pages_js",
-      "target": "lib_scrape_pages_cleanupcontent",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_cleanupcontent"
     },
     {
       "relation": "contains",
@@ -2981,9 +3574,9 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L114",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_scrape_pages_js",
-      "target": "lib_scrape_pages_extractpagedata",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_extractpagedata"
     },
     {
       "relation": "contains",
@@ -2991,9 +3584,9 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L174",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_scrape_pages_js",
-      "target": "lib_scrape_pages_resolvescrapeurls",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_resolvescrapeurls"
     },
     {
       "relation": "contains",
@@ -3001,9 +3594,9 @@
       "source_file": "scripts/lib/scrape-pages.js",
       "source_location": "L264",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_scrape_pages_js",
-      "target": "lib_scrape_pages_scrapepagestowpshape",
-      "confidence_score": 1.0
+      "target": "lib_scrape_pages_scrapepagestowpshape"
     },
     {
       "relation": "calls",
@@ -3144,6 +3737,17 @@
       "target": "lib_scrape_pages_derivenumericid"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/lib/document-import/assemble-wp-post.js",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "document_import_assemble_wp_post_assembledocumentpost",
+      "target": "lib_scrape_pages_derivenumericid"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib/scrape-pages.js",
@@ -3253,9 +3857,9 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_iselement",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_iselement"
     },
     {
       "relation": "contains",
@@ -3263,9 +3867,9 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_meaningfultext",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_meaningfultext"
     },
     {
       "relation": "contains",
@@ -3273,9 +3877,9 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_trimouter",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_trimouter"
     },
     {
       "relation": "contains",
@@ -3283,9 +3887,9 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_childelements",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_childelements"
     },
     {
       "relation": "contains",
@@ -3293,9 +3897,9 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_firstimg",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_firstimg"
     },
     {
       "relation": "contains",
@@ -3303,9 +3907,9 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_parsedetails",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_parsedetails"
     },
     {
       "relation": "contains",
@@ -3313,9 +3917,9 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_classifyfigure",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_classifyfigure"
     },
     {
       "relation": "contains",
@@ -3323,9 +3927,9 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_flushparagraphbuffer",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_flushparagraphbuffer"
     },
     {
       "relation": "contains",
@@ -3333,9 +3937,9 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_escapehtml",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_escapehtml"
     },
     {
       "relation": "contains",
@@ -3343,9 +3947,9 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_striptagstotext",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_striptagstotext"
     },
     {
       "relation": "contains",
@@ -3353,9 +3957,9 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_iscalloutaside",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_iscalloutaside"
     },
     {
       "relation": "contains",
@@ -3363,9 +3967,9 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L95",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_parsecalloutaside",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_parsecalloutaside"
     },
     {
       "relation": "contains",
@@ -3373,9 +3977,9 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L123",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_parselistitems",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_parselistitems"
     },
     {
       "relation": "contains",
@@ -3383,9 +3987,9 @@
       "source_file": "scripts/lib/wp-html-to-aem-blocks.js",
       "source_location": "L137",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_wp_html_to_aem_blocks_js",
-      "target": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks",
-      "confidence_score": 1.0
+      "target": "lib_wp_html_to_aem_blocks_wphtmltoaemblocks"
     },
     {
       "relation": "calls",
@@ -3783,12 +4387,422 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/assemble-wp-post.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_document_import_assemble_wp_post_js",
+      "target": "document_import_assemble_wp_post_parsetags"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/assemble-wp-post.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_document_import_assemble_wp_post_js",
+      "target": "document_import_assemble_wp_post_buildauthorcard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/assemble-wp-post.js",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_document_import_assemble_wp_post_js",
+      "target": "document_import_assemble_wp_post_assembledocumentpost"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/assemble-wp-post.js",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "document_import_assemble_wp_post_assembledocumentpost",
+      "target": "document_import_assemble_wp_post_parsetags"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/assemble-wp-post.js",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "document_import_assemble_wp_post_assembledocumentpost",
+      "target": "document_import_assemble_wp_post_buildauthorcard"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/lib/document-import/docx-to-post.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "document_import_docx_to_post_docxbuffertopost",
+      "target": "document_import_assemble_wp_post_assembledocumentpost"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L241",
+      "weight": 1.0,
+      "source": "document_import_pdf_to_post_pdfbuffertopost",
+      "target": "document_import_assemble_wp_post_assembledocumentpost"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/constants.js",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_document_import_constants_js",
+      "target": "document_import_constants_normalizelabel"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/constants.js",
+      "source_location": "L70",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_document_import_constants_js",
+      "target": "document_import_constants_labeltocanonicalkey"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/constants.js",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "document_import_constants_labeltocanonicalkey",
+      "target": "document_import_constants_normalizelabel"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/lib/document-import/parse-metadata-table.js",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "document_import_parse_metadata_table_parsemetadatatable",
+      "target": "document_import_constants_labeltocanonicalkey"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "document_import_pdf_to_post_parsepdfheadersmart",
+      "target": "document_import_constants_labeltocanonicalkey"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/docx-to-post.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_document_import_docx_to_post_js",
+      "target": "document_import_docx_to_post_docxbuffertopost"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/lib/document-import/docx-to-post.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "document_import_docx_to_post_docxbuffertopost",
+      "target": "document_import_parse_metadata_table_parsemetadatatable"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/lib/document-import/docx-to-post.js",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "document_import_docx_to_post_docxbuffertopost",
+      "target": "document_import_enrich_meridian_html_enrichmeridiandocumenthtml"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/lib/document-import/index.js",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "document_import_index_importdocumentstowpshape",
+      "target": "document_import_docx_to_post_docxbuffertopost"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/enrich-meridian-html.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_document_import_enrich_meridian_html_js",
+      "target": "document_import_enrich_meridian_html_striptagstotext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/enrich-meridian-html.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_document_import_enrich_meridian_html_js",
+      "target": "document_import_enrich_meridian_html_slugifyheading"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/enrich-meridian-html.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_document_import_enrich_meridian_html_js",
+      "target": "document_import_enrich_meridian_html_escapexmlish"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/enrich-meridian-html.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_document_import_enrich_meridian_html_js",
+      "target": "document_import_enrich_meridian_html_enrichmeridiandocumenthtml"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/enrich-meridian-html.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "document_import_enrich_meridian_html_slugifyheading",
+      "target": "document_import_enrich_meridian_html_striptagstotext"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/enrich-meridian-html.js",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "document_import_enrich_meridian_html_enrichmeridiandocumenthtml",
+      "target": "document_import_enrich_meridian_html_striptagstotext"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/enrich-meridian-html.js",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "document_import_enrich_meridian_html_enrichmeridiandocumenthtml",
+      "target": "document_import_enrich_meridian_html_slugifyheading"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L238",
+      "weight": 1.0,
+      "source": "document_import_pdf_to_post_pdfbuffertopost",
+      "target": "document_import_enrich_meridian_html_enrichmeridiandocumenthtml"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/index.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_document_import_index_js",
+      "target": "document_import_index_importdocumentstowpshape"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/lib/document-import/index.js",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "document_import_index_importdocumentstowpshape",
+      "target": "document_import_pdf_to_post_pdfbuffertopost"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/parse-metadata-table.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_document_import_parse_metadata_table_js",
+      "target": "document_import_parse_metadata_table_parsemetadatatable"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_document_import_pdf_to_post_js",
+      "target": "document_import_pdf_to_post_escapehtml"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_document_import_pdf_to_post_js",
+      "target": "document_import_pdf_to_post_reflowpdftextforparsing"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_document_import_pdf_to_post_js",
+      "target": "document_import_pdf_to_post_extractpdftext"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_document_import_pdf_to_post_js",
+      "target": "document_import_pdf_to_post_parsepdfheadersmart"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L131",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_document_import_pdf_to_post_js",
+      "target": "document_import_pdf_to_post_pdfplainlinestohtml"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L214",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_document_import_pdf_to_post_js",
+      "target": "document_import_pdf_to_post_pdfbuffertopost"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L162",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "document_import_pdf_to_post_pdfplainlinestohtml",
+      "target": "document_import_pdf_to_post_escapehtml"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L225",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "document_import_pdf_to_post_pdfbuffertopost",
+      "target": "document_import_pdf_to_post_reflowpdftextforparsing"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L217",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "document_import_pdf_to_post_pdfbuffertopost",
+      "target": "document_import_pdf_to_post_extractpdftext"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L236",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "document_import_pdf_to_post_pdfbuffertopost",
+      "target": "document_import_pdf_to_post_parsepdfheadersmart"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/pdf-to-post.js",
+      "source_location": "L237",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "document_import_pdf_to_post_pdfbuffertopost",
+      "target": "document_import_pdf_to_post_pdfplainlinestohtml"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/document-import/split-pdf-heading-lines.js",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_document_import_split_pdf_heading_lines_js",
+      "target": "document_import_split_pdf_heading_lines_splitmergedheadingline"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "server/lib/job-runner.js",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_lib_job_runner_js",
-      "target": "lib_job_runner_ssewrite",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_ssewrite"
     },
     {
       "relation": "contains",
@@ -3796,9 +4810,9 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_lib_job_runner_js",
-      "target": "lib_job_runner_broadcast",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_broadcast"
     },
     {
       "relation": "contains",
@@ -3806,9 +4820,9 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_lib_job_runner_js",
-      "target": "lib_job_runner_appendlog",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_appendlog"
     },
     {
       "relation": "contains",
@@ -3816,9 +4830,9 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_lib_job_runner_js",
-      "target": "lib_job_runner_attachsubscriber",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_attachsubscriber"
     },
     {
       "relation": "contains",
@@ -3826,9 +4840,9 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_lib_job_runner_js",
-      "target": "lib_job_runner_reqonclose",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_reqonclose"
     },
     {
       "relation": "contains",
@@ -3836,9 +4850,9 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_lib_job_runner_js",
-      "target": "lib_job_runner_runscriptprocess",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_runscriptprocess"
     },
     {
       "relation": "contains",
@@ -3846,9 +4860,9 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_lib_job_runner_js",
-      "target": "lib_job_runner_executeoperationwithlogging",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_executeoperationwithlogging"
     },
     {
       "relation": "contains",
@@ -3856,9 +4870,9 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L129",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_lib_job_runner_js",
-      "target": "lib_job_runner_isbusy",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_isbusy"
     },
     {
       "relation": "contains",
@@ -3866,9 +4880,9 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L138",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_lib_job_runner_js",
-      "target": "lib_job_runner_startjob",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_startjob"
     },
     {
       "relation": "contains",
@@ -3876,9 +4890,9 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L195",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_lib_job_runner_js",
-      "target": "lib_job_runner_streamjob",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_streamjob"
     },
     {
       "relation": "contains",
@@ -3886,9 +4900,9 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L204",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_lib_job_runner_js",
-      "target": "lib_job_runner_getjob",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_getjob"
     },
     {
       "relation": "calls",
@@ -3897,9 +4911,9 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_job_runner_broadcast",
-      "target": "lib_job_runner_ssewrite",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_ssewrite"
     },
     {
       "relation": "calls",
@@ -3908,9 +4922,9 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L46",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_job_runner_attachsubscriber",
-      "target": "lib_job_runner_ssewrite",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_ssewrite"
     },
     {
       "relation": "calls",
@@ -3919,9 +4933,9 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_job_runner_appendlog",
-      "target": "lib_job_runner_broadcast",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_broadcast"
     },
     {
       "relation": "calls",
@@ -3930,9 +4944,9 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L117",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_job_runner_executeoperationwithlogging",
-      "target": "lib_job_runner_broadcast",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_broadcast"
     },
     {
       "relation": "calls",
@@ -3941,9 +4955,9 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L110",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_job_runner_executeoperationwithlogging",
-      "target": "lib_job_runner_appendlog",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_appendlog"
     },
     {
       "relation": "calls",
@@ -3952,9 +4966,9 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_job_runner_attachsubscriber",
-      "target": "lib_job_runner_reqonclose",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_reqonclose"
     },
     {
       "relation": "calls",
@@ -3963,9 +4977,9 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L201",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_job_runner_streamjob",
-      "target": "lib_job_runner_attachsubscriber",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_attachsubscriber"
     },
     {
       "relation": "calls",
@@ -3974,9 +4988,9 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L111",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_job_runner_executeoperationwithlogging",
-      "target": "lib_job_runner_runscriptprocess",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_runscriptprocess"
     },
     {
       "relation": "calls",
@@ -3985,9 +4999,9 @@
       "source_file": "server/lib/job-runner.js",
       "source_location": "L139",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_job_runner_startjob",
-      "target": "lib_job_runner_isbusy",
-      "confidence_score": 1.0
+      "target": "lib_job_runner_isbusy"
     },
     {
       "relation": "contains",
@@ -3995,9 +5009,19 @@
       "source_file": "server/operations/registry.js",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_operations_registry_js",
-      "target": "operations_registry_buildscrapeargv",
-      "confidence_score": 1.0
+      "target": "operations_registry_buildscrapeargv"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/operations/registry.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_operations_registry_js",
+      "target": "operations_registry_builddocumentargv"
     },
     {
       "relation": "contains",
@@ -4005,9 +5029,9 @@
       "source_file": "server/operations/registry.js",
       "source_location": "L105",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_operations_registry_js",
-      "target": "operations_registry_listoperationspublic",
-      "confidence_score": 1.0
+      "target": "operations_registry_listoperationspublic"
     },
     {
       "relation": "contains",
@@ -4015,9 +5039,9 @@
       "source_file": "server/operations/registry.js",
       "source_location": "L116",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_operations_registry_js",
-      "target": "operations_registry_getoperation",
-      "confidence_score": 1.0
+      "target": "operations_registry_getoperation"
     },
     {
       "relation": "contains",
@@ -4025,9 +5049,9 @@
       "source_file": "server/routes/artifacts.js",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_routes_artifacts_js",
-      "target": "routes_artifacts_createartifactsrouter",
-      "confidence_score": 1.0
+      "target": "routes_artifacts_createartifactsrouter"
     },
     {
       "relation": "contains",
@@ -4035,9 +5059,9 @@
       "source_file": "server/routes/config.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_routes_config_js",
-      "target": "routes_config_mergepasswordfield",
-      "confidence_score": 1.0
+      "target": "routes_config_mergepasswordfield"
     },
     {
       "relation": "contains",
@@ -4045,9 +5069,9 @@
       "source_file": "server/routes/config.js",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_routes_config_js",
-      "target": "routes_config_mergeconfigpreservingpasswords",
-      "confidence_score": 1.0
+      "target": "routes_config_mergeconfigpreservingpasswords"
     },
     {
       "relation": "contains",
@@ -4055,9 +5079,9 @@
       "source_file": "server/routes/config.js",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_routes_config_js",
-      "target": "routes_config_createconfigrouter",
-      "confidence_score": 1.0
+      "target": "routes_config_createconfigrouter"
     },
     {
       "relation": "calls",
@@ -4066,9 +5090,9 @@
       "source_file": "server/routes/config.js",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "routes_config_mergeconfigpreservingpasswords",
-      "target": "routes_config_mergepasswordfield",
-      "confidence_score": 1.0
+      "target": "routes_config_mergepasswordfield"
     },
     {
       "relation": "contains",
@@ -4076,9 +5100,9 @@
       "source_file": "server/routes/jobs.js",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "server_routes_jobs_js",
-      "target": "routes_jobs_createjobsrouter",
-      "confidence_score": 1.0
+      "target": "routes_jobs_createjobsrouter"
     },
     {
       "relation": "imports",
@@ -4087,9 +5111,9 @@
       "source_file": "web/src/App.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_jsx",
-      "target": "api_client_fetchoperations",
-      "confidence_score": 1.0
+      "target": "api_client_fetchoperations"
     },
     {
       "relation": "imports",
@@ -4098,9 +5122,9 @@
       "source_file": "web/src/App.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_jsx",
-      "target": "hooks_usejobstream_usejobstream",
-      "confidence_score": 1.0
+      "target": "hooks_usejobstream_usejobstream"
     },
     {
       "relation": "imports",
@@ -4109,9 +5133,9 @@
       "source_file": "web/src/App.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_jsx",
-      "target": "operations_operationpanel_operationpanel",
-      "confidence_score": 1.0
+      "target": "operations_operationpanel_operationpanel"
     },
     {
       "relation": "imports",
@@ -4120,9 +5144,20 @@
       "source_file": "web/src/App.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_jsx",
-      "target": "config_configeditor_configeditor",
-      "confidence_score": 1.0
+      "target": "operations_extractmodebanner_extractmodebanner"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_app_jsx",
+      "target": "config_configeditor_configeditor"
     },
     {
       "relation": "imports",
@@ -4131,9 +5166,9 @@
       "source_file": "web/src/App.jsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_jsx",
-      "target": "artifacts_artifactlinks_artifactlinks",
-      "confidence_score": 1.0
+      "target": "artifacts_artifactlinks_artifactlinks"
     },
     {
       "relation": "imports",
@@ -4142,9 +5177,9 @@
       "source_file": "web/src/App.jsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_jsx",
-      "target": "logs_logpanel_logpanel",
-      "confidence_score": 1.0
+      "target": "logs_logpanel_logpanel"
     },
     {
       "relation": "contains",
@@ -4152,9 +5187,9 @@
       "source_file": "web/src/App.jsx",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_app_jsx",
-      "target": "src_app_app",
-      "confidence_score": 1.0
+      "target": "src_app_app"
     },
     {
       "relation": "calls",
@@ -4173,9 +5208,9 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_api_client_js",
-      "target": "api_client_parseerror",
-      "confidence_score": 1.0
+      "target": "api_client_parseerror"
     },
     {
       "relation": "contains",
@@ -4183,9 +5218,9 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_api_client_js",
-      "target": "api_client_fetchoperations",
-      "confidence_score": 1.0
+      "target": "api_client_fetchoperations"
     },
     {
       "relation": "contains",
@@ -4193,9 +5228,9 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_api_client_js",
-      "target": "api_client_fetchconfig",
-      "confidence_score": 1.0
+      "target": "api_client_fetchconfig"
     },
     {
       "relation": "contains",
@@ -4203,9 +5238,9 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_api_client_js",
-      "target": "api_client_saveconfig",
-      "confidence_score": 1.0
+      "target": "api_client_saveconfig"
     },
     {
       "relation": "contains",
@@ -4213,9 +5248,9 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_api_client_js",
-      "target": "api_client_startjob",
-      "confidence_score": 1.0
+      "target": "api_client_startjob"
     },
     {
       "relation": "calls",
@@ -4224,9 +5259,9 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_client_fetchoperations",
-      "target": "api_client_parseerror",
-      "confidence_score": 1.0
+      "target": "api_client_parseerror"
     },
     {
       "relation": "calls",
@@ -4235,9 +5270,9 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_client_fetchconfig",
-      "target": "api_client_parseerror",
-      "confidence_score": 1.0
+      "target": "api_client_parseerror"
     },
     {
       "relation": "calls",
@@ -4246,9 +5281,9 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_client_saveconfig",
-      "target": "api_client_parseerror",
-      "confidence_score": 1.0
+      "target": "api_client_parseerror"
     },
     {
       "relation": "calls",
@@ -4257,9 +5292,9 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "api_client_startjob",
-      "target": "api_client_parseerror",
-      "confidence_score": 1.0
+      "target": "api_client_parseerror"
     },
     {
       "relation": "imports",
@@ -4268,9 +5303,20 @@
       "source_file": "web/src/features/config/ConfigEditor.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_features_config_configeditor_jsx",
-      "target": "api_client_fetchconfig",
-      "confidence_score": 1.0
+      "target": "api_client_fetchconfig"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/features/operations/ExtractModeBanner.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_features_operations_extractmodebanner_jsx",
+      "target": "api_client_fetchconfig"
     },
     {
       "relation": "imports",
@@ -4279,9 +5325,9 @@
       "source_file": "web/src/features/config/ConfigEditor.jsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_features_config_configeditor_jsx",
-      "target": "api_client_saveconfig",
-      "confidence_score": 1.0
+      "target": "api_client_saveconfig"
     },
     {
       "relation": "imports",
@@ -4290,9 +5336,9 @@
       "source_file": "web/src/hooks/useJobStream.js",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_hooks_usejobstream_js",
-      "target": "api_client_startjob",
-      "confidence_score": 1.0
+      "target": "api_client_startjob"
     },
     {
       "relation": "contains",
@@ -4300,9 +5346,29 @@
       "source_file": "web/src/features/artifacts/ArtifactLinks.jsx",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_features_artifacts_artifactlinks_jsx",
-      "target": "artifacts_artifactlinks_artifactlinks",
-      "confidence_score": 1.0
+      "target": "artifacts_artifactlinks_artifactlinks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/features/config/ConfigEditor.jsx",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_features_config_configeditor_jsx",
+      "target": "config_configeditor_safeparse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/features/config/ConfigEditor.jsx",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_features_config_configeditor_jsx",
+      "target": "config_configeditor_dispatchconfigupdated"
     },
     {
       "relation": "contains",
@@ -4310,9 +5376,9 @@
       "source_file": "web/src/features/config/ConfigEditor.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_features_config_configeditor_jsx",
-      "target": "config_configeditor_configeditor",
-      "confidence_score": 1.0
+      "target": "config_configeditor_configeditor"
     },
     {
       "relation": "contains",
@@ -4320,9 +5386,50 @@
       "source_file": "web/src/features/logs/LogPanel.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_features_logs_logpanel_jsx",
-      "target": "logs_logpanel_logpanel",
-      "confidence_score": 1.0
+      "target": "logs_logpanel_logpanel"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/features/operations/DocumentExtractForm.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_features_operations_documentextractform_jsx",
+      "target": "operations_documentextractform_documentextractform"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/features/operations/OperationPanel.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_features_operations_operationpanel_jsx",
+      "target": "operations_documentextractform_documentextractform"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/features/operations/ExtractModeBanner.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_features_operations_extractmodebanner_jsx",
+      "target": "operations_extractmodebanner_modefromconfig"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/features/operations/ExtractModeBanner.jsx",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_features_operations_extractmodebanner_jsx",
+      "target": "operations_extractmodebanner_extractmodebanner"
     },
     {
       "relation": "imports",
@@ -4331,9 +5438,19 @@
       "source_file": "web/src/features/operations/OperationPanel.jsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_features_operations_operationpanel_jsx",
-      "target": "operations_scrapeextractform_scrapeextractform",
-      "confidence_score": 1.0
+      "target": "operations_scrapeextractform_scrapeextractform"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/features/operations/OperationPanel.jsx",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_features_operations_operationpanel_jsx",
+      "target": "operations_operationpanel_renderoperationaction"
     },
     {
       "relation": "contains",
@@ -4341,9 +5458,9 @@
       "source_file": "web/src/features/operations/OperationPanel.jsx",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_features_operations_operationpanel_jsx",
-      "target": "operations_operationpanel_operationpanel",
-      "confidence_score": 1.0
+      "target": "operations_operationpanel_operationpanel"
     },
     {
       "relation": "contains",
@@ -4351,9 +5468,9 @@
       "source_file": "web/src/features/operations/ScrapeExtractForm.jsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_features_operations_scrapeextractform_jsx",
-      "target": "operations_scrapeextractform_scrapeextractform",
-      "confidence_score": 1.0
+      "target": "operations_scrapeextractform_scrapeextractform"
     },
     {
       "relation": "contains",
@@ -4361,11 +5478,11 @@
       "source_file": "web/src/hooks/useJobStream.js",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "web_src_hooks_usejobstream_js",
-      "target": "hooks_usejobstream_usejobstream",
-      "confidence_score": 1.0
+      "target": "hooks_usejobstream_usejobstream"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "8933cfd49ccc2514c5a83e281380b2edfbae4d06"
+  "built_at_commit": "a1fc3d2ed4b625cd97dfb72a8828e642341c7e2b"
 }

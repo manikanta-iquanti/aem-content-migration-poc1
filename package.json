@@ -10,6 +10,8 @@
     "start:ui": "npm start --prefix server",
     "extract": "node scripts/extract.js",
     "extract:scrape": "node scripts/extract-scrape.js",
+    "extract:documents": "node scripts/extract-documents.js",
+    "build:sample-docs": "node scripts/build-sample-documents.js",
     "transform": "node scripts/transform.js",
     "generate": "node scripts/generate.js",
     "publish": "node scripts/publish.js",
@@ -20,9 +22,16 @@
     "archiver": "^7.0.1",
     "axios": "^1.7.9",
     "fs-extra": "^11.2.0",
-    "node-html-parser": "^7.1.0"
+    "glob": "^10.5.0",
+    "mammoth": "^1.12.0",
+    "node-html-parser": "^7.1.0",
+    "pdfjs-dist": "^4.8.69"
   },
   "engines": {
     "node": ">=18"
+  },
+  "devDependencies": {
+    "docx": "^9.6.1",
+    "pdf-lib": "^1.17.1"
   }
 }
