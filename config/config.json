@@ -4,11 +4,6 @@
     "username": "test1user",
     "applicationPassword": ""
   },
-  "destination": {
-    "baseUrl": "http://iquanti-live.local",
-    "username": "admin",
-    "applicationPassword": "XmAl DvTX Ybsa xVOO nJaF Y0qm"
-  },
   "extract": {
     "mode": "scrape",
     "scrape": {

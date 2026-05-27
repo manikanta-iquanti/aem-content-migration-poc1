@@ -1,19 +1,11 @@
 {
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\build-aem-package.js": {
-    "mtime": 1779883586.2544827,
-    "hash": "0a0a61228253399f2cc118ee9c21162c"
+    "mtime": 1779888495.1548562,
+    "hash": "481f477e52eef91312020145c3d5dc08"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\build-sample-documents.js": {
     "mtime": 1779865324.1260538,
     "hash": "93339f8174bb3110d2b63ffc5b9f76ff"
-  },
-  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\extract-documents.js": {
-    "mtime": 1779865324.1240556,
-    "hash": "4b48728ac93896ebd87f3b885ea4efcf"
-  },
-  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\extract-scrape.js": {
-    "mtime": 1778664740.2972555,
-    "hash": "1d2b0e467cbbaf05345044caad43d608"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\extract.js": {
     "mtime": 1779865324.1250541,
@@ -24,12 +16,8 @@
     "hash": "2616f341ed326067662a8a469c4b7ae5"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\migrate-assets.js": {
-    "mtime": 1779883791.5845678,
-    "hash": "e01ab66575676fd8a82b2f8705c4a36e"
-  },
-  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\publish.js": {
-    "mtime": 1776148875.6429062,
-    "hash": "a01510747a4f85685beb4867483335e7"
+    "mtime": 1779889134.1534927,
+    "hash": "284f9431438f2804951721ed930dda68"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\transform.js": {
     "mtime": 1778657341.358103,
@@ -40,12 +28,12 @@
     "hash": "94555b59e4a2cb89f8783e1b7d07179d"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\asset-migration.js": {
-    "mtime": 1779883416.403958,
-    "hash": "35a52eb8f8da279a50f2eacbc34076e1"
+    "mtime": 1779889103.1014526,
+    "hash": "b2a7e0a23352b0ff14d3dd31d1fd6a80"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\dam-vault-writer.js": {
-    "mtime": 1779887440.861611,
-    "hash": "827961c6d3c5d72f90464a56b392811a"
+    "mtime": 1779890015.818992,
+    "hash": "297f32f2e1fbe7ca97be955a322e50ac"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\discover-article-urls.js": {
     "mtime": 1778664725.3747165,
@@ -104,12 +92,12 @@
     "hash": "88e50ab684f36dec188550501ce6937e"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\server\\operations\\registry.js": {
-    "mtime": 1779883613.0155492,
-    "hash": "d9a7520a777ec0705c2c7f42b7609426"
+    "mtime": 1779889948.340169,
+    "hash": "1932e6c3ae58f7a73121002125a2541b"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\server\\routes\\artifacts.js": {
-    "mtime": 1778743270.5125568,
-    "hash": "b71a1bb4e1e6a44d3577ca38b4fcddea"
+    "mtime": 1779889997.4769917,
+    "hash": "642fd7b12e5f88b077fe3d378982a741"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\server\\routes\\config.js": {
     "mtime": 1778743270.5135598,
@@ -124,8 +112,8 @@
     "hash": "892d641f08ef82aa7d653fa266af5264"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\web\\src\\App.jsx": {
-    "mtime": 1779865324.116733,
-    "hash": "91d4261906be8202e1d612214974c15d"
+    "mtime": 1779889978.2175765,
+    "hash": "cbc2b4b18eb3035a98fe60b9e91d1c42"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\web\\src\\main.jsx": {
     "mtime": 1778743270.502543,
@@ -136,48 +124,40 @@
     "hash": "a48d07f5ac64a07bc2fc3b5279ddde9a"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\web\\src\\features\\artifacts\\ArtifactLinks.jsx": {
-    "mtime": 1778743270.516559,
-    "hash": "e48bdfdfe85f7ed26d0609951a70ba12"
+    "mtime": 1779889997.4728358,
+    "hash": "4bea0f05922ae9b4e4392822b19ab97b"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\web\\src\\features\\config\\ConfigEditor.jsx": {
-    "mtime": 1779865324.1240556,
-    "hash": "ea05b96389092c38cd71ba7c07d209c8"
+    "mtime": 1779889982.9912188,
+    "hash": "8d9d9908dc8ceefd84da1ad121cfdafe"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\web\\src\\features\\logs\\LogPanel.jsx": {
     "mtime": 1778743270.5085578,
     "hash": "c5c17242800c36ff1fe44bdcf69f6b1a"
   },
-  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\web\\src\\features\\operations\\DocumentExtractForm.jsx": {
-    "mtime": 1779865324.1260538,
-    "hash": "086cd3412ef7c1c40c72a2865edf57ec"
-  },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\web\\src\\features\\operations\\ExtractModeBanner.jsx": {
-    "mtime": 1779865324.1260538,
-    "hash": "f571694a058eb321f5b83d2f458e7cbb"
+    "mtime": 1779889981.0972934,
+    "hash": "e479fa27e63adcb414ed947e582682de"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\web\\src\\features\\operations\\OperationPanel.jsx": {
-    "mtime": 1779865324.1250541,
-    "hash": "53b81d43e148c20747991137214ab458"
-  },
-  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\web\\src\\features\\operations\\ScrapeExtractForm.jsx": {
-    "mtime": 1778743270.5095599,
-    "hash": "4f36f90ee9fcaf0d41aac02605eeab7e"
+    "mtime": 1779889962.8101358,
+    "hash": "b8b385b14f8dac29f5c10bc459a00337"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\web\\src\\hooks\\useJobStream.js": {
     "mtime": 1778743270.511558,
     "hash": "0a2b75f4168b5b9b72658542188e1c2d"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\CONTROL_UI_PLAN.md": {
-    "mtime": 1778743270.4708242,
-    "hash": "0b6977cff24c451a6ff6955f6bac80ac"
+    "mtime": 1779890061.8672276,
+    "hash": "60c698d34c4f3f21ab22cd0925d48a45"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\README.md": {
-    "mtime": 1779883639.2260015,
-    "hash": "e1ccec40f4cdbd696b302c8cd4fa59f1"
+    "mtime": 1779890037.5779555,
+    "hash": "684d318f91a672ee914e57c1bc6988b0"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\aem-node-context\\DAM_ASSET_TEMPLATE.md": {
-    "mtime": 1779887446.5187795,
-    "hash": "483b16cf1d44651031f1c915d6e1d0f7"
+    "mtime": 1779889134.1524947,
+    "hash": "6f904be89f436229cb27ea53c626e668"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\MyDocs\\dev-steps.md": {
     "mtime": 1777979813.224741,

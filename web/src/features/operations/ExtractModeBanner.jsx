@@ -63,13 +63,13 @@ export function ExtractModeBanner() {
       <div style={row}>
         <span style={badge}>{mode}</span>
         <span>
-          <strong>Pipeline extract step</strong> uses <strong>{label}</strong>{" "}
-          (<code style={code}>extract.mode</code> in <code style={code}>config/config.json</code>).
+          <strong>Full AEM migration</strong> (and step 1 Extract) use <strong>{label}</strong>{" "}
+          via <code style={code}>extract.mode</code> in config.
         </span>
       </div>
       <p style={sub}>
-        Scrape and document blocks can both exist in config; only the active mode’s settings are read
-        for extract. Switch mode on the Configuration tab.
+        Other mode blocks may stay in the JSON file; only the active mode is read. Change mode on the
+        Configuration tab, then save.
       </p>
     </div>
   );

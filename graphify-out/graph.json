@@ -9,7 +9,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L1",
       "id": "scripts_build_aem_package_js",
-      "community": 0,
+      "community": 1,
       "norm_label": "build-aem-package.js"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L27",
       "id": "scripts_build_aem_package_escapexmlattr",
-      "community": 0,
+      "community": 1,
       "norm_label": "escapexmlattr()"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L36",
       "id": "scripts_build_aem_package_jcrpagename",
-      "community": 0,
+      "community": 1,
       "norm_label": "jcrpagename()"
     },
     {
@@ -36,7 +36,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L46",
       "id": "scripts_build_aem_package_extractsitekeyfromblueprint",
-      "community": 0,
+      "community": 1,
       "norm_label": "extractsitekeyfromblueprint()"
     },
     {
@@ -45,7 +45,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L51",
       "id": "scripts_build_aem_package_extractblueprintjcrtitle",
-      "community": 0,
+      "community": 1,
       "norm_label": "extractblueprintjcrtitle()"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L58",
       "id": "scripts_build_aem_package_escapehtmlinner",
-      "community": 0,
+      "community": 1,
       "norm_label": "escapehtmlinner()"
     },
     {
@@ -63,7 +63,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L66",
       "id": "scripts_build_aem_package_accordionpanelstorichhtml",
-      "community": 0,
+      "community": 1,
       "norm_label": "accordionpanelstorichhtml()"
     },
     {
@@ -72,7 +72,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L76",
       "id": "scripts_build_aem_package_rendertextcomponent",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendertextcomponent()"
     },
     {
@@ -81,7 +81,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L85",
       "id": "scripts_build_aem_package_renderimagecomponent",
-      "community": 0,
+      "community": 1,
       "norm_label": "renderimagecomponent()"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L103",
       "id": "scripts_build_aem_package_renderaccordioncomponent",
-      "community": 0,
+      "community": 1,
       "norm_label": "renderaccordioncomponent()"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L135",
       "id": "scripts_build_aem_package_rendermeridianhero",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridianhero()"
     },
     {
@@ -108,7 +108,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L149",
       "id": "scripts_build_aem_package_rendermeridianjumplinks",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridianjumplinks()"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L171",
       "id": "scripts_build_aem_package_rendermeridianparagraph",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridianparagraph()"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L180",
       "id": "scripts_build_aem_package_rendermeridianheading",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridianheading()"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L192",
       "id": "scripts_build_aem_package_rendermeridianquote",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridianquote()"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L199",
       "id": "scripts_build_aem_package_rendermeridianlist",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridianlist()"
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L219",
       "id": "scripts_build_aem_package_rendermeridiancallout",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridiancallout()"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L232",
       "id": "scripts_build_aem_package_rendermeridiantags",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridiantags()"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L250",
       "id": "scripts_build_aem_package_rendermeridianauthor",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridianauthor()"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L268",
       "id": "scripts_build_aem_package_rendermeridianslicexml",
-      "community": 0,
+      "community": 1,
       "norm_label": "rendermeridianslicexml()"
     },
     {
@@ -189,7 +189,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L408",
       "id": "scripts_build_aem_package_renderbodyxml",
-      "community": 0,
+      "community": 1,
       "norm_label": "renderbodyxml()"
     },
     {
@@ -198,7 +198,7 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L486",
       "id": "scripts_build_aem_package_resolveblocks",
-      "community": 0,
+      "community": 1,
       "norm_label": "resolveblocks()"
     },
     {
@@ -207,61 +207,70 @@
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L493",
       "id": "scripts_build_aem_package_pagexmlfromblueprint",
-      "community": 0,
+      "community": 1,
       "norm_label": "pagexmlfromblueprint()"
     },
     {
       "label": "escapeRegex()",
       "file_type": "code",
       "source_file": "scripts/build-aem-package.js",
-      "source_location": "L526",
+      "source_location": "L511",
       "id": "scripts_build_aem_package_escaperegex",
-      "community": 0,
+      "community": 1,
       "norm_label": "escaperegex()"
+    },
+    {
+      "label": "injectMigrationBody()",
+      "file_type": "code",
+      "source_file": "scripts/build-aem-package.js",
+      "source_location": "L522",
+      "id": "scripts_build_aem_package_injectmigrationbody",
+      "community": 1,
+      "norm_label": "injectmigrationbody()"
     },
     {
       "label": "workspaceFilterXml()",
       "file_type": "code",
       "source_file": "scripts/build-aem-package.js",
-      "source_location": "L530",
+      "source_location": "L547",
       "id": "scripts_build_aem_package_workspacefilterxml",
-      "community": 0,
+      "community": 1,
       "norm_label": "workspacefilterxml()"
     },
     {
       "label": "packagePropertiesXml()",
       "file_type": "code",
       "source_file": "scripts/build-aem-package.js",
-      "source_location": "L542",
+      "source_location": "L559",
       "id": "scripts_build_aem_package_packagepropertiesxml",
-      "community": 0,
+      "community": 1,
       "norm_label": "packagepropertiesxml()"
     },
     {
       "label": "manifestMf()",
       "file_type": "code",
       "source_file": "scripts/build-aem-package.js",
-      "source_location": "L561",
+      "source_location": "L578",
       "id": "scripts_build_aem_package_manifestmf",
-      "community": 0,
+      "community": 1,
       "norm_label": "manifestmf()"
     },
     {
       "label": "stageDamAssetsFromManifest()",
       "file_type": "code",
       "source_file": "scripts/build-aem-package.js",
-      "source_location": "L572",
+      "source_location": "L589",
       "id": "scripts_build_aem_package_stagedamassetsfrommanifest",
-      "community": 0,
+      "community": 1,
       "norm_label": "stagedamassetsfrommanifest()"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "scripts/build-aem-package.js",
-      "source_location": "L600",
+      "source_location": "L617",
       "id": "scripts_build_aem_package_main",
-      "community": 0,
+      "community": 1,
       "norm_label": "main()"
     },
     {
@@ -270,7 +279,7 @@
       "source_file": "scripts/build-sample-documents.js",
       "source_location": "L1",
       "id": "scripts_build_sample_documents_js",
-      "community": 9,
+      "community": 10,
       "norm_label": "build-sample-documents.js"
     },
     {
@@ -279,7 +288,7 @@
       "source_file": "scripts/build-sample-documents.js",
       "source_location": "L27",
       "id": "scripts_build_sample_documents_metatable",
-      "community": 9,
+      "community": 10,
       "norm_label": "metatable()"
     },
     {
@@ -288,7 +297,7 @@
       "source_file": "scripts/build-sample-documents.js",
       "source_location": "L48",
       "id": "scripts_build_sample_documents_lisbondoc",
-      "community": 9,
+      "community": 10,
       "norm_label": "lisbondoc()"
     },
     {
@@ -297,7 +306,7 @@
       "source_file": "scripts/build-sample-documents.js",
       "source_location": "L176",
       "id": "scripts_build_sample_documents_vietnamdoc",
-      "community": 9,
+      "community": 10,
       "norm_label": "vietnamdoc()"
     },
     {
@@ -306,7 +315,7 @@
       "source_file": "scripts/build-sample-documents.js",
       "source_location": "L302",
       "id": "scripts_build_sample_documents_writepdfsample",
-      "community": 9,
+      "community": 10,
       "norm_label": "writepdfsample()"
     },
     {
@@ -315,78 +324,6 @@
       "source_file": "scripts/build-sample-documents.js",
       "source_location": "L374",
       "id": "scripts_build_sample_documents_main",
-      "community": 9,
-      "norm_label": "main()"
-    },
-    {
-      "label": "extract-documents.js",
-      "file_type": "code",
-      "source_file": "scripts/extract-documents.js",
-      "source_location": "L1",
-      "id": "scripts_extract_documents_js",
-      "community": 1,
-      "norm_label": "extract-documents.js"
-    },
-    {
-      "label": "readArg()",
-      "file_type": "code",
-      "source_file": "scripts/extract-documents.js",
-      "source_location": "L12",
-      "id": "scripts_extract_documents_readarg",
-      "community": 1,
-      "norm_label": "readarg()"
-    },
-    {
-      "label": "collectArgs()",
-      "file_type": "code",
-      "source_file": "scripts/extract-documents.js",
-      "source_location": "L18",
-      "id": "scripts_extract_documents_collectargs",
-      "community": 1,
-      "norm_label": "collectargs()"
-    },
-    {
-      "label": "main()",
-      "file_type": "code",
-      "source_file": "scripts/extract-documents.js",
-      "source_location": "L29",
-      "id": "scripts_extract_documents_main",
-      "community": 1,
-      "norm_label": "main()"
-    },
-    {
-      "label": "extract-scrape.js",
-      "file_type": "code",
-      "source_file": "scripts/extract-scrape.js",
-      "source_location": "L1",
-      "id": "scripts_extract_scrape_js",
-      "community": 10,
-      "norm_label": "extract-scrape.js"
-    },
-    {
-      "label": "readArg()",
-      "file_type": "code",
-      "source_file": "scripts/extract-scrape.js",
-      "source_location": "L12",
-      "id": "scripts_extract_scrape_readarg",
-      "community": 10,
-      "norm_label": "readarg()"
-    },
-    {
-      "label": "collectArgs()",
-      "file_type": "code",
-      "source_file": "scripts/extract-scrape.js",
-      "source_location": "L18",
-      "id": "scripts_extract_scrape_collectargs",
-      "community": 10,
-      "norm_label": "collectargs()"
-    },
-    {
-      "label": "main()",
-      "file_type": "code",
-      "source_file": "scripts/extract-scrape.js",
-      "source_location": "L29",
-      "id": "scripts_extract_scrape_main",
       "community": 10,
       "norm_label": "main()"
     },
@@ -396,7 +333,7 @@
       "source_file": "scripts/extract.js",
       "source_location": "L1",
       "id": "scripts_extract_js",
-      "community": 12,
+      "community": 0,
       "norm_label": "extract.js"
     },
     {
@@ -405,7 +342,7 @@
       "source_file": "scripts/extract.js",
       "source_location": "L14",
       "id": "scripts_extract_extractfromwpapi",
-      "community": 12,
+      "community": 0,
       "norm_label": "extractfromwpapi()"
     },
     {
@@ -414,7 +351,7 @@
       "source_file": "scripts/extract.js",
       "source_location": "L39",
       "id": "scripts_extract_main",
-      "community": 12,
+      "community": 0,
       "norm_label": "main()"
     },
     {
@@ -441,7 +378,7 @@
       "source_file": "scripts/migrate-assets.js",
       "source_location": "L1",
       "id": "scripts_migrate_assets_js",
-      "community": 3,
+      "community": 2,
       "norm_label": "migrate-assets.js"
     },
     {
@@ -450,7 +387,7 @@
       "source_file": "scripts/migrate-assets.js",
       "source_location": "L25",
       "id": "scripts_migrate_assets_mappool",
-      "community": 3,
+      "community": 2,
       "norm_label": "mappool()"
     },
     {
@@ -459,43 +396,25 @@
       "source_file": "scripts/migrate-assets.js",
       "source_location": "L46",
       "id": "scripts_migrate_assets_migrateassets",
-      "community": 3,
+      "community": 2,
       "norm_label": "migrateassets()"
     },
     {
       "label": "mimeFromExt()",
       "file_type": "code",
       "source_file": "scripts/migrate-assets.js",
-      "source_location": "L215",
+      "source_location": "L230",
       "id": "scripts_migrate_assets_mimefromext",
-      "community": 3,
+      "community": 2,
       "norm_label": "mimefromext()"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "scripts/migrate-assets.js",
-      "source_location": "L228",
+      "source_location": "L243",
       "id": "scripts_migrate_assets_main",
-      "community": 3,
-      "norm_label": "main()"
-    },
-    {
-      "label": "publish.js",
-      "file_type": "code",
-      "source_file": "scripts/publish.js",
-      "source_location": "L1",
-      "id": "scripts_publish_js",
-      "community": 16,
-      "norm_label": "publish.js"
-    },
-    {
-      "label": "main()",
-      "file_type": "code",
-      "source_file": "scripts/publish.js",
-      "source_location": "L11",
-      "id": "scripts_publish_main",
-      "community": 16,
+      "community": 2,
       "norm_label": "main()"
     },
     {
@@ -531,7 +450,7 @@
       "source_file": "scripts/lib/aem-config.js",
       "source_location": "L1",
       "id": "scripts_lib_aem_config_js",
-      "community": 3,
+      "community": 2,
       "norm_label": "aem-config.js"
     },
     {
@@ -540,7 +459,7 @@
       "source_file": "scripts/lib/aem-config.js",
       "source_location": "L10",
       "id": "lib_aem_config_loadaemconfig",
-      "community": 3,
+      "community": 2,
       "norm_label": "loadaemconfig()"
     },
     {
@@ -549,7 +468,7 @@
       "source_file": "scripts/lib/aem-config.js",
       "source_location": "L88",
       "id": "lib_aem_config_normalizedamroot",
-      "community": 3,
+      "community": 2,
       "norm_label": "normalizedamroot()"
     },
     {
@@ -558,7 +477,7 @@
       "source_file": "scripts/lib/asset-migration.js",
       "source_location": "L1",
       "id": "scripts_lib_asset_migration_js",
-      "community": 3,
+      "community": 2,
       "norm_label": "asset-migration.js"
     },
     {
@@ -567,7 +486,7 @@
       "source_file": "scripts/lib/asset-migration.js",
       "source_location": "L11",
       "id": "lib_asset_migration_absurl",
-      "community": 3,
+      "community": 2,
       "norm_label": "absurl()"
     },
     {
@@ -576,7 +495,7 @@
       "source_file": "scripts/lib/asset-migration.js",
       "source_location": "L28",
       "id": "lib_asset_migration_urlkey",
-      "community": 3,
+      "community": 2,
       "norm_label": "urlkey()"
     },
     {
@@ -585,7 +504,7 @@
       "source_file": "scripts/lib/asset-migration.js",
       "source_location": "L41",
       "id": "lib_asset_migration_filenamefromurl",
-      "community": 3,
+      "community": 2,
       "norm_label": "filenamefromurl()"
     },
     {
@@ -594,7 +513,7 @@
       "source_file": "scripts/lib/asset-migration.js",
       "source_location": "L52",
       "id": "lib_asset_migration_pathbasename",
-      "community": 3,
+      "community": 2,
       "norm_label": "pathbasename()"
     },
     {
@@ -603,7 +522,7 @@
       "source_file": "scripts/lib/asset-migration.js",
       "source_location": "L60",
       "id": "lib_asset_migration_sanitizefilename",
-      "community": 3,
+      "community": 2,
       "norm_label": "sanitizefilename()"
     },
     {
@@ -612,70 +531,61 @@
       "source_file": "scripts/lib/asset-migration.js",
       "source_location": "L74",
       "id": "lib_asset_migration_hashurl",
-      "community": 3,
+      "community": 2,
       "norm_label": "hashurl()"
     },
     {
       "label": "damPathForUrl()",
       "file_type": "code",
       "source_file": "scripts/lib/asset-migration.js",
-      "source_location": "L83",
+      "source_location": "L84",
       "id": "lib_asset_migration_dampathforurl",
-      "community": 3,
+      "community": 2,
       "norm_label": "dampathforurl()"
-    },
-    {
-      "label": "sanitizeFolderName()",
-      "file_type": "code",
-      "source_file": "scripts/lib/asset-migration.js",
-      "source_location": "L92",
-      "id": "lib_asset_migration_sanitizefoldername",
-      "community": 3,
-      "norm_label": "sanitizefoldername()"
     },
     {
       "label": "collectAssetUrlsFromItem()",
       "file_type": "code",
       "source_file": "scripts/lib/asset-migration.js",
-      "source_location": "L106",
+      "source_location": "L101",
       "id": "lib_asset_migration_collectasseturlsfromitem",
-      "community": 3,
+      "community": 2,
       "norm_label": "collectasseturlsfromitem()"
     },
     {
       "label": "collectAllAssetUrls()",
       "file_type": "code",
       "source_file": "scripts/lib/asset-migration.js",
-      "source_location": "L155",
+      "source_location": "L150",
       "id": "lib_asset_migration_collectallasseturls",
-      "community": 3,
+      "community": 2,
       "norm_label": "collectallasseturls()"
     },
     {
       "label": "rewriteItemAssetRefs()",
       "file_type": "code",
       "source_file": "scripts/lib/asset-migration.js",
-      "source_location": "L176",
+      "source_location": "L171",
       "id": "lib_asset_migration_rewriteitemassetrefs",
-      "community": 3,
+      "community": 2,
       "norm_label": "rewriteitemassetrefs()"
     },
     {
       "label": "mimeAllowed()",
       "file_type": "code",
       "source_file": "scripts/lib/asset-migration.js",
-      "source_location": "L234",
+      "source_location": "L229",
       "id": "lib_asset_migration_mimeallowed",
-      "community": 3,
+      "community": 2,
       "norm_label": "mimeallowed()"
     },
     {
       "label": "extensionFromMime()",
       "file_type": "code",
       "source_file": "scripts/lib/asset-migration.js",
-      "source_location": "L243",
+      "source_location": "L238",
       "id": "lib_asset_migration_extensionfrommime",
-      "community": 3,
+      "community": 2,
       "norm_label": "extensionfrommime()"
     },
     {
@@ -700,7 +610,7 @@
       "label": "ensureDamFolderAncestors()",
       "file_type": "code",
       "source_file": "scripts/lib/dam-vault-writer.js",
-      "source_location": "L100",
+      "source_location": "L62",
       "id": "lib_dam_vault_writer_ensuredamfolderancestors",
       "community": 8,
       "norm_label": "ensuredamfolderancestors()"
@@ -709,7 +619,7 @@
       "label": "orderedFolderXml()",
       "file_type": "code",
       "source_file": "scripts/lib/dam-vault-writer.js",
-      "source_location": "L126",
+      "source_location": "L88",
       "id": "lib_dam_vault_writer_orderedfolderxml",
       "community": 8,
       "norm_label": "orderedfolderxml()"
@@ -718,7 +628,7 @@
       "label": "assetRootXml()",
       "file_type": "code",
       "source_file": "scripts/lib/dam-vault-writer.js",
-      "source_location": "L134",
+      "source_location": "L96",
       "id": "lib_dam_vault_writer_assetrootxml",
       "community": 8,
       "norm_label": "assetrootxml()"
@@ -727,7 +637,7 @@
       "label": "originalDirXml()",
       "file_type": "code",
       "source_file": "scripts/lib/dam-vault-writer.js",
-      "source_location": "L157",
+      "source_location": "L119",
       "id": "lib_dam_vault_writer_originaldirxml",
       "community": 8,
       "norm_label": "originaldirxml()"
@@ -1125,7 +1035,7 @@
       "source_file": "scripts/lib/document-import/assemble-wp-post.js",
       "source_location": "L1",
       "id": "scripts_lib_document_import_assemble_wp_post_js",
-      "community": 1,
+      "community": 0,
       "norm_label": "assemble-wp-post.js"
     },
     {
@@ -1134,7 +1044,7 @@
       "source_file": "scripts/lib/document-import/assemble-wp-post.js",
       "source_location": "L5",
       "id": "document_import_assemble_wp_post_parsetags",
-      "community": 1,
+      "community": 0,
       "norm_label": "parsetags()"
     },
     {
@@ -1143,7 +1053,7 @@
       "source_file": "scripts/lib/document-import/assemble-wp-post.js",
       "source_location": "L12",
       "id": "document_import_assemble_wp_post_buildauthorcard",
-      "community": 1,
+      "community": 0,
       "norm_label": "buildauthorcard()"
     },
     {
@@ -1152,7 +1062,7 @@
       "source_file": "scripts/lib/document-import/assemble-wp-post.js",
       "source_location": "L37",
       "id": "document_import_assemble_wp_post_assembledocumentpost",
-      "community": 1,
+      "community": 0,
       "norm_label": "assembledocumentpost()"
     },
     {
@@ -1161,7 +1071,7 @@
       "source_file": "scripts/lib/document-import/constants.js",
       "source_location": "L1",
       "id": "scripts_lib_document_import_constants_js",
-      "community": 1,
+      "community": 0,
       "norm_label": "constants.js"
     },
     {
@@ -1170,7 +1080,7 @@
       "source_file": "scripts/lib/document-import/constants.js",
       "source_location": "L41",
       "id": "document_import_constants_normalizelabel",
-      "community": 1,
+      "community": 0,
       "norm_label": "normalizelabel()"
     },
     {
@@ -1179,7 +1089,7 @@
       "source_file": "scripts/lib/document-import/constants.js",
       "source_location": "L70",
       "id": "document_import_constants_labeltocanonicalkey",
-      "community": 1,
+      "community": 0,
       "norm_label": "labeltocanonicalkey()"
     },
     {
@@ -1188,7 +1098,7 @@
       "source_file": "scripts/lib/document-import/docx-to-post.js",
       "source_location": "L1",
       "id": "scripts_lib_document_import_docx_to_post_js",
-      "community": 1,
+      "community": 0,
       "norm_label": "docx-to-post.js"
     },
     {
@@ -1197,7 +1107,7 @@
       "source_file": "scripts/lib/document-import/docx-to-post.js",
       "source_location": "L14",
       "id": "document_import_docx_to_post_docxbuffertopost",
-      "community": 1,
+      "community": 0,
       "norm_label": "docxbuffertopost()"
     },
     {
@@ -1206,7 +1116,7 @@
       "source_file": "scripts/lib/document-import/enrich-meridian-html.js",
       "source_location": "L1",
       "id": "scripts_lib_document_import_enrich_meridian_html_js",
-      "community": 1,
+      "community": 0,
       "norm_label": "enrich-meridian-html.js"
     },
     {
@@ -1215,7 +1125,7 @@
       "source_file": "scripts/lib/document-import/enrich-meridian-html.js",
       "source_location": "L5",
       "id": "document_import_enrich_meridian_html_striptagstotext",
-      "community": 1,
+      "community": 0,
       "norm_label": "striptagstotext()"
     },
     {
@@ -1224,7 +1134,7 @@
       "source_file": "scripts/lib/document-import/enrich-meridian-html.js",
       "source_location": "L12",
       "id": "document_import_enrich_meridian_html_slugifyheading",
-      "community": 1,
+      "community": 0,
       "norm_label": "slugifyheading()"
     },
     {
@@ -1233,7 +1143,7 @@
       "source_file": "scripts/lib/document-import/enrich-meridian-html.js",
       "source_location": "L20",
       "id": "document_import_enrich_meridian_html_escapexmlish",
-      "community": 1,
+      "community": 0,
       "norm_label": "escapexmlish()"
     },
     {
@@ -1242,7 +1152,7 @@
       "source_file": "scripts/lib/document-import/enrich-meridian-html.js",
       "source_location": "L36",
       "id": "document_import_enrich_meridian_html_enrichmeridiandocumenthtml",
-      "community": 1,
+      "community": 0,
       "norm_label": "enrichmeridiandocumenthtml()"
     },
     {
@@ -1251,7 +1161,7 @@
       "source_file": "scripts/lib/document-import/index.js",
       "source_location": "L1",
       "id": "scripts_lib_document_import_index_js",
-      "community": 1,
+      "community": 0,
       "norm_label": "index.js"
     },
     {
@@ -1260,7 +1170,7 @@
       "source_file": "scripts/lib/document-import/index.js",
       "source_location": "L21",
       "id": "document_import_index_importdocumentstowpshape",
-      "community": 1,
+      "community": 0,
       "norm_label": "importdocumentstowpshape()"
     },
     {
@@ -1269,7 +1179,7 @@
       "source_file": "scripts/lib/document-import/parse-metadata-table.js",
       "source_location": "L1",
       "id": "scripts_lib_document_import_parse_metadata_table_js",
-      "community": 1,
+      "community": 0,
       "norm_label": "parse-metadata-table.js"
     },
     {
@@ -1278,7 +1188,7 @@
       "source_file": "scripts/lib/document-import/parse-metadata-table.js",
       "source_location": "L12",
       "id": "document_import_parse_metadata_table_parsemetadatatable",
-      "community": 1,
+      "community": 0,
       "norm_label": "parsemetadatatable()"
     },
     {
@@ -1287,7 +1197,7 @@
       "source_file": "scripts/lib/document-import/pdf-to-post.js",
       "source_location": "L1",
       "id": "scripts_lib_document_import_pdf_to_post_js",
-      "community": 1,
+      "community": 0,
       "norm_label": "pdf-to-post.js"
     },
     {
@@ -1296,7 +1206,7 @@
       "source_file": "scripts/lib/document-import/pdf-to-post.js",
       "source_location": "L21",
       "id": "document_import_pdf_to_post_escapehtml",
-      "community": 1,
+      "community": 0,
       "norm_label": "escapehtml()"
     },
     {
@@ -1305,7 +1215,7 @@
       "source_file": "scripts/lib/document-import/pdf-to-post.js",
       "source_location": "L35",
       "id": "document_import_pdf_to_post_reflowpdftextforparsing",
-      "community": 1,
+      "community": 0,
       "norm_label": "reflowpdftextforparsing()"
     },
     {
@@ -1314,7 +1224,7 @@
       "source_file": "scripts/lib/document-import/pdf-to-post.js",
       "source_location": "L65",
       "id": "document_import_pdf_to_post_extractpdftext",
-      "community": 1,
+      "community": 0,
       "norm_label": "extractpdftext()"
     },
     {
@@ -1323,7 +1233,7 @@
       "source_file": "scripts/lib/document-import/pdf-to-post.js",
       "source_location": "L91",
       "id": "document_import_pdf_to_post_parsepdfheadersmart",
-      "community": 1,
+      "community": 0,
       "norm_label": "parsepdfheadersmart()"
     },
     {
@@ -1332,7 +1242,7 @@
       "source_file": "scripts/lib/document-import/pdf-to-post.js",
       "source_location": "L144",
       "id": "document_import_pdf_to_post_pdfplainlinestohtml",
-      "community": 1,
+      "community": 0,
       "norm_label": "pdfplainlinestohtml()"
     },
     {
@@ -1341,7 +1251,7 @@
       "source_file": "scripts/lib/document-import/pdf-to-post.js",
       "source_location": "L227",
       "id": "document_import_pdf_to_post_pdfbuffertopost",
-      "community": 1,
+      "community": 0,
       "norm_label": "pdfbuffertopost()"
     },
     {
@@ -1489,28 +1399,10 @@
       "norm_label": "registry.js"
     },
     {
-      "label": "buildScrapeArgv()",
-      "file_type": "code",
-      "source_file": "server/operations/registry.js",
-      "source_location": "L11",
-      "id": "operations_registry_buildscrapeargv",
-      "community": 11,
-      "norm_label": "buildscrapeargv()"
-    },
-    {
-      "label": "buildDocumentArgv()",
-      "file_type": "code",
-      "source_file": "server/operations/registry.js",
-      "source_location": "L40",
-      "id": "operations_registry_builddocumentargv",
-      "community": 11,
-      "norm_label": "builddocumentargv()"
-    },
-    {
       "label": "listOperationsPublic()",
       "file_type": "code",
       "source_file": "server/operations/registry.js",
-      "source_location": "L168",
+      "source_location": "L73",
       "id": "operations_registry_listoperationspublic",
       "community": 11,
       "norm_label": "listoperationspublic()"
@@ -1519,7 +1411,7 @@
       "label": "getOperation()",
       "file_type": "code",
       "source_file": "server/operations/registry.js",
-      "source_location": "L179",
+      "source_location": "L85",
       "id": "operations_registry_getoperation",
       "community": 11,
       "norm_label": "getoperation()"
@@ -1537,7 +1429,7 @@
       "label": "createArtifactsRouter()",
       "file_type": "code",
       "source_file": "server/routes/artifacts.js",
-      "source_location": "L17",
+      "source_location": "L18",
       "id": "routes_artifacts_createartifactsrouter",
       "community": 18,
       "norm_label": "createartifactsrouter()"
@@ -1611,7 +1503,7 @@
       "source_file": "web/src/App.jsx",
       "source_location": "L1",
       "id": "web_src_app_jsx",
-      "community": 2,
+      "community": 3,
       "norm_label": "app.jsx"
     },
     {
@@ -1620,7 +1512,7 @@
       "source_file": "web/src/App.jsx",
       "source_location": "L16",
       "id": "src_app_app",
-      "community": 2,
+      "community": 3,
       "norm_label": "app()"
     },
     {
@@ -1638,7 +1530,7 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L1",
       "id": "web_src_api_client_js",
-      "community": 2,
+      "community": 3,
       "norm_label": "client.js"
     },
     {
@@ -1647,7 +1539,7 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L3",
       "id": "api_client_parseerror",
-      "community": 2,
+      "community": 3,
       "norm_label": "parseerror()"
     },
     {
@@ -1656,7 +1548,7 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L14",
       "id": "api_client_fetchoperations",
-      "community": 2,
+      "community": 3,
       "norm_label": "fetchoperations()"
     },
     {
@@ -1665,7 +1557,7 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L20",
       "id": "api_client_fetchconfig",
-      "community": 2,
+      "community": 3,
       "norm_label": "fetchconfig()"
     },
     {
@@ -1674,7 +1566,7 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L26",
       "id": "api_client_saveconfig",
-      "community": 2,
+      "community": 3,
       "norm_label": "saveconfig()"
     },
     {
@@ -1683,7 +1575,7 @@
       "source_file": "web/src/api/client.js",
       "source_location": "L36",
       "id": "api_client_startjob",
-      "community": 2,
+      "community": 3,
       "norm_label": "startjob()"
     },
     {
@@ -1692,16 +1584,16 @@
       "source_file": "web/src/features/artifacts/ArtifactLinks.jsx",
       "source_location": "L1",
       "id": "web_src_features_artifacts_artifactlinks_jsx",
-      "community": 2,
+      "community": 3,
       "norm_label": "artifactlinks.jsx"
     },
     {
       "label": "ArtifactLinks()",
       "file_type": "code",
       "source_file": "web/src/features/artifacts/ArtifactLinks.jsx",
-      "source_location": "L19",
+      "source_location": "L25",
       "id": "artifacts_artifactlinks_artifactlinks",
-      "community": 2,
+      "community": 3,
       "norm_label": "artifactlinks()"
     },
     {
@@ -1710,7 +1602,7 @@
       "source_file": "web/src/features/config/ConfigEditor.jsx",
       "source_location": "L1",
       "id": "web_src_features_config_configeditor_jsx",
-      "community": 2,
+      "community": 3,
       "norm_label": "configeditor.jsx"
     },
     {
@@ -1719,7 +1611,7 @@
       "source_file": "web/src/features/config/ConfigEditor.jsx",
       "source_location": "L22",
       "id": "config_configeditor_safeparse",
-      "community": 2,
+      "community": 3,
       "norm_label": "safeparse()"
     },
     {
@@ -1728,7 +1620,7 @@
       "source_file": "web/src/features/config/ConfigEditor.jsx",
       "source_location": "L30",
       "id": "config_configeditor_dispatchconfigupdated",
-      "community": 2,
+      "community": 3,
       "norm_label": "dispatchconfigupdated()"
     },
     {
@@ -1737,7 +1629,7 @@
       "source_file": "web/src/features/config/ConfigEditor.jsx",
       "source_location": "L34",
       "id": "config_configeditor_configeditor",
-      "community": 2,
+      "community": 3,
       "norm_label": "configeditor()"
     },
     {
@@ -1746,7 +1638,7 @@
       "source_file": "web/src/features/logs/LogPanel.jsx",
       "source_location": "L1",
       "id": "web_src_features_logs_logpanel_jsx",
-      "community": 2,
+      "community": 3,
       "norm_label": "logpanel.jsx"
     },
     {
@@ -1755,26 +1647,8 @@
       "source_file": "web/src/features/logs/LogPanel.jsx",
       "source_location": "L3",
       "id": "logs_logpanel_logpanel",
-      "community": 2,
+      "community": 3,
       "norm_label": "logpanel()"
-    },
-    {
-      "label": "DocumentExtractForm.jsx",
-      "file_type": "code",
-      "source_file": "web/src/features/operations/DocumentExtractForm.jsx",
-      "source_location": "L1",
-      "id": "web_src_features_operations_documentextractform_jsx",
-      "community": 2,
-      "norm_label": "documentextractform.jsx"
-    },
-    {
-      "label": "DocumentExtractForm()",
-      "file_type": "code",
-      "source_file": "web/src/features/operations/DocumentExtractForm.jsx",
-      "source_location": "L3",
-      "id": "operations_documentextractform_documentextractform",
-      "community": 2,
-      "norm_label": "documentextractform()"
     },
     {
       "label": "ExtractModeBanner.jsx",
@@ -1782,7 +1656,7 @@
       "source_file": "web/src/features/operations/ExtractModeBanner.jsx",
       "source_location": "L1",
       "id": "web_src_features_operations_extractmodebanner_jsx",
-      "community": 2,
+      "community": 3,
       "norm_label": "extractmodebanner.jsx"
     },
     {
@@ -1791,7 +1665,7 @@
       "source_file": "web/src/features/operations/ExtractModeBanner.jsx",
       "source_location": "L10",
       "id": "operations_extractmodebanner_modefromconfig",
-      "community": 2,
+      "community": 3,
       "norm_label": "modefromconfig()"
     },
     {
@@ -1800,7 +1674,7 @@
       "source_file": "web/src/features/operations/ExtractModeBanner.jsx",
       "source_location": "L19",
       "id": "operations_extractmodebanner_extractmodebanner",
-      "community": 2,
+      "community": 3,
       "norm_label": "extractmodebanner()"
     },
     {
@@ -1809,44 +1683,26 @@
       "source_file": "web/src/features/operations/OperationPanel.jsx",
       "source_location": "L1",
       "id": "web_src_features_operations_operationpanel_jsx",
-      "community": 2,
+      "community": 9,
       "norm_label": "operationpanel.jsx"
     },
     {
-      "label": "renderOperationAction()",
+      "label": "OperationCard()",
       "file_type": "code",
       "source_file": "web/src/features/operations/OperationPanel.jsx",
-      "source_location": "L13",
-      "id": "operations_operationpanel_renderoperationaction",
-      "community": 2,
-      "norm_label": "renderoperationaction()"
+      "source_location": "L28",
+      "id": "operations_operationpanel_operationcard",
+      "community": 9,
+      "norm_label": "operationcard()"
     },
     {
       "label": "OperationPanel()",
       "file_type": "code",
       "source_file": "web/src/features/operations/OperationPanel.jsx",
-      "source_location": "L36",
+      "source_location": "L60",
       "id": "operations_operationpanel_operationpanel",
-      "community": 2,
+      "community": 9,
       "norm_label": "operationpanel()"
-    },
-    {
-      "label": "ScrapeExtractForm.jsx",
-      "file_type": "code",
-      "source_file": "web/src/features/operations/ScrapeExtractForm.jsx",
-      "source_location": "L1",
-      "id": "web_src_features_operations_scrapeextractform_jsx",
-      "community": 2,
-      "norm_label": "scrapeextractform.jsx"
-    },
-    {
-      "label": "ScrapeExtractForm()",
-      "file_type": "code",
-      "source_file": "web/src/features/operations/ScrapeExtractForm.jsx",
-      "source_location": "L3",
-      "id": "operations_scrapeextractform_scrapeextractform",
-      "community": 2,
-      "norm_label": "scrapeextractform()"
     },
     {
       "label": "useJobStream.js",
@@ -1854,7 +1710,7 @@
       "source_file": "web/src/hooks/useJobStream.js",
       "source_location": "L1",
       "id": "web_src_hooks_usejobstream_js",
-      "community": 2,
+      "community": 3,
       "norm_label": "usejobstream.js"
     },
     {
@@ -1863,8 +1719,170 @@
       "source_file": "web/src/hooks/useJobStream.js",
       "source_location": "L8",
       "id": "hooks_usejobstream_usejobstream",
-      "community": 2,
+      "community": 3,
       "norm_label": "usejobstream()"
+    },
+    {
+      "label": "extract-documents.js",
+      "file_type": "code",
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "extract-documents.js",
+      "id": "scripts_extract_documents_js"
+    },
+    {
+      "label": "readArg()",
+      "file_type": "code",
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L12",
+      "community": 0,
+      "norm_label": "readarg()",
+      "id": "scripts_extract_documents_readarg"
+    },
+    {
+      "label": "collectArgs()",
+      "file_type": "code",
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L18",
+      "community": 0,
+      "norm_label": "collectargs()",
+      "id": "scripts_extract_documents_collectargs"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L29",
+      "community": 0,
+      "norm_label": "main()",
+      "id": "scripts_extract_documents_main"
+    },
+    {
+      "label": "extract-scrape.js",
+      "file_type": "code",
+      "source_file": "scripts/extract-scrape.js",
+      "source_location": "L1",
+      "community": 12,
+      "norm_label": "extract-scrape.js",
+      "id": "scripts_extract_scrape_js"
+    },
+    {
+      "label": "readArg()",
+      "file_type": "code",
+      "source_file": "scripts/extract-scrape.js",
+      "source_location": "L12",
+      "community": 12,
+      "norm_label": "readarg()",
+      "id": "scripts_extract_scrape_readarg"
+    },
+    {
+      "label": "collectArgs()",
+      "file_type": "code",
+      "source_file": "scripts/extract-scrape.js",
+      "source_location": "L18",
+      "community": 12,
+      "norm_label": "collectargs()",
+      "id": "scripts_extract_scrape_collectargs"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/extract-scrape.js",
+      "source_location": "L29",
+      "community": 12,
+      "norm_label": "main()",
+      "id": "scripts_extract_scrape_main"
+    },
+    {
+      "label": "publish.js",
+      "file_type": "code",
+      "source_file": "scripts/publish.js",
+      "source_location": "L1",
+      "community": 16,
+      "norm_label": "publish.js",
+      "id": "scripts_publish_js"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/publish.js",
+      "source_location": "L11",
+      "community": 16,
+      "norm_label": "main()",
+      "id": "scripts_publish_main"
+    },
+    {
+      "label": "sanitizeFolderName()",
+      "file_type": "code",
+      "source_file": "scripts/lib/asset-migration.js",
+      "source_location": "L92",
+      "community": 2,
+      "norm_label": "sanitizefoldername()",
+      "id": "lib_asset_migration_sanitizefoldername"
+    },
+    {
+      "label": "buildScrapeArgv()",
+      "file_type": "code",
+      "source_file": "server/operations/registry.js",
+      "source_location": "L11",
+      "community": 11,
+      "norm_label": "buildscrapeargv()",
+      "id": "operations_registry_buildscrapeargv"
+    },
+    {
+      "label": "buildDocumentArgv()",
+      "file_type": "code",
+      "source_file": "server/operations/registry.js",
+      "source_location": "L40",
+      "community": 11,
+      "norm_label": "builddocumentargv()",
+      "id": "operations_registry_builddocumentargv"
+    },
+    {
+      "label": "DocumentExtractForm.jsx",
+      "file_type": "code",
+      "source_file": "web/src/features/operations/DocumentExtractForm.jsx",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "documentextractform.jsx",
+      "id": "web_src_features_operations_documentextractform_jsx"
+    },
+    {
+      "label": "DocumentExtractForm()",
+      "file_type": "code",
+      "source_file": "web/src/features/operations/DocumentExtractForm.jsx",
+      "source_location": "L3",
+      "community": 9,
+      "norm_label": "documentextractform()",
+      "id": "operations_documentextractform_documentextractform"
+    },
+    {
+      "label": "renderOperationAction()",
+      "file_type": "code",
+      "source_file": "web/src/features/operations/OperationPanel.jsx",
+      "source_location": "L13",
+      "community": 9,
+      "norm_label": "renderoperationaction()",
+      "id": "operations_operationpanel_renderoperationaction"
+    },
+    {
+      "label": "ScrapeExtractForm.jsx",
+      "file_type": "code",
+      "source_file": "web/src/features/operations/ScrapeExtractForm.jsx",
+      "source_location": "L1",
+      "community": 9,
+      "norm_label": "scrapeextractform.jsx",
+      "id": "web_src_features_operations_scrapeextractform_jsx"
+    },
+    {
+      "label": "ScrapeExtractForm()",
+      "file_type": "code",
+      "source_file": "web/src/features/operations/ScrapeExtractForm.jsx",
+      "source_location": "L3",
+      "community": 9,
+      "norm_label": "scrapeextractform()",
+      "id": "operations_scrapeextractform_scrapeextractform"
     },
     {
       "label": "assetContentXml()",
@@ -1907,7 +1925,7 @@
       "file_type": "code",
       "source_file": "scripts/build-aem-package.js",
       "source_location": "L40",
-      "community": 0,
+      "community": 1,
       "norm_label": "loadaemconfig()",
       "id": "scripts_build_aem_package_loadaemconfig"
     },
@@ -1916,7 +1934,7 @@
       "file_type": "code",
       "source_file": "build-aem-package.js",
       "source_location": "L1",
-      "community": 0,
+      "community": 1,
       "norm_label": "build-aem-package.js",
       "id": "build_aem_package_js"
     },
@@ -1925,7 +1943,7 @@
       "file_type": "code",
       "source_file": "extract-scrape.js",
       "source_location": "L1",
-      "community": 10,
+      "community": 12,
       "norm_label": "extract-scrape.js",
       "id": "extract_scrape_js"
     },
@@ -1934,7 +1952,7 @@
       "file_type": "code",
       "source_file": "extract.js",
       "source_location": "L1",
-      "community": 12,
+      "community": 0,
       "norm_label": "extract.js",
       "id": "extract_js"
     },
@@ -2232,6 +2250,16 @@
       "confidence_score": 1.0,
       "source": "scripts_build_aem_package_js",
       "target": "scripts_build_aem_package_escaperegex"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build-aem-package.js",
+      "source_location": "L522",
+      "weight": 1.0,
+      "source": "scripts_build_aem_package_js",
+      "target": "scripts_build_aem_package_injectmigrationbody",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -2760,12 +2788,12 @@
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
-      "source_file": "build-aem-package.js",
-      "source_location": "L236",
+      "source_file": "scripts/build-aem-package.js",
+      "source_location": "L508",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "scripts_build_aem_package_pagexmlfromblueprint",
-      "target": "scripts_build_aem_package_escaperegex"
+      "target": "scripts_build_aem_package_injectmigrationbody",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -2779,6 +2807,17 @@
       "target": "scripts_build_aem_package_pagexmlfromblueprint"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build-aem-package.js",
+      "source_location": "L236",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_build_aem_package_pagexmlfromblueprint",
+      "target": "scripts_build_aem_package_escaperegex"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "build-aem-package.js",
@@ -2787,6 +2826,17 @@
       "confidence_score": 1.0,
       "source": "build_aem_package_js",
       "target": "scripts_build_aem_package_pagexmlfromblueprint"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build-aem-package.js",
+      "source_location": "L526",
+      "weight": 1.0,
+      "source": "scripts_build_aem_package_injectmigrationbody",
+      "target": "scripts_build_aem_package_escaperegex",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -3045,162 +3095,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "scripts/extract-documents.js",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_extract_documents_js",
-      "target": "scripts_extract_documents_readarg"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/extract-documents.js",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_extract_documents_js",
-      "target": "scripts_extract_documents_collectargs"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/extract-documents.js",
-      "source_location": "L29",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_extract_documents_js",
-      "target": "scripts_extract_documents_main"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/extract-documents.js",
-      "source_location": "L33",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_extract_documents_main",
-      "target": "scripts_extract_documents_readarg"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/extract-documents.js",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_extract_documents_main",
-      "target": "scripts_extract_documents_collectargs"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "scripts/extract-documents.js",
-      "source_location": "L36",
-      "weight": 1.0,
-      "source": "scripts_extract_documents_main",
-      "target": "document_import_index_importdocumentstowpshape"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/extract-scrape.js",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_extract_scrape_js",
-      "target": "scripts_extract_scrape_readarg"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/extract-scrape.js",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_extract_scrape_js",
-      "target": "scripts_extract_scrape_collectargs"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/extract-scrape.js",
-      "source_location": "L29",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_extract_scrape_js",
-      "target": "scripts_extract_scrape_main"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "extract-scrape.js",
-      "source_location": "L32",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_extract_scrape_main",
-      "target": "scripts_extract_scrape_readarg"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "extract-scrape.js",
-      "source_location": "L12",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extract_scrape_js",
-      "target": "scripts_extract_scrape_readarg"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "extract-scrape.js",
-      "source_location": "L31",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_extract_scrape_main",
-      "target": "scripts_extract_scrape_collectargs"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "extract-scrape.js",
-      "source_location": "L18",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extract_scrape_js",
-      "target": "scripts_extract_scrape_collectargs"
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "extract-scrape.js",
-      "source_location": "L60",
-      "weight": 1.0,
-      "source": "scripts_extract_scrape_main",
-      "target": "lib_scrape_pages_scrapepagestowpshape"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "extract-scrape.js",
-      "source_location": "L29",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "extract_scrape_js",
-      "target": "scripts_extract_scrape_main"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "scripts/extract.js",
       "source_location": "L13",
       "weight": 1.0,
@@ -3381,30 +3275,21 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "scripts/migrate-assets.js",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "scripts_migrate_assets_migrateassets",
+      "target": "lib_asset_migration_dampathforurl"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/migrate-assets.js",
       "source_location": "L231",
       "weight": 1.0,
       "source": "scripts_migrate_assets_main",
       "target": "lib_aem_config_loadaemconfig"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/publish.js",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_publish_js",
-      "target": "scripts_publish_main"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "publish.js",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "publish_js",
-      "target": "scripts_publish_main"
     },
     {
       "relation": "contains",
@@ -3551,16 +3436,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "scripts/lib/asset-migration.js",
-      "source_location": "L92",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "scripts_lib_asset_migration_js",
-      "target": "lib_asset_migration_sanitizefoldername"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "scripts/lib/asset-migration.js",
       "source_location": "L106",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -3606,6 +3481,16 @@
       "confidence_score": 1.0,
       "source": "scripts_lib_asset_migration_js",
       "target": "lib_asset_migration_extensionfrommime"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/lib/asset-migration.js",
+      "source_location": "L92",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_lib_asset_migration_js",
+      "target": "lib_asset_migration_sanitizefoldername"
     },
     {
       "relation": "calls",
@@ -3763,9 +3648,9 @@
       "source_file": "scripts/lib/dam-vault-writer.js",
       "source_location": "L157",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_lib_dam_vault_writer_js",
-      "target": "lib_dam_vault_writer_originaldirxml",
-      "confidence_score": 1.0
+      "target": "lib_dam_vault_writer_originaldirxml"
     },
     {
       "relation": "contains",
@@ -3825,9 +3710,9 @@
       "source_file": "scripts/lib/dam-vault-writer.js",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_dam_vault_writer_stagedamasset",
-      "target": "lib_dam_vault_writer_originaldirxml",
-      "confidence_score": 1.0
+      "target": "lib_dam_vault_writer_originaldirxml"
     },
     {
       "relation": "calls",
@@ -4716,6 +4601,17 @@
       "target": "lib_scrape_pages_resolvescrapeurls"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "extract-scrape.js",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "scripts_extract_scrape_main",
+      "target": "lib_scrape_pages_scrapepagestowpshape"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "lib/scrape-pages.js",
@@ -5534,6 +5430,17 @@
       "target": "document_import_pdf_to_post_pdfbuffertopost"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "scripts_extract_documents_main",
+      "target": "document_import_index_importdocumentstowpshape"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "scripts/lib/document-import/parse-metadata-table.js",
@@ -5881,26 +5788,6 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "server/operations/registry.js",
-      "source_location": "L11",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "server_operations_registry_js",
-      "target": "operations_registry_buildscrapeargv"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "server/operations/registry.js",
-      "source_location": "L40",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "server_operations_registry_js",
-      "target": "operations_registry_builddocumentargv"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "server/operations/registry.js",
       "source_location": "L105",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -5916,6 +5803,26 @@
       "confidence_score": 1.0,
       "source": "server_operations_registry_js",
       "target": "operations_registry_getoperation"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/operations/registry.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_operations_registry_js",
+      "target": "operations_registry_buildscrapeargv"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "server/operations/registry.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "server_operations_registry_js",
+      "target": "operations_registry_builddocumentargv"
     },
     {
       "relation": "contains",
@@ -6267,27 +6174,6 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "web/src/features/operations/DocumentExtractForm.jsx",
-      "source_location": "L3",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "web_src_features_operations_documentextractform_jsx",
-      "target": "operations_documentextractform_documentextractform"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "web/src/features/operations/OperationPanel.jsx",
-      "source_location": "L2",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "web_src_features_operations_operationpanel_jsx",
-      "target": "operations_documentextractform_documentextractform"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
       "source_file": "web/src/features/operations/ExtractModeBanner.jsx",
       "source_location": "L10",
       "weight": 1.0,
@@ -6304,6 +6190,37 @@
       "confidence_score": 1.0,
       "source": "web_src_features_operations_extractmodebanner_jsx",
       "target": "operations_extractmodebanner_extractmodebanner"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/features/operations/OperationPanel.jsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "web_src_features_operations_operationpanel_jsx",
+      "target": "operations_operationpanel_operationcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/features/operations/OperationPanel.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_features_operations_operationpanel_jsx",
+      "target": "operations_operationpanel_operationpanel"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/features/operations/OperationPanel.jsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_features_operations_operationpanel_jsx",
+      "target": "operations_documentextractform_documentextractform"
     },
     {
       "relation": "imports",
@@ -6329,12 +6246,176 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "web/src/features/operations/OperationPanel.jsx",
-      "source_location": "L10",
+      "source_file": "web/src/hooks/useJobStream.js",
+      "source_location": "L8",
       "weight": 1.0,
       "confidence_score": 1.0,
-      "source": "web_src_features_operations_operationpanel_jsx",
-      "target": "operations_operationpanel_operationpanel"
+      "source": "web_src_hooks_usejobstream_js",
+      "target": "hooks_usejobstream_usejobstream"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_extract_documents_js",
+      "target": "scripts_extract_documents_readarg"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_extract_documents_js",
+      "target": "scripts_extract_documents_collectargs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_extract_documents_js",
+      "target": "scripts_extract_documents_main"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L33",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_extract_documents_main",
+      "target": "scripts_extract_documents_readarg"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/extract-documents.js",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_extract_documents_main",
+      "target": "scripts_extract_documents_collectargs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/extract-scrape.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_extract_scrape_js",
+      "target": "scripts_extract_scrape_readarg"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/extract-scrape.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_extract_scrape_js",
+      "target": "scripts_extract_scrape_collectargs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/extract-scrape.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_extract_scrape_js",
+      "target": "scripts_extract_scrape_main"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "extract-scrape.js",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_extract_scrape_main",
+      "target": "scripts_extract_scrape_readarg"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "extract-scrape.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "extract_scrape_js",
+      "target": "scripts_extract_scrape_readarg"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "extract-scrape.js",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_extract_scrape_main",
+      "target": "scripts_extract_scrape_collectargs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "extract-scrape.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "extract_scrape_js",
+      "target": "scripts_extract_scrape_collectargs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "extract-scrape.js",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "extract_scrape_js",
+      "target": "scripts_extract_scrape_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/publish.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_publish_js",
+      "target": "scripts_publish_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "publish.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "publish_js",
+      "target": "scripts_publish_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "web/src/features/operations/DocumentExtractForm.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "web_src_features_operations_documentextractform_jsx",
+      "target": "operations_documentextractform_documentextractform"
     },
     {
       "relation": "contains",
@@ -6345,16 +6426,6 @@
       "confidence_score": 1.0,
       "source": "web_src_features_operations_scrapeextractform_jsx",
       "target": "operations_scrapeextractform_scrapeextractform"
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "web/src/hooks/useJobStream.js",
-      "source_location": "L8",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "web_src_hooks_usejobstream_js",
-      "target": "hooks_usejobstream_usejobstream"
     },
     {
       "relation": "calls",
@@ -6390,5 +6461,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "6456c8501db03600052531b5cedded4a179ab2e7"
+  "built_at_commit": "22bfbf03e9534f70dafe59608eabda42effe35cb"
 }

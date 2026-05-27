@@ -7,6 +7,7 @@ const fs = require("fs-extra");
 /** Files allowed under data/transformed/ */
 const ALLOWED = new Set([
   "migration-bundle.json",
+  "asset-manifest.json",
   "posts.json",
   "wp-to-aem-migration.zip",
 ]);

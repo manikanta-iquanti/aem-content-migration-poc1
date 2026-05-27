@@ -27,7 +27,7 @@ isProject: false
 
 ## Context
 
-The repo is **plain Node** ([package.json](package.json)): `extract`, `transform`, `generate`, `pipeline`, `publish`, `build:aem-package`, and `extract:scrape` with CLI flags. Scripts read [config/config.json](config/config.json) and fixed paths under `data/` ([README.md](README.md)). There is **no** bundler or server today; the graph hubs (`main()`, scrape, AEM build) match this script-first layout ([graphify-out/GRAPH_REPORT.md](graphify-out/GRAPH_REPORT.md)).
+The repo is **plain Node** ([package.json](package.json)): AEM-focused scripts — `extract`, `transform`, `generate`, `pipeline:aem`, `build:aem-package`, `migrate-assets`. Scripts read [config/config.json](config/config.json) and paths under `data/` ([README.md](README.md)). Optional UI ([server/operations/registry.js](server/operations/registry.js)) groups operations: **primary** (full AEM migration), **steps** (1–4), **advanced** (migrate assets only).
 
 ## Scalability and extensibility (design goals)
 
@@ -85,12 +85,10 @@ flowchart TB
 
 Each item below is **one registry entry** (or a sequence entry) on the server; the UI either shows a single Run button or the scrape-specific form.
 
-- **Extract (config mode)** → `scripts/extract.js`
-- **Transform** / **Generate** → `transform.js`, `generate.js`
-- **Full pipeline** → sequential extract → transform → generate (same as `npm run pipeline`)
-- **Publish** → `publish.js`
-- **Build AEM package** → `build-aem-package.js`
-- **Extract scrape (ad-hoc)** → `extract-scrape.js` with optional multi-line URLs, discover URL, selector (form → `buildArgv`)
+- **Run full AEM migration** → sequence: extract → transform → generate → build-aem-package (`pipeline:aem`)
+- **Steps 1–4** → individual scripts
+- **Migrate assets only** → `migrate-assets.js` (debug; normally inside step 4)
+- Extract mode (wp-api / scrape / documents) is set in **config**, not separate UI overrides
 
 Additional UX that removes “read the docs” friction:
 

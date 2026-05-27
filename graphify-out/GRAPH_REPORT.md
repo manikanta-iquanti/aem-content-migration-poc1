@@ -1,16 +1,16 @@
 # Graph Report - wp migration ai  (2026-05-27)
 
 ## Corpus Check
-- 42 files · ~204,959 words
+- 37 files · ~202,887 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 222 nodes · 421 edges · 23 communities (18 shown, 5 thin omitted)
-- Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 25 edges (avg confidence: 0.8)
+- 224 nodes · 426 edges · 23 communities (19 shown, 4 thin omitted)
+- Extraction: 94% EXTRACTED · 6% INFERRED · 0% AMBIGUOUS · INFERRED: 26 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6456c850`
+- Built from commit: `22bfbf03`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -37,12 +37,12 @@
 2. `renderMeridianSliceXml()` - 14 edges
 3. `extractMeridianStaticPage()` - 14 edges
 4. `main()` - 12 edges
-5. `extractPageData()` - 10 edges
-6. `pageXmlFromBlueprint()` - 9 edges
+5. `pageXmlFromBlueprint()` - 10 edges
+6. `extractPageData()` - 10 edges
 7. `pdfBufferToPost()` - 8 edges
 8. `renderBodyXml()` - 7 edges
-9. `stageDamAsset()` - 7 edges
-10. `trimText()` - 7 edges
+9. `migrateAssets()` - 7 edges
+10. `stageDamAsset()` - 7 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `resolveBlocks()` --calls--> `wpHtmlToAemBlocks()`  [INFERRED]
@@ -56,23 +56,23 @@
 - `main()` --calls--> `migrateAssets()`  [INFERRED]
   scripts/build-aem-package.js → scripts/migrate-assets.js
 
-## Communities (23 total, 5 thin omitted)
+## Communities (23 total, 4 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.18
-Nodes (29): accordionPanelsToRichHtml(), escapeHtmlInner(), escapeRegex(), escapeXmlAttr(), extractBlueprintJcrTitle(), extractSiteKeyFromBlueprint(), jcrPageName(), loadAemConfig() (+21 more)
+Cohesion: 0.09
+Nodes (22): assembleDocumentPost(), buildAuthorCard(), parseTags(), labelToCanonicalKey(), normalizeLabel(), docxBufferToPost(), enrichMeridianDocumentHtml(), slugifyHeading() (+14 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.11
-Nodes (20): assembleDocumentPost(), buildAuthorCard(), parseTags(), labelToCanonicalKey(), normalizeLabel(), docxBufferToPost(), enrichMeridianDocumentHtml(), slugifyHeading() (+12 more)
+Cohesion: 0.18
+Nodes (30): accordionPanelsToRichHtml(), escapeHtmlInner(), escapeRegex(), escapeXmlAttr(), extractBlueprintJcrTitle(), extractSiteKeyFromBlueprint(), injectMigrationBody(), jcrPageName() (+22 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.1
-Nodes (14): fetchConfig(), fetchOperations(), parseError(), saveConfig(), startJob(), ArtifactLinks(), ConfigEditor(), useJobStream() (+6 more)
+Cohesion: 0.16
+Nodes (16): loadAemConfig(), normalizeDamRoot(), absUrl(), collectAllAssetUrls(), collectAssetUrlsFromItem(), damPathForUrl(), filenameFromUrl(), hashUrl() (+8 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.15
-Nodes (16): loadAemConfig(), normalizeDamRoot(), absUrl(), collectAllAssetUrls(), collectAssetUrlsFromItem(), damPathForUrl(), filenameFromUrl(), hashUrl() (+8 more)
+Cohesion: 0.14
+Nodes (11): fetchConfig(), fetchOperations(), parseError(), saveConfig(), startJob(), ArtifactLinks(), ConfigEditor(), useJobStream() (+3 more)
 
 ### Community 4 - "Community 4"
 Cohesion: 0.29
@@ -95,28 +95,32 @@ Cohesion: 0.38
 Nodes (9): assetContentXml(), assetRootXml(), ensureDamFolderAncestors(), escapeXml(), orderedFolderXml(), originalDirXml(), originalFileXml(), resourceXml() (+1 more)
 
 ### Community 9 - "Community 9"
+Cohesion: 0.25
+Nodes (3): DocumentExtractForm(), OperationPanel(), ScrapeExtractForm()
+
+### Community 10 - "Community 10"
 Cohesion: 0.67
 Nodes (5): lisbonDoc(), main(), metaTable(), vietnamDoc(), writePdfSample()
 
-### Community 10 - "Community 10"
+### Community 12 - "Community 12"
 Cohesion: 0.8
 Nodes (3): collectArgs(), main(), readArg()
 
 ## Knowledge Gaps
-- **5 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `main()` connect `Community 0` to `Community 3`?**
+- **Why does `main()` connect `Community 1` to `Community 2`?**
   _High betweenness centrality (0.059) - this node is a cross-community bridge._
-- **Why does `migrateAssets()` connect `Community 3` to `Community 0`?**
+- **Why does `migrateAssets()` connect `Community 2` to `Community 1`?**
   _High betweenness centrality (0.045) - this node is a cross-community bridge._
-- **Why does `resolveBlocks()` connect `Community 0` to `Community 5`?**
+- **Why does `resolveBlocks()` connect `Community 1` to `Community 5`?**
   _High betweenness centrality (0.041) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `main()` (e.g. with `loadAemConfig()` and `migrateAssets()`) actually correct?**
   _`main()` has 2 INFERRED edges - model-reasoned connections that need verification._
-- **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.11 - nodes in this community are weakly interconnected._
-- **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.1 - nodes in this community are weakly interconnected._
+- **Should `Community 0` be split into smaller, more focused modules?**
+  _Cohesion score 0.09 - nodes in this community are weakly interconnected._
+- **Should `Community 3` be split into smaller, more focused modules?**
+  _Cohesion score 0.14 - nodes in this community are weakly interconnected._

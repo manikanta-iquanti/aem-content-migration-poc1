@@ -8,7 +8,7 @@ import { ArtifactLinks } from "./features/artifacts/ArtifactLinks.jsx";
 import { LogPanel } from "./features/logs/LogPanel.jsx";
 
 const TABS = [
-  { id: "operations", label: "Operations" },
+  { id: "operations", label: "Migration" },
   { id: "config", label: "Configuration" },
   { id: "downloads", label: "Downloads" },
 ];
@@ -40,16 +40,12 @@ export default function App() {
     <div style={layout.page}>
       <header style={layout.header}>
         <div>
-          <h1 style={layout.title}>WordPress migration</h1>
+          <h1 style={layout.title}>AEM content migration</h1>
           <p style={layout.subtitle}>
-            Run the same scripts as the terminal, with live logs. The API listens on{" "}
-            <strong>127.0.0.1</strong> only.
+            Extract source content, build an AEM FileVault package with DAM assets, and install on
+            Author. The control API listens on <strong>127.0.0.1</strong> only.
           </p>
         </div>
-        <p style={layout.planNote}>
-          <strong>Plan:</strong> <code style={layout.code}>CONTROL_UI_PLAN.md</code> at the repo
-          root describes how to extend this UI.
-        </p>
       </header>
 
       <nav style={layout.nav} aria-label="Primary">
@@ -82,13 +78,6 @@ export default function App() {
         {tab === "operations" ? (
           <>
             <ExtractModeBanner />
-            <p style={layout.lead}>
-              Start with <strong>Full pipeline</strong> unless you are debugging a single step.
-              The banner shows which <strong>extract.mode</strong> that pipeline uses (set on the
-              Configuration tab). <strong>Extract (scrape only)</strong> and{" "}
-              <strong>Extract (documents)</strong> override URLs or globs for a single run without
-              changing <code style={layout.code}>extract.mode</code>.
-            </p>
             <OperationPanel operations={operations} onRun={run} busy={busy} />
           </>
         ) : null}
@@ -107,8 +96,7 @@ export default function App() {
 
       <footer style={layout.footer}>
         <span>
-          Optional UI — core workflow remains <code style={layout.code}>npm run extract</code>{" "}
-          etc. See README and CONTROL_UI_PLAN.md.
+          CLI equivalent: <code style={layout.code}>npm run pipeline:aem</code> — see README.
         </span>
       </footer>
     </div>
@@ -139,13 +127,6 @@ const layout = {
     fontSize: "0.95rem",
     maxWidth: 640,
   },
-  planNote: {
-    fontSize: "0.88rem",
-    color: "var(--text-muted)",
-    margin: 0,
-    alignSelf: "center",
-    maxWidth: 280,
-  },
   nav: {
     display: "flex",
     gap: "0.35rem",
@@ -168,12 +149,6 @@ const layout = {
     borderColor: "var(--primary)",
   },
   main: { flex: 1, display: "flex", flexDirection: "column", gap: "0.25rem" },
-  lead: {
-    margin: "0 0 1rem",
-    fontSize: "0.95rem",
-    color: "var(--text-muted)",
-    maxWidth: 720,
-  },
   banner: {
     padding: "0.85rem 1rem",
     borderRadius: "var(--radius-sm)",

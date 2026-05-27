@@ -1,7 +1,7 @@
 {
   "name": "wp-migration-poc",
   "version": "1.0.0",
-  "description": "WordPress content migration POC (plain Node.js)",
+  "description": "Source content to AEM migration (extract, DAM assets, FileVault package)",
   "private": true,
   "scripts": {
     "install:ui": "npm install --prefix server && npm install --prefix web",
@@ -9,16 +9,12 @@
     "build:ui": "npm run build --prefix web",
     "start:ui": "npm start --prefix server",
     "extract": "node scripts/extract.js",
-    "extract:scrape": "node scripts/extract-scrape.js",
-    "extract:documents": "node scripts/extract-documents.js",
     "build:sample-docs": "node scripts/build-sample-documents.js",
     "transform": "node scripts/transform.js",
     "generate": "node scripts/generate.js",
-    "publish": "node scripts/publish.js",
-    "pipeline": "node scripts/extract.js && node scripts/transform.js && node scripts/generate.js",
     "migrate-assets": "node scripts/migrate-assets.js",
-    "pipeline:aem": "node scripts/extract.js && node scripts/transform.js && node scripts/generate.js && node scripts/build-aem-package.js",
-    "build:aem-package": "node scripts/build-aem-package.js"
+    "build:aem-package": "node scripts/build-aem-package.js",
+    "pipeline:aem": "node scripts/extract.js && node scripts/transform.js && node scripts/generate.js && node scripts/build-aem-package.js"
   },
   "dependencies": {
     "archiver": "^7.0.1",

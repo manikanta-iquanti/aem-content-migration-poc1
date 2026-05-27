@@ -51,44 +51,6 @@ async function stageDamAsset(opts) {
     originalDirXml(now),
     "utf8"
   );
-
-  // #region agent log
-  const originalPath = path.join(renditionsDir, "original");
-  const originalDirXmlPath = path.join(originalDirMeta, ".content.xml");
-  const originalIsFile = (await fs.stat(originalPath)).isFile();
-  const hasOriginalDirXml = await fs.pathExists(originalDirXmlPath);
-  const hasJcrContentFolder = await fs.pathExists(
-    path.join(assetDir, "jcr_content")
-  );
-  const hasUnderscoreJcrContent = await fs.pathExists(
-    path.join(assetDir, "_jcr_content")
-  );
-  fetch("http://127.0.0.1:7370/ingest/e16be1f7-a6ee-4a7c-b1f1-168210302597", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "X-Debug-Session-Id": "00f36f",
-    },
-    body: JSON.stringify({
-      sessionId: "00f36f",
-      location: "dam-vault-writer.js:stageDamAsset",
-      message: "staged AEM-export-style asset",
-      data: {
-        damPath,
-        layout: "file-aggregate",
-        originalIsFile,
-        hasOriginalDirXml,
-        hasJcrContentFolder,
-        hasUnderscoreJcrContent,
-        bytes,
-        safeName,
-      },
-      timestamp: Date.now(),
-      hypothesisId: "F",
-      runId: "aem-export-layout",
-    }),
-  }).catch(() => {});
-  // #endregion
 }
 
 /**

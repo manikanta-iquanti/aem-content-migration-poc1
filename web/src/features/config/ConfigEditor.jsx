@@ -133,7 +133,7 @@ export function ConfigEditor() {
 
       <div style={modePanel} aria-labelledby="extract-mode-heading">
         <h3 id="extract-mode-heading" style={h3}>
-          Extract mode (for pipeline + Extract)
+          Extract mode (step 1 / full migration)
         </h3>
         <p style={modeLead}>
           Only <code style={code}>extract.mode</code> decides what runs. Other blocks can stay in the
