@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
-Content-Package-Id: my_packages:meridian-article-page-1
-Content-Package-Roots: /content/my-aem-site53/us/en/articles/The-Blue-Ho
- ur-in-Santorini
+Content-Package-Id: my_packages:aempage-ex-v1
+Content-Package-Roots: /content/dam/my-aem-site53/hero-image1.avif,/cont
+ ent/my-aem-site53/us/en/articles/The-Blue-Hour-in-Santorini
 Content-Package-Type: content
 

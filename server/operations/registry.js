@@ -135,12 +135,33 @@ const OPERATIONS = [
     script: "scripts/publish.js",
   },
   {
+    id: "migrate-assets",
+    label: "Migrate assets to DAM paths",
+    description:
+      "Download images from source URLs, rewrite migration-bundle.json to DAM paths, and write asset-manifest.json.",
+    kind: "script",
+    script: "scripts/migrate-assets.js",
+  },
+  {
     id: "build-aem-package",
     label: "Build AEM package",
     description:
-      "Build the FileVault zip from migration-bundle.json and your AEM blueprint (no HTTP to AEM).",
+      "Download/migrate assets (when enabled), then build FileVault zip with pages and DAM assets from migration-bundle.json.",
     kind: "script",
     script: "scripts/build-aem-package.js",
+  },
+  {
+    id: "pipeline-aem",
+    label: "Full AEM pipeline",
+    description:
+      "Runs Extract → Transform → Generate → Migrate assets → Build AEM package.",
+    kind: "sequence",
+    steps: [
+      { script: "scripts/extract.js", argv: [] },
+      { script: "scripts/transform.js", argv: [] },
+      { script: "scripts/generate.js", argv: [] },
+      { script: "scripts/build-aem-package.js", argv: [] },
+    ],
   },
 ];
 

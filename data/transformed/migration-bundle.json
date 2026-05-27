@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T11:14:19.248Z",
+  "generatedAt": "2026-05-27T13:41:21.774Z",
   "count": 14,
   "items": [
     {
@@ -91,7 +91,7 @@
         "authorName": "Mira Halsey",
         "publishDateText": "April 12, 2026",
         "readTime": "7 min read",
-        "image": "http://localhost:8081/src/assets/santorini.jpg",
+        "image": "/content/dam/my-aem-site53/santorini.jpg",
         "imageAlt": "The Blue Hour in Santorini",
         "jumpLinks": [
           {
@@ -125,7 +125,8 @@
           "authorName": "Mira Halsey",
           "initials": "MH",
           "dropInitial": "M"
-        }
+        },
+        "originalImage": "http://localhost:8081/src/assets/santorini.jpg"
       }
     },
     {
@@ -220,7 +221,7 @@
         "authorName": "Emi Tanaka",
         "publishDateText": "March 28, 2026",
         "readTime": "9 min read",
-        "image": "http://localhost:8081/src/assets/kyoto.jpg",
+        "image": "/content/dam/my-aem-site53/kyoto.jpg",
         "imageAlt": "Kyoto in the Rain",
         "jumpLinks": [
           {
@@ -254,7 +255,8 @@
           "authorName": "Emi Tanaka",
           "initials": "ET",
           "dropInitial": "E"
-        }
+        },
+        "originalImage": "http://localhost:8081/src/assets/kyoto.jpg"
       }
     },
     {
@@ -338,7 +340,7 @@
         "authorName": "Yasmine Aït",
         "publishDateText": "February 14, 2026",
         "readTime": "6 min read",
-        "image": "http://localhost:8081/src/assets/marrakech.jpg",
+        "image": "/content/dam/my-aem-site53/marrakech.jpg",
         "imageAlt": "Lost on Purpose in the Marrakech Souks",
         "jumpLinks": [
           {
@@ -368,7 +370,8 @@
           "authorName": "Yasmine Aït",
           "initials": "YA",
           "dropInitial": "Y"
-        }
+        },
+        "originalImage": "http://localhost:8081/src/assets/marrakech.jpg"
       }
     },
     {
@@ -450,7 +453,7 @@
         "authorName": "Cal Mendoza",
         "publishDateText": "January 30, 2026",
         "readTime": "11 min read",
-        "image": "http://localhost:8081/src/assets/patagonia.jpg",
+        "image": "/content/dam/my-aem-site53/patagonia.jpg",
         "imageAlt": "Patagonia: Notes from the End of the World",
         "jumpLinks": [
           {
@@ -480,7 +483,8 @@
           "authorName": "Cal Mendoza",
           "initials": "CM",
           "dropInitial": "C"
-        }
+        },
+        "originalImage": "http://localhost:8081/src/assets/patagonia.jpg"
       }
     },
     {
@@ -551,7 +555,7 @@
         "authorName": "Kenji Sato",
         "publishDateText": "May 10, 2026",
         "readTime": "8 min read",
-        "image": "http://localhost:8081/src/assets/Tokiyo.jpg",
+        "image": "/content/dam/my-aem-site53/Tokiyo.jpg",
         "imageAlt": "Tokyo After Dark: Neon Dreams & Late-Night Ramen",
         "jumpLinks": [
           {
@@ -577,7 +581,8 @@
           "authorName": "Kenji Sato",
           "initials": "KS",
           "dropInitial": "K"
-        }
+        },
+        "originalImage": "http://localhost:8081/src/assets/Tokiyo.jpg"
       }
     },
     {
@@ -648,7 +653,7 @@
         "authorName": "Astrid Björk",
         "publishDateText": "May 8, 2026",
         "readTime": "10 min read",
-        "image": "http://localhost:8081/src/assets/Iceland.jpg",
+        "image": "/content/dam/my-aem-site53/Iceland.jpg",
         "imageAlt": "Iceland's Ring Road: Chasing Waterfalls in a Land That Forgot to Sleep",
         "jumpLinks": [
           {
@@ -674,7 +679,8 @@
           "authorName": "Astrid Björk",
           "initials": "AB",
           "dropInitial": "A"
-        }
+        },
+        "originalImage": "http://localhost:8081/src/assets/Iceland.jpg"
       }
     },
     {
@@ -741,7 +747,7 @@
         "authorName": "Pedro Almeida",
         "publishDateText": "May 5, 2026",
         "readTime": "6 min read",
-        "image": "http://localhost:8081/src/assets/Lisbon.jpg",
+        "image": "/content/dam/my-aem-site53/Lisbon.jpg",
         "imageAlt": "Lisbon: Riding Tram 28 Into the Heart of the Alfama",
         "jumpLinks": [
           {
@@ -767,7 +773,8 @@
           "authorName": "Pedro Almeida",
           "initials": "PA",
           "dropInitial": "P"
-        }
+        },
+        "originalImage": "http://localhost:8081/src/assets/Lisbon.jpg"
       }
     },
     {
@@ -838,7 +845,7 @@
         "authorName": "Wayan Putra",
         "publishDateText": "May 3, 2026",
         "readTime": "7 min read",
-        "image": "http://localhost:8081/src/assets/Bali.jpg",
+        "image": "/content/dam/my-aem-site53/Bali.jpg",
         "imageAlt": "Bali: Temple Days & Rice Terrace Haze",
         "jumpLinks": [
           {
@@ -864,7 +871,8 @@
           "authorName": "Wayan Putra",
           "initials": "WP",
           "dropInitial": "W"
-        }
+        },
+        "originalImage": "http://localhost:8081/src/assets/Bali.jpg"
       }
     },
     {
@@ -935,7 +943,7 @@
         "authorName": "Marco Bianchi",
         "publishDateText": "April 28, 2026",
         "readTime": "9 min read",
-        "image": "http://localhost:8081/src/assets/Dolomites.jpg",
+        "image": "/content/dam/my-aem-site53/Dolomites.jpg",
         "imageAlt": "The Dolomites: Via Ferrata Above the Clouds",
         "jumpLinks": [
           {
@@ -961,7 +969,8 @@
           "authorName": "Marco Bianchi",
           "initials": "MB",
           "dropInitial": "M"
-        }
+        },
+        "originalImage": "http://localhost:8081/src/assets/Dolomites.jpg"
       }
     },
     {
@@ -1032,7 +1041,7 @@
         "authorName": "Linh Nguyen",
         "publishDateText": "April 22, 2026",
         "readTime": "7 min read",
-        "image": "http://localhost:8081/src/assets/Hanoi.jpg",
+        "image": "/content/dam/my-aem-site53/Hanoi.jpg",
         "imageAlt": "Hanoi: A Street Food Tour Through the Old Quarter",
         "jumpLinks": [
           {
@@ -1058,7 +1067,8 @@
           "authorName": "Linh Nguyen",
           "initials": "LN",
           "dropInitial": "L"
-        }
+        },
+        "originalImage": "http://localhost:8081/src/assets/Hanoi.jpg"
       }
     },
     {
@@ -1129,7 +1139,7 @@
         "authorName": "Rami Hassan",
         "publishDateText": "April 18, 2026",
         "readTime": "8 min read",
-        "image": "http://localhost:8081/src/assets/Petra.jpg",
+        "image": "/content/dam/my-aem-site53/Petra.jpg",
         "imageAlt": "Petra by Night: Candles, Rose City, and Silence",
         "jumpLinks": [
           {
@@ -1155,7 +1165,8 @@
           "authorName": "Rami Hassan",
           "initials": "RH",
           "dropInitial": "R"
-        }
+        },
+        "originalImage": "http://localhost:8081/src/assets/Petra.jpg"
       }
     },
     {
@@ -1227,7 +1238,7 @@
         "authorName": "Sofia Quispe",
         "publishDateText": "April 12, 2026",
         "readTime": "10 min read",
-        "image": "http://localhost:8081/src/assets/MachuPichu.jpg",
+        "image": "/content/dam/my-aem-site53/MachuPichu.jpg",
         "imageAlt": "Machu Picchu: Above the Clouds, Below the Sun",
         "jumpLinks": [
           {
@@ -1253,7 +1264,8 @@
           "authorName": "Sofia Quispe",
           "initials": "SQ",
           "dropInitial": "S"
-        }
+        },
+        "originalImage": "http://localhost:8081/src/assets/MachuPichu.jpg"
       }
     },
     {
@@ -1324,7 +1336,7 @@
         "authorName": "Giulia Rossi",
         "publishDateText": "April 5, 2026",
         "readTime": "7 min read",
-        "image": "http://localhost:8081/src/assets/AmalfiCoast.jpg",
+        "image": "/content/dam/my-aem-site53/AmalfiCoast.jpg",
         "imageAlt": "The Amalfi Coast: Lemon Groves and Curves in the Road",
         "jumpLinks": [
           {
@@ -1350,7 +1362,8 @@
           "authorName": "Giulia Rossi",
           "initials": "GR",
           "dropInitial": "G"
-        }
+        },
+        "originalImage": "http://localhost:8081/src/assets/AmalfiCoast.jpg"
       }
     },
     {
@@ -1421,7 +1434,7 @@
         "authorName": "Deniz Yılmaz",
         "publishDateText": "March 28, 2026",
         "readTime": "8 min read",
-        "image": "http://localhost:8081/src/assets/Cappadocia.jpg",
+        "image": "/content/dam/my-aem-site53/Cappadocia.jpg",
         "imageAlt": "Cappadocia at Sunrise: Balloons Over the Fairy Chimneys",
         "jumpLinks": [
           {
@@ -1447,7 +1460,8 @@
           "authorName": "Deniz Yılmaz",
           "initials": "DY",
           "dropInitial": "D"
-        }
+        },
+        "originalImage": "http://localhost:8081/src/assets/Cappadocia.jpg"
       }
     }
   ]

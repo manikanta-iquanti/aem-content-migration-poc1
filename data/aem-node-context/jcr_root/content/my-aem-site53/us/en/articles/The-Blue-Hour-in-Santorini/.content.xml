@@ -2,7 +2,7 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2026-05-13T12:16:23.268+05:30"
+        cq:lastModified="{Date}2026-05-27T18:33:54.556+05:30"
         cq:lastModifiedBy="admin"
         cq:template="/conf/my-aem-site53/settings/wcm/templates/mer"
         jcr:isCheckedOut="{Boolean}true"
@@ -26,8 +26,212 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="my-aem-site53/components/meridian-header"/>
-                <!-- WP_MIGRATION_BODY_START -->
-                <!-- WP_MIGRATION_BODY_END -->
+                <meridian_article_her
+                    jcr:created="{Date}2026-05-13T11:53:41.039+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2026-05-27T18:33:54.518+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-aem-site53/components/meridian-article-hero"
+                    authorName="Mira Halsey"
+                    dek="Chasing whitewashed cliffs, sleepy donkeys, and a sunset that everyone warned would be too crowded to love."
+                    eyebrow="Coastal · Santorini, Greece"
+                    image="/content/dam/my-aem-site53/hero-image1.avif"
+                    imageAlt="Colourful textiles hanging in a Marrakech souk"
+                    publishDateText="May 13, 2026"
+                    readTime="6 min read"
+                    title="The Blue Hour in Santorini"/>
+                <meridian_article_jum
+                    jcr:created="{Date}2026-05-13T12:05:10.035+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2026-05-13T12:09:34.862+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-aem-site53/components/meridian-article-jump-links">
+                    <links jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            href="Mornings before the crowds"
+                            text="Mornings before the crowds"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            href="Where to actually eat"
+                            text="Where to actually eat"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            href="A walk worth the blisters"
+                            text="A walk worth the blisters"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            href="By the numbers"
+                            text="By the numbers"/>
+                    </links>
+                </meridian_article_jum>
+                <meridian_article_par
+                    jcr:created="{Date}2026-05-12T21:44:52.810+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2026-05-13T11:56:14.694+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-aem-site53/components/meridian-article-paragraph"
+                    body="&lt;p>Santorini doesn't reveal itself all at once. The ferry rounds a black volcanic headland and suddenly the cliffs are there — chalk-white villages spilling over the caldera like sugar over the rim of a cup. I had read the warnings: too many cruise ships, too many influencers, too many sunsets photographed too many times. And yet, standing on the cobbled lip of Oia at half past seven, I forgot all of it.&lt;/p>&#xd;&#xa;"
+                    dropCap="true"
+                    textIsRich="true"/>
+                <meridian_article_hea
+                    jcr:created="{Date}2026-05-12T21:44:26.899+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2026-05-13T11:56:36.470+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-aem-site53/components/meridian-article-heading"
+                    anchorId="Mornings before the crowds"
+                    level="h2"
+                    text="Mornings before the crowds"/>
+                <meridian_article_par_1378035899
+                    jcr:created="{Date}2026-05-13T11:56:55.961+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2026-05-13T11:57:02.628+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-aem-site53/components/meridian-article-paragraph"
+                    body="&lt;p>The trick, as anyone who has lived on a tourist island will tell you, is to wake up before the boats do. By six the alleys belong to the bakers and the cats. I bought a bougatsa wrapped in waxed paper and ate it sitting on a low wall while the Aegean turned from slate to silver to that impossible cobalt that the postcards never quite get right.&lt;/p>&#xd;&#xa;"
+                    dropCap="false"
+                    textIsRich="true"/>
+                <meridian_pull_quote
+                    jcr:created="{Date}2026-05-13T11:57:45.872+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2026-05-13T11:58:38.849+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-aem-site53/components/meridian-pull-quote"
+                    quote="Some places are loved into cliché. Santorini, somehow, survives the love.&#xd;&#xa;— field notebook, day three"/>
+                <meridian_article_hea_1090864520
+                    jcr:created="{Date}2026-05-13T11:59:15.061+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2026-05-13T11:59:24.793+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-aem-site53/components/meridian-article-heading"
+                    anchorId="Where to actually eat"
+                    level="h2"
+                    text="Where to actually eat"/>
+                <meridian_article_par_439656480
+                    jcr:created="{Date}2026-05-13T11:59:00.786+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2026-05-13T11:59:37.294+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-aem-site53/components/meridian-article-paragraph"
+                    body="&lt;p>Skip the caldera-view restaurants with the laminated menus. Walk fifteen minutes inland and you'll find tavernas where the tomatoes taste like they were grown in a different decade — sweeter, denser, almost candied by the volcanic soil.&lt;/p>&#xd;&#xa;&lt;ul>&#xd;&#xa;&lt;/ul>&#xd;&#xa;"
+                    dropCap="false"
+                    textIsRich="true"/>
+                <meridian_article_lis
+                    jcr:created="{Date}2026-05-12T21:45:18.825+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2026-05-13T12:00:14.404+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-aem-site53/components/meridian-article-list"
+                    listType="unordered">
+                    <items jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            text="Metaxi Mas in Exo Gonia — book a week ahead, sit on the terrace."/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            text="To Psaraki down in Vlychada for whatever was caught that morning."/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            text="Lolita's Gelato in Oia for the salted pistachio, full stop."/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            text="Any bakery whose front window has a tray of melitinia at 7am."/>
+                    </items>
+                </meridian_article_lis>
+                <meridian_article_hea_1241330476
+                    jcr:created="{Date}2026-05-13T12:00:27.119+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2026-05-13T12:00:40.740+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-aem-site53/components/meridian-article-heading"
+                    anchorId="A walk worth the blisters"
+                    level="h2"
+                    text="A walk worth the blisters"/>
+                <meridian_article_par_1125813522
+                    jcr:created="{Date}2026-05-13T12:00:47.001+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2026-05-13T12:00:52.699+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-aem-site53/components/meridian-article-paragraph"
+                    body="&lt;p>The cliff-top path from Fira to Oia is ten kilometres of caldera, donkey bells, and the occasional chapel painted so blue it hurts. Start before nine, carry more water than feels reasonable, and don't trust the shade.&lt;/p>&#xd;&#xa;"
+                    dropCap="false"
+                    textIsRich="true"/>
+                <meridian_article_cal
+                    jcr:created="{Date}2026-05-13T12:02:08.372+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2026-05-13T12:03:14.250+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-aem-site53/components/meridian-article-callout"
+                    body="&lt;p>The ferry from Athens is eight hours and beautiful for the first two. Fly in, ferry out — you'll thank yourself.&lt;/p>&#xd;&#xa;"
+                    eyebrow="ogistics tip"
+                    initial="L"
+                    textIsRich="true"/>
+                <meridian_article_hea_1858311141
+                    jcr:created="{Date}2026-05-13T12:03:42.490+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2026-05-13T12:03:49.345+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-aem-site53/components/meridian-article-heading"
+                    anchorId="By the numbers"
+                    level="h2"
+                    text="By the numbers"/>
+                <meridian_article_par_1828007813
+                    jcr:created="{Date}2026-05-13T12:07:05.922+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2026-05-13T12:07:11.678+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-aem-site53/components/meridian-article-paragraph"
+                    body="&lt;p>I left on the late ferry, sunburnt across the bridge of my nose, my notebook smelling faintly of retsina. Santorini had been everything the brochures promised and, quietly, a great deal more.&lt;/p>&#xd;&#xa;"
+                    dropCap="false"
+                    textIsRich="true"/>
+                <meridian_article_tag
+                    jcr:created="{Date}2026-05-13T12:07:42.490+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2026-05-13T12:08:06.449+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-aem-site53/components/meridian-article-tags">
+                    <tags jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            text="Islands"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            text="Greek food"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            text="Slow travel"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            text="Photography"/>
+                    </tags>
+                </meridian_article_tag>
+                <meridian_author_card
+                    jcr:created="{Date}2026-05-12T21:46:32.308+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2026-05-13T12:06:35.872+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="my-aem-site53/components/meridian-author-card"
+                    authorName="ira Halsey"
+                    dropInitial="M"
+                    initials="MH"
+                    label="Written by"/>
                 <meridian_footer
                     jcr:created="{Date}2026-05-12T21:44:14.368+05:30"
                     jcr:createdBy="admin"

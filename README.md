@@ -111,9 +111,10 @@ This POC does **not** upload media or rewrite internal links automatically.
 
 | Step | Command | What it does |
 |------|---------|----------------|
-| 4 | `npm run build:aem-package` | Reads `migration-bundle.json` and the **blueprint** XML under `data/aem-node-context/`, writes `data/transformed/wp-to-aem-migration.zip`. |
+| 4 | `npm run build:aem-package` | When `aem.assets.enabled` is true (default): downloads images from source URLs, rewrites bundle references to DAM paths, stages assets under `aem.damRoot`, then builds the FileVault ZIP (pages + DAM). |
+| (all-in-one) | `npm run pipeline:aem` | `extract` → `transform` → `generate` → `build:aem-package` (includes asset migration). |
 
-Runs only **after** the shared pipeline. Nothing in this step calls your AEM server.
+Runs only **after** the shared pipeline (or use `pipeline:aem`). Nothing in this step uploads to AEM Author over HTTP.
 
 ### AEM config (`config.json` → `aem`)
 
@@ -122,7 +123,13 @@ Runs only **after** the shared pipeline. Nothing in this step calls your AEM ser
 | `blueprintPath` | Repo-relative path to the **sample page** `.content.xml` to clone (layout + header/footer chrome you keep outside the migration markers). |
 | `parentJcrPath` | Vault filter root and folder under which new pages are written (e.g. `/content/my-aem-site53/us/en/articles`). |
 | `bodyRenderer` | `"legacy"` — core **text** / **image** / **accordion** components between markers. `"meridian"` — Meridian article components (hero, jump links, paragraph, heading, pull quote, list, callout, image, tags, author) between markers. |
+| `damRoot` | DAM folder for migrated images (e.g. `/content/dam/my-aem-site53/wp-migration`). |
+| `assets.enabled` | When `true`, `build:aem-package` downloads images and includes them in the ZIP (default `true`). |
+| `assets.localCacheDir` | Download cache (default `data/assets/cache`). |
+| `assetManifestFile` | Audit log: `data/transformed/asset-manifest.json` (`ok` / `failed` / `skipped` per URL). |
 | `bundleFile`, `outputZip`, `contextDir`, `packageGroup`, `packageName`, `packageVersion`, `authorUrl` | As before: bundle input, zip output, FileVault context, package metadata, author URL hint. |
+
+See [`data/aem-node-context/DAM_ASSET_TEMPLATE.md`](data/aem-node-context/DAM_ASSET_TEMPLATE.md) for the generated `dam:Asset` node layout (AEM 6.5).
 
 ### What you do by hand (manual)
 
@@ -130,12 +137,10 @@ Runs only **after** the shared pipeline. Nothing in this step calls your AEM ser
 
 1. On **AEM Author**, create or export the page that defines the layout for generated pages (template + components).
 2. Copy it under `data/aem-node-context/` and set **`aem.blueprintPath`** to that page’s `.content.xml`.
-3. In the blueprint’s main container, add **exactly one pair** of HTML comments so the build can inject content:
+3. Blueprint body injection (either approach works):
 
-   `<!-- WP_MIGRATION_BODY_START -->`  
-   `<!-- WP_MIGRATION_BODY_END -->`
-
-   Everything between these markers is **replaced** on each build with the rendered body (legacy text blocks or Meridian components, depending on `bodyRenderer`).
+   - **Minimal blueprint:** add `<!-- WP_MIGRATION_BODY_START -->` and `<!-- WP_MIGRATION_BODY_END -->` around the main content area; everything between is replaced on each build.
+   - **Full AEM re-export** (Meridian page with `meridian_header` + `meridian_footer`): no markers needed — the build replaces all components between header and footer with migrated content.
 
 4. The package step sets **`jcr:title`** on the page by replacing the title string already present on the blueprint’s `cq:PageContent` node (no hard-coded title constant in code).
 
@@ -149,7 +154,7 @@ Runs only **after** the shared pipeline. Nothing in this step calls your AEM ser
 7. Open **Tools → Deployment → Packages** (or `/crx/packmgr` on your author).
 8. **Upload** `data/transformed/wp-to-aem-migration.zip`, then **Install** it.
 9. Open **Sites** under the configured parent (e.g. `/content/my-aem-site53/us/en/articles`). New pages appear as **sibling** folders named by slug.
-10. Verify in the editor; map **images** to DAM or public URLs if they still point at localhost or WordPress. Adjust RTE policies if needed.
+10. Verify in the editor: hero `image` and body `fileReference` should use `/content/dam/...` paths. Check `asset-manifest.json` for any `failed` downloads (those keep the original URL). Adjust RTE policies if needed.
 
 ---
 
@@ -158,14 +163,19 @@ Runs only **after** the shared pipeline. Nothing in this step calls your AEM ser
 ```
 config/config.json              # Source, destination, extract, aem {}
 data/raw/posts.json             # Raw extract output
-data/transformed/               # Normalized posts + migration-bundle.json + AEM zip
+data/transformed/               # Normalized posts + migration-bundle.json + asset-manifest.json + AEM zip
+data/assets/cache/              # Downloaded binaries (when asset migration runs)
 data/aem-node-context/          # Exported AEM blueprint (Vault tree; not generated)
 scripts/extract.js
 scripts/extract-scrape.js
 scripts/transform.js
 scripts/generate.js
 scripts/publish.js              # Destination WordPress only
-scripts/build-aem-package.js    # AEM zip only
+scripts/migrate-assets.js       # Download images + rewrite bundle to DAM paths
+scripts/build-aem-package.js    # Asset migration (when enabled) + AEM zip
+scripts/lib/asset-migration.js
+scripts/lib/dam-vault-writer.js
+scripts/lib/aem-config.js
 scripts/lib/wp-html-to-aem-blocks.js   # HTML → ordered blocks (paragraph, heading, quote, list, …)
 scripts/lib/scrape-pages.js            # HTTP fetch + generic or meridian-static extract
 scripts/lib/meridian-static-extract.js # Meridian-shaped static HTML → fields + article body
@@ -181,7 +191,9 @@ scripts/lib/discover-article-urls.js   # Collect article URLs from a listing pag
 | **transform.js** | Normalizes fields and `aemBlocks`; passes through **`meridian`** when present. |
 | **generate.js** | Builds `migration-bundle.json` (includes `meridian` on items when scraped). |
 | **publish.js** | Posts each item to **destination WordPress** REST API (or dry-run without credentials). |
-| **build-aem-package.js** | Builds FileVault ZIP from blueprint + bundle; **`aem.bodyRenderer`** selects legacy vs Meridian XML. |
+| **migrate-assets.js** | `npm run migrate-assets` — download images, rewrite `migration-bundle.json`, write `asset-manifest.json` (also run automatically from `build:aem-package` when `aem.assets.enabled`). |
+| **build-aem-package.js** | Asset migration (when enabled) + FileVault ZIP (pages + DAM); **`aem.bodyRenderer`** selects legacy vs Meridian XML. |
+| **pipeline:aem** | Full AEM path: extract → transform → generate → build:aem-package. |
 
 ### Optional UI (root `package.json` only)
 
@@ -198,5 +210,6 @@ scripts/lib/discover-article-urls.js   # Collect article URLs from a listing pag
 - **Content model**: WP path is posts-oriented; scrape path is URL-list oriented. Pages, media, taxonomies, and ACF are not handled end-to-end.
 - **Gutenberg → WP**: Body is HTML; complex block markup is not recreated as serialized blocks.
 - **AEM legacy renderer**: Rich HTML is mostly core **text** components; policies and CSS decide what survives in RTE.
-- **AEM Meridian renderer**: Maps structured blocks to Meridian components; hero images and inline images often still need **DAM** or absolute public URLs (localhost paths will not work on Author).
+- **Asset migration**: Images only (`image/*`); no `srcset`, video, or asset-only re-run workflow yet. Source URLs must be reachable from the machine running the pipeline. Failed downloads stay as external URLs in the bundle.
+- **AEM DAM layout**: Uses standard 6.5 `dam:Asset` template; if assets do not render on your Author, compare with an exported sample (see `DAM_ASSET_TEMPLATE.md`).
 - **Auth / errors**: WordPress publish requires Application Password REST access; AEM path only needs a valid blueprint and manual package install.

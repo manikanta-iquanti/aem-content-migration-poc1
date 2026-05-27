@@ -30,12 +30,20 @@
     "authorUrl": "http://localhost:8080",
     "blueprintPath": "data/aem-node-context/jcr_root/content/my-aem-site53/us/en/articles/The-Blue-Hour-in-Santorini/.content.xml",
     "parentJcrPath": "/content/my-aem-site53/us/en/articles",
+    "damRoot": "/content/dam/my-aem-site53",
     "bodyRenderer": "meridian",
     "packageGroup": "wp_migration",
     "packageName": "wp-to-aem-pages",
     "packageVersion": "1.0.0",
     "bundleFile": "data/transformed/migration-bundle.json",
+    "assetManifestFile": "data/transformed/asset-manifest.json",
     "outputZip": "data/transformed/wp-to-aem-migration.zip",
-    "contextDir": "data/aem-node-context"
+    "contextDir": "data/aem-node-context",
+    "assets": {
+      "enabled": true,
+      "localCacheDir": "data/assets/cache",
+      "maxConcurrentDownloads": 5,
+      "allowedMimePrefixes": ["image/"]
+    }
   }
 }

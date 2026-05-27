@@ -1,0 +1,180 @@
+{
+  "generatedAt": "2026-05-27T13:41:23.613Z",
+  "damRoot": "/content/dam/my-aem-site53",
+  "entries": [
+    {
+      "sourceUrl": "http://localhost:8081/src/assets/santorini.jpg",
+      "damPath": "/content/dam/my-aem-site53/santorini.jpg",
+      "localFile": "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\7f37e59d1e3c-santorini.jpg",
+      "status": "ok",
+      "bytes": 206007,
+      "mimeType": "image/jpeg",
+      "usedBy": [
+        "santorini-blue-hour"
+      ],
+      "cached": true
+    },
+    {
+      "sourceUrl": "http://localhost:8081/src/assets/kyoto.jpg",
+      "damPath": "/content/dam/my-aem-site53/kyoto.jpg",
+      "localFile": "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\f6c6b0861986-kyoto.jpg",
+      "status": "ok",
+      "bytes": 199792,
+      "mimeType": "image/jpeg",
+      "usedBy": [
+        "kyoto-in-the-rain"
+      ],
+      "cached": true
+    },
+    {
+      "sourceUrl": "http://localhost:8081/src/assets/marrakech.jpg",
+      "damPath": "/content/dam/my-aem-site53/marrakech.jpg",
+      "localFile": "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\50cacbc25c1f-marrakech.jpg",
+      "status": "ok",
+      "bytes": 334563,
+      "mimeType": "image/jpeg",
+      "usedBy": [
+        "marrakech-souks"
+      ],
+      "cached": true
+    },
+    {
+      "sourceUrl": "http://localhost:8081/src/assets/patagonia.jpg",
+      "damPath": "/content/dam/my-aem-site53/patagonia.jpg",
+      "localFile": "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\8d54e82f878a-patagonia.jpg",
+      "status": "ok",
+      "bytes": 222916,
+      "mimeType": "image/jpeg",
+      "usedBy": [
+        "patagonia-end-of-the-world"
+      ],
+      "cached": true
+    },
+    {
+      "sourceUrl": "http://localhost:8081/src/assets/Tokiyo.jpg",
+      "damPath": "/content/dam/my-aem-site53/Tokiyo.jpg",
+      "localFile": "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\8d4704a75085-Tokiyo.jpg",
+      "status": "ok",
+      "bytes": 223459,
+      "mimeType": "image/jpeg",
+      "usedBy": [
+        "tokyo-neon-nights"
+      ],
+      "cached": true
+    },
+    {
+      "sourceUrl": "http://localhost:8081/src/assets/Iceland.jpg",
+      "damPath": "/content/dam/my-aem-site53/Iceland.jpg",
+      "localFile": "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\767c5293437b-Iceland.jpg",
+      "status": "ok",
+      "bytes": 259019,
+      "mimeType": "image/jpeg",
+      "usedBy": [
+        "iceland-ring-road"
+      ],
+      "cached": true
+    },
+    {
+      "sourceUrl": "http://localhost:8081/src/assets/Lisbon.jpg",
+      "damPath": "/content/dam/my-aem-site53/Lisbon.jpg",
+      "localFile": "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\e34d575f4a50-Lisbon.jpg",
+      "status": "ok",
+      "bytes": 431098,
+      "mimeType": "image/jpeg",
+      "usedBy": [
+        "lisbon-tram-28"
+      ],
+      "cached": true
+    },
+    {
+      "sourceUrl": "http://localhost:8081/src/assets/Bali.jpg",
+      "damPath": "/content/dam/my-aem-site53/Bali.jpg",
+      "localFile": "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\3eb9b53910f4-Bali.jpg",
+      "status": "ok",
+      "bytes": 258853,
+      "mimeType": "image/jpeg",
+      "usedBy": [
+        "bali-temples"
+      ],
+      "cached": true
+    },
+    {
+      "sourceUrl": "http://localhost:8081/src/assets/Dolomites.jpg",
+      "damPath": "/content/dam/my-aem-site53/Dolomites.jpg",
+      "localFile": "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\5c7eb09d002d-Dolomites.jpg",
+      "status": "ok",
+      "bytes": 396799,
+      "mimeType": "image/jpeg",
+      "usedBy": [
+        "dolomites-peaks"
+      ],
+      "cached": true
+    },
+    {
+      "sourceUrl": "http://localhost:8081/src/assets/Hanoi.jpg",
+      "damPath": "/content/dam/my-aem-site53/Hanoi.jpg",
+      "localFile": "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\797bfaae6f2c-Hanoi.jpg",
+      "status": "ok",
+      "bytes": 433980,
+      "mimeType": "image/jpeg",
+      "usedBy": [
+        "hanoi-street-food"
+      ],
+      "cached": true
+    },
+    {
+      "sourceUrl": "http://localhost:8081/src/assets/Petra.jpg",
+      "damPath": "/content/dam/my-aem-site53/Petra.jpg",
+      "localFile": "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\a4904451d5f2-Petra.jpg",
+      "status": "ok",
+      "bytes": 615224,
+      "mimeType": "image/jpeg",
+      "usedBy": [
+        "petra-by-night"
+      ],
+      "cached": true
+    },
+    {
+      "sourceUrl": "http://localhost:8081/src/assets/MachuPichu.jpg",
+      "damPath": "/content/dam/my-aem-site53/MachuPichu.jpg",
+      "localFile": "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\05d47ab9fb31-MachuPichu.jpg",
+      "status": "ok",
+      "bytes": 537661,
+      "mimeType": "image/jpeg",
+      "usedBy": [
+        "machu-picchu"
+      ],
+      "cached": true
+    },
+    {
+      "sourceUrl": "http://localhost:8081/src/assets/AmalfiCoast.jpg",
+      "damPath": "/content/dam/my-aem-site53/AmalfiCoast.jpg",
+      "localFile": "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\3ef88e2babca-AmalfiCoast.jpg",
+      "status": "ok",
+      "bytes": 600192,
+      "mimeType": "image/jpeg",
+      "usedBy": [
+        "amalfi-coast"
+      ],
+      "cached": true
+    },
+    {
+      "sourceUrl": "http://localhost:8081/src/assets/Cappadocia.jpg",
+      "damPath": "/content/dam/my-aem-site53/Cappadocia.jpg",
+      "localFile": "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\d564b898d16c-Cappadocia.jpg",
+      "status": "ok",
+      "bytes": 445238,
+      "mimeType": "image/jpeg",
+      "usedBy": [
+        "cappadocia-balloons"
+      ],
+      "cached": true
+    }
+  ],
+  "summary": {
+    "total": 14,
+    "ok": 14,
+    "failed": 0,
+    "skipped": 0
+  }
+}

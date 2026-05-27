@@ -16,6 +16,8 @@
     "generate": "node scripts/generate.js",
     "publish": "node scripts/publish.js",
     "pipeline": "node scripts/extract.js && node scripts/transform.js && node scripts/generate.js",
+    "migrate-assets": "node scripts/migrate-assets.js",
+    "pipeline:aem": "node scripts/extract.js && node scripts/transform.js && node scripts/generate.js && node scripts/build-aem-package.js",
     "build:aem-package": "node scripts/build-aem-package.js"
   },
   "dependencies": {

@@ -5,6 +5,12 @@ const fs = require("fs-extra");
 const archiver = require("archiver");
 
 const { wpHtmlToAemBlocks } = require("./lib/wp-html-to-aem-blocks");
+const { loadAemConfig } = require("./lib/aem-config");
+const { migrateAssets } = require("./migrate-assets");
+const {
+  stageDamAsset,
+  ensureDamFolderAncestors,
+} = require("./lib/dam-vault-writer");
 
 const ROOT = path.join(__dirname, "..");
 const CONFIG_PATH = path.join(ROOT, "config", "config.json");
@@ -35,60 +41,6 @@ function jcrPageName(slug) {
   s = s.replace(/-+/g, "-").replace(/^-|-$/g, "");
   if (!s) s = "page";
   return s.toLowerCase();
-}
-
-function loadAemConfig(config) {
-  const defaults = {
-    blueprintPath: path.join(
-      ROOT,
-      "data",
-      "aem-node-context",
-      "jcr_root",
-      "content",
-      "my-aem-site53",
-      "us",
-      "en",
-      "article",
-      ".content.xml"
-    ),
-    parentJcrPath: "/content/my-aem-site53/us/en",
-    packageGroup: "wp_migration",
-    packageName: "wp-to-aem-pages",
-    packageVersion: "1.0.0",
-    bundleFile: path.join(ROOT, "data", "transformed", "migration-bundle.json"),
-    outputZip: path.join(ROOT, "data", "transformed", "wp-to-aem-migration.zip"),
-    authorUrl: "http://localhost:8080",
-    contextDir: path.join(ROOT, "data", "aem-node-context"),
-  };
-  const aem = config.aem && typeof config.aem === "object" ? config.aem : {};
-  return {
-    blueprintPath: aem.blueprintPath
-      ? path.isAbsolute(aem.blueprintPath)
-        ? aem.blueprintPath
-        : path.join(ROOT, aem.blueprintPath)
-      : defaults.blueprintPath,
-    parentJcrPath: aem.parentJcrPath ?? defaults.parentJcrPath,
-    packageGroup: aem.packageGroup ?? defaults.packageGroup,
-    packageName: aem.packageName ?? defaults.packageName,
-    packageVersion: aem.packageVersion ?? defaults.packageVersion,
-    bundleFile: aem.bundleFile
-      ? path.isAbsolute(aem.bundleFile)
-        ? aem.bundleFile
-        : path.join(ROOT, aem.bundleFile)
-      : defaults.bundleFile,
-    outputZip: aem.outputZip
-      ? path.isAbsolute(aem.outputZip)
-        ? aem.outputZip
-        : path.join(ROOT, aem.outputZip)
-      : defaults.outputZip,
-    authorUrl: aem.authorUrl ?? defaults.authorUrl,
-    contextDir: aem.contextDir
-      ? path.isAbsolute(aem.contextDir)
-        ? aem.contextDir
-        : path.join(ROOT, aem.contextDir)
-      : defaults.contextDir,
-    bodyRenderer: aem.bodyRenderer === "meridian" ? "meridian" : "legacy",
-  };
 }
 
 function extractSiteKeyFromBlueprint(blueprintXml) {
@@ -548,37 +500,58 @@ function pageXmlFromBlueprint(blueprintXml, item, blocks, aem) {
     `jcr:title="${pageTitleEsc}"`
   );
 
-  if (!xml.includes(WP_BODY_MARKER_START) || !xml.includes(WP_BODY_MARKER_END)) {
-    throw new Error(
-      `Blueprint must contain ${WP_BODY_MARKER_START} and ${WP_BODY_MARKER_END} around the main content container.`
-    );
-  }
-
   const bodyXml =
     aem.bodyRenderer === "meridian"
       ? renderMeridianSliceXml(siteKey, item, blocks, escapeXmlAttr)
       : renderBodyXml(siteKey, blocks, escapeXmlAttr);
 
-  xml = xml.replace(
-    new RegExp(
-      `(${escapeRegex(WP_BODY_MARKER_START)})\\s*[\\s\\S]*?\\s*(${escapeRegex(
-        WP_BODY_MARKER_END
-      )})`,
-      "m"
-    ),
-    `$1\n${bodyXml}\n                    $2`
-  );
-  return xml;
+  return injectMigrationBody(xml, bodyXml);
 }
 
 function escapeRegex(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-function workspaceFilterXml(parentJcrPath) {
+/**
+ * Inject generated body XML into blueprint.
+ * 1. Explicit <!-- WP_MIGRATION_BODY_* --> markers (minimal blueprint), or
+ * 2. AEM re-export with meridian_header … meridian_footer (replaces slice between).
+ * @param {string} xml
+ * @param {string} bodyXml
+ */
+function injectMigrationBody(xml, bodyXml) {
+  if (xml.includes(WP_BODY_MARKER_START) && xml.includes(WP_BODY_MARKER_END)) {
+    return xml.replace(
+      new RegExp(
+        `(${escapeRegex(WP_BODY_MARKER_START)})\\s*[\\s\\S]*?\\s*(${escapeRegex(
+          WP_BODY_MARKER_END
+        )})`,
+        "m"
+      ),
+      `$1\n${bodyXml}\n                    $2`
+    );
+  }
+
+  const meridianSlot =
+    /(<meridian_header\b[^>]*\/>)\s*[\s\S]*?(\s*<meridian_footer\b)/m;
+  if (meridianSlot.test(xml)) {
+    return xml.replace(meridianSlot, `$1\n${bodyXml}\n$2`);
+  }
+
+  throw new Error(
+    `Blueprint must contain ${WP_BODY_MARKER_START} and ${WP_BODY_MARKER_END}, ` +
+      `or meridian_header + meridian_footer components (AEM export) so the build can inject article body.`
+  );
+}
+
+function workspaceFilterXml(parentJcrPath, damRoot) {
+  const filters = [`    <filter root="${parentJcrPath}" mode="merge"/>`];
+  if (damRoot) {
+    filters.push(`    <filter root="${damRoot}" mode="merge"/>`);
+  }
   return `<?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
-    <filter root="${parentJcrPath}" mode="merge"/>
+${filters.join("\n")}
 </workspaceFilter>
 `;
 }
@@ -604,17 +577,51 @@ function packagePropertiesXml(group, name, version) {
 
 function manifestMf(group, packageName, version, contentRoots) {
   const id = `${group}:${packageName}-${version}`;
+  const roots = Array.isArray(contentRoots) ? contentRoots.join(",") : contentRoots;
   return `Manifest-Version: 1.0
 Content-Package-Id: ${id}
-Content-Package-Roots: ${contentRoots}
+Content-Package-Roots: ${roots}
 Content-Package-Type: content
 
 `;
 }
 
+async function stageDamAssetsFromManifest(staging, aem) {
+  const manifestExists = await fs.pathExists(aem.assetManifestFile);
+  if (!manifestExists) return 0;
+
+  const manifest = await fs.readJson(aem.assetManifestFile);
+  const entries = Array.isArray(manifest.entries) ? manifest.entries : [];
+  const okEntries = entries.filter(
+    (e) => e.status === "ok" && e.localFile && e.damPath
+  );
+  if (okEntries.length === 0) return 0;
+
+  const damPaths = okEntries.map((e) => e.damPath);
+  await ensureDamFolderAncestors(staging, aem.damRoot, damPaths);
+
+  for (const entry of okEntries) {
+    const fileName = path.basename(entry.damPath);
+    await stageDamAsset({
+      stagingRoot: staging,
+      damPath: entry.damPath,
+      localFile: entry.localFile,
+      mimeType: entry.mimeType || "image/jpeg",
+      fileName,
+    });
+  }
+
+  return okEntries.length;
+}
+
 async function main() {
   const config = await fs.readJson(CONFIG_PATH);
   const aem = loadAemConfig(config);
+
+  if (aem.assets.enabled) {
+    console.log("Running asset migration (download + bundle rewrite)...");
+    await migrateAssets(aem, config);
+  }
 
   const blueprintExists = await fs.pathExists(aem.blueprintPath);
   if (!blueprintExists) {
@@ -638,9 +645,25 @@ async function main() {
     const metaInfVault = path.join(staging, "META-INF", "vault");
     await fs.ensureDir(metaInfVault);
 
+    let damCount = 0;
+    if (aem.assets.enabled) {
+      damCount = await stageDamAssetsFromManifest(staging, aem);
+      if (damCount > 0) {
+        console.log(`Staged ${damCount} DAM asset(s) under ${aem.damRoot}`);
+      }
+    }
+
+    const contentRoots = [aem.parentJcrPath];
+    if (damCount > 0) {
+      contentRoots.push(aem.damRoot);
+    }
+
     await fs.writeFile(
       path.join(metaInfVault, "filter.xml"),
-      workspaceFilterXml(aem.parentJcrPath),
+      workspaceFilterXml(
+        aem.parentJcrPath,
+        damCount > 0 ? aem.damRoot : null
+      ),
       "utf8"
     );
     await fs.writeFile(
@@ -672,7 +695,7 @@ async function main() {
         aem.packageGroup,
         aem.packageName,
         aem.packageVersion,
-        aem.parentJcrPath
+        contentRoots
       ),
       "utf8"
     );
@@ -707,7 +730,7 @@ async function main() {
     });
 
     console.log(
-      `Wrote ${written} page(s) → ${aem.outputZip}\nInstall on author: ${aem.authorUrl}/crx/packmgr/index.jsp`
+      `Wrote ${written} page(s)${damCount ? ` and ${damCount} DAM asset(s)` : ""} → ${aem.outputZip}\nInstall on author: ${aem.authorUrl}/crx/packmgr/index.jsp`
     );
   } finally {
     await fs.remove(staging);

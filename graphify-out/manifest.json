@@ -1,14 +1,14 @@
 {
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\build-aem-package.js": {
-    "mtime": 1778657329.780275,
-    "hash": "85e3a00e8d06c78486b3b806ba04d164"
+    "mtime": 1779883586.2544827,
+    "hash": "0a0a61228253399f2cc118ee9c21162c"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\build-sample-documents.js": {
-    "mtime": 1778744999.862693,
+    "mtime": 1779865324.1260538,
     "hash": "93339f8174bb3110d2b63ffc5b9f76ff"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\extract-documents.js": {
-    "mtime": 1778745649.8860188,
+    "mtime": 1779865324.1240556,
     "hash": "4b48728ac93896ebd87f3b885ea4efcf"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\extract-scrape.js": {
@@ -16,12 +16,16 @@
     "hash": "1d2b0e467cbbaf05345044caad43d608"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\extract.js": {
-    "mtime": 1778745643.9228287,
+    "mtime": 1779865324.1250541,
     "hash": "a8dffefd78d3b225544fb591543455fc"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\generate.js": {
     "mtime": 1778657343.6343236,
     "hash": "2616f341ed326067662a8a469c4b7ae5"
+  },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\migrate-assets.js": {
+    "mtime": 1779883791.5845678,
+    "hash": "e01ab66575676fd8a82b2f8705c4a36e"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\publish.js": {
     "mtime": 1776148875.6429062,
@@ -30,6 +34,18 @@
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\transform.js": {
     "mtime": 1778657341.358103,
     "hash": "73d1c6f3276f999b5ce34e10317aaba2"
+  },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\aem-config.js": {
+    "mtime": 1779883384.1323614,
+    "hash": "94555b59e4a2cb89f8783e1b7d07179d"
+  },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\asset-migration.js": {
+    "mtime": 1779883416.403958,
+    "hash": "35a52eb8f8da279a50f2eacbc34076e1"
+  },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\dam-vault-writer.js": {
+    "mtime": 1779887440.861611,
+    "hash": "827961c6d3c5d72f90464a56b392811a"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\discover-article-urls.js": {
     "mtime": 1778664725.3747165,
@@ -40,7 +56,7 @@
     "hash": "c84ff215daebc8ea9602877c9f50f1db"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\scrape-pages.js": {
-    "mtime": 1778744142.3323076,
+    "mtime": 1779865324.1240556,
     "hash": "5d7b5d6a017a01e1eb49642919f0d10f"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\wp-html-to-aem-blocks.js": {
@@ -48,35 +64,35 @@
     "hash": "0556ffcde3c26498ae01210bc90eda1c"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\document-import\\assemble-wp-post.js": {
-    "mtime": 1778744387.1922991,
+    "mtime": 1779865324.1290536,
     "hash": "4fbbabf211cc9000faf9485049adc35d"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\document-import\\constants.js": {
-    "mtime": 1778745721.1208081,
+    "mtime": 1779865324.1330557,
     "hash": "c31f4a7d4e6da65ae8ce38f0e72d577e"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\document-import\\docx-to-post.js": {
-    "mtime": 1778744394.2476435,
+    "mtime": 1779865324.1230576,
     "hash": "0059dae075b713dd5ff74f65f7635625"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\document-import\\enrich-meridian-html.js": {
-    "mtime": 1778745557.1343977,
+    "mtime": 1779865324.0897205,
     "hash": "977b8fabea7c54e74537cf8d59fa5685"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\document-import\\index.js": {
-    "mtime": 1778744887.1304512,
+    "mtime": 1779865324.122057,
     "hash": "a0d5cb3cb7c1f6b252b2999a764b26c1"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\document-import\\parse-metadata-table.js": {
-    "mtime": 1778744284.5153172,
+    "mtime": 1779865324.1067283,
     "hash": "7e7bc96aaeaa54b85cb6eaac066b897c"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\document-import\\pdf-to-post.js": {
-    "mtime": 1778747403.2383537,
+    "mtime": 1779865324.135059,
     "hash": "be0d2ce0d7de4b9b8f21f67ee7b710b5"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\scripts\\lib\\document-import\\split-pdf-heading-lines.js": {
-    "mtime": 1778745485.6312616,
+    "mtime": 1779865324.1260538,
     "hash": "0c132570e4ff421911daaa99e3c50010"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\server\\index.js": {
@@ -88,8 +104,8 @@
     "hash": "88e50ab684f36dec188550501ce6937e"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\server\\operations\\registry.js": {
-    "mtime": 1778745860.6775787,
-    "hash": "ff51519bb1a60e95b1be2b889711d0ed"
+    "mtime": 1779883613.0155492,
+    "hash": "d9a7520a777ec0705c2c7f42b7609426"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\server\\routes\\artifacts.js": {
     "mtime": 1778743270.5125568,
@@ -108,7 +124,7 @@
     "hash": "892d641f08ef82aa7d653fa266af5264"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\web\\src\\App.jsx": {
-    "mtime": 1778747069.2894764,
+    "mtime": 1779865324.116733,
     "hash": "91d4261906be8202e1d612214974c15d"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\web\\src\\main.jsx": {
@@ -124,7 +140,7 @@
     "hash": "e48bdfdfe85f7ed26d0609951a70ba12"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\web\\src\\features\\config\\ConfigEditor.jsx": {
-    "mtime": 1778747133.8820164,
+    "mtime": 1779865324.1240556,
     "hash": "ea05b96389092c38cd71ba7c07d209c8"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\web\\src\\features\\logs\\LogPanel.jsx": {
@@ -132,15 +148,15 @@
     "hash": "c5c17242800c36ff1fe44bdcf69f6b1a"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\web\\src\\features\\operations\\DocumentExtractForm.jsx": {
-    "mtime": 1778745680.0168486,
+    "mtime": 1779865324.1260538,
     "hash": "086cd3412ef7c1c40c72a2865edf57ec"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\web\\src\\features\\operations\\ExtractModeBanner.jsx": {
-    "mtime": 1778747149.504638,
+    "mtime": 1779865324.1260538,
     "hash": "f571694a058eb321f5b83d2f458e7cbb"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\web\\src\\features\\operations\\OperationPanel.jsx": {
-    "mtime": 1778745835.3907416,
+    "mtime": 1779865324.1250541,
     "hash": "53b81d43e148c20747991137214ab458"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\web\\src\\features\\operations\\ScrapeExtractForm.jsx": {
@@ -156,8 +172,12 @@
     "hash": "0b6977cff24c451a6ff6955f6bac80ac"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\README.md": {
-    "mtime": 1778743270.511558,
-    "hash": "d21a9f0105c71b2f256c7539764a92dd"
+    "mtime": 1779883639.2260015,
+    "hash": "e1ccec40f4cdbd696b302c8cd4fa59f1"
+  },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\aem-node-context\\DAM_ASSET_TEMPLATE.md": {
+    "mtime": 1779887446.5187795,
+    "hash": "483b16cf1d44651031f1c915d6e1d0f7"
   },
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\MyDocs\\dev-steps.md": {
     "mtime": 1777979813.224741,
@@ -178,5 +198,61 @@
   "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\sample-documents\\copenhagen-harbour-walk.pdf": {
     "mtime": 1778745034.7995002,
     "hash": "c2803cc0af07d11670e5eb88586b08e4"
+  },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\05d47ab9fb31-MachuPichu.jpg": {
+    "mtime": 1779885606.9483063,
+    "hash": "8036613e1b077fd1c7058619469ed710"
+  },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\3eb9b53910f4-Bali.jpg": {
+    "mtime": 1779885606.9053297,
+    "hash": "6a232b64db3ad6dddb1d0dc51f3e9da7"
+  },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\3ef88e2babca-AmalfiCoast.jpg": {
+    "mtime": 1779885606.9573553,
+    "hash": "2034337d9552423d34a22694530efc2f"
+  },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\50cacbc25c1f-marrakech.jpg": {
+    "mtime": 1779885606.8601441,
+    "hash": "962c785e083b6d58063908f0bbf0acf3"
+  },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\5c7eb09d002d-Dolomites.jpg": {
+    "mtime": 1779885606.9216652,
+    "hash": "4fe27c2b8cb894c12e2567fa04ce1d1c"
+  },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\767c5293437b-Iceland.jpg": {
+    "mtime": 1779885606.9023309,
+    "hash": "8015fe43857ca645e77f6d973d2d2cb5"
+  },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\797bfaae6f2c-Hanoi.jpg": {
+    "mtime": 1779885606.926675,
+    "hash": "0aa0ef166c0039328c2803ce97428a8f"
+  },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\7f37e59d1e3c-santorini.jpg": {
+    "mtime": 1779885606.838715,
+    "hash": "1a1a3834115cd9709de90409ea3a5210"
+  },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\8d4704a75085-Tokiyo.jpg": {
+    "mtime": 1779885606.8497882,
+    "hash": "d7908363cab2a32a08a6d287ba06b2f5"
+  },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\8d54e82f878a-patagonia.jpg": {
+    "mtime": 1779885606.843774,
+    "hash": "254dee44274ecf9d0ce56b8f175ed4b3"
+  },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\a4904451d5f2-Petra.jpg": {
+    "mtime": 1779885606.9443088,
+    "hash": "ab9f87e6bab0c51cf56bb72f2b2ec5a0"
+  },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\d564b898d16c-Cappadocia.jpg": {
+    "mtime": 1779885606.9533193,
+    "hash": "6b1f09ba97e4cffb46795a956bc43e81"
+  },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\e34d575f4a50-Lisbon.jpg": {
+    "mtime": 1779885606.9153414,
+    "hash": "4473c5ae5512f2e0a3ce013ee06984ab"
+  },
+  "C:\\Users\\manikanta.l\\Mani\\My Projects\\wp migration ai\\data\\assets\\cache\\f6c6b0861986-kyoto.jpg": {
+    "mtime": 1779885606.8377125,
+    "hash": "9240393f30a5d1d35711c7a32bab1654"
   }
 }

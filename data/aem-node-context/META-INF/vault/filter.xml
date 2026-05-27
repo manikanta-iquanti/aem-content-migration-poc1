@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/content/my-aem-site53/us/en/articles/The-Blue-Hour-in-Santorini"/>
+    <filter root="/content/dam/my-aem-site53/hero-image1.avif"/>
 </workspaceFilter>
